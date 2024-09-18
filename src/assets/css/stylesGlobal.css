@@ -1,0 +1,174 @@
+/*===== GOGGLE FONTS =====*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*===== VARIABLES CSS =====*/
+/*=== COLORS ===*/
+:root {
+  --first-color: #0396a6;
+  --dark-color: #000;
+  --white-color: #fefdfc;
+  --background-white-color: #fefdfc;
+  --background-dark-color: #000000;
+  --background-green-color: #cdcdc5;
+  --text-gay-color: #525560;
+  --text-white-color: #ffffff;
+  --test-red-color: red;
+}
+
+/*=== Fuente y tipografia ===*/
+:root {
+  --body-font: 'Roboto', sans-serif;
+  --biggest-font-size: 4rem;
+  --h2-font-size: 3rem;
+  --h3-font-size: 2rem;
+  --h4-font-size: 1.25rem;
+  --normal-font-size: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  :root {
+    --biggest-font-size: 4rem;
+    --h2-font-size: 2.5rem;
+    --h3-font-size: 1.8rem;
+    --normal-font-size: 1rem;
+  }
+}
+
+/*=== z index ===*/
+:root {
+  --z-back: -10;
+  --z-normal: 1;
+  --z-tooltip: 10;
+  --z-fixed: 100;
+  --z-modal: 1000;
+}
+
+/*===== BASE =====*/
+*,
+::before,
+::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*===== Global Sections Titles  =====*/
+.globalSectionTitleTextDark,
+.globalSectionTitleTextWhite,
+.globalSectionMediumTextDark {
+  margin-bottom: 1rem;
+  font-weight: bold;
+  max-width: 727px;
+}
+
+.globalSectionTitleTextDark {
+  color: var(--dark-color);
+  font-size: var(--h3-font-size);
+}
+.globalSectionTitleTextWhite {
+  color: var(--white-color);
+  font-size: var(--h3-font-size);
+}
+.globalSectionMediumTextDark {
+  color: var(--dark-color);
+  font-size: var(--h4-font-size);
+}
+/*===== Global Sections Text  =====*/
+.globalSectionTextDark {
+  color: var(--text-gay-color);
+  max-width: 727px;
+}
+.globalSectionTextWhite {
+  color: var(--text-white-color);
+  max-width: 727px;
+}
+/*===== Global Line for All components =====*/
+
+.containerLineGlobalStyles {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.lineDarkGlobalStyles,
+.lineWhiteGlobalStyles {
+  width: 50px;
+  height: 2px;
+  background-color: var(--background-dark-color); /* cor do traço */
+  margin-right: 10px; /* espaçamento entre traço e texto */
+}
+
+.lineDarkGlobalStyles {
+  background-color: var(--dark-color); /* cor do traço */
+}
+.lineWhiteGlobalStyles {
+  background-color: var(--white-color); /* cor do traço */
+}
+
+.textDarkGlobalStyles,
+.textWhiteGlobalStyles {
+  font-size: var(--normal-font-size);
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em; /* espaçamento entre letras */
+}
+
+.textDarkGlobalStyles {
+  color: var(--dark-color); /* cor do texto */
+}
+
+.textWhiteGlobalStyles {
+  color: var(--text-white-color);
+}
+
+/*===== BACK BUTTON =====*/
+.backButtonGlobal {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.textBackButtonGlobal {
+  color: var(--text-dark-blue);
+  margin-left: 10px;
+  font-weight: light;
+}
+
+/*===== WHITE BUTTON =====*/
+.textWhiteButtonGlobal {
+  color: var(--text-white-color);
+  margin-left: 10px;
+  font-weight: light;
+}
+
+/*===== MEDIA QUERIES =====*/
+@media screen and (min-width: 760px) {
+  .globalSectionTitleTextDark {
+    font-size: var(--h2-font-size);
+  }
+  .globalSectionTitleTextWhite {
+    font-size: var(--h2-font-size);
+  }
+  .globalSectionTextDark {
+    padding-right: 4rem;
+  }
+  .lineGlobalStyles {
+    width: 72px;
+  }
+}

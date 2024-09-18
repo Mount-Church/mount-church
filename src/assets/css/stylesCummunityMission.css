@@ -1,0 +1,120 @@
+/*===== VARIABLES SCSS =====*/
+/*===== VARIABLES CSS =====*/
+/*=== Cores ===*/
+:root {
+  --first-color: #0396a6;
+  --dark-color: #000;
+  --white-color: #fefdfc;
+  --background-white-color: #fefdfc;
+  --background-dark-color: #000000;
+  --background-green-color: #cdcdc5;
+  --text-gay-color: #525560;
+  --test-red-color: red;
+}
+
+/*=== Fuente y tipografia ===*/
+:root {
+  --body-font: 'Roboto', sans-serif;
+  --biggest-font-size: 4rem;
+  --h2-font-size: 3rem;
+  --normal-font-size: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  :root {
+    --biggest-font-size: 4rem;
+    --h2-font-size: 2.5rem;
+    --normal-font-size: 1rem;
+  }
+}
+
+/*===== SECTION ===== */
+.lSectionCommunityMission {
+  background-color: var(--white-color);
+  display: flex;
+  justify-content: center;
+}
+
+.sectionCommunityMission {
+  height: max(100vh, fit-content);
+  max-width: 1279px;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 2rem 0;
+  color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.sectionCommunityMissionData {
+  margin-bottom: 3rem;
+}
+
+.customButtonCommunityMission {
+  margin: 30px 0 0;
+  display: flex;
+  justify-content: center;
+}
+
+/*===== IMAGE =====*/
+.sectionCommunityMissionImg div {
+  background-image: url('../../assets/images/SímboloDeRedencaoImg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  width: 320px;
+  height: 320px;
+}
+.centeredImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*===== MEDIA QUERIES =====*/
+
+@media screen and (min-width: 760px) {
+  .sectionCommunityMission {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .sectionCommunityMissionImg div {
+    width: 470px;
+    height: 470px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .sectionCommunityMission {
+    height: 100vh;
+  }
+}
+
+@media screen and (min-width: 1350px) {
+  .customButtonCommunityMission {
+    justify-content: left;
+  }
+  .imageSmallShowAndHideCommunityMission {
+    display: none;
+  }
+  .imageLargeShowAndHideCommunityMission {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1349px) {
+  .imageSmallShowAndHideCommunityMission {
+    display: block;
+    margin-bottom: 15px;
+  }
+  .imageLargeShowAndHideCommunityMission {
+    display: none;
+  }
+}

@@ -1,0 +1,88 @@
+/*===== VARIABLES SCSS =====*/
+/*===== VARIABLES CSS =====*/
+/*=== Cores ===*/
+:root {
+  --first-color: #0396a6;
+  --dark-color: #000;
+  --white-color: #fefdfc;
+  --background-white-color: #fefdfc;
+  --background-dark-color: #000000;
+  --background-green-color: #cdcdc5;
+  --text-gay-color: #525560;
+  --test-red-color: red;
+}
+
+/*=== Fuente y tipografia ===*/
+:root {
+  --body-font: 'Roboto', sans-serif;
+  --biggest-font-size: 4rem;
+  --h2-font-size: 3rem;
+  --normal-font-size: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  :root {
+    --biggest-font-size: 4rem;
+    --h2-font-size: 2.5rem;
+    --normal-font-size: 1rem;
+  }
+}
+
+/*===== SECTION ===== */
+.lSectionAboutVideosAndOurVision {
+  background-color: var(--background-green-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 10px;
+}
+.containerAboutVideosAndOurVision {
+  width: 100%;
+  max-width: 1279px;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 2rem 0;
+  display: row;
+}
+.MarginTopColumAboutVideosAndOurVision {
+  margin-top: 20px;
+}
+.SubTitleAboutVideosAndOurVision {
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-size: var(--h3-font-size);
+  height: 60px;
+}
+.listAboutVideosAndOurVision {
+  list-style-type: disc;
+  padding: 0 1.25rem;
+  color: var(--text-gay-color);
+}
+
+/*===== MEDIA QUERIES =====*/
+@media screen and (min-width: 760px) {
+  .sectionColumAboutVideosAndOurVision {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 1rem;
+  }
+  .SubTitleAboutVideosAndOurVision {
+    height: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .sectionColumAboutVideosAndOurVision {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .MarginTopColumAboutVideosAndOurVision {
+    margin-top: 0px;
+  }
+  .SubTitleAboutVideosAndOurVision {
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-size: 2.3rem;
+    height: 110px;
+  }
+}
