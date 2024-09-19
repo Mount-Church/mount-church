@@ -29,8 +29,8 @@ export function PlanYourVisit() {
                             </h2>
                             <div className='flexContentPlanYourVisit'>
                                 <p className='cursor-pointer'
-                                    onClick={() => window.open(`https://wa.me/554730291926`, '_blank')}>
-                                    +55 47 3029-1926
+                                    onClick={() => window.open(`https://wa.me/554792722249`, '_blank')}>
+                                    +55 47 9272-2249
                                 </p>
                                 <p className='mlflexContentPlanYourVisit cursor-pointer'
                                     onClick={() => window.open(`mailto:secretaria@mountchurch.com.br`, '_blank')}>
@@ -90,7 +90,7 @@ export function PlanYourVisit() {
                                     </svg>
                                 </div>
                                 <div className='cursor-pointer'
-                                    onClick={() => window.open(`https://wa.me/554730291926`, '_blank')}
+                                    onClick={() => window.open(`https://wa.me/554792722249`, '_blank')}
                                 >
                                     {/* <!-- Whatsapp --> */}
                                     <svg

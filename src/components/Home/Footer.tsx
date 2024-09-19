@@ -31,8 +31,8 @@ export function FooterGlobal() {
                     <div>
                         <div className='titleFooter'>Contato</div>
                         <div className='subTileFooter cursor-pointer'
-                            onClick={() => window.open(`https://wa.me/554730291926`, '_blank')}>
-                            Whatsapp: +55 47 3029-1926
+                            onClick={() => window.open(`https://wa.me/554792722249`, '_blank')}>
+                            Whatsapp: +55 47 9272-2249
                         </div>
                         <div className='subTileFooter cursor-pointer'
                             onClick={() => window.open(`mailto:secretaria@mountchurch.com.br`, '_blank')}>
@@ -79,7 +79,7 @@ export function FooterGlobal() {
                                 </svg>
                             </div>
                             <div className='cursor-pointer'
-                                onClick={() => window.open(`https://wa.me/554730291926`, '_blank')}
+                                onClick={() => window.open(`https://wa.me/554792722249`, '_blank')}
                             >
                                 {/* <!-- Whatsapp --> */}
                                 <svg

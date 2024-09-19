@@ -36,10 +36,6 @@ export function CardHighlightsAndPreviousSermons() {
                                     <h2 className="titleCardHighlightsAndPreviousSermons">{HighlightsAndPreviousSermons.bannerName}</h2>
                                     <button
                                         className={`buttonCardHighlightsAndPreviousSermons ${hoveredIndex === index ? 'buttonVisibleCardHighlightsAndPreviousSermons' : ''}`}
-                                        // onClick={() => {
-                                        //     localStorage.setItem('selectedwatchhighlightsandprevioussermons', JSON.stringify(HighlightsAndPreviousSermons));
-                                        //     window.location.href = '/watchhighlightsandprevioussermons';
-                                        // }}
                                         onClick={() => handleClick(HighlightsAndPreviousSermons)}
                                     >
                                         Saber Mais
