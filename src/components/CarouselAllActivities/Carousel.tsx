@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom'
 import Slider from "react-slick";
 import ministriesMock from 'components/CarouselAllActivities/MockCarousel';
 import 'assets/css/stylesCarousel.css';
@@ -74,6 +75,14 @@ const Carousel: React.FC = () => {
         ],
     };
 
+    let navigate = useNavigate();
+    const handleClick = (ministry: any) => {
+        localStorage.setItem('selectedMinistry', JSON.stringify(ministry))
+        console.log('[DEBUG Pego Ministério]')
+        navigate('/Ministries');
+    }
+
+
     return (
         <div className="sliderContainerAllActivities">
             <Slider {...settings}>
@@ -94,10 +103,11 @@ const Carousel: React.FC = () => {
                                 <p className="carouselDescriptionAllActivities" dangerouslySetInnerHTML={{ __html: ministry.description }} />
                                 <button
                                     className={`carouselButtonAllActivities ${hoveredIndex === index ? 'carouselButtonVisibleAllActivities' : ''}`}
-                                    onClick={() => {
-                                        localStorage.setItem('selectedMinistry', JSON.stringify(ministry));
-                                        window.location.href = '/Ministries';
-                                    }}
+                                    // onClick={() => {
+                                    //     localStorage.setItem('selectedMinistry', JSON.stringify(ministry));
+                                    //     window.location.href = '/Ministries';
+                                    // }}
+                                    onClick={() => handleClick(ministry)}
                                 >
                                     Saber Mais
                                 </button>
