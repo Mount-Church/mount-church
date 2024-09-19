@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.579e4ba1.css",
-    "main.js": "/static/js/main.446a6b29.js",
+    "main.js": "/static/js/main.482828ba.js",
     "static/js/453.bfb0a3bc.chunk.js": "/static/js/453.bfb0a3bc.chunk.js",
     "static/media/subMenuVideo.mp4": "/static/media/subMenuVideo.dc26a5e665d86f25c786.mp4",
     "static/media/appMountChurch.jpg": "/static/media/appMountChurch.f6f769bbbba2f94fd53c.jpg",
@@ -12,6 +12,7 @@
     "static/media/atividadesRecreativas.jpg": "/static/media/atividadesRecreativas.0e8161b3b2d6fbc9eda8.jpg",
     "static/media/casaisBanner.jpg": "/static/media/casaisBanner.7d1a3bf0ffd2dd5a9dd8.jpg",
     "static/media/casaisCardAmor.jpg": "/static/media/casaisCardAmor.bbcd3c7fc9ea3f81e39b.jpg",
+    "static/media/espacoKidsCardDesenhando.jpg": "/static/media/espacoKidsCardDesenhando.6e7569688288257e3151.jpg",
     "static/media/casaisCardRefericao.jpg": "/static/media/casaisCardRefericao.b3c5ebe9df77ec7400e5.jpg",
     "static/media/dancaCardcoracao.jpg": "/static/media/dancaCardcoracao.972e0fe2327438dd8800.jpg",
     "static/media/MulheresCard.jpg": "/static/media/MulheresCard.0486071beb48bde01b27.jpg",
@@ -22,6 +23,7 @@
     "static/media/dancaCardInfantil.jpg": "/static/media/dancaCardInfantil.c7bd7bb03dc7cd46db46.jpg",
     "static/media/DanieldiasBannerYoutube25-08-2024.jpg": "/static/media/DanieldiasBannerYoutube25-08-2024.e85c7462fe85a5b9d16f.jpg",
     "static/media/especialEventsBannerImgPage.jpg": "/static/media/especialEventsBannerImgPage.789d52baec31651b0982.jpg",
+    "static/media/espacoKidsbrincando.jpg": "/static/media/espacoKidsbrincando.050b4503923de740e4e5.jpg",
     "static/media/mulheresSubCardOracao.jpg": "/static/media/mulheresSubCardOracao.5e7413d3d1704d3158a2.jpg",
     "static/media/cultoflowng.jpg": "/static/media/cultoflowng.a461c49a4f1ba270b370.jpg",
     "static/media/mulheresSubCardLanche.jpg": "/static/media/mulheresSubCardLanche.71cb5fac8fc55b14fad4.jpg",
@@ -33,12 +35,14 @@
     "static/media/comidaFlowing.jpg": "/static/media/comidaFlowing.1b050fc1af8a20f3fff6.jpg",
     "static/media/CultodeCeiaAldo15-09-2024.jpg": "/static/media/CultodeCeiaAldo15-09-2024.98f8e11214dd45bd8461.jpg",
     "static/media/casais.jpg": "/static/media/casais.336fee606d1f79e252b6.jpg",
+    "static/media/espacoKidsdLanche.jpg": "/static/media/espacoKidsdLanche.780811d8e5ecdc7a949e.jpg",
     "static/media/bannerComunuty.jpg": "/static/media/bannerComunuty.1ed1887434849e4364e4.jpg",
     "static/media/danca.jpg": "/static/media/danca.6b3364253e2eacdf22cd.jpg",
     "static/media/mulheresSubCard.jpg": "/static/media/mulheresSubCard.68ffa4a920a73fb3319b.jpg",
     "static/media/dancaCardHomen.jpg": "/static/media/dancaCardHomen.bcacf35ed34e1427bcc1.jpg",
     "static/media/fullServicesBannerImgPage.jpg": "/static/media/fullServicesBannerImgPage.10d35833f5e75436ca39.jpg",
     "static/media/assistenciaSocialCardImg.png": "/static/media/assistenciaSocialCardImg.d19382850b0c7aaefb7a.png",
+    "static/media/espacoKidsBanner.jpg": "/static/media/espacoKidsBanner.f32d12473a244a050a9f.jpg",
     "static/media/dancaBanner.jpg": "/static/media/dancaBanner.666512aa9b805f00ed2c.jpg",
     "static/media/mulheres.jpg": "/static/media/mulheres.95f0bf307537af6b6374.jpg",
     "static/media/onFireBanner.jpg": "/static/media/onFireBanner.af452f43839a93b06a4b.jpg",
@@ -51,6 +55,7 @@
     "static/media/mapaConexao.png": "/static/media/mapaConexao.4709df74a378b65724ac.png",
     "static/media/cultoOnFire.jpg": "/static/media/cultoOnFire.eabb0ed605a07ae3ccc7.jpg",
     "static/media/BatismHug.jpg": "/static/media/BatismHug.10c34f81e6dd1b163812.jpg",
+    "static/media/espacoKidsCard.png": "/static/media/espacoKidsCard.119548e059005c1cd794.png",
     "static/media/batismo.jpg": "/static/media/batismo.dd40b6d3394025154622.jpg",
     "static/media/homens.jpg": "/static/media/homens.a71f7f021fd3c9d5b1e0.jpg",
     "static/media/SímboloDeRedencaoImg.jpg": "/static/media/SímboloDeRedencaoImg.113ddf75413175340432.jpg",
@@ -77,11 +82,11 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.579e4ba1.css.map": "/static/css/main.579e4ba1.css.map",
-    "main.446a6b29.js.map": "/static/js/main.446a6b29.js.map",
+    "main.482828ba.js.map": "/static/js/main.482828ba.js.map",
     "453.bfb0a3bc.chunk.js.map": "/static/js/453.bfb0a3bc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.579e4ba1.css",
-    "static/js/main.446a6b29.js"
+    "static/js/main.482828ba.js"
   ]
 }
