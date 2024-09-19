@@ -10,7 +10,6 @@ export function AppRoutes() {
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="*" element={<ErrorPage />} />
         <Route path="/homepage" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/location" element={<LocationPage />} />
@@ -18,6 +17,7 @@ export function AppRoutes() {
         <Route path='/events' element={<EventsPage />} />
         <Route path='/watch' element={<WatchPage />} />
         <Route path="/watchhighlightsandprevioussermons" element={<WatchHighlightsAndPreviousSermons />} />
+        <Route path="*" element={<ErrorPage />} />
       </Routes>
     </BrowserRouter>
   );
