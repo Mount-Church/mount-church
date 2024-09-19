@@ -79,7 +79,7 @@ const Carousel: React.FC = () => {
     const handleClick = (ministry: any) => {
         localStorage.setItem('selectedMinistry', JSON.stringify(ministry))
         console.log('[DEBUG Pego Ministério]')
-        navigate('/Ministries');
+        navigate('/ministries');
     }
 
 
