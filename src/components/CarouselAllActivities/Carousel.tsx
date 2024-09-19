@@ -103,10 +103,6 @@ const Carousel: React.FC = () => {
                                 <p className="carouselDescriptionAllActivities" dangerouslySetInnerHTML={{ __html: ministry.description }} />
                                 <button
                                     className={`carouselButtonAllActivities ${hoveredIndex === index ? 'carouselButtonVisibleAllActivities' : ''}`}
-                                    // onClick={() => {
-                                    //     localStorage.setItem('selectedMinistry', JSON.stringify(ministry));
-                                    //     window.location.href = '/Ministries';
-                                    // }}
                                     onClick={() => handleClick(ministry)}
                                 >
                                     Saber Mais

@@ -1,4 +1,3 @@
-
 /*===== CONEXÃO =====*/
 import ConexaoImg from '../../assets/images/conexão.jpg';
 import ConexaoBairroImg from '../../assets/images/conexaoNasCasas.jpg';
@@ -12,6 +11,7 @@ import HomensImg from '../../assets/images/homens.jpg';
 import HomensCultosEspecificosImg from '../../assets/images/cultosEspecificos.jpg';
 import HomensConexaoeCrescimentoImg from '../../assets/images/conexaoeCrescimento.jpg';
 import HomensAtividadesRecreativasImg from '../../assets/images/atividadesRecreativas.jpg';
+
 /*===== BATISMO =====*/
 import BatismoImg from '../../assets/images/batismo.jpg';
 import BatismoCelebraçãoComunitariaImg from '../../assets/images/celebracaoComunitaria.jpg';
@@ -46,8 +46,6 @@ import donationAssistenciaSocialImg from '../../assets/images/donation.jpg';
 import cardDonationAssistenciaSocialMT from '../../assets/images/cardDonationAssistenciaSocialMT.png'
 import sejaUmVoluntarioAssistenciaSocialImg from '../../assets/images/sejaUmVoluntario.jpg';
 
-// import CasaisImg from '../../assets/images/casais.jpg';
-
 /*===== MULHERES  =====*/
 import MulheresCardImg from 'assets/images/MulheresCard.jpg';
 import MulheresImg from '../../assets/images/mulheres.jpg';
@@ -57,10 +55,18 @@ import mulheresSubCardLancheImg from 'assets/images/mulheresSubCardLanche.jpg'
 
 /*===== DANÇA  =====*/
 import DancaCardImg from '../../assets/images/danca.jpg';
-import dancabannerImg from '../../assets/images/dancaBanner.jpg';
+import dancaBannerImg from '../../assets/images/dancaBanner.jpg';
 import dancaCardcoracaoImg from '../../assets/images/dancaCardcoracao.jpg';
 import dancaCardInfantilImg from '../../assets/images/dancaCardInfantil.jpg';
 import dancaCardHomenImg from '../../assets/images/dancaCardHomen.jpg';
+
+/*===== CASAIS =====*/
+import casaisCardImg from '../../assets/images/casais.jpg';
+import casaisBannerImg from '../../assets/images/casaisBanner.jpg';
+
+import casaisCardLideresImg from '../../assets/images/casaisCardLideres.jpg';
+import casaisCardAmorImg from '../../assets/images/casaisCardAmor.jpg';
+import casaisCardRefericaoImg from '../../assets/images/casaisCardRefericao.jpg';
 
 const ministriesMock = [
     {
@@ -350,12 +356,12 @@ const ministriesMock = [
         image: DancaCardImg,
         link: 'https://seu-site.com/danca',
         infoTitle: 'Movimentos de Adoração',
-        infoDescription: 'No <strong>Ministério de Dança</strong>, acreditamos que “Tudo é movimento.” Seja um andar, saltar, levantar de braços, girar… Tudo que se move, é movimento. E nós, nos movemos pela voz do <strong>Espírito Santo</strong>. Isso é o que nos diferencia do mundo! É Ele quem direciona os nossos passos e traz vida a cada movimento. Por Ele, existimos! Por Ele, nos movemos! Por Ele, dançamos! Por Ele e para Ele, são os nossos movimentos.',
-        infoImage: dancabannerImg,
+        infoDescription: 'No <strong>Ministério de Dança</strong>, acreditamos que “Tudo é movimento.” Seja um andar, saltar, levantar de braços, girar… Tudo que se move, é movimento. E nós, nos movemos pela voz do <strong>Espírito Santo</strong>. Isso é o que nos diferencia do mundo! É Ele quem direciona os nossos passos e traz vida a cada movimento. Por Ele, existimos! Por Ele, nos movemos! Por Ele, dançamos! Por Ele e para Ele, são a nossa Adoração!.',
+        infoImage: dancaBannerImg,
         joinTheGroupTitle: 'O Poder da Dança na Adoração',
-        firstDescriptionjoinTheGroup: 'A dança é uma forma poderosa de <strong>adoração a Deus</strong>, expressando nossa fé e devoção através de movimentos inspirados pelo <strong>Espírito Santo</strong>. No Ministério de Dança, cada passo é uma oração, cada movimento é um ato de louvor. Convidamos você a se juntar a nós e </strong>experimentar<strong> a alegria</strong> de adorar a Deus com todo o seu ser. “Louvem o seu nome com danças; cantem-lhe o seu louvor com tamborim e harpa” (Salmos 149:3).',
+        firstDescriptionjoinTheGroup: 'A dança é uma forma poderosa de <strong>adoração a Deus</strong>, expressando nossa fé e devoção através de movimentos inspirados pelo <strong>Espírito Santo</strong>. No Ministério de Dança, cada passo é uma oração, cada movimento é um ato de louvor. Convidamos você a se juntar a nós e experimentar<strong> a alegria</strong> de adorar a Deus com todo o seu ser. “Louvem o seu nome com danças; cantem-lhe o seu louvor com tamborim e harpa” (Salmos 149:3).',
         secondDescriptionjoinTheGroup: 'A dança é uma expressão de adoração que toca o coração de Deus. No Ministério de Dança, celebramos a beleza e a profundidade da adoração através dos <strong>movimentos</strong>. Convidamos você a participar deste ministério e a descobrir a alegria de servir a Deus com um coração puro e dedicado. “Servi ao Senhor com alegria; apresentai-vos diante dele com cântico” (Salmos 100:2). Junte-se a nós e permita que o Espírito Santo guie seus passos em uma jornada de fé e adoração.',
-        joinTheGroupLink: 'https://wa.me/554792722229',
+        joinTheGroupLink: 'https://wa.me/5515991901689',
         buttonNameTargeting: 'Mais informações',
         services: [
             {
@@ -413,41 +419,41 @@ const ministriesMock = [
     //         },
     //     ],
     // },
-    // {
-    //     id: 9,
-    //     title: 'Casais',
-    //     description: 'Encontros e programas especiais para o fortalecimento dos casais na fé e no relacionamento.',
-    //     image: CasaisImg,
-    //     link: 'https://seu-site.com/casais',
-    //     infoTitle: 'Title',
-    //     infoDescription: 'Descrição aqui',
-    //     infoImage: ConexaoImg,
-    //     joinTheGroupTitle: 'Titulo secundário ',
-    //     firstDescriptionjoinTheGroup: 'Primeira descrição',
-    //     secondDescriptionjoinTheGroup: 'Segunda descrição',
-    //     joinTheGroupLink: 'https://wa.me/554792722229',
-    //     buttonNameTargeting: 'Entrar no grupo',
-    //     services: [
-    //         {
-    //             id: 1,
-    //             title: 'Titulo',
-    //             description: 'Descrição aqui',
-    //             image: ConexaoImg,
-    //         },
-    //         {
-    //             id: 2,
-    //             title: 'Titulo',
-    //             description: 'Descrição aqui',
-    //             image: ConexaoImg,
-    //         },
-    //         {
-    //             id: 3,
-    //             title: 'Titulo',
-    //             description: 'Descrição aqui',
-    //             image: ConexaoImg,
-    //         },
-    //     ],
-    // },
+    {
+        id: 9,
+        title: 'Casais',
+        description: 'Encontros e programas especiais para o <strong>fortalecimento</strong> dos <strong>casais na fé</strong> e no relacionamento.',
+        image: casaisCardImg,
+        link: 'https://seu-site.com/casais',
+        infoTitle: 'Fortalecendo Laços',
+        infoDescription: 'O Ministério de Casais tem como missão fortalecer os <strong>laços matrimoniais</strong> sob a <strong>orientação divina</strong>. Através de <strong>encontros semanais</strong>, <strong>cultos especiais</strong> e <strong>cursos</strong>, oferecemos suporte e orientação para casais em todas as fases da vida. Participe e descubra como a união sob a bênção de Deus pode transformar o seu casamento.',
+        infoImage: casaisBannerImg,
+        joinTheGroupTitle: 'A União Sob o Olhar de Deus',
+        firstDescriptionjoinTheGroup: 'A união de um casal é um reflexo do amor de Deus. Em nossos encontros, celebramos a importância do homem como sacerdote do lar e da mulher sábia que edifica a casa. “Maridos, amem suas esposas, assim como Cristo amou a igreja e entregou-se por ela” (Efésios 5:25). Venha fortalecer seu casamento e crescer espiritualmente conosco.',
+        secondDescriptionjoinTheGroup: 'A união de um casal é uma bênção divina, e no Ministério de Casais, acreditamos que um casamento forte é construído sobre a fé e o amor. Convidamos você a participar de nossos encontros e cultos, onde compartilhamos ensinamentos bíblicos e experiências que fortalecem a relação conjugal. “A mulher sábia edifica a sua casa, mas com as próprias mãos a insensata derruba a sua” (Provérbios 14:1). Junte-se a nós e descubra como a união sob o olhar de Deus pode transformar sua vida e seu casamento. Venha e faça parte desta comunidade de fé e amor, onde cada casal é valorizado e encorajado a crescer juntos.',
+        joinTheGroupLink: 'https://wa.me/5547984281670',
+        buttonNameTargeting: 'Mais informações',
+        services: [
+            {
+                id: 1,
+                title: 'Nossos Líderes',
+                description: 'Eric Larry e Zania Azevedo são os dedicados líderes do Ministério de Casais, guiando com sabedoria e amor cada encontro e evento.',
+                image: casaisCardLideresImg,
+            },
+            {
+                id: 2,
+                title: 'União e Amor',
+                description: 'Nossos encontros são momentos de união e amor, onde casais se apoiam mutuamente e compartilham experiências que fortalecem seus relacionamentos.',
+                image: casaisCardAmorImg,
+            },
+            {
+                id: 3,
+                title: 'Comunhão e Confraternização',
+                description: 'Além dos ensinamentos espirituais, nossos encontros oferecem momentos de comunhão, onde os casais se conectam e fortalecem laços em um ambiente acolhedor e amoroso.',
+                image: casaisCardRefericaoImg,
+            },
+        ],
+    },
     // Adicione mais ministérios conforme necessário
 ];
 
