@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 import HighlightsAndPreviousSermonsMock from "components/WatchConponents/MockHighlightsAndPreviousSermons";
 
@@ -7,6 +8,13 @@ import 'assets/css/stylesCardHighlightsAndPreviousSermons.css'
 
 export function CardHighlightsAndPreviousSermons() {
     const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
+
+    let navigate = useNavigate();
+    const handleClick = (HighlightsAndPreviousSermons: any) => {
+        localStorage.setItem('selectedMinistry', JSON.stringify(HighlightsAndPreviousSermons))
+        console.log('[DEBUG Pego Highlights And PreviousSermons]')
+        navigate('/watchhighlightsandprevioussermons');
+    }
 
     return (
         <section className="lSectionCardHighlightsAndPreviousSermons" id="sectionCardHighlightsAndPreviousSermons">
@@ -28,10 +36,11 @@ export function CardHighlightsAndPreviousSermons() {
                                     <h2 className="titleCardHighlightsAndPreviousSermons">{HighlightsAndPreviousSermons.bannerName}</h2>
                                     <button
                                         className={`buttonCardHighlightsAndPreviousSermons ${hoveredIndex === index ? 'buttonVisibleCardHighlightsAndPreviousSermons' : ''}`}
-                                        onClick={() => {
-                                            localStorage.setItem('selectedwatchhighlightsandprevioussermons', JSON.stringify(HighlightsAndPreviousSermons));
-                                            window.location.href = '/watchhighlightsandprevioussermons';
-                                        }}
+                                        // onClick={() => {
+                                        //     localStorage.setItem('selectedwatchhighlightsandprevioussermons', JSON.stringify(HighlightsAndPreviousSermons));
+                                        //     window.location.href = '/watchhighlightsandprevioussermons';
+                                        // }}
+                                        onClick={() => handleClick(HighlightsAndPreviousSermons)}
                                     >
                                         Saber Mais
                                     </button>
