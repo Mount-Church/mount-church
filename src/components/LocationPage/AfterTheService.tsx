@@ -50,7 +50,7 @@ export function AfterTheService() {
                     <div className='customButtonAfterTheService'>
                         <button
                             className='py-2 px-4 text-sm buttonPrimary'
-                            onClick={() => window.open('https://wa.me/554730291926', '_blank')}
+                            onClick={() => window.open('https://wa.me/554792722249', '_blank')}
                         >
                             Saber Mais
                         </button>
