@@ -111,7 +111,10 @@ export function FooterGlobal() {
                         </div>
                     </div>
                 </div>
-                <div className='divPoweredByFooterGlobal'>Desenvolvido por: Dev Blockchain ©2022</div>
+                <div className='divPoweredByFooterGlobal'
+                    onClick={() => window.open(`https://www.linkedin.com/in/allan-azevedo-7908b21b5/`, '_blank')}>
+                    Desenvolvido por: Allan Azevedo ©2022
+                </div>
             </div>
         </section>
     );
