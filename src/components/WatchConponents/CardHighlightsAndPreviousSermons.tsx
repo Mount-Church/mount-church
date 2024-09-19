@@ -11,7 +11,7 @@ export function CardHighlightsAndPreviousSermons() {
 
     let navigate = useNavigate();
     const handleClick = (HighlightsAndPreviousSermons: any) => {
-        localStorage.setItem('selectedMinistry', JSON.stringify(HighlightsAndPreviousSermons))
+        localStorage.setItem('selectedwatchhighlightsandprevioussermons', JSON.stringify(HighlightsAndPreviousSermons))
         console.log('[DEBUG Pego Highlights And PreviousSermons]')
         navigate('/watchhighlightsandprevioussermons');
     }
