@@ -4,7 +4,6 @@ import ConexaoBairroImg from '../../assets/images/conexaoNasCasas.jpg';
 import ConexaoLocaisImg from '../../assets/images/mapaConexao.png';
 import ConexaoAppInfoImg from '../../assets/images/appMountChurch.jpg';
 
-// import EspacoKidsImg from '../../assets/images/espaçokids.png';
 
 /*===== HOMENS =====*/
 import HomensImg from '../../assets/images/homens.jpg';
@@ -60,10 +59,16 @@ import dancaCardcoracaoImg from '../../assets/images/dancaCardcoracao.jpg';
 import dancaCardInfantilImg from '../../assets/images/dancaCardInfantil.jpg';
 import dancaCardHomenImg from '../../assets/images/dancaCardHomen.jpg';
 
+/*===== ESPAÇO KIDS =====*/
+import espacoKidsCardImg from './images/espacoKidsCard.png';
+import espacoKidsBannerImg from './images/espacoKidsBanner.jpg';
+import espacoKidsCardDesenhandoImg from './images/espacoKidsCardDesenhando.jpg';
+import espacoKidsdLancheImg from './images/espacoKidsdLanche.jpg';
+import espacoKidsbrincandoImg from './images/espacoKidsbrincando.jpg';
+
 /*===== CASAIS =====*/
 import casaisCardImg from '../../assets/images/casais.jpg';
 import casaisBannerImg from '../../assets/images/casaisBanner.jpg';
-
 import casaisCardLideresImg from '../../assets/images/casaisCardLideres.jpg';
 import casaisCardAmorImg from '../../assets/images/casaisCardAmor.jpg';
 import casaisCardRefericaoImg from '../../assets/images/casaisCardRefericao.jpg';
@@ -384,41 +389,41 @@ const ministriesMock = [
             },
         ],
     },
-    // {
-    //     id: 8,
-    //     title: 'Espaço Kids',
-    //     description: 'Nosso <b>Espaço Kids</b> é um lugar seguro e divertido onde as crianças podem brincar e aprender enquanto os pais participam do culto.',
-    //     image: EspacoKidsImg,
-    //     link: 'https://seu-site.com/espaco-kids',
-    //     infoTitle: 'Title',
-    //     infoDescription: 'Descrição aqui',
-    //     infoImage: ConexaoImg,
-    //     joinTheGroupTitle: 'Titulo secundário ',
-    //     firstDescriptionjoinTheGroup: 'Primeira descrição',
-    //     secondDescriptionjoinTheGroup: 'Segunda descrição',
-    //     buttonNameTargeting: 'Entrar no grupo',
-    //     joinTheGroupLink: 'https://wa.me/554792722229',
-    //     services: [
-    //         {
-    //             id: 1,
-    //             title: 'Titulo',
-    //             description: 'Descrição aqui',
-    //             image: ConexaoImg,
-    //         },
-    //         {
-    //             id: 2,
-    //             title: 'Titulo',
-    //             description: 'Descrição aqui',
-    //             image: ConexaoImg,
-    //         },
-    //         {
-    //             id: 3,
-    //             title: 'Titulo',
-    //             description: 'Descrição aqui',
-    //             image: ConexaoImg,
-    //         },
-    //     ],
-    // },
+    {
+        id: 8,
+        title: 'Ministério Infantil',
+        description: 'Nosso <b>ministério Infantil</b> é um lugar seguro e divertido onde as crianças podem brincar e aprender enquanto os pais participam do culto.',
+        image: espacoKidsCardImg,
+        link: 'https://seu-site.com/espaco-kids',
+        infoTitle: 'Crescendo em Fé',
+        infoDescription: 'O Ministério Infantil é um espaço acolhedor e seguro onde as crianças podem crescer em fé e conhecimento de Deus. <strong>Durante os cultos</strong>, as crianças são separadas por idade e recebem ensinamentos adequados ao seu desenvolvimento. Além disso, oferecemos um lanche e um espaço de parque com brinquedos e jogos para tornar a experiência ainda mais agradável. Também temos uma equipe dedicada para cuidar das nossas <strong>crianças especiais</strong>, garantindo que todas se sintam <strong>incluídas</strong> e <strong>amadas</strong>.',
+        infoImage: espacoKidsBannerImg,
+        joinTheGroupTitle: 'A Pureza da Criança',
+        firstDescriptionjoinTheGroup: 'As crianças são uma bênção de Deus e trazem alegria e vida para nossas casas. Em nossos cultos infantis, celebramos a pureza e a inocência das crianças, ensinando-as sobre o amor de Deus de maneira lúdica e envolvente. “Deixem vir a mim as crianças, não as impeçam; pois o Reino dos céus pertence aos que se tornam semelhantes a elas” (Mateus 19:14). Venha e traga seus filhos para participar deste ministério, onde cada criança é valorizada e encorajada a crescer em fé.',
+        secondDescriptionjoinTheGroup: 'A alegria de uma criança é um reflexo do amor de Deus em nossas vidas. No Ministério Infantil, acreditamos que cada criança é preciosa e merece ser cuidada com amor e dedicação. Convidamos você a trazer seus filhos para nossos cultos infantis, onde eles aprenderão sobre Deus de maneira divertida e significativa. “Os filhos são herança do Senhor, uma recompensa que ele dá” (Salmos 127:3). Venha e permita que seus filhos experimentem a alegria de crescer em um ambiente de fé e amor.',
+        buttonNameTargeting: 'Mais informações',
+        joinTheGroupLink: 'https://wa.me/554788876613',
+        services: [
+            {
+                id: 1,
+                title: 'Criatividade e Expressão',
+                description: 'Nossos cultos infantis incentivam a criatividade e a expressão das crianças, proporcionando atividades como desenho e pintura que ajudam no desenvolvimento de suas habilidades.',
+                image: espacoKidsCardDesenhandoImg,
+            },
+            {
+                id: 2,
+                title: 'Alimentação e Confraternização',
+                description: 'Durante os cultos, servimos um lanche para as crianças, promovendo momentos de confraternização e alegria, onde elas podem se sentir acolhidas e amadas.',
+                image: espacoKidsdLancheImg,
+            },
+            {
+                id: 3,
+                title: 'Diversão e Aprendizado',
+                description: 'Nosso espaço de parque com brinquedos e jogos oferece um ambiente seguro e divertido para as crianças, onde elas podem brincar e aprender sobre Deus de maneira lúdica.',
+                image: espacoKidsbrincandoImg,
+            },
+        ],
+    },
     {
         id: 9,
         title: 'Casais',
@@ -448,8 +453,8 @@ const ministriesMock = [
             },
             {
                 id: 3,
-                title: 'Comunhão e Confraternização',
-                description: 'Além dos ensinamentos espirituais, nossos encontros oferecem momentos de comunhão, onde os casais se conectam e fortalecem laços em um ambiente acolhedor e amoroso.',
+                title: 'Encontros Semanais de Casais',
+                description: 'Nossos <strong>encontros semanais</strong> de casais acontecem todas as <strong>sextas-feiras às 20h</strong>. Estes momentos são dedicados ao fortalecimento dos laços matrimoniais e à edificação espiritual dos casais.',
                 image: casaisCardRefericaoImg,
             },
         ],
