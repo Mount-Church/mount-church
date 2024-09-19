@@ -448,8 +448,8 @@ const ministriesMock = [
             },
             {
                 id: 3,
-                title: 'Comunhão e Confraternização',
-                description: 'Além dos ensinamentos espirituais, nossos encontros oferecem momentos de comunhão, onde os casais se conectam e fortalecem laços em um ambiente acolhedor e amoroso.',
+                title: 'Encontros Semanais de Casais',
+                description: 'Nossos encontros semanais de casais acontecem todas as sextas-feiras às 20h. Estes momentos são dedicados ao fortalecimento dos laços matrimoniais e à edificação espiritual dos casais.',
                 image: casaisCardRefericaoImg,
             },
         ],
