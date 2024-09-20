@@ -1,7 +1,5 @@
-import React from 'react';
-
-import 'assets/css/stylesPlanYourVisit.css';
 import 'assets/css/stylesGlobal.css';
+import './css/stylesPlanYourVisit.css';
 
 export function PlanYourVisit() {
     return (
@@ -30,7 +28,7 @@ export function PlanYourVisit() {
                             <div className='flexContentPlanYourVisit'>
                                 <p className='cursor-pointer'
                                     onClick={() => window.open(`https://wa.me/554792722249`, '_blank')}>
-                                    +55 47 9272-2249
+                                    +55 47 9 9272-2249
                                 </p>
                                 <p className='mlflexContentPlanYourVisit cursor-pointer'
                                     onClick={() => window.open(`mailto:secretaria@mountchurch.com.br`, '_blank')}>

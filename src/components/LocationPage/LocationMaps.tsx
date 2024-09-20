@@ -1,7 +1,5 @@
-import React from 'react';
-
 import 'assets/css/stylesGlobal.css';
-import 'assets/css/stylesLocationMaps.css';
+import './css/stylesLocationMaps.css';
 
 export function LocationMaps() {
     return (
@@ -12,7 +10,7 @@ export function LocationMaps() {
                     width="100%"
                     height="450"
                     style={{ border: 0 }}
-                    allowFullScreen 
+                    allowFullScreen
                     title="Mapa de localização"
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
