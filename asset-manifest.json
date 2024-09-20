@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.579e4ba1.css",
-    "main.js": "/static/js/main.482828ba.js",
+    "main.js": "/static/js/main.1e2ef5f9.js",
     "static/js/453.bfb0a3bc.chunk.js": "/static/js/453.bfb0a3bc.chunk.js",
     "static/media/subMenuVideo.mp4": "/static/media/subMenuVideo.dc26a5e665d86f25c786.mp4",
     "static/media/appMountChurch.jpg": "/static/media/appMountChurch.f6f769bbbba2f94fd53c.jpg",
@@ -82,11 +82,11 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.579e4ba1.css.map": "/static/css/main.579e4ba1.css.map",
-    "main.482828ba.js.map": "/static/js/main.482828ba.js.map",
+    "main.1e2ef5f9.js.map": "/static/js/main.1e2ef5f9.js.map",
     "453.bfb0a3bc.chunk.js.map": "/static/js/453.bfb0a3bc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.579e4ba1.css",
-    "static/js/main.482828ba.js"
+    "static/js/main.1e2ef5f9.js"
   ]
 }
