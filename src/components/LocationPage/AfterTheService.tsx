@@ -1,5 +1,5 @@
 import React from 'react';
-import 'assets/css/stylesAfterTheService.css';
+import './css/stylesAfterTheService.css';
 import 'assets/css/stylesGlobal.css';
 
 import SimplesEProfundoImg from '../../assets/images/SimplesEProfundo.jpg';
