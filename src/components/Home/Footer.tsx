@@ -32,7 +32,7 @@ export function FooterGlobal() {
                         <div className='titleFooter'>Contato</div>
                         <div className='subTileFooter cursor-pointer'
                             onClick={() => window.open(`https://wa.me/554792722249`, '_blank')}>
-                            Whatsapp: +55 47 9272-2249
+                            Whatsapp: +55 47 9 9272-2249
                         </div>
                         <div className='subTileFooter cursor-pointer'
                             onClick={() => window.open(`mailto:secretaria@mountchurch.com.br`, '_blank')}>
