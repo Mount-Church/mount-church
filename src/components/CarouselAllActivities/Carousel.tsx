@@ -1,9 +1,13 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom'
+
 import Slider from "react-slick";
+
 import ministriesMock from 'components/CarouselAllActivities/MockCarousel';
-import 'assets/css/stylesCarousel.css';
+
 import 'assets/css/stylesGlobal.css';
+import './assets/css/stylesCarousel.css';
+
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 

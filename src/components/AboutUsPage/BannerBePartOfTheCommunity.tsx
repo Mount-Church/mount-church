@@ -1,8 +1,6 @@
-import React from 'react';
+import './assets/css/stylesBannerBePartOfTheCommunity.css';
 
-import 'assets/css/stylesBannerBePartOfTheCommunity.css';
-
-import bannerComunity from '../../assets/images/bannerComunuty.jpg'
+import bannerComunity from './assets/images/bannerComunuty.jpg'
 
 export function BannerBePartOfTheCommunity() {
     return (

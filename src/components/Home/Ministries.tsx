@@ -1,7 +1,7 @@
-import 'assets/css/stylesMinistries.css';
+import './assets/css/stylesMinistries.css';
 
-import MinistriesFirst from '../../assets/images/MinistriesIMG1.jpg'
-import MinistriesLast from '../../assets/images/MinistriesIMG2.jpg'
+import MinistriesFirstImg from './assets/images/menPray1.jpg'
+import MinistriesLastImg from './assets/images/menPray2.jpg'
 
 export function Ministries() {
   return (
@@ -16,8 +16,8 @@ export function Ministries() {
           </p>
         </div>
         <div className="imageContainerMinistries">
-          <img src={MinistriesFirst} alt="Men Pray" className="sectionImgMinistriesFirst" />
-          <img src={MinistriesLast} alt="Men Pray 2" className="sectionImgMinistriesLast" />
+          <img src={MinistriesFirstImg} alt="Men Pray" className="sectionImgMinistriesFirst" />
+          <img src={MinistriesLastImg} alt="Men Pray 2" className="sectionImgMinistriesLast" />
         </div>
       </div>
     </section>

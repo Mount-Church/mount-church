@@ -1,5 +1,6 @@
 import classNames from 'classnames';
-import 'assets/css/stylesButtons.css';
+
+import './assets/css/stylesButtons.css';
 
 type Props = {
   type?: 'button' | 'submit' | 'reset';

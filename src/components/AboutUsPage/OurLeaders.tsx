@@ -1,7 +1,5 @@
-import React from 'react';
-
-import 'assets/css/stylesOurLeaders.css';
 import 'assets/css/stylesGlobal.css';
+import './assets/css/stylesOurLeaders.css';
 
 import { motion } from "framer-motion";
 

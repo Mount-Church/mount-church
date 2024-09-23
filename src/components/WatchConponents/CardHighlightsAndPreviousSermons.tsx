@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-import HighlightsAndPreviousSermonsMock from "components/WatchConponents/MockHighlightsAndPreviousSermons";
-
 import 'assets/css/stylesGlobal.css';
-import 'assets/css/stylesCardHighlightsAndPreviousSermons.css'
+import './assets/css/stylesCardHighlightsAndPreviousSermons.css'
+
+import HighlightsAndPreviousSermonsMock from "components/WatchConponents/MockHighlightsAndPreviousSermons";
 
 export function CardHighlightsAndPreviousSermons() {
     const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);

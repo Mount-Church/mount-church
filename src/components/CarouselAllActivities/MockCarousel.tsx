@@ -1,77 +1,77 @@
 /*===== CONEXÃO =====*/
-import ConexaoImg from '../../assets/images/conexão.jpg';
-import ConexaoBairroImg from '../../assets/images/conexaoNasCasas.jpg';
-import ConexaoLocaisImg from '../../assets/images/mapaConexao.png';
-import ConexaoAppInfoImg from '../../assets/images/appMountChurch.jpg';
+import ConexaoImg from './assets/images/conexão.jpg';
+import ConexaoBairroImg from './assets/images/conexaoNasCasas.jpg';
+import ConexaoLocaisImg from './assets/images/conexaomapa.png';
+import ConexaoAppInfoImg from './assets/images/conexaoPppMountChurch.jpg';
 
 
 /*===== HOMENS =====*/
-import HomensImg from '../../assets/images/homens.jpg';
-import HomensCultosEspecificosImg from '../../assets/images/cultosEspecificos.jpg';
-import HomensConexaoeCrescimentoImg from '../../assets/images/conexaoeCrescimento.jpg';
-import HomensAtividadesRecreativasImg from '../../assets/images/atividadesRecreativas.jpg';
+import HomensImg from './assets/images/homens.jpg';
+import HomensCultosEspecificosImg from './assets/images/homensCultosEspecificos.jpg';
+import HomensConexaoeCrescimentoImg from './assets/images/homensConexaoeCrescimento.jpg';
+import HomensAtividadesRecreativasImg from './assets/images/homensAtividadesRecreativas.jpg';
 
 /*===== BATISMO =====*/
-import BatismoImg from '../../assets/images/batismo.jpg';
-import BatismoCelebraçãoComunitariaImg from '../../assets/images/celebracaoComunitaria.jpg';
-import BatismoUmaCelebraçãoDeFeImg from '../../assets/images/umaCelebracaoDeFe.jpg';
-import BatismoTestemunhosEInspiracaoImg from '../../assets/images/testemunhosEInspiracao.jpg';
+import BatismoImg from './assets/images/batismo.jpg';
+import BatismoCelebraçãoComunitariaImg from './assets/images/batismoCelebracaoComunitaria.jpg';
+import BatismoUmaCelebraçãoDeFeImg from './assets/images/batismoUmaCelebracaoDeFe.jpg';
+import BatismoTestemunhosEInspiracaoImg from './assets/images/batismoTestemunhosEInspiracao.jpg';
 
 /*===== ONFIRE =====*/
-import JovensImg from '../../assets/images/jovens.jpg';
-import TeensBanner from '../../assets/images/onFireBanner.jpg';
-import OnfireCulto from '../../assets/images/cultoOnFire.jpg';
-import tennsEventos from '../../assets/images/tennsEventos.jpg';
-import picnicTennsIMG from '../../assets/images/picnicTennsIMG.jpg';
+import JovensCardImg from './assets/images/onFirejovens.jpg';
+import TeensBanner from './assets/images/onFireBanner.jpg';
+import OnfireCulto from './assets/images/onFireculto.jpg';
+import TennsEventos from './assets/images/onFiretennsEventos.jpg';
+import picnicTennsIMG from './assets/images/onFirePicnic.jpg';
 
 /*===== FLOWING =====*/
-import FlowingImg from '../../assets/images/flowing.jpg';
-import FlowingBannerImg from '../../assets/images/bannerFlowing.jpg';
-import CultoFlowing from '../../assets/images/cultoflowng.jpg';
-import ComidaFlowing from '../../assets/images/comidaFlowing.jpg';
-import ConexaoFlowing from '../../assets/images/conexao.jpg';
+import FlowingImg from './assets/images/flowing.jpg';
+import FlowingBannerImg from './assets/images/flowingbanner.jpg';
+import CultoFlowing from './assets/images/flowngCulto.jpg';
+import ComidaFlowing from './assets/images/flowingLanche.jpg';
+import ConexaoFlowing from './assets/images/flowingConexao.jpg';
 
 /*===== MDL LUTAS =====*/
-import BannerJiuMDL from '../../assets/images/bannerJiu.jpg'
-import LutaImg from '../../assets/images/MDL.jpg';
-import LutaJiuMulheres from '../../assets/images/jiuMulheres.jpg';
-import LutasMuayThai from '../../assets/images/LutasMuayThai.jpg';
-import JiuKids from '../../assets/images/jiuKids.jpg';
+import LutaCarImg from './assets/images/mdlCard.jpg';
+import BannerJiuMDL from './assets/images/mldBannerJiu.jpg'
+import LutaJiuMulheres from './assets/images/mldJiuMulheres.jpg';
+import LutasMuayThai from './assets/images/mdlLutasMuayThai.jpg';
+import JiuKids from './assets/images/mdlJiuKids.jpg';
 
 /*===== ASSISTÊNCIA SOCIAL =====*/
-import AssistenciaSocialCardImg from '../../assets/images/assistenciaSocialCardImg.png';
-import AssistenciaSocialBannerImg from '../../assets/images/asistenciaSocialBanner.jpg';
-import donationAssistenciaSocialImg from '../../assets/images/donation.jpg';
-import cardDonationAssistenciaSocialMT from '../../assets/images/cardDonationAssistenciaSocialMT.png'
-import sejaUmVoluntarioAssistenciaSocialImg from '../../assets/images/sejaUmVoluntario.jpg';
+import AssistenciaSocialCardImg from './assets/images/assistenciaSocialCardImg.png';
+import AssistenciaSocialBannerImg from './assets/images/assistenciaSocialBanner.jpg';
+import donationAssistenciaSocialImg from './assets/images/assistenciadonation.jpg';
+import cardDonationAssistenciaSocialMT from './assets/images/assistenciaDonationAssistenciaSocialMT.png'
+import sejaUmVoluntarioAssistenciaSocialImg from './assets/images/assistenciaSejaUmVoluntario.jpg';
 
 /*===== MULHERES  =====*/
-import MulheresCardImg from 'assets/images/MulheresCard.jpg';
-import MulheresImg from '../../assets/images/mulheres.jpg';
-import mulheresSubCardImg from 'assets/images/mulheresSubCard.jpg'
-import mulheresSubCardOracaoImg from 'assets/images/mulheresSubCardOracao.jpg'
-import mulheresSubCardLancheImg from 'assets/images/mulheresSubCardLanche.jpg'
+import MulheresCardImg from './assets/images/elasCard.jpg';
+import MulheresImg from './assets/images/elasMesa.jpg';
+import mulheresSubCardImg from './assets/images/elasTextoLucas22-27.jpg'
+import mulheresSubCardOracaoImg from './assets/images/elasOrandoJuntas.jpg'
+import mulheresSubCardLancheImg from './assets/images/elasLanche.jpg'
 
 /*===== DANÇA  =====*/
-import DancaCardImg from '../../assets/images/danca.jpg';
-import dancaBannerImg from '../../assets/images/dancaBanner.jpg';
-import dancaCardcoracaoImg from '../../assets/images/dancaCardcoracao.jpg';
-import dancaCardInfantilImg from '../../assets/images/dancaCardInfantil.jpg';
-import dancaCardHomenImg from '../../assets/images/dancaCardHomen.jpg';
+import DancaCardImg from './assets/images/dancaCard.jpg';
+import dancaBannerImg from './assets/images/dancaBanner.jpg';
+import dancaCardcoracaoImg from './assets/images/dancaCardcoracao.jpg';
+import dancaCardInfantilImg from './assets/images/dancaCardInfantil.jpg';
+import dancaCardHomenImg from './assets/images/dancaCardHomen.jpg';
 
 /*===== ESPAÇO KIDS =====*/
-import espacoKidsCardImg from './images/espacoKidsCard.png';
-import espacoKidsBannerImg from './images/espacoKidsBanner.jpg';
-import espacoKidsCardDesenhandoImg from './images/espacoKidsCardDesenhando.jpg';
-import espacoKidsdLancheImg from './images/espacoKidsdLanche.jpg';
-import espacoKidsbrincandoImg from './images/espacoKidsbrincando.jpg';
+import espacoKidsCardImg from './assets/images/espacoKidsCard.png';
+import espacoKidsBannerImg from './assets/images/espacoKidsBanner.jpg';
+import espacoKidsCardDesenhandoImg from './assets/images/espacoKidsCardDesenhando.jpg';
+import espacoKidsdLancheImg from './assets/images/espacoKidsdLanche.jpg';
+import espacoKidsbrincandoImg from './assets/images/espacoKidsbrincando.jpg';
 
 /*===== CASAIS =====*/
-import casaisCardImg from '../../assets/images/casais.jpg';
-import casaisBannerImg from '../../assets/images/casaisBanner.jpg';
-import casaisCardLideresImg from '../../assets/images/casaisCardLideres.jpg';
-import casaisCardAmorImg from '../../assets/images/casaisCardAmor.jpg';
-import casaisCardRefericaoImg from '../../assets/images/casaisCardRefericao.jpg';
+import casaisCardImg from './assets/images/casais.jpg';
+import casaisBannerImg from './assets/images/casaisBanner.jpg';
+import casaisCardLideresImg from './assets/images/casaisCardLideres.jpg';
+import casaisCardAmorImg from './assets/images/casaisCardAmor.jpg';
+import casaisCardRefericaoImg from './assets/images/casaisCardRefericao.jpg';
 
 const ministriesMock = [
     {
@@ -253,7 +253,7 @@ const ministriesMock = [
         id: 6,
         title: 'OnFire',
         description: 'Grupo de <strong>adolescentes</strong> com atividades e encontros semanais para estudo e comunhão.',
-        image: JovensImg,
+        image: JovensCardImg,
         link: 'https://seu-site.com/jovens',
         infoTitle: 'Teens On Fire',
         infoDescription: 'Ei, galera! Bem-vindos ao Teens On Fire!!🔥 Aqui é o lugar para quem quer viver intensamente o propósito de <strong>Deus</strong> e fazer amigos que compartilham a mesma fé. Sabemos que a adolescência é uma fase cheia de desafios e descobertas, e queremos caminhar juntos com vocês nessa jornada!<br><br> Nosso objetivo é ser um espaço onde possamos crescer espiritualmente, aprender mais sobre a <strong>Bíblia</strong>, e, claro, nos divertir muito! Temos encontros cheios de louvor, dinâmicas e bate-papos sobre temas que fazem parte do nosso dia a dia e momentos de reflexão sobre como aplicar os ensinamentos de <strong>Jesus</strong> em nossas vidas.<br><br> Venha como você é! Não importa se você já está firme na fé ou se ainda está descobrindo sua caminhada com <strong>Deus</strong>, aqui todos são bem-vindos. Vamos nos apoiar, orar uns pelos outros e viver experiências incríveis juntos.<br><br>Fiquem ligados nas nossas redes sociais para não perderem nenhum evento e nos nossos encontros semanais. Contamos com vocês para fazer desse grupo um lugar <strong>especial</strong>!🔥',
@@ -274,7 +274,7 @@ const ministriesMock = [
                 id: 2,
                 title: 'Cultos Temáticos',
                 description: 'São ocasiões especiais. Durante esses eventos, abordamos diversos temas de forma criativa, incluindo caracterizações relacionadas ao tema.',
-                image: tennsEventos,
+                image: TennsEventos,
             },
             {
                 id: 3,
@@ -288,7 +288,7 @@ const ministriesMock = [
         id: 7,
         title: 'Esportes',
         description: 'Aulas de <strong>Jiujitsu</strong>, <strong>Muay Thai</strong> e <strong>futebol</strong>, unindo esporte e espiritualidade. Fortaleça seu corpo e sua fé',
-        image: LutaImg,
+        image: LutaCarImg,
         link: 'https://seu-site.com/luta',
         infoTitle: 'Grupo de Lutas e Esportes MDL',
         infoDescription: 'Na <strong>Mount Church</strong>, acreditamos que todos são bem-vindos, independentemente de sua experiência ou habilidades. Por isso, oferecemos um grupo especial: o Ministério de Lutas e Esportes (<strong>MDL</strong>). Aqui, não se trata apenas de <strong>técnicas de combate</strong> ou <strong>habilidades</strong> no <strong>futebol</strong>; é sobre comunidade, crescimento e fé.',

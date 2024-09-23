@@ -1,7 +1,7 @@
 import React from "react";
-
 import { motion, AnimatePresence } from "framer-motion";
-import 'assets/css/stylesDarkModal.css'
+
+import './assets/css/stylesDarkModal.css'
 interface DarkModalProps {
     closeDownloadAppModal: () => void;
 }
