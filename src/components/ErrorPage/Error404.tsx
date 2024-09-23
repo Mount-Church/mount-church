@@ -3,9 +3,9 @@ import { motion } from 'framer-motion';
 import { RiArrowLeftWideFill } from 'react-icons/ri';
 
 import 'assets/css/stylesGlobal.css';
-import './css/StylesError404.css'
+import './assets/css/StylesError404.css'
 
-import astronautError404Image from 'assets/images/astronautError404.png'
+import astronautError404Image from './assets/images/astronautError404.png'
 
 export function Error404() {
 

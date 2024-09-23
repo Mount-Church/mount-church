@@ -1,8 +1,10 @@
 
-import 'assets/css/stylesGlobal.css';
-import 'assets/css/stylesWatchServicesAndEventsOnline.css'
-import { ButtonPrimary } from 'components/Button/ButtonPrimary';
 import { Link } from 'react-router-dom';
+
+import { ButtonPrimary } from 'components/Button/ButtonPrimary';
+
+import 'assets/css/stylesGlobal.css';
+import './assets/css/stylesWatchServicesAndEventsOnline.css'
 
 export function WatchServicesAndEventsOnline() {
     return (

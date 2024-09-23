@@ -1,0 +1,137 @@
+/*===== VARIABLES SCSS =====*/
+/*===== VARIABLES CSS =====*/
+/*=== Cores ===*/
+:root {
+  --first-color: #0396a6;
+  --dark-color: #000;
+  --white-color: #fefdfc;
+  --background-white-color: #fefdfc;
+  --background-dark-color: #000000;
+  --background-green-color: #cdcdc5;
+  --text-gay-color: #75757a;
+  --text-dark-blue: #1d2130;
+  --test-red-color: red;
+}
+
+/*=== Fuente y tipografia ===*/
+:root {
+  --body-font: 'Roboto', sans-serif;
+  --biggest-font-size: 4rem;
+  --h2-font-size: 3rem;
+  --h3-font-size: 1.125rem;
+  --normal-font-size: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  :root {
+    --biggest-font-size: 4rem;
+    --h2-font-size: 2.5rem;
+    --normal-font-size: 1rem;
+  }
+}
+
+/*===== SECTION ===== */
+.lSectionError404 {
+  background-color: var(--background-dark-color);
+  background-image: url('../../assets/images/planetError404.png');
+  background-repeat: no-repeat;
+  background-position: right 0% bottom 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 10px;
+}
+
+.containerError404 {
+  width: 100%;
+  max-width: 1279px;
+  margin-left: 0;
+  margin-right: 0;
+  display: row;
+}
+.backButtonError404 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.arrowIconWhiteError404 {
+  color: var(--white-color);
+  transition: color 0.3s ease;
+}
+.textWhiteButtonError404 {
+  color: var(--text-white-color);
+  margin-left: 10px;
+  font-weight: light;
+}
+.textWhiteButtonError404:hover,
+.arrowIconWhiteError404:hover {
+  color: var(--first-color);
+  transition: color 0.3s ease;
+}
+.titleTextWhiteError404 {
+  color: var(--text-white-color);
+  font-size: 200px;
+  font-weight: 800;
+}
+.sectiontextsError404 {
+  display: columns;
+  justify-content: center;
+  align-items: center;
+}
+.subTextWhiteError404 {
+  color: var(--text-white-color);
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+}
+.subTextchameleonGrayorWhiteError404 {
+  color: var(--white-color);
+  font-size: 23px;
+  font-weight: 400;
+  text-align: center;
+}
+/*===== IMAGE =====*/
+.columImageError404 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.divImageError404 {
+  width: 100px;
+}
+/*===== MEDIA QUERIES =====*/
+
+@media screen and (min-width: 760px) {
+  .sectionColumError404 {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 1rem;
+  }
+  .backButtonMinistriesPageInfo {
+    margin-bottom: 80px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .sectionColumError404 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+  /*===== IMAGE =====*/
+  .columImageError404 {
+    justify-content: center;
+  }
+  .subTextWhiteError404 {
+    text-align: start;
+  }
+  .subTextchameleonGrayorWhiteError404 {
+    text-align: start;
+  }
+  .subTextchameleonGrayorWhiteError404 {
+    color: var(--text-gay-color);
+  }
+}

@@ -1,16 +1,16 @@
 /*===== SERMÃO =====*/
-import sermaoCardImg from '../../assets/images/sermaoCard.jpg';
-import sermaoBannerImgPage from '../../assets/images/sermaoBannerImgPage.jpg';
+import sermaoCardImg from './assets/images/sermaoCard.jpg';
+import sermaoBannerImgPage from './assets/images/sermaoBannerImgPage.jpg';
 
 /*===== EVENTOS ESPECIAIS =====*/
-import especialEventsCardImg from '../../assets/images/especialEventsBanner.jpg';
-import especialEventsBannerImgPage from '../../assets/images/especialEventsBannerImgPage.jpg';
-import DanieldiasBannerYoutube25082024 from '../../assets/images/DanieldiasBannerYoutube25-08-2024.jpg'
+import especialEventsCardImg from './assets/images/especialEventsCard.jpg';
+import especialEventsBannerImgPage from './assets/images/especialEventsBannerImgPage.jpg';
+import DanieldiasBannerYoutube25082024 from './assets/images/especialEventsDanieldiasBannerYoutube25-08-2024.jpg'
 
 /*===== FULL SERVICES =====*/
-import fullServicesCardImg from '../../assets/images/fullServiceBanner.jpg';
-import fullServicesBannerImgPage from '../../assets/images/fullServicesBannerImgPage.jpg';
-import CultodeCeiaAldo15092024 from 'assets/images/CultodeCeiaAldo15-09-2024.jpg'
+import fullServicesCardImg from './assets/images/fullServiceCard.jpg';
+import fullServicesBannerImgPage from './assets/images/fullServicesBannerImgPage.jpg';
+import CultodeCeiaAldo15092024 from './assets/images/fullServicesCultodeCeiaAldo15-09-2024.jpg'
 
 const HighlightsAndPreviousSermonsMock = [
     {
