@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
+import { ErrorPage } from 'pages';
 
-import 'assets/css/stylesJoinTheGroup.css';
 import 'assets/css/stylesGlobal.css';
+import './assets/css/stylesJoinTheGroup.css';
 interface Service {
     id: number;
     title: string;
@@ -29,15 +30,7 @@ export function JoinTheGroup() {
     }, []);
 
     if (!ministry) {
-        return (
-            <section className="lSectionJoinTheGroup" id="sectionJoinTheGroup">
-                <div className="sectionJoinTheGroup">
-                    <div className="sectionJoinTheGroupData">
-                        <div>Carregando...</div>
-                    </div>
-                </div>
-            </section>
-        )
+        return <ErrorPage />;
     }
 
     return (
