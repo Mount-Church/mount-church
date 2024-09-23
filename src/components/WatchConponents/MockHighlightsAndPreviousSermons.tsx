@@ -1,6 +1,7 @@
 /*===== SERMÃO =====*/
 import sermaoCardImg from './assets/images/sermaoCard.jpg';
 import sermaoBannerImgPage from './assets/images/sermaoBannerImgPage.jpg';
+import RenaneEstefanny from './assets/images/sermaoCultoAldo22-09-2024.jpg'
 
 /*===== EVENTOS ESPECIAIS =====*/
 import especialEventsCardImg from './assets/images/especialEventsCard.jpg';
@@ -30,34 +31,11 @@ const HighlightsAndPreviousSermonsMock = [
         youtubeVideos: [
             {
                 id: 1,
-                youtubeVideosBanner: sermaoCardImg,
-                youtubeVideosName: 'Sermão video 1',
+                youtubeVideosBanner: RenaneEstefanny,
+                youtubeVideosName: 'Adoração com Renan e Estefanny',
                 recordingDay: 'Domingo',
-                recordingDate: '10/10/2024',
-                linkFromYoutubeVideos: 'https://seu-site.com/flowing',
-            },
-            {
-                id: 2,
-                youtubeVideosBanner: sermaoCardImg,
-                youtubeVideosName: 'Sermão video 2',
-                recordingDay: 'Domingo',
-                recordingDate: '10/11/2024',
-                linkFromYoutubeVideos: 'https://seu-site.com/flowing',
-            },
-            {
-                id: 3,
-                youtubeVideosBanner: sermaoCardImg,
-                youtubeVideosName: 'Sermão video 3',
-                recordingDay: 'Domingo',
-                recordingDate: '10/12/2024',
-                linkFromYoutubeVideos: 'https://seu-site.com/flowing',
-            },
-            {
-                id: 4,
-                youtubeVideosBanner: sermaoCardImg,
-                youtubeVideosName: 'Sermão video 4',
-                recordingDate: '10/10/2024',
-                linkFromYoutubeVideos: 'https://seu-site.com/flowing',
+                recordingDate: '22/09/2024',
+                linkFromYoutubeVideos: 'https://www.youtube.com/watch?v=rbshq4pUoSI&list=PLI5BGZm7M2BFi8lHO97QrjyclkmpxseHV&index=1',
             },
         ],
     },
@@ -110,27 +88,11 @@ const HighlightsAndPreviousSermonsMock = [
             },
             {
                 id: 2,
-                youtubeVideosBanner: fullServicesCardImg,
-                youtubeVideosName: 'Full Services video 2',
+                youtubeVideosBanner: RenaneEstefanny,
+                youtubeVideosName: 'Adoração com Renan e Estefanny',
                 recordingDay: 'Domingo',
-                recordingDate: '10/10/2024',
-                linkFromYoutubeVideos: 'https://seu-site.com/flowing',
-            },
-            {
-                id: 3,
-                youtubeVideosBanner: fullServicesCardImg,
-                youtubeVideosName: 'Full Services video 2',
-                recordingDay: 'Domingo',
-                recordingDate: '10/10/2024',
-                linkFromYoutubeVideos: 'https://seu-site.com/flowing',
-            },
-            {
-                id: 4,
-                youtubeVideosBanner: fullServicesCardImg,
-                youtubeVideosName: 'Full Services video 2',
-                recordingDay: 'Domingo',
-                recordingDate: '10/10/2024',
-                linkFromYoutubeVideos: 'https://seu-site.com/flowing',
+                recordingDate: '22/09/2024',
+                linkFromYoutubeVideos: 'https://www.youtube.com/watch?v=rbshq4pUoSI&list=PLI5BGZm7M2BFi8lHO97QrjyclkmpxseHV&index=1',
             },
         ],
     }
