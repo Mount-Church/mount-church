@@ -1,9 +1,7 @@
-import React from 'react';
-
-import 'assets/css/stylesTransformationStories.css';
 import 'assets/css/stylesGlobal.css';
+import './assets/css/stylesTransformationStories.css';
 
-import BatismHug from '../../assets/images/BatismHug.jpg'
+import BatismHug from './assets/images/BatismHug.jpg'
 
 export function TransformationStories() {
     return (

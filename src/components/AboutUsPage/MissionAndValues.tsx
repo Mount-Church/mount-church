@@ -1,7 +1,5 @@
-import React from 'react';
-
-import 'assets/css/stylesMissionAndValues.css';
 import 'assets/css/stylesGlobal.css';
+import './assets/css/stylesMissionAndValues.css';
 
 export function MissionAndValues() {
     return (

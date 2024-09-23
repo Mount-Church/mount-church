@@ -1,6 +1,4 @@
-import React from 'react';
-
-import 'assets/css/stylesLivingTheGospel.css';
+import './assets/css/stylesLivingTheGospel.css';
 import 'assets/css/stylesGlobal.css';
 
 export function LivingTheGospel() {
