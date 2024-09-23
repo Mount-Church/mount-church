@@ -1,4 +1,4 @@
-import 'assets/css/stylesAllActivities.css';
+import './assets/css/stylesAllActivities.css';
 import 'assets/css/stylesGlobal.css';
 
 import Carousel from 'components/CarouselAllActivities/Carousel';
