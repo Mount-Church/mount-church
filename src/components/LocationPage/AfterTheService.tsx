@@ -1,10 +1,9 @@
-import React from 'react';
-import './css/stylesAfterTheService.css';
+import './assets/css/stylesAfterTheService.css';
 import 'assets/css/stylesGlobal.css';
 
-import SimplesEProfundoImg from '../../assets/images/SimplesEProfundo.jpg';
+import SimplesEProfundoImg from './assets/images/adoracaoAfterService.jpg';
 import SímboloDeRedencaoImg from 'assets/images/redencaoSimbolo.jpg';
-import MinistérioDeLutaImg from '../../assets/images/MinistérioDeLutaImg.jpg';
+import MinistérioDeLutaImg from './assets/images/mdlMuayThai.jpg';
 
 const AfterTheServiceInfoMock = [
     {

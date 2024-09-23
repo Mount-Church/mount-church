@@ -1,5 +1,5 @@
 import 'assets/css/stylesGlobal.css';
-import './css/stylesLocationMaps.css';
+import './assets/css/stylesLocationMaps.css';
 
 export function LocationMaps() {
     return (

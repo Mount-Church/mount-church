@@ -1,5 +1,5 @@
 import 'assets/css/stylesGlobal.css';
-import './css/stylesPlanYourVisit.css';
+import './assets/css/stylesPlanYourVisit.css';
 
 export function PlanYourVisit() {
     return (
