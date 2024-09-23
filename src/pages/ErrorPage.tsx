@@ -1,5 +1,4 @@
-import { FooterGlobal, Nav } from 'components';
-import { Error404 } from 'components/ErrorPage/Error404';
+import { Error404, FooterGlobal, Nav } from 'components';
 
 export function ErrorPage() {
     return (
