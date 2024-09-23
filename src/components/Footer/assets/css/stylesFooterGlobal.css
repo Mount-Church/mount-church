@@ -1,0 +1,168 @@
+/*===== VARIABLES CSS =====*/
+/*=== COLORS ===*/
+:root {
+  --first-color: #0396a6;
+  --dark-color: #000;
+  --white-color: #fefdfc;
+  --background-white-color: #fefdfc;
+  --background-dark-color: #000000;
+  --background-green-color: #cdcdc5;
+  --text-gay-color: #525560;
+  --test-red-color: red;
+}
+
+/*=== Fuente y tipografia ===*/
+:root {
+  --body-font: 'Roboto', sans-serif;
+  --biggest-font-size: 4rem;
+  --h2-font-size: 3rem;
+  --h3-font-size: 1.5rem;
+  --normal-font-size: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  :root {
+    --biggest-font-size: 4rem;
+    --h2-font-size: 2.5rem;
+    --h3-font-size: 1.5rem;
+    --normal-font-size: 1rem;
+  }
+}
+
+/*=== z index ===*/
+:root {
+  --z-back: -10;
+  --z-normal: 1;
+  --z-tooltip: 10;
+  --z-fixed: 100;
+  --z-modal: 1000;
+}
+
+.lSectionFooterGlobal {
+  background-color: var(--background-dark-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.containerFooterGlobal {
+  width: 100%;
+  width: 100%;
+  max-width: 1279px;
+}
+.footerGrid {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  align-items: start;
+  justify-content: space-between;
+  margin-top: 2%;
+  width: 100%;
+  padding: 0 10px;
+}
+.divLogoMountChuchFooter {
+  display: none;
+}
+.titleFooter {
+  font-size: var(--h3-font-size);
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: var(--white-color);
+  margin-top: 10px;
+}
+.LogoMountChuchFooter {
+  cursor: pointer;
+  width: 100%;
+  max-width: 150px;
+}
+.subTileFooter {
+  font-weight: var(--normal-font-size);
+  margin-bottom: 15px;
+  color: var(--white-color);
+}
+.buttonFooter {
+  font-weight: var(--normal-font-size);
+  color: var(--first-color);
+  transition: color 0.3s ease;
+}
+.buttonFooter:hover {
+  color: var(--background-green-color);
+  transition: color 0.3s ease;
+}
+.socialIconFooter {
+  cursor: pointer;
+  width: 100%;
+  max-width: 55px;
+}
+.hoverColorFacebookFooter,
+.hoverColorInstagramFooter,
+.hoverColorYoutubeFooter,
+.hoverColorWhatsappFooter {
+  color: var(--white-color);
+  transition: color 0.3s ease;
+}
+.hoverColorFacebookFooter:hover {
+  color: #0866ff;
+  transition: color 0.3s ease;
+}
+.hoverColorInstagramFooter:hover {
+  color: rgb(251, 173, 80);
+  transition: color 0.3s ease;
+}
+.hoverColorYoutubeFooter:hover {
+  color: #f70000;
+  transition: color 0.3s ease;
+}
+.hoverColorWhatsappFooter:hover {
+  color: #22c35e;
+  transition: color 0.3s ease;
+}
+.divPoweredByFooterGlobal {
+  text-align: center;
+  color: var(--white-color);
+  cursor: pointer;
+  padding: 0 25px;
+}
+.divPoweredByFooterGlobal:hover {
+  color: var(--first-color);
+  transition: color 0.3s ease;
+}
+
+/*===== MEDIA QUERIES =====*/
+
+@media screen and (min-width: 760px) {
+  .footerGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .divLogoMountChuchFooter {
+    justify-content: left;
+  }
+  .LogoMountChuchFooter {
+    max-width: 150px;
+  }
+  .subTileFooter {
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footerGrid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    padding: 0;
+  }
+  .divLogoMountChuchFooter {
+    display: flex;
+    justify-content: start;
+  }
+  .titleFooter {
+    margin-bottom: 25px;
+    margin-top: 0px;
+  }
+  .LogoMountChuchFooter {
+    max-width: 150px;
+  }
+  .subTileFooter {
+    margin-bottom: 15px;
+  }
+  .divPoweredByFooterGlobal {
+    text-align: end;
+  }
+}

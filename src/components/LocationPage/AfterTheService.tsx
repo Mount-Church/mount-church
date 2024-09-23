@@ -3,7 +3,7 @@ import './css/stylesAfterTheService.css';
 import 'assets/css/stylesGlobal.css';
 
 import SimplesEProfundoImg from '../../assets/images/SimplesEProfundo.jpg';
-import SímboloDeRedencaoImg from '../../assets/images/SímboloDeRedencaoImg.jpg';
+import SímboloDeRedencaoImg from 'assets/images/redencaoSimbolo.jpg';
 import MinistérioDeLutaImg from '../../assets/images/MinistérioDeLutaImg.jpg';
 
 const AfterTheServiceInfoMock = [

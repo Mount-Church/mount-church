@@ -1,9 +1,8 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 
 import { motion } from "framer-motion";
 
-import 'assets/css/stylesCummunityMission.css';
+import './assets/css/stylesCummunityMission.css';
 import 'assets/css/stylesGlobal.css';
 
 import { ButtonPrimary } from 'components/Button/ButtonPrimary';
