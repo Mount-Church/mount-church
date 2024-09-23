@@ -1,5 +1,6 @@
 import 'assets/css/stylesGlobal.css';
-import 'assets/css/stylesHighlightsAndPreviousSermons.css'
+import './assets/css/stylesHighlightsAndPreviousSermons.css'
+
 import { CardHighlightsAndPreviousSermons } from 'components/WatchConponents';
 
 export function HighlightsAndPreviousSermons() {

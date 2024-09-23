@@ -1,8 +1,6 @@
-import React from 'react';
+import './assets/css/stylesBannerAboutUs.css';
 
-import 'assets/css/stylesBannerAboutUs.css';
-
-import BannerAboutUsImg from '../../assets/images/BannerAboutUs.jpg'
+import BannerAboutUsImg from './assets/images/BannerAboutUs.jpg'
 
 export function BannerAboutUs() {
     return (

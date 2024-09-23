@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-import 'assets/css/stylesMinistriesPageInfo.css';
+import './assets/css/stylesMinistriesPageInfo.css';
 import 'assets/css/stylesGlobal.css';
 
 import { RiArrowLeftWideFill } from "react-icons/ri";
@@ -32,8 +32,8 @@ export function MinistriesInfoPage() {
     }
 
     return (
-        <section className='lSectionMinistriesPageInfo' id='sectionMinistriesPageInfo'>
-            <div className='containerMinistriesPageInfo'>
+        <section className='lSectionMinistriesInfoPage' id='sectionMinistriesInfoPage'>
+            <div className='containerMinistriesInfoPage'>
                 <Link to="/homepage" className='backButtonGlobal'>
                     <RiArrowLeftWideFill />
                     <div className='textBackButtonGlobal'>Voltar</div>
@@ -44,7 +44,7 @@ export function MinistriesInfoPage() {
                         <div className='textDarkGlobalStyles'>Ministérios</div>
                     </div>
                 </div>
-                <div className='sectionColumMinistriesPageInfo'>
+                <div className='sectionColumMinistriesInfoPage'>
                     <div>
                         <h2 className="globalSectionTitleTextDark">
                             {ministry.infoTitle}
@@ -52,9 +52,9 @@ export function MinistriesInfoPage() {
                         <p className="globalSectionTextDark"
                             dangerouslySetInnerHTML={{ __html: ministry.infoDescription }}></p>
                     </div>
-                    <div className='columImageMinistriesPageInfo'>
+                    <div className='columImageMinistriesInfoPage'>
                         <motion.img
-                            className="divImageMinistriesPageInfo"
+                            className="divImageMinistriesInfoPage"
                             whileHover={{ scale: 1.2 }}
                             whileTap={{ scale: 0.8 }}
                             src={`${ministry.infoImage}`}

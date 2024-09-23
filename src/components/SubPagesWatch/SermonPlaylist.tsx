@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { ErrorPage } from "pages";
 
 import 'assets/css/stylesGlobal.css';
 import './css/stylesSermonPlaylist.css'
@@ -26,15 +27,7 @@ export function SermonPlaylist() {
     }, []);
 
     if (!collectionYoutubeVideosPlaylist.length) {
-        return (
-            <section className="lSectionJoinTheGroup" id="sectionJoinTheGroup">
-                <div className="sectionJoinTheGroup">
-                    <div className="sectionJoinTheGroupData">
-                        <div>Carregando...</div>
-                    </div>
-                </div>
-            </section>
-        );
+        return <ErrorPage />;
     }
 
     return (

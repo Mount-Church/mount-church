@@ -1,8 +1,10 @@
 import React, { useRef, useEffect } from 'react';
-import 'assets/css/stylesSubMenu.css';
-import subMenuVideo from 'assets/video/subMenuVideo.mp4';
 
-export function SubMenuParallax() {
+import './assets/css/stylesSubMenu.css';
+
+import subMenuVideo from './assets/video/subMenuVideo.mp4';
+
+export function SubMenuVideo() {
   const videoRef = useRef<HTMLVideoElement>(null);
 
   useEffect(() => {
@@ -14,7 +16,7 @@ export function SubMenuParallax() {
   }, []);
 
   return (
-    <div className="containerSubMenuParallax">
+    <div className="containerSubMenuVideo">
       <video ref={videoRef} playsInline muted loop className="customVideo">
         <source src={subMenuVideo} type="video/mp4" />
       </video>
