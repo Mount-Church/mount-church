@@ -1,4 +1,4 @@
-/*===== SERMÃO =====*/
+/*===== PREGAÇÃO =====*/
 import sermaoCardImg from './assets/images/sermaoCard.jpg';
 import sermaoBannerImgPage from './assets/images/sermaoBannerImgPage.jpg';
 import RenaneEstefanny from './assets/images/sermaoCultoAldo22-09-2024.jpg'
@@ -16,18 +16,18 @@ import CultodeCeiaAldo15092024 from './assets/images/fullServicesCultodeCeiaAldo
 const HighlightsAndPreviousSermonsMock = [
     {
         id: 1,
-        bannerName: 'Sermão',
-        titleName: 'Sermões Inspiradores',
+        bannerName: 'Pregação',
+        titleName: 'Pregações Inspiradoras',
         subTitleName: 'Mensagens Transformadoras para o Seu Crescimento Espiritual',
-        subTitleDescription: 'Aprofunde-se na Palavra de Deus com nossos <strong>sermões</strong> inspiradores. Aqui, você encontrará mensagens edificantes que fortalecerão sua fé e lhe trarão encorajamento para a jornada espiritual.',
+        subTitleDescription: 'Aprofunde-se na Palavra de Deus com nossas <strong>pregações</strong> inspiradoras. Aqui, você encontrará mensagens edificantes que fortalecerão sua fé e lhe trarão encorajamento para a jornada espiritual.',
         cardImage: sermaoCardImg,
         bannerImageHighlightsAndPreviousSermonsMock: sermaoBannerImgPage,
         aboutVideosTitle: 'O que você pode esperar',
         titleAboutVideosTitle: 'Mensagens Transformadoras para o Seu Crescimento Espiritual',
-        aboutVideosDescription: 'Aprofunde-se na Palavra de Deus com nossos sermões inspiradores. Em nossa coleção de sermões, você encontrará uma <strong>variedade de mensagens</strong> edificantes que são cuidadosamente preparadas para fortalecer sua fé e lhe trazer encorajamento na sua jornada espiritual. Cada sermão é baseado em ensinamentos bíblicos sólidos, apresentados de maneira <strong>clara</strong> e <strong>relevante</strong> para o nosso tempo.',
-        ourVisionFirstDescription: '<strong>Reflexões Profundas</strong>: Nossos sermões abordam temas espirituais profundos, oferecendo insights valiosos sobre a Bíblia e a vida cristã.',
+        aboutVideosDescription: 'Aprofunde-se na Palavra de Deus com nossas pregações inspiradoras. Em nossa coleção de pregações, você encontrará uma <strong>variedade de mensagens</strong> edificantes que são cuidadosamente preparadas para fortalecer sua fé e lhe trazer encorajamento na sua jornada espiritual. Cada pregação é baseada em ensinamentos bíblicos sólidos, apresentados de maneira <strong>clara</strong> e <strong>relevante</strong> para o nosso tempo.',
+        ourVisionFirstDescription: '<strong>Reflexões Profundas</strong>: Nossas pregações abordam temas espirituais profundos, oferecendo insights valiosos sobre a Bíblia e a vida cristã.',
         ourVisionSecondDescription: '<strong>Aplicação Prática</strong>: Além de enriquecer seu conhecimento bíblico, nossas mensagens proporcionam aplicações práticas para o seu dia a dia, ajudando você a viver conforme os princípios de Deus.',
-        ourVisionThirdDescription: '<strong>Variedade de Temas</strong>: Desde estudos detalhados de passagens bíblicas específicas até reflexões sobre questões contemporâneas à luz da fé cristã, nossos sermões cobrem uma ampla gama de temas.',
+        ourVisionThirdDescription: '<strong>Variedade de Temas</strong>: Desde estudos detalhados de passagens bíblicas específicas até reflexões sobre questões contemporâneas à luz da fé cristã, nossas pregações cobrem uma ampla gama de temas.',
         youtubeVideos: [
             {
                 id: 1,
@@ -50,7 +50,7 @@ const HighlightsAndPreviousSermonsMock = [
         aboutVideosTitle: 'O que você pode esperar',
         titleAboutVideosTitle: 'Encontros Transformadores',
         aboutVideosDescription: 'Nossos vídeos de eventos especiais apresentam ministrações de <strong>pastores</strong> e <strong>convidados renomados</strong>, trazendo mensagens que edificam e transformam. Cada evento é uma oportunidade de crescimento espiritual e renovação da fé.',
-        ourVisionFirstDescription: '<strong>Mensagens Inspiradoras:</strong> Nossos sermões abordam temas espirituais profundos, oferecendo insights valiosos sobre a Bíblia e a vida cristã.',
+        ourVisionFirstDescription: '<strong>Mensagens Inspiradoras:</strong> Nossas pregações abordam temas espirituais profundos, oferecendo insights valiosos sobre a Bíblia e a vida cristã.',
         ourVisionSecondDescription: '<strong>Ensinamentos Profundos:</strong> Os convidados compartilham insights profundos sobre a Bíblia e a vida cristã, proporcionando uma compreensão mais rica da Palavra de Deus.',
         ourVisionThirdDescription: '<strong>Aplicação Prática</strong> Além de enriquecer seu conhecimento espiritual, as mensagens oferecem aplicações práticas para o seu dia a dia, ajudando você a viver conforme os princípios de Deus.',
         youtubeVideos: [
@@ -74,7 +74,7 @@ const HighlightsAndPreviousSermonsMock = [
         bannerImageHighlightsAndPreviousSermonsMock: fullServicesBannerImgPage,
         aboutVideosTitle: 'Cultos Variados',
         aboutVideosDescription: 'Nossos vídeos de <strong>Full Services</strong> apresentam cultos completos ministrados por <strong>pastores</strong> e <strong>convidados especiais</strong>. Cada culto é uma oportunidade de vivenciar a presença de <strong>Deus</strong> de maneira intensa e transformadora, com mensagens que edificam e inspiram.',
-        ourVisionFirstDescription: '<strong>Adoração Profunda:</strong> Nossos sermões abordam temas espirituais profundos, oferecendo insights valiosos sobre a Bíblia e a vida cristã.',
+        ourVisionFirstDescription: '<strong>Adoração Profunda:</strong> Nossas pregações abordam temas espirituais profundos, oferecendo insights valiosos sobre a Bíblia e a vida cristã.',
         ourVisionSecondDescription: '<strong>Mensagens Inspiradoras:</strong> Os convidados compartilham insights profundos sobre a Bíblia e a vida cristã, proporcionando uma compreensão mais rica da Palavra de Deus.',
         ourVisionThirdDescription: '<strong>Diversidade de Temas:</strong> Cultos variados, incluindo eventos específicos para homens, mulheres e outros grupos, atendendo às necessidades de todos os membros da congregação.',
         youtubeVideos: [

@@ -9,8 +9,9 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ErrorPage } from 'pages';
 
-interface Ministry {
+interface MinistryOrActivities {
     id: number;
+    mockType: string;
     infoTitle: string,
     infoDescription: string,
     description: string,
@@ -18,16 +19,16 @@ interface Ministry {
 }
 
 export function MinistriesInfoPage() {
-    const [ministry, setMinistry] = useState<Ministry | null>(null);
+    const [ministryOrActivities, setMinistryOrActivities] = useState<MinistryOrActivities | null>(null);
 
     useEffect(() => {
         const storedMinistry = localStorage.getItem('selectedMinistry');
         if (storedMinistry) {
-            setMinistry(JSON.parse(storedMinistry));
+            setMinistryOrActivities(JSON.parse(storedMinistry));
         }
     }, []);
 
-    if (!ministry) {
+    if (!ministryOrActivities) {
         return <ErrorPage />;
     }
 
@@ -41,24 +42,24 @@ export function MinistriesInfoPage() {
                 <div>
                     <div className='containerLineGlobalStyles'>
                         <div className='lineDarkGlobalStyles'></div>
-                        <div className='textDarkGlobalStyles'>Ministérios</div>
+                        <div className='textDarkGlobalStyles'>{ministryOrActivities.mockType}</div>
                     </div>
                 </div>
                 <div className='sectionColumMinistriesInfoPage'>
                     <div>
                         <h2 className="globalSectionTitleTextDark">
-                            {ministry.infoTitle}
+                            {ministryOrActivities.infoTitle}
                         </h2>
                         <p className="globalSectionTextDark"
-                            dangerouslySetInnerHTML={{ __html: ministry.infoDescription }}></p>
+                            dangerouslySetInnerHTML={{ __html: ministryOrActivities.infoDescription }}></p>
                     </div>
                     <div className='columImageMinistriesInfoPage'>
                         <motion.img
                             className="divImageMinistriesInfoPage"
                             whileHover={{ scale: 1.2 }}
                             whileTap={{ scale: 0.8 }}
-                            src={`${ministry.infoImage}`}
-                            alt={`${ministry.description}`}
+                            src={`${ministryOrActivities.infoImage}`}
+                            alt={`${ministryOrActivities.description}`}
                         />
                     </div>
                 </div>

@@ -73,9 +73,10 @@ import casaisCardLideresImg from './assets/images/casaisCardLideres.jpg';
 import casaisCardAmorImg from './assets/images/casaisCardAmor.jpg';
 import casaisCardRefericaoImg from './assets/images/casaisCardRefericao.jpg';
 
-const ministriesMock = [
+const ministriesOrActivitiesMock = [
     {
         id: 1,
+        mockType: 'Atividades',
         title: 'Conexão',
         description: 'Possuímos <strong>conexão</strong> nos principais bairros da cidade, proporcionando um ambiente íntimo para estudo bíblico e comunhão.',
         image: ConexaoImg,
@@ -111,6 +112,7 @@ const ministriesMock = [
     },
     {
         id: 2,
+        mockType: 'Ministérios',
         title: 'Flowing',
         description: 'Overflowing é o grupo dos <b>jovens da igreja</b>. Realizamos diversas atividades e temos um culto separado aos <b>sábados.</b>',
         image: FlowingImg,
@@ -146,6 +148,7 @@ const ministriesMock = [
     },
     {
         id: 3,
+        mockType: 'Ministérios',
         title: 'Homens',
         description: 'Reuniões e atividades voltadas para o <strong>crescimento espiritual</strong> e comunitário dos homens.',
         image: HomensImg,
@@ -181,6 +184,7 @@ const ministriesMock = [
     },
     {
         id: 4,
+        mockType: 'Ministérios',
         title: 'Mulheres',
         description: 'Encontro <strong>mensal</strong> de <strong>Mulheres</strong> para temas relevantes.',
         image: MulheresCardImg,
@@ -216,16 +220,17 @@ const ministriesMock = [
     },
     {
         id: 5,
+        mockType: 'Atividades',
         title: 'Batismo',
         description: 'Preparação e cerimônia de <strong>batismo</strong> para novos membros da igreja.',
         image: BatismoImg,
         link: 'https://seu-site.com/batismo',
         infoTitle: 'Símbolo de Redenção',
-        infoDescription: 'O Ministério de Batismo da <strong>Mount Church</strong> é um dos momentos mais significativos e emocionantes na jornada cristã. O <strong>batismo</strong> é um passo de obediência que simboliza a fé em Jesus Cristo e a <strong>transformação</strong> de vida através da graça de <strong>Deus</strong>. Nosso ministério está dedicado a preparar e acompanhar cada pessoa nessa importante decisão.',
+        infoDescription: 'O Batismo da <strong>Mount Church</strong> é um dos momentos mais significativos e emocionantes na jornada cristã. O <strong>batismo</strong> é um passo de obediência que simboliza a fé em Jesus Cristo e a <strong>transformação</strong> de vida através da graça de <strong>Deus</strong>. Nossa igreja está dedicada a preparar e acompanhar cada pessoa nessa importante decisão.',
         infoImage: BatismoImg,
         joinTheGroupTitle: 'Significado e Transformação',
         firstDescriptionjoinTheGroup: 'O batismo é muito mais do que um simples ritual; é um mergulho <strong>profundo na fé</strong>, uma experiência de renovação e uma conexão com a história da Igreja. Que cada batismo seja um lembrete constante da <strong>graça divina</strong> e da transformação que <strong>Deus</strong> opera em nossas vidas. 🌊🙏',
-        secondDescriptionjoinTheGroup: 'Se você está <strong>sentindo o chamado</strong> para ser batizado, convidamos você a se <strong>juntar</strong> ao Ministério de Batismo da <strong>Mount Church</strong>. Estamos aqui para caminhar ao seu lado, oferecendo orientação, apoio e celebração enquanto você dá esse passo transformador em sua jornada de fé.',
+        secondDescriptionjoinTheGroup: 'Se você está <strong>sentindo o chamado</strong> para ser batizado, convidamos você a se <strong>realizar</strong> o seu batismo na <strong>Mount Church</strong>. Estamos aqui para caminhar ao seu lado, oferecendo orientação, apoio e celebração enquanto você dá esse passo transformador em sua jornada de fé.',
         joinTheGroupLink: 'https://wa.me/554792722229',
         buttonNameTargeting: 'Mais informações',
         services: [
@@ -251,6 +256,7 @@ const ministriesMock = [
     },
     {
         id: 6,
+        mockType: 'Ministérios',
         title: 'OnFire',
         description: 'Grupo de <strong>adolescentes</strong> com atividades e encontros semanais para estudo e comunhão.',
         image: JovensCardImg,
@@ -286,16 +292,17 @@ const ministriesMock = [
     },
     {
         id: 7,
+        mockType: 'Ministérios',
         title: 'Esportes',
         description: 'Aulas de <strong>Jiujitsu</strong>, <strong>Muay Thai</strong> e <strong>futebol</strong>, unindo esporte e espiritualidade. Fortaleça seu corpo e sua fé',
         image: LutaCarImg,
         link: 'https://seu-site.com/luta',
         infoTitle: 'Grupo de Lutas e Esportes MDL',
-        infoDescription: 'Na <strong>Mount Church</strong>, acreditamos que todos são bem-vindos, independentemente de sua experiência ou habilidades. Por isso, oferecemos um grupo especial: o Ministério de Lutas e Esportes (<strong>MDL</strong>). Aqui, não se trata apenas de <strong>técnicas de combate</strong> ou <strong>habilidades</strong> no <strong>futebol</strong>; é sobre comunidade, crescimento e fé.',
+        infoDescription: 'Na <strong>Mount Church</strong>, acreditamos que todos são bem-vindos, independentemente de sua experiência ou habilidades. Por isso, oferecemos um grupo especial: o Ministério de Lutas e Esportes (<strong>MDL</strong>). Aqui, não se trata apenas de técnicas de combate ou habilidades no futebol, é sobre comunidade, crescimento e fé. Dentro do <strong>MDL</strong>, temos <strong>trabalhos sociais</strong> de <strong>Jiu Jitsu</strong> e <strong>Muay Thai</strong>, que visam promover a inclusão, disciplina e desenvolvimento pessoal através do esporte.',
         infoImage: BannerJiuMDL,
         joinTheGroupTitle: 'Esportes para Todas as Idades',
         firstDescriptionjoinTheGroup: 'Como oportunidade de compartilhar o amor de Cristo nas mais diversas áreas enquanto cuida da mente e do templo do espírito santo, nosso próprio corpo! Oferecemos atividades semanais gratuitas e para todas as idades:',
-        secondDescriptionjoinTheGroup: '<strong>Jiu-Jitsu</strong>: Segundas e Quartas-feiras, kids 9 a 12 anos as 19h00, adultos a partir de 13 anos as 20:00;<br><strong>Muay Thai</strong>: Quartas-feiras, às 19h30, a partir dos 13 anos;<br><strong>Futebol</strong>: Segundas-feiras, das 21h00 às 22h00.',
+        secondDescriptionjoinTheGroup: '<strong>Jiu-Jitsu</strong>: Segundas e Quartas-feiras, kids 9 a 12 anos as 19h, adultos a partir de 13 anos as 20h;<br><strong>Muay Thai</strong>: Quartas-feiras, às 19h30, a partir dos 13 anos;<br><strong>Futebol</strong>: Segundas-feiras, das 21h às 22h.',
         joinTheGroupLink: 'https://wa.me/554192585013',
         buttonNameTargeting: 'Mais informações',
         services: [
@@ -321,6 +328,7 @@ const ministriesMock = [
     },
     {
         id: 8,
+        mockType: 'Ministérios',
         title: 'Assistência Social',
         description: 'Nosso <b>Ministério de Assistência Social</b> está comprometido em ajudar aqueles que mais precisam, oferecendo suporte emocional, espiritual e material.',
         image: AssistenciaSocialCardImg,
@@ -356,6 +364,7 @@ const ministriesMock = [
     },
     {
         id: 9,
+        mockType: 'Ministérios',
         title: 'Dança',
         description: 'Ministério de dança que <strong>adora a Deus</strong> através da <strong>expressão corporal</strong>.',
         image: DancaCardImg,
@@ -391,6 +400,7 @@ const ministriesMock = [
     },
     {
         id: 8,
+        mockType: 'Ministérios',
         title: 'Ministério Infantil',
         description: 'Nosso <b>ministério Infantil</b> é um lugar seguro e divertido onde as crianças podem brincar e aprender enquanto os pais participam do culto.',
         image: espacoKidsCardImg,
@@ -426,6 +436,7 @@ const ministriesMock = [
     },
     {
         id: 9,
+        mockType: 'Ministérios',
         title: 'Casais',
         description: 'Encontros e programas especiais para o <strong>fortalecimento</strong> dos <strong>casais na fé</strong> e no relacionamento.',
         image: casaisCardImg,
@@ -462,4 +473,4 @@ const ministriesMock = [
     // Adicione mais ministérios conforme necessário
 ];
 
-export default ministriesMock;
+export default ministriesOrActivitiesMock;
