@@ -23,7 +23,7 @@ export function OurLeaders() {
                     </div>
 
                     <p className="globalSectionTextDark">
-                        Pastor <strong>Aldo</strong> e Pastora <strong>Fabi</strong> são casados e dedicados ao ministério pastoral há 23 anos. Há quase 9 anos, chegaram a Joinville com a missão de pastorear as vidas que Deus lhes confiou. Durante esse tempo, têm testemunhado inúmeras transformações e restaurações de vidas e famílias através de Jesus. Eles têm dois filhos e são apaixonados por servir a Deus e a comunidade, liderando com amor, sabedoria e dedicação.
+                        Pastor <strong>Aldo</strong> e Pastora <strong>Fabi</strong> são casados e dedicados ao ministério pastoral há 9 anos. Durante esse tempo, têm testemunhado inúmeras transformações e restaurações de vidas e famílias através de Jesus. Eles têm dois filhos e são apaixonados por servir a Deus e a comunidade, liderando com amor, sabedoria e dedicação.
                     </p>
                 </div>
                 {/* Image that appears when the screen is larger than 1350px */}
