@@ -1,21 +1,21 @@
 import { FooterGlobal, Nav } from 'components';
 import {
-  TransformationStories,
   LivingTheGospel,
-  MissionAndValues,
+  // MissionAndValues,
+  // BannerAboutUs,
   OurLeaders,
-  BannerBePartOfTheCommunity,
-  BannerAboutUs
+  TransformationStories,
+  BannerBePartOfTheCommunity
 } from 'components/AboutUsPage';
 
 export function AboutPage() {
   return (
     <>
       <Nav />
-      {/* <LivingTheGospel /> */}
-      {/* <BannerAboutUs /> */}
-      <MissionAndValues />
       <OurLeaders />
+      <LivingTheGospel />
+      {/* <BannerAboutUs /> */}
+      {/* <MissionAndValues /> */}
       <TransformationStories />
       <BannerBePartOfTheCommunity />
       <FooterGlobal />
