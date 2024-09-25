@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9f7f7ec6.css",
-    "main.js": "/static/js/main.2a376474.js",
+    "main.css": "/static/css/main.f3a872ab.css",
+    "main.js": "/static/js/main.7570733d.js",
     "static/js/453.bfb0a3bc.chunk.js": "/static/js/453.bfb0a3bc.chunk.js",
     "static/media/subMenuVideo.mp4": "/static/media/subMenuVideo.dc26a5e665d86f25c786.mp4",
     "static/media/conexaoPppMountChurch.jpg": "/static/media/conexaoPppMountChurch.f6f769bbbba2f94fd53c.jpg",
@@ -26,7 +26,6 @@
     "static/media/espacoKidsbrincando.jpg": "/static/media/espacoKidsbrincando.050b4503923de740e4e5.jpg",
     "static/media/elasOrandoJuntas.jpg": "/static/media/elasOrandoJuntas.5e7413d3d1704d3158a2.jpg",
     "static/media/flowngCulto.jpg": "/static/media/flowngCulto.a461c49a4f1ba270b370.jpg",
-    "static/media/elasLanche.jpg": "/static/media/elasLanche.71cb5fac8fc55b14fad4.jpg",
     "static/media/sermaoBannerImgPage.jpg": "/static/media/sermaoBannerImgPage.ebd23545ed8bacecc807.jpg",
     "static/media/sermaoCultoAldo22-09-2024.jpg": "/static/media/sermaoCultoAldo22-09-2024.f3fe9507f9f197c89ace.jpg",
     "static/media/fullServiceCard.jpg": "/static/media/fullServiceCard.2d9037146bf25cc523fc.jpg",
@@ -40,7 +39,6 @@
     "static/media/bannerComunuty.jpg": "/static/media/bannerComunuty.1ed1887434849e4364e4.jpg",
     "static/media/dancaCard.jpg": "/static/media/dancaCard.6b3364253e2eacdf22cd.jpg",
     "static/media/elasTextoLucas22-27.jpg": "/static/media/elasTextoLucas22-27.68ffa4a920a73fb3319b.jpg",
-    "static/media/dancaCardHomen.jpg": "/static/media/dancaCardHomen.bcacf35ed34e1427bcc1.jpg",
     "static/media/fullServicesBannerImgPage.jpg": "/static/media/fullServicesBannerImgPage.10d35833f5e75436ca39.jpg",
     "static/media/assistenciaSocialCardImg.png": "/static/media/assistenciaSocialCardImg.d19382850b0c7aaefb7a.png",
     "static/media/espacoKidsBanner.jpg": "/static/media/espacoKidsBanner.f32d12473a244a050a9f.jpg",
@@ -66,6 +64,7 @@
     "static/media/batismoCelebracaoComunitaria.jpg": "/static/media/batismoCelebracaoComunitaria.a97c330e631ddfdb07ca.jpg",
     "static/media/downloadAppTelephone.png": "/static/media/downloadAppTelephone.3868d5524d74d75a8ba6.png",
     "static/media/AldoEFabi.jpg": "/static/media/AldoEFabi.c6210baeb211cd5ed16d.jpg",
+    "static/media/elasLanche.jpg": "/static/media/elasLanche.5a9c5622d4d3aeffb8d7.jpg",
     "static/media/conexaoNasCasas.jpg": "/static/media/conexaoNasCasas.34565ee4e03821734ce3.jpg",
     "static/media/assistenciaSejaUmVoluntario.jpg": "/static/media/assistenciaSejaUmVoluntario.f1a153e933c4840dad05.jpg",
     "static/media/assistenciaSocialBanner.jpg": "/static/media/assistenciaSocialBanner.b2a23a218c9d72f7e4e4.jpg",
@@ -82,12 +81,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.9f7f7ec6.css.map": "/static/css/main.9f7f7ec6.css.map",
-    "main.2a376474.js.map": "/static/js/main.2a376474.js.map",
+    "main.f3a872ab.css.map": "/static/css/main.f3a872ab.css.map",
+    "main.7570733d.js.map": "/static/js/main.7570733d.js.map",
     "453.bfb0a3bc.chunk.js.map": "/static/js/453.bfb0a3bc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f7f7ec6.css",
-    "static/js/main.2a376474.js"
+    "static/css/main.f3a872ab.css",
+    "static/js/main.7570733d.js"
   ]
 }
