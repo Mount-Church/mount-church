@@ -57,7 +57,6 @@ import DancaCardImg from './assets/images/dancaCard.jpg';
 import dancaBannerImg from './assets/images/dancaBanner.jpg';
 import dancaCardcoracaoImg from './assets/images/dancaCardcoracao.jpg';
 import dancaCardInfantilImg from './assets/images/dancaCardInfantil.jpg';
-import dancaCardHomenImg from './assets/images/dancaCardHomen.jpg';
 
 /*===== ESPAÇO KIDS =====*/
 import espacoKidsCardImg from './assets/images/espacoKidsCard.png';
@@ -237,7 +236,7 @@ const ministriesOrActivitiesMock = [
             {
                 id: 1,
                 title: 'Celebração Comunitária',
-                description: 'Os <strong>batismos</strong> são realizados em cultos especiais que reúnem a comunidade da igreja para celebrar juntos essa decisão de fé.',
+                description: 'Os <strong>batismos</strong> são realizados em eventos especiais que reúnem a comunidade da igreja para celebrar juntos essa decisão de fé.',
                 image: BatismoCelebraçãoComunitariaImg,
             },
             {
@@ -249,7 +248,7 @@ const ministriesOrActivitiesMock = [
             {
                 id: 3,
                 title: 'Testemunhos e Inspiração',
-                description: 'Durante os cultos de batismo, os candidatos têm a oportunidade de <strong>compartilhar</strong> seus testemunhos, contando como Jesus transformou suas vidas.',
+                description: 'Durante o batismo, aqueles que vão se batizar têm a oportunidade de <strong>compartilhar</strong> seus testemunhos, contando como Jesus transformou suas vidas.',
                 image: BatismoTestemunhosEInspiracaoImg,
             },
         ],
@@ -392,9 +391,9 @@ const ministriesOrActivitiesMock = [
             },
             {
                 id: 3,
-                title: 'Autoridade em Adoração',
-                description: 'A dança também é uma expressão de autoridade e poder espiritual. Nossos dançarinos homens trazem força e vigor à adoração, proclamando a grandeza de Deus através de seus movimentos.',
-                image: dancaCardHomenImg,
+                title: 'Conectados em Cristo',
+                description: 'Receba notificações e esteja sempre <strong>conectado</strong> à vida da igreja através do nosso App via celular. Mantemos todos informados sobre eventos, estudos bíblicos.',
+                image: ConexaoAppInfoImg,
             },
         ],
     },

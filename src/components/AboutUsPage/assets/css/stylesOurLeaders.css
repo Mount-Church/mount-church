@@ -30,33 +30,22 @@
 
 /*===== SECTION ===== */
 .lSectionOurLeaders {
-  background-color: var(--white-color);
+  background-color: var(--background-white-color);
 }
 
 .sectionOurLeaders {
-  /* height: 100vh; */
   height: max(100vh, fit-content);
   max-width: 1279px;
   margin-left: 0;
   margin-right: 0;
   padding: 2rem 0;
   color: var(--white-color);
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: space-between;
-  -ms-flex-pack: space-between;
-  justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
+  justify-content: center;
   align-items: center;
   padding: 10px;
 }
-
 .sectionOurLeadersData {
   margin-bottom: 3rem;
 }
@@ -80,12 +69,10 @@
 
 @media screen and (min-width: 760px) {
   .sectionOurLeaders {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
     flex-direction: row;
     margin-left: auto;
     margin-right: auto;
+    padding: 0px;
   }
   .sectionOurLeadersImg div {
     width: 470px;
@@ -96,6 +83,8 @@
 @media screen and (min-width: 1200px) {
   .sectionOurLeaders {
     height: 100vh;
+    justify-content: space-between;
+    padding: 0px;
   }
   .sectionCommunityMission {
     height: 100vh;

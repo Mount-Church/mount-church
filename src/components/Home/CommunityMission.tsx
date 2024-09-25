@@ -26,6 +26,7 @@ export function CommunityMission() {
               <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }} />
             </div>
           </div>
+          <div className='containerDivCommunityMission'>
           <p className="globalSectionTextDark">
             Acreditamos que cada pessoa foi criada para pertencer a uma <strong>comunidade</strong>,
             pois nunca foi o desejo de Deus que vivêssemos esta vida <strong>sozinhos</strong>.
@@ -35,6 +36,7 @@ export function CommunityMission() {
             experimentar e promover um avivamento que impacte não apenas nossa cidade, mas também o mundo
             inteiro.
           </p>
+          </div>
           <div className='customButtonCommunityMission'>
             <Link to="/about" className=''>
               <ButtonPrimary>Saber mais</ButtonPrimary>

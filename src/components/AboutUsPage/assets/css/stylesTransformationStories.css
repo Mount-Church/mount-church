@@ -32,7 +32,6 @@
 .lSectionTransformationStories {
   background-color: var(--background-white-color);
 }
-
 .sectionTransformationStories {
   height: max(100vh, fit-content);
   max-width: 1279px;
@@ -62,13 +61,11 @@
 }
 
 /*===== IMAGE =====*/
-
 .sectionTransformationStoriesImg {
   border-radius: 20px;
   width: 100%;
   max-width: 612px;
 }
-
 .SecondColumTransformationStories {
   width: 100%;
   max-width: 488px;
