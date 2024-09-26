@@ -117,10 +117,6 @@
 /*===== MEDIA QUERIES =====*/
 
 @media screen and (min-width: 760px) {
-  .windowAnimateVisionMissionAndValues {
-    width: 740px;
-    height: 200px;
-  }
   .titleTextAnimateVisionMissionAndValues {
     font-size: var(--h3-font-size);
   }
@@ -128,11 +124,11 @@
 
 @media screen and (min-width: 1200px) {
   .windowAnimateVisionMissionAndValues {
-    width: 1279px;
-    height: 200px;
+    width: 410px;
+    height: 350px;
     margin-top: 20px;
   }
   .titleTextAnimateVisionMissionAndValues {
-    font-size: var(--h2-font-size);
+    font-size: var(--h3-font-size);
   }
 }

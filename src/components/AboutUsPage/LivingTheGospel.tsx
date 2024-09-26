@@ -14,6 +14,8 @@ export function LivingTheGospel() {
                 </div>
                 <div className='sectionColumLivingTheGospel'>
                     <AnimateVisionMissionAndValues />
+                    {/* <AnimateVisionMissionAndValues /> */}
+                    {/* <AnimateVisionMissionAndValues /> */}
                     {/* <h2 className="globalSectionTitleTextDark">
                         Vivendo o Evangelho
                     </h2>

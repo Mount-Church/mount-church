@@ -46,12 +46,16 @@
   display: row;
 }
 
+.sectionColumLivingTheGospel {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 1rem;
+}
+
 /*===== MEDIA QUERIES =====*/
 @media screen and (min-width: 760px) {
   .sectionColumLivingTheGospel {
-    display: grid;
-    grid-template-columns: repeat(1, minmax(0, 1fr));
-    gap: 1rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
   .lSectionLivingTheGospel {
     margin-bottom: 10rem;
@@ -60,8 +64,7 @@
 
 @media screen and (min-width: 1200px) {
   .sectionColumLivingTheGospel {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 1rem;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
   .lSectionLivingTheGospel {
     height: 100vh;
