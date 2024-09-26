@@ -41,18 +41,20 @@ export function AfterTheService() {
                     <h2 className="globalSectionTitleTextDark">
                         Oportunidade de Conexão
                     </h2>
-                    <p className="globalSectionTextDark">
-                        Ao chegar, nossa equipe de <strong>boas-vindas</strong> estará pronta para recebê-lo e ajudar com qualquer <strong>dúvida</strong> que você possa ter. Temos um espaço <strong>confortável</strong> para você e sua <strong>família</strong>, e estaremos disponíveis para guiá-los pelo nosso espaço. Você será recebido por pessoas amigáveis e encontrará um ambiente vibrante e acolhedor.
-                        <br /><br />
-                        Nossos cultos são momentos de celebração, incluindo louvor ao vivo, uma mensagem inspiradora e oportunidades para oração e <strong>comunhão</strong>. Após o culto, fique à vontade para se juntar a nós para um café e uma conversa. Esta é uma ótima oportunidade para conhecer mais pessoas e se conectar ainda mais com nossa comunidade.
-                    </p>
-                    <div className='customButtonAfterTheService'>
-                        <button
-                            className='py-2 px-4 text-sm buttonPrimary'
-                            onClick={() => window.open('https://wa.me/554792722249', '_blank')}
-                        >
-                            Saber Mais
-                        </button>
+                    <div className='divContainerAfterTheService'>
+                        <p className="globalSectionTextDark">
+                            Ao chegar, nossa equipe de <strong>boas-vindas</strong> estará pronta para recebê-lo e ajudar com qualquer <strong>dúvida</strong> que você possa ter. Temos um espaço <strong>confortável</strong> para você e sua <strong>família</strong>, e estaremos disponíveis para guiá-los pelo nosso espaço. Você será recebido por pessoas amigáveis e encontrará um ambiente vibrante e acolhedor.
+                            <br /><br />
+                            Nossos cultos são momentos de celebração, incluindo louvor ao vivo, uma mensagem inspiradora e oportunidades para oração e <strong>comunhão</strong>. Após o culto, fique à vontade para se juntar a nós para um café e uma conversa. Esta é uma ótima oportunidade para conhecer mais pessoas e se conectar ainda mais com nossa comunidade.
+                        </p>
+                        <div className='customButtonAfterTheService'>
+                            <button
+                                className='py-2 px-4 text-sm buttonPrimary'
+                                onClick={() => window.open('https://wa.me/554792722249', '_blank')}
+                            >
+                                Saber Mais
+                            </button>
+                        </div>
                     </div>
                 </div>
                 <div className='columInfoAfterTheService'>
