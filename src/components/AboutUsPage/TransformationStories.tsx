@@ -15,7 +15,7 @@ export function TransformationStories() {
                 </div>
                 <div className='SecondColumTransformationStories'>
                     <p className="globalSectionTextDark">
-                        Fundada com o propósito de ser um farol de <strong>esperança e amor</strong>, a MountChurch tem crescido e impactado a vida de muitos ao longo do tempo. Desde nossos primeiros encontros até hoje, temos visto a mão de Deus mover-se poderosamente em nossa comunidade.
+                        Fundada com o propósito de ser um farol de <strong>esperança e amor</strong>, a <strong>Mount Church</strong> tem crescido e impactado a vida de muitos ao longo do tempo. Desde nossos primeiros encontros até hoje, temos visto a mão de Deus mover-se poderosamente em nossa comunidade.
                     </p>
                 </div>
             </div>

@@ -1,3 +1,4 @@
+import AnimateVisionMissionAndValues from './AnimateVisionMissionAndValues';
 import './assets/css/stylesLivingTheGospel.css';
 import 'assets/css/stylesGlobal.css';
 
@@ -12,7 +13,10 @@ export function LivingTheGospel() {
                     </div>
                 </div>
                 <div className='sectionColumLivingTheGospel'>
-                    <h2 className="globalSectionTitleTextDark">
+                    <AnimateVisionMissionAndValues />
+                    {/* <AnimateVisionMissionAndValues /> */}
+                    {/* <AnimateVisionMissionAndValues /> */}
+                    {/* <h2 className="globalSectionTitleTextDark">
                         Vivendo o Evangelho
                     </h2>
                     <div>
@@ -22,7 +26,7 @@ export function LivingTheGospel() {
                         <p className="globalSectionTextDark">
                             Na MountChurch, acreditamos na mensagem transformadora do Evangelho de Jesus Cristo. Nossa <strong>missão</strong> é compartilhar o amor de Deus, construir uma comunidade acolhedora e servir às necessidades espirituais e práticas das pessoas. Ensinamos e vivemos os <strong>princípios bíblicos</strong>, buscando ser um reflexo do <strong>amor de Cristo</strong> em tudo o que fazemos. Acreditamos na importância da oração, do estudo bíblico, e do envolvimento ativo na vida da igreja e na comunidade ao nosso redor.
                         </p>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </section>

@@ -57,7 +57,6 @@ import DancaCardImg from './assets/images/dancaCard.jpg';
 import dancaBannerImg from './assets/images/dancaBanner.jpg';
 import dancaCardcoracaoImg from './assets/images/dancaCardcoracao.jpg';
 import dancaCardInfantilImg from './assets/images/dancaCardInfantil.jpg';
-import dancaCardHomenImg from './assets/images/dancaCardHomen.jpg';
 
 /*===== ESPAÇO KIDS =====*/
 import espacoKidsCardImg from './assets/images/espacoKidsCard.png';
@@ -73,9 +72,10 @@ import casaisCardLideresImg from './assets/images/casaisCardLideres.jpg';
 import casaisCardAmorImg from './assets/images/casaisCardAmor.jpg';
 import casaisCardRefericaoImg from './assets/images/casaisCardRefericao.jpg';
 
-const ministriesMock = [
+const ministriesOrActivitiesMock = [
     {
         id: 1,
+        mockType: 'Atividades',
         title: 'Conexão',
         description: 'Possuímos <strong>conexão</strong> nos principais bairros da cidade, proporcionando um ambiente íntimo para estudo bíblico e comunhão.',
         image: ConexaoImg,
@@ -111,6 +111,7 @@ const ministriesMock = [
     },
     {
         id: 2,
+        mockType: 'Ministérios',
         title: 'Flowing',
         description: 'Overflowing é o grupo dos <b>jovens da igreja</b>. Realizamos diversas atividades e temos um culto separado aos <b>sábados.</b>',
         image: FlowingImg,
@@ -146,6 +147,7 @@ const ministriesMock = [
     },
     {
         id: 3,
+        mockType: 'Ministérios',
         title: 'Homens',
         description: 'Reuniões e atividades voltadas para o <strong>crescimento espiritual</strong> e comunitário dos homens.',
         image: HomensImg,
@@ -181,16 +183,17 @@ const ministriesMock = [
     },
     {
         id: 4,
+        mockType: 'Ministérios',
         title: 'Mulheres',
         description: 'Encontro <strong>mensal</strong> de <strong>Mulheres</strong> para temas relevantes.',
         image: MulheresCardImg,
         link: 'https://seu-site.com/mulheres',
-        infoTitle: 'Cultos de Mulheres',
-        infoDescription: 'Nossos cultos específicos para mulheres são momentos preciosos de oração e comunhão. Aqui, cada mulher é valorizada e encorajada a fortalecer sua fé e seu papel como intercessora em sua casa e comunidade. Venha participar e experimente a transformação que a oração pode trazer para sua vida.',
+        infoTitle: 'Por Elas na Mesa',
+        infoDescription: 'Por toda a cidade de <strong>Joinville</strong> uma mesa com o <strong>Senhor</strong> será montada para contemplar aquilo que <strong>Jesus</strong> é e aquilo que ele faz nas vidas, esse é o objetivo do ministério de mulheres. Um momento para dividir <strong>experiências</strong>,<strong> testemunhos</strong> e criar<strong> laços</strong>! Café, mulheres e palavra de <strong>Deus</strong>, uma perfeita combinação.</br> Um momento de aproximação afim de que outras mulheres possam ser <strong>amigas</strong> de Jesus e uma das outras.</br></br> Veja uma mais <strong>próxima</strong> de você!',
         infoImage: MulheresImg,
         joinTheGroupTitle: 'A Força da Oração Feminina',
         firstDescriptionjoinTheGroup: 'A oração é uma das maiores dádivas que Deus nos deu, e a oração de uma mulher tem um poder especial. Em nossos cultos de mulheres, você encontrará um ambiente acolhedor e inspirador, onde cada mulher é incentivada a buscar a Deus com todo o seu coração. Estes cultos são momentos de renovação espiritual, onde compartilhamos testemunhos, aprendemos juntas e fortalecemos nossa fé.',
-        secondDescriptionjoinTheGroup: 'Venha participar dos nossos cultos de mulheres e experimente a transformação que a oração pode trazer para sua vida. Junte-se a um grupo de mulheres dedicadas e apaixonadas por Deus, que se apoiam mutuamente e buscam crescer na fé. “Clama a mim, e responder-te-ei, e anunciar-te-ei coisas grandes e firmes que não sabes” (Jeremias 33:3). ',
+        secondDescriptionjoinTheGroup: 'Venha participar do por elas na mesa e experimente a transformação que a oração pode trazer para sua vida. Junte-se a um grupo de mulheres dedicadas e apaixonadas por Deus, que se apoiam mutuamente e buscam crescer na fé. “Clama a mim, e responder-te-ei, e anunciar-te-ei coisas grandes e firmes que não sabes” (Jeremias 33:3). </br></br> Além disso, temos o prazer de divulgar o curso <strong>Mulher Única (M.U)</strong>, oferecido pela <strong>Universidade da Família</strong>. Este curso <strong>não</strong> é vinculado a nenhuma igreja específica, mas é uma excelente oportunidade para mulheres que desejam aprofundar sua autoestima, valor, feminilidade e responsabilidade. Nosso desejo é que Deus a liberte e dê vida abundante em toda a sua plenitude, causando grande impacto na família e na sociedade, através de sua originalidade, identidade e singularidade.',
         buttonNameTargeting: 'Mais informações',
         joinTheGroupLink: 'https://wa.me/554792722229',
         services: [
@@ -208,31 +211,32 @@ const ministriesMock = [
             },
             {
                 id: 3,
-                title: 'Comunhão e Alegria',
-                description: 'Nossos cultos são momentos de celebração e comunhão. Além de alimentar a fé, também compartilhamos momentos de alegria e confraternização, fortalecendo os laços de amizade e irmandade.',
+                title: 'CMN - Mulher Única',
+                description: 'O curso é para mulheres e aborda autoestima, valor, feminilidade e responsabilidade. Nosso desejo é que Deus a liberte e dê vida abundante, impactando a família e a sociedade.',
                 image: mulheresSubCardLancheImg,
             },
         ],
     },
     {
         id: 5,
+        mockType: 'Atividades',
         title: 'Batismo',
         description: 'Preparação e cerimônia de <strong>batismo</strong> para novos membros da igreja.',
         image: BatismoImg,
         link: 'https://seu-site.com/batismo',
         infoTitle: 'Símbolo de Redenção',
-        infoDescription: 'O Ministério de Batismo da <strong>Mount Church</strong> é um dos momentos mais significativos e emocionantes na jornada cristã. O <strong>batismo</strong> é um passo de obediência que simboliza a fé em Jesus Cristo e a <strong>transformação</strong> de vida através da graça de <strong>Deus</strong>. Nosso ministério está dedicado a preparar e acompanhar cada pessoa nessa importante decisão.',
+        infoDescription: 'O Batismo da <strong>Mount Church</strong> é um dos momentos mais significativos e emocionantes na jornada cristã. O <strong>batismo</strong> é um passo de obediência que simboliza a fé em Jesus Cristo e a <strong>transformação</strong> de vida através da graça de <strong>Deus</strong>. Nossa igreja está dedicada a preparar e acompanhar cada pessoa nessa importante decisão. “Jesus respondeu: Digo-lhe a verdade: Ninguém pode entrar no <strong>Reino de Deus</strong>, se não nascer da água e do Espírito” (<strong>João 3:5, NVI</strong>). Nossa igreja está dedicada a preparar e acompanhar cada pessoa nessa importante decisão.',
         infoImage: BatismoImg,
         joinTheGroupTitle: 'Significado e Transformação',
-        firstDescriptionjoinTheGroup: 'O batismo é muito mais do que um simples ritual; é um mergulho <strong>profundo na fé</strong>, uma experiência de renovação e uma conexão com a história da Igreja. Que cada batismo seja um lembrete constante da <strong>graça divina</strong> e da transformação que <strong>Deus</strong> opera em nossas vidas. 🌊🙏',
-        secondDescriptionjoinTheGroup: 'Se você está <strong>sentindo o chamado</strong> para ser batizado, convidamos você a se <strong>juntar</strong> ao Ministério de Batismo da <strong>Mount Church</strong>. Estamos aqui para caminhar ao seu lado, oferecendo orientação, apoio e celebração enquanto você dá esse passo transformador em sua jornada de fé.',
+        firstDescriptionjoinTheGroup: 'O batismo é muito mais do que um simples ritual; é um mergulho <strong>profundo na fé</strong>, uma experiência de renovação e uma conexão com a história da Igreja. “Quem crer e for batizado <strong>será salvo</strong>, mas quem não crer será condenado” (<strong>Marcos 16:16, NVI</strong>). Que cada batismo seja um lembrete constante da <strong>graça divina</strong> e da transformação que <strong>Deus</strong> opera em nossas vidas. 🌊🙏',
+        secondDescriptionjoinTheGroup: 'Se você está <strong>sentindo o chamado</strong> para ser batizado, convidamos você a se <strong>realizar</strong> o seu batismo na <strong>Mount Church</strong>. Estamos aqui para caminhar ao seu lado, oferecendo orientação, apoio e celebração enquanto você dá esse passo transformador em sua jornada de fé. “Então Jesus veio da Galileia ao Jordão para ser <strong>batizado</strong> por João” (<strong>Mateus 3:13, NVI</strong>).',
         joinTheGroupLink: 'https://wa.me/554792722229',
         buttonNameTargeting: 'Mais informações',
         services: [
             {
                 id: 1,
                 title: 'Celebração Comunitária',
-                description: 'Os <strong>batismos</strong> são realizados em cultos especiais que reúnem a comunidade da igreja para celebrar juntos essa decisão de fé.',
+                description: 'Os <strong>batismos</strong> são realizados em eventos especiais que reúnem a comunidade da igreja para celebrar juntos essa decisão de fé.',
                 image: BatismoCelebraçãoComunitariaImg,
             },
             {
@@ -244,13 +248,14 @@ const ministriesMock = [
             {
                 id: 3,
                 title: 'Testemunhos e Inspiração',
-                description: 'Durante os cultos de batismo, os candidatos têm a oportunidade de <strong>compartilhar</strong> seus testemunhos, contando como Jesus transformou suas vidas.',
+                description: 'Durante o batismo, aqueles que vão se batizar têm a oportunidade de <strong>compartilhar</strong> seus testemunhos, contando como Jesus transformou suas vidas.',
                 image: BatismoTestemunhosEInspiracaoImg,
             },
         ],
     },
     {
         id: 6,
+        mockType: 'Ministérios',
         title: 'OnFire',
         description: 'Grupo de <strong>adolescentes</strong> com atividades e encontros semanais para estudo e comunhão.',
         image: JovensCardImg,
@@ -286,16 +291,17 @@ const ministriesMock = [
     },
     {
         id: 7,
+        mockType: 'Ministérios',
         title: 'Esportes',
         description: 'Aulas de <strong>Jiujitsu</strong>, <strong>Muay Thai</strong> e <strong>futebol</strong>, unindo esporte e espiritualidade. Fortaleça seu corpo e sua fé',
         image: LutaCarImg,
         link: 'https://seu-site.com/luta',
         infoTitle: 'Grupo de Lutas e Esportes MDL',
-        infoDescription: 'Na <strong>Mount Church</strong>, acreditamos que todos são bem-vindos, independentemente de sua experiência ou habilidades. Por isso, oferecemos um grupo especial: o Ministério de Lutas e Esportes (<strong>MDL</strong>). Aqui, não se trata apenas de <strong>técnicas de combate</strong> ou <strong>habilidades</strong> no <strong>futebol</strong>; é sobre comunidade, crescimento e fé.',
+        infoDescription: 'Na <strong>Mount Church</strong>, acreditamos que todos são bem-vindos, independentemente de sua experiência ou habilidades. Por isso, oferecemos um grupo especial: o Ministério de Lutas e Esportes (<strong>MDL</strong>). Aqui, não se trata apenas de técnicas de combate ou habilidades no futebol, é sobre comunidade, crescimento e fé. Dentro do <strong>MDL</strong>, temos <strong>trabalhos sociais</strong> de <strong>Jiu Jitsu</strong> e <strong>Muay Thai</strong>, que visam promover a inclusão, disciplina e desenvolvimento pessoal através do esporte.',
         infoImage: BannerJiuMDL,
         joinTheGroupTitle: 'Esportes para Todas as Idades',
         firstDescriptionjoinTheGroup: 'Como oportunidade de compartilhar o amor de Cristo nas mais diversas áreas enquanto cuida da mente e do templo do espírito santo, nosso próprio corpo! Oferecemos atividades semanais gratuitas e para todas as idades:',
-        secondDescriptionjoinTheGroup: '<strong>Jiu-Jitsu</strong>: Segundas e Quartas-feiras, kids 9 a 12 anos as 19h00, adultos a partir de 13 anos as 20:00;<br><strong>Muay Thai</strong>: Quartas-feiras, às 19h30, a partir dos 13 anos;<br><strong>Futebol</strong>: Segundas-feiras, das 21h00 às 22h00.',
+        secondDescriptionjoinTheGroup: '<strong>Jiu-Jitsu</strong>: Segundas e Quartas-feiras, kids 9 a 12 anos as 19h, adultos a partir de 13 anos as 20h;<br><strong>Muay Thai</strong>: Quartas-feiras, às 19h30, a partir dos 13 anos;<br><strong>Futebol</strong>: Segundas-feiras, das 21h às 22h.',
         joinTheGroupLink: 'https://wa.me/554192585013',
         buttonNameTargeting: 'Mais informações',
         services: [
@@ -321,6 +327,7 @@ const ministriesMock = [
     },
     {
         id: 8,
+        mockType: 'Ministérios',
         title: 'Assistência Social',
         description: 'Nosso <b>Ministério de Assistência Social</b> está comprometido em ajudar aqueles que mais precisam, oferecendo suporte emocional, espiritual e material.',
         image: AssistenciaSocialCardImg,
@@ -356,6 +363,7 @@ const ministriesMock = [
     },
     {
         id: 9,
+        mockType: 'Ministérios',
         title: 'Dança',
         description: 'Ministério de dança que <strong>adora a Deus</strong> através da <strong>expressão corporal</strong>.',
         image: DancaCardImg,
@@ -365,7 +373,7 @@ const ministriesMock = [
         infoImage: dancaBannerImg,
         joinTheGroupTitle: 'O Poder da Dança na Adoração',
         firstDescriptionjoinTheGroup: 'A dança é uma forma poderosa de <strong>adoração a Deus</strong>, expressando nossa fé e devoção através de movimentos inspirados pelo <strong>Espírito Santo</strong>. No Ministério de Dança, cada passo é uma oração, cada movimento é um ato de louvor. Convidamos você a se juntar a nós e experimentar<strong> a alegria</strong> de adorar a Deus com todo o seu ser. “Louvem o seu nome com danças; cantem-lhe o seu louvor com tamborim e harpa” (Salmos 149:3).',
-        secondDescriptionjoinTheGroup: 'A dança é uma expressão de adoração que toca o coração de Deus. No Ministério de Dança, celebramos a beleza e a profundidade da adoração através dos <strong>movimentos</strong>. Convidamos você a participar deste ministério e a descobrir a alegria de servir a Deus com um coração puro e dedicado. “Servi ao Senhor com alegria; apresentai-vos diante dele com cântico” (Salmos 100:2). Junte-se a nós e permita que o Espírito Santo guie seus passos em uma jornada de fé e adoração.',
+        secondDescriptionjoinTheGroup: 'Clique em "<strong>Mais informações</strong>" para se juntar a nós!',
         joinTheGroupLink: 'https://wa.me/5515991901689',
         buttonNameTargeting: 'Mais informações',
         services: [
@@ -383,14 +391,15 @@ const ministriesMock = [
             },
             {
                 id: 3,
-                title: 'Autoridade em Adoração',
-                description: 'A dança também é uma expressão de autoridade e poder espiritual. Nossos dançarinos homens trazem força e vigor à adoração, proclamando a grandeza de Deus através de seus movimentos.',
-                image: dancaCardHomenImg,
+                title: 'Conectados em Cristo',
+                description: 'Receba notificações e esteja sempre <strong>conectado</strong> à vida da igreja através do nosso App via celular. Mantemos todos informados sobre eventos, estudos bíblicos.',
+                image: ConexaoAppInfoImg,
             },
         ],
     },
     {
         id: 8,
+        mockType: 'Ministérios',
         title: 'Ministério Infantil',
         description: 'Nosso <b>ministério Infantil</b> é um lugar seguro e divertido onde as crianças podem brincar e aprender enquanto os pais participam do culto.',
         image: espacoKidsCardImg,
@@ -426,6 +435,7 @@ const ministriesMock = [
     },
     {
         id: 9,
+        mockType: 'Ministérios',
         title: 'Casais',
         description: 'Encontros e programas especiais para o <strong>fortalecimento</strong> dos <strong>casais na fé</strong> e no relacionamento.',
         image: casaisCardImg,
@@ -462,4 +472,4 @@ const ministriesMock = [
     // Adicione mais ministérios conforme necessário
 ];
 
-export default ministriesMock;
+export default ministriesOrActivitiesMock;
