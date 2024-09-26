@@ -32,7 +32,6 @@
 .lSectionTransformationStories {
   background-color: var(--background-white-color);
 }
-
 .sectionTransformationStories {
   height: max(100vh, fit-content);
   max-width: 1279px;
@@ -57,19 +56,16 @@
   border-radius: 0px;
   background-color: var(--background-green-color);
 }
-
 .sectionTransformationStoriesData {
   margin-bottom: 3rem;
 }
 
 /*===== IMAGE =====*/
-
 .sectionTransformationStoriesImg {
   border-radius: 20px;
   width: 100%;
   max-width: 612px;
 }
-
 .SecondColumTransformationStories {
   width: 100%;
   max-width: 488px;
@@ -80,8 +76,6 @@
 
 @media screen and (min-width: 760px) {
   .sectionTransformationStories {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
     border-radius: 0px;
   }
   .TransformationStories {
@@ -91,9 +85,6 @@
 
 @media screen and (min-width: 1200px) {
   .sectionTransformationStories {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
     flex-direction: row;
     margin-left: auto;
     margin-right: auto;

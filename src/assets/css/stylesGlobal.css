@@ -165,9 +165,6 @@ html {
   .globalSectionTitleTextWhite {
     font-size: var(--h2-font-size);
   }
-  .globalSectionTextDark {
-    padding-right: 4rem;
-  }
   .lineGlobalStyles {
     width: 72px;
   }

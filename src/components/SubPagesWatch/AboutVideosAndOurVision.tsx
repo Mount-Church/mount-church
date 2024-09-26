@@ -64,7 +64,7 @@ export function AboutVideosAndOurVision() {
                             </li>
                             <li>
                                 <p className="globalSectionTextDark"
-                                    dangerouslySetInnerHTML={{ __html: collectionYoutube.ourVisionFirstDescription }}>
+                                    dangerouslySetInnerHTML={{ __html: collectionYoutube.ourVisionThirdDescription }}>
                                 </p>
                             </li>
                         </ul>

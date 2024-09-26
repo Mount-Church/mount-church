@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'
 
 import Slider from "react-slick";
 
-import ministriesMock from 'components/CarouselAllActivities/MockCarousel';
+import ministriesOrActivitiesMock from 'components/CarouselAllActivities/MockCarousel';
 
 import 'assets/css/stylesGlobal.css';
 import './assets/css/stylesCarousel.css';
@@ -80,8 +80,8 @@ const Carousel: React.FC = () => {
     };
 
     let navigate = useNavigate();
-    const handleClick = (ministry: any) => {
-        localStorage.setItem('selectedMinistry', JSON.stringify(ministry))
+    const handleClick = (ministryOrActivities: any) => {
+        localStorage.setItem('selectedMinistry', JSON.stringify(ministryOrActivities))
         console.log('[DEBUG Pego Ministério]')
         navigate('/ministries');
     }
@@ -90,9 +90,9 @@ const Carousel: React.FC = () => {
     return (
         <div className="sliderContainerAllActivities">
             <Slider {...settings}>
-                {ministriesMock.map((ministry, index) => (
+                {ministriesOrActivitiesMock.map((ministryOrActivities, index) => (
                     <div
-                        key={ministry.id}
+                        key={ministryOrActivities.id}
                         className="carouselCardAllActivities"
                         onMouseEnter={() => setHoveredIndex(index)}
                         onMouseLeave={() => setHoveredIndex(null)}
@@ -100,14 +100,14 @@ const Carousel: React.FC = () => {
                         <div className="carouselImageWrapperAllActivities">
                             <div
                                 className={`carouselImageAllActivities ${hoveredIndex === index ? 'carouselImageBlurAllActivities' : ''}`}
-                                style={{ backgroundImage: `url(${ministry.image})` }}
+                                style={{ backgroundImage: `url(${ministryOrActivities.image})` }}
                             />
                             <div className="carouselOverlayAllActivities" style={{ backgroundColor: hoveredIndex === index ? 'rgba(0, 0, 0, 0.7)' : 'rgba(0, 0, 0, 0.5)' }}>
-                                <h2 className="carouselTitleAllActivities">{ministry.title}</h2>
-                                <p className="carouselDescriptionAllActivities" dangerouslySetInnerHTML={{ __html: ministry.description }} />
+                                <h2 className="carouselTitleAllActivities">{ministryOrActivities.title}</h2>
+                                <p className="carouselDescriptionAllActivities" dangerouslySetInnerHTML={{ __html: ministryOrActivities.description }} />
                                 <button
                                     className={`carouselButtonAllActivities ${hoveredIndex === index ? 'carouselButtonVisibleAllActivities' : ''}`}
-                                    onClick={() => handleClick(ministry)}
+                                    onClick={() => handleClick(ministryOrActivities)}
                                 >
                                     Saber Mais
                                 </button>
