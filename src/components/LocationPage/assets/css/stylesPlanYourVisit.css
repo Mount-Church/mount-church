@@ -45,6 +45,9 @@
   margin-right: 0;
   display: row;
 }
+.divContainerPlanYourVisit {
+  max-width: 500px;
+}
 .sectionPlanYourVisitData {
   margin-bottom: 3rem;
   width: 100%;
