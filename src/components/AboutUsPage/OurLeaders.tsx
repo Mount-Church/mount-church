@@ -10,7 +10,7 @@ export function OurLeaders() {
                 <div className="sectionOurLeadersData">
                     <div className="containerLineGlobalStyles mt-40">
                         <div className="lineDarkGlobalStyles"></div>
-                        <div className="textDarkGlobalStyles">Nossos lideres</div>
+                        <div className="textDarkGlobalStyles">Nossos líderes</div>
                     </div>
                     <h2 className="globalSectionTitleTextDark">
                         Jornada de Dedicação e Transformação

@@ -73,7 +73,7 @@ html {
 .globalSectionMediumTextDark {
   margin-bottom: 1rem;
   font-weight: bold;
-  max-width: 727px;
+  /* max-width: 727px; */
 }
 
 .globalSectionTitleTextDark {
