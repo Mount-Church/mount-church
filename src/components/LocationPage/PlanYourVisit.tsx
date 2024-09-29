@@ -6,7 +6,7 @@ export function PlanYourVisit() {
         <section className='lSectionPlanYourVisit' id='sectionPlanYourVisit'>
             <div className='containerPlanYourVisit'>
                 <div>
-                    <div className='containerLineGlobalStyles'>
+                    <div className='containerLineGlobalStyles mt-40'>
                         <div className='lineDarkGlobalStyles'></div>
                         <div className='textDarkGlobalStyles'>Localização</div>
                     </div>
@@ -16,9 +16,11 @@ export function PlanYourVisit() {
                         <h2 className="globalSectionTitleTextDark">
                             Planeje Sua Visita
                         </h2>
+                        <div className='divContainerPlanYourVisit'>
                         <p className="globalSectionTextDark">
                             Estamos entusiasmados para recebê-lo na <strong>MountChurch</strong>! Queremos que sua experiência conosco seja <strong>acolhedora</strong> e <strong>significativa</strong> desde o momento em que você chegar.
                         </p>
+                        </div>
                     </div>
                     <div className='columInfoPlanYourVisit'>
                         <div >
@@ -75,7 +77,7 @@ export function PlanYourVisit() {
                                     </svg>
                                 </div>
                                 <div className='cursor-pointer'
-                                    onClick={() => window.open(`https://www.youtube.com/@MountChurch.Joinville`, '_blank')}
+                                    onClick={() => window.open(`https://www.youtube.com/@MountChurchoficial`, '_blank')}
                                 >
                                     {/* <!-- Youtube --> */}
                                     <svg
