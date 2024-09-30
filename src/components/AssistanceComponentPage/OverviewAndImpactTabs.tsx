@@ -13,7 +13,7 @@ export default function OverviewAndImpactTabs() {
                     {tabs.map((item) => (
                         <li
                             key={item.label}
-                            className={item === selectedTab ? "liSelectedwindowOverviewAndImpactTabs" : ""}
+                            className={item === selectedTab ? "liStylesOverviewAndImpactTabs liSelectedwindowOverviewAndImpactTabs" : "liStylesOverviewAndImpactTabs"}
                             onClick={() => setSelectedTab(item)}
                         >
                             {`${item.icon} ${item.label}`}
@@ -33,7 +33,9 @@ export default function OverviewAndImpactTabs() {
                         exit={{ y: -10, opacity: 0 }}
                         transition={{ duration: 0.2 }}
                     >
-                        {selectedTab ? selectedTab.icon : "😋"}
+                        {selectedTab ? <p className="textOverviewAndImpactTabs "
+                            dangerouslySetInnerHTML={{ __html: selectedTab.description }}>
+                        </p> : "😋"}
                     </motion.div>
                 </AnimatePresence>
             </main>

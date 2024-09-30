@@ -30,92 +30,75 @@
 }
 
 /*===== SECTION ===== */
-.lSectionPlanYourVisit {
-  background-color: var(--background-green-color);
+.lSectionHowToContribute {
+  background-color: var(--background-white-color);
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   padding: 10px;
 }
-.containerPlanYourVisit {
+.containerHowToContribute {
   width: 100%;
   max-width: 1279px;
   margin-left: 0;
   margin-right: 0;
   display: row;
 }
-.divContainerPlanYourVisit {
+.sectionAlignTextHowToContribute {
+  text-align: center;
+}
+.divContainerHowToContribute {
   max-width: 500px;
+  text-align: center;
 }
-.sectionPlanYourVisitData {
-  margin-bottom: 3rem;
+.columTabHowToContribute {
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.flexContentPlanYourVisit {
-  display: grid;
-}
-.mlflexContentPlanYourVisit {
-  margin-left: 0px;
-}
-.columInfoPlanYourVisit {
+.lineBottonHowToContribute {
+  margin-top: 40px;
   width: 100%;
-}
-.minTitlePlanYourVisit {
-  font-weight: bold;
-  font-size: var(--h3-font-size);
-  margin-bottom: 20px;
-}
-
-.hoverColorFacebookPlanYourVisit,
-.hoverColorInstagramPlanYourVisit,
-.hoverColorYoutubePlanYourVisit,
-.hoverColorWhatsappPlanYourVisit {
-  color: var(--dark-color);
-  transition: color 0.3s ease;
-}
-.hoverColorFacebookPlanYourVisit:hover {
-  color: #0866ff;
-  transition: color 0.3s ease;
-}
-.hoverColorInstagramPlanYourVisit:hover {
-  color: rgb(251, 173, 80);
-  transition: color 0.3s ease;
-}
-.hoverColorYoutubePlanYourVisit:hover {
-  color: #f70000;
-  transition: color 0.3s ease;
-}
-.hoverColorWhatsappPlanYourVisit:hover {
-  color: #22c35e;
-  transition: color 0.3s ease;
+  height: 1px;
+  max-width: 1279px;
+  background-color: var(--background-green-color);
 }
 
 /*===== MEDIA QUERIES =====*/
 
 @media screen and (min-width: 760px) {
-  .sectionColumPlanYourVisit {
+  .sectionColumHowToContribute {
     display: grid;
     grid-template-columns: repeat(1, minmax(0, 1fr));
     gap: 1rem;
   }
-  .flexContentPlanYourVisit {
-    display: flex;
+  .lineBottonHowToContribute {
+    margin-top: 40px;
   }
-  .mlflexContentPlanYourVisit {
-    margin-left: 1rem;
+  .sectionAlignTextHowToContribute {
+    text-align: center;
+  }
+  .divContainerHowToContribute {
+    max-width: 760px;
+    text-align: center;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .sectionColumPlanYourVisit {
+  .sectionColumHowToContribute {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 1rem;
   }
-  .flexContentPlanYourVisit {
-    display: flex;
+  .sectionAlignTextHowToContribute {
+    text-align: start;
   }
-  .mlflexContentPlanYourVisit {
-    margin-left: 1rem;
+  .divContainerHowToContribute {
+    max-width: 500px;
+    text-align: start;
+  }
+  .lineBottonHowToContribute {
+    margin-top: 90px;
   }
 }

@@ -1,6 +1,39 @@
+/*===== VARIABLES SCSS =====*/
+/*===== VARIABLES CSS =====*/
+/*=== Cores ===*/
+:root {
+  --first-color: #0396a6;
+  --dark-color: #000;
+  --white-color: #fefdfc;
+  --background-white-color: #fefdfc;
+  --background-dark-color: #000000;
+  --background-green-color: #cdcdc5;
+  --text-gay-color: #525560;
+  --test-red-color: red;
+}
+
+/*=== Fuente y tipografia ===*/
+:root {
+  --body-font: 'Roboto', sans-serif;
+  --biggest-font-size: 4rem;
+  --h2-font-size: 3rem;
+  --h3-font-size: 2rem;
+  --h4-font-size: 1.25rem;
+  --normal-font-size: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  :root {
+    --biggest-font-size: 4rem;
+    --h2-font-size: 2.5rem;
+    --h3-font-size: 1.8rem;
+    --normal-font-size: 1rem;
+  }
+}
+
 .windowOverviewAndImpactTabs {
-  width: 480px;
-  height: 360px;
+  width: 350px;
+  height: 400px;
   border-radius: 10px;
   background: white;
   overflow: hidden;
@@ -9,6 +42,7 @@
     0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
   display: flex;
   flex-direction: column;
+  margin-top: 10px;
 }
 
 .navOverviewAndImpactTabs {
@@ -32,21 +66,18 @@
 
 .mainOverviewAndImpactTabs {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 128px;
+  justify-content: start;
   flex-grow: 1;
   user-select: none;
 }
 
 .ulOverviewAndImpactTabs,
-li {
+.liStylesOverviewAndImpactTabs {
   list-style: none;
   padding: 0;
   margin: 0;
-  font-family: 'Poppins', sans-serif;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .ulOverviewAndImpactTabs {
@@ -54,7 +85,7 @@ li {
   width: 100%;
 }
 
-li {
+.liStylesOverviewAndImpactTabs {
   border-radius: 5px;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
@@ -79,14 +110,14 @@ li {
   left: 0;
   right: 0;
   height: 1px;
-  background: var(--accent);
+  background: var(--background-green-color);
 }
 
 .liSelectedwindowOverviewAndImpactTabs {
-  background: #eee;
+  background: var(--background-green-color);
 }
 
-li button {
+.liStylesOverviewAndImpactTabs button {
   width: 20px;
   height: 20px;
   border: 0;
@@ -110,18 +141,26 @@ li button {
   background: #fff;
 }
 
-.add-item {
-  width: 30px;
-  height: 30px;
-  background: #eee;
-  border-radius: 50%;
-  border: 0;
-  cursor: pointer;
-  align-self: center;
+.textOverviewAndImpactTabs {
+  font-size: 16px;
+  color: var(--text-gay-color);
+  padding: 10px;
 }
 
-.add-item:disabled {
-  opacity: 0.4;
-  cursor: default;
-  pointer-events: none;
+/*===== MEDIA QUERIES =====*/
+
+@media screen and (min-width: 760px) {
+  .windowOverviewAndImpactTabs {
+    width: 592px;
+    height: 350px;
+    margin-top: 0px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .windowOverviewAndImpactTabs {
+    width: 592px;
+    height: 350px;
+    margin-top: 0px;
+  }
 }

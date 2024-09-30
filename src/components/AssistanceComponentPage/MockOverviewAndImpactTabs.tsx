@@ -5,8 +5,8 @@ export interface Ingredient {
 }
 
 export const allIMockOverviewAndImpactTabs = [
-    { icon: "🍅", label: "Visão geral", description: "Descrição", },
-    { icon: "🥬", label: "Impacto", description: "Descrição", },
+    { icon: "🎯", label: "Visão geral", description: "Descrição 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</br> Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.", },
+    { icon: "🔥", label: "Impacto", description: "Descrição 2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</br> Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.", },
 ];
 
 const [overview, impact] = allIMockOverviewAndImpactTabs;
