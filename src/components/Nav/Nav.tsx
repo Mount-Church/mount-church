@@ -35,7 +35,7 @@ export function Nav() {
             <ButtonNavMenu>Assista</ButtonNavMenu>
           </Link>
           {/* <Link to="" className='navItemMenu'>
-            <ButtonNavMenu onClick={() => window.open(`https://www.youtube.com/@MountChurch.Joinville`, '_blank')}>
+            <ButtonNavMenu onClick={() => window.open(`https://www.youtube.com/@MountChurchoficial/videos`, '_blank')}>
               Assista
             </ButtonNavMenu>
           </Link> */}
