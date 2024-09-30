@@ -1,7 +1,7 @@
-import "./assets/css/stylesOverviewAndImpactTabs.css";
 import { useState } from "react";
-import { initialTabs as tabs } from "./MockOverviewAndImpactTabs";
 import { motion, AnimatePresence } from "framer-motion";
+import { initialTabs as tabs } from "./MockOverviewAndImpactTabs";
+import "./assets/css/stylesOverviewAndImpactTabs.css";
 
 export default function OverviewAndImpactTabs() {
     const [selectedTab, setSelectedTab] = useState(tabs[0]);
