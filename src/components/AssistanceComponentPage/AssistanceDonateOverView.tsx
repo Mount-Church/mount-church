@@ -1,8 +1,5 @@
 
-import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { ButtonPrimary } from 'components/Button/ButtonPrimary';
-
 import 'assets/css/stylesGlobal.css';
 import './assets/css/stylesAssistanceDonateOverView.css';
 
@@ -31,9 +28,12 @@ export function AssistanceDonateOverView() {
                         </p>
                     </div>
                     <div className='customButtonCommunityMission'>
-                        <Link to="" className=''>
-                            <ButtonPrimary>Doar Agora</ButtonPrimary>
-                        </Link>
+                        <button
+                            className='py-2 px-4 text-sm buttonbackgroundPageWhite'
+                            onClick={() => window.open('https://wa.me/554792722249', '_blank')}
+                        >
+                            Doar Agora
+                        </button>
                     </div>
                 </div>
                 {/* Image that appears when the screen is larger than 1350px */}

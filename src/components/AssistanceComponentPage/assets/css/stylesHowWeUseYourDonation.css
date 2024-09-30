@@ -1,0 +1,109 @@
+/*===== VARIABLES SCSS =====*/
+/*===== VARIABLES CSS =====*/
+/*=== Cores ===*/
+:root {
+  --first-color: #0396a6;
+  --dark-color: #1d2130;
+  --white-color: #fefdfc;
+  --background-white-color: #fefdfc;
+  --background-dark-color: #000000;
+  --background-green-color: #cdcdc5;
+  --text-gay-color: #525560;
+  --test-red-color: red;
+}
+
+/*=== Fuente y tipografia ===*/
+:root {
+  --body-font: 'Roboto', sans-serif;
+  --biggest-font-size: 4rem;
+  --h2-font-size: 3rem;
+  --normal-font-size: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  :root {
+    --biggest-font-size: 4rem;
+    --h2-font-size: 2.5rem;
+    --normal-font-size: 1rem;
+  }
+}
+
+/*===== SECTION ===== */
+
+.lSectionHowWeUseYourDonation {
+  background-color: var(--background-white-color);
+  display: flex;
+  justify-content: center;
+}
+.sectionHowWeUseYourDonation {
+  height: max(100vh, fit-content);
+  width: 100%;
+  max-width: 1279px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.sectionHowWeUseYourDonationData {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 1rem;
+}
+.divTitleHowWeUseYourDonation {
+  width: 100%;
+  max-width: 390px;
+}
+.titleStylesHowWeUseYourDonation {
+  font-size: 48px;
+  font-weight: bold;
+  color: var(--dark-color);
+  text-align: center;
+}
+.divTextStylesHowWeUseYourDonation {
+  width: 100%;
+  max-width: 390px;
+}
+.textStylesHowWeUseYourDonation {
+  font-size: 16px;
+  font-weight: regular;
+  color: var(--text-gay-color);
+  text-align: center;
+}
+
+/*===== MEDIA QUERIES =====*/
+
+@media screen and (min-width: 760px) {
+  .sectionHowWeUseYourDonation {
+    height: 480px;
+  }
+  .sectionHowWeUseYourDonationData {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+  .divTitleHowWeUseYourDonation {
+    max-width: 780px;
+  }
+  .divTextStylesHowWeUseYourDonation {
+    max-width: 780px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .sectionHowWeUseYourDonation {
+    height: 280px;
+  }
+  .sectionHowWeUseYourDonationData {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .divTitleHowWeUseYourDonation {
+    max-width: 374px;
+  }
+  .titleStylesHowWeUseYourDonation {
+    text-align: start;
+  }
+  .divTextStylesHowWeUseYourDonation {
+    max-width: 338px;
+  }
+  .textStylesHowWeUseYourDonation {
+    text-align: start;
+  }
+}

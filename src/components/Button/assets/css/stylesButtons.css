@@ -10,6 +10,7 @@
   --background-dark-color: #000000;
   --background-dark-green-color: #677865;
   --background-green-color: #cdcdc5;
+  --background-gray-color: #eeeeee;
   --text-gay-color: #525560;
   --test-red-color: red;
 }
@@ -70,5 +71,19 @@
 .buttonSecondary:hover {
   color: var(--white-color);
   background-color: var(--background-green-color);
+  transition: color 0.3s ease;
+}
+
+/*===== BACK GROUND PAGE WHITE=====*/
+.buttonbackgroundPageWhite {
+  color: var(--white-color);
+  background-color: var(--background-dark-green-color);
+  transition: color 0.3s ease;
+  border-radius: 4px;
+}
+
+.buttonbackgroundPageWhite:hover {
+  color: var(--dark-color);
+  background-color: var(--background-gray-color);
   transition: color 0.3s ease;
 }
