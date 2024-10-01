@@ -86,7 +86,7 @@ html {
 }
 .globalSectionTitleTextDark48px {
   color: var(--dark-color);
-  font-size: var(--h2-font-size);
+  font-size: var(--h3-font-size);
 }
 
 .globalSectionTitleTextDark {
@@ -105,6 +105,7 @@ html {
 .globalSectionTextDark {
   color: var(--text-gay-color);
   max-width: 727px;
+  margin-top: 20px;
 }
 .globalSectionTextWhite {
   color: var(--text-white-color);
@@ -187,6 +188,9 @@ html {
   .lineGlobalStyles {
     width: 72px;
   }
+  .globalSectionTextDark {
+    margin-top: 10px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -195,5 +199,8 @@ html {
   }
   .globalSectionTitleTextDark48px {
     font-size: 48px;
+  }
+  .globalSectionTextDark {
+    margin-top: 0px;
   }
 }
