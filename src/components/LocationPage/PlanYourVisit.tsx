@@ -77,7 +77,7 @@ export function PlanYourVisit() {
                                     </svg>
                                 </div>
                                 <div className='cursor-pointer'
-                                    onClick={() => window.open(`https://www.youtube.com/@MountChurch.Joinville`, '_blank')}
+                                    onClick={() => window.open(`https://www.youtube.com/@MountChurchoficial/videos`, '_blank')}
                                 >
                                     {/* <!-- Youtube --> */}
                                     <svg

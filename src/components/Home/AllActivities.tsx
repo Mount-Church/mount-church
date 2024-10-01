@@ -12,7 +12,7 @@ export function AllActivities() {
             <div className="lineDarkGlobalStyles"></div>
             <div className="textDarkGlobalStyles">Atividades</div>
           </div>
-          <h2 className="globalSectionTitleTextDark">
+          <h2 className="globalSectionTitleTextDark48px">
             Conecte-se com a MountChurch
           </h2>
           <p className="globalSectionTextDark">

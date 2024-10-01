@@ -81,7 +81,7 @@ const ministriesOrActivitiesMock = [
         image: ConexaoImg,
         link: 'https://seu-site.com/conexao',
         infoTitle: 'Conexão nas Casas',
-        infoDescription: 'Realizamos encontros nas casas das pessoas <strong>uma vez por semana</strong>, sempre às <strong>terças-feiras às 19:00</strong>. Nossos anfitriões nos principais bairros da cidade compartilham a Palavra de Deus e promovem um ambiente acolhedor para o crescimento espiritual. ',
+        infoDescription: 'Realizamos encontros nas casas das pessoas <strong>uma vez por semana</strong>, sempre às <strong>terças-feiras às 20h</strong>. Nossos anfitriões nos principais bairros da cidade compartilham a Palavra de Deus e promovem um ambiente acolhedor para o crescimento espiritual. ',
         infoImage: ConexaoImg,
         joinTheGroupTitle: 'Fortalecendo Laços na Palavra de Deus',
         firstDescriptionjoinTheGroup: 'A Conexão é um ministério vital na nossa igreja, onde nos reunimos <strong>semanalmente</strong> para compartilhar a Palavra de Deus e fortalecer nossos laços espirituais. É um espaço onde os membros se conectam uns com os outros, encontrando apoio, amizade e crescimento espiritual. Nossos anfitriões, localizados em <strong>diferentes bairros</strong>, abrem suas casas para receber os irmãos e irmãs em Cristo, proporcionando um ambiente acolhedor e íntimo.',
@@ -301,7 +301,7 @@ const ministriesOrActivitiesMock = [
         infoImage: BannerJiuMDL,
         joinTheGroupTitle: 'Esportes para Todas as Idades',
         firstDescriptionjoinTheGroup: 'Como oportunidade de compartilhar o amor de Cristo nas mais diversas áreas enquanto cuida da mente e do templo do espírito santo, nosso próprio corpo! Oferecemos atividades semanais gratuitas e para todas as idades:',
-        secondDescriptionjoinTheGroup: '<strong>Jiu-Jitsu</strong>: Segundas e Quartas-feiras, kids 9 a 12 anos as 19h, adultos a partir de 13 anos as 20h;<br><strong>Muay Thai</strong>: Quartas-feiras, às 19h30, a partir dos 13 anos;<br><strong>Futebol</strong>: Segundas-feiras, das 21h às 22h.',
+        secondDescriptionjoinTheGroup: '<strong>Jiu-Jitsu</strong>: Segundas e Quartas-feiras, kids 9 a 12 anos as 19h, adultos a partir de 13 anos as 20h;<br><strong>Muay Thai</strong>: Quartas-feiras, às 19h30, a partir dos 13 anos;<br><strong>Futebol</strong>: Segundas-feiras, das 21h às 22h (A atividade de futebol não é gratuita).',
         joinTheGroupLink: 'https://wa.me/554192585013',
         buttonNameTargeting: 'Mais informações',
         services: [

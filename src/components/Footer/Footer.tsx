@@ -24,7 +24,7 @@ export function FooterGlobal() {
                         <div className='titleFooter'>Cultos</div>
                         <div className='subTileFooter'>Quinta-feira - 20h e Domingo - 18h</div>
                         <button className='buttonFooter'
-                            onClick={() => window.open(`https://www.youtube.com/@MountChurch.Joinville`, '_blank')}>
+                            onClick={() => window.open(`https://www.youtube.com/@MountChurchoficial/videos`, '_blank')}>
                             Assista online
                         </button>
                     </div>
@@ -66,7 +66,7 @@ export function FooterGlobal() {
                                 </svg>
                             </div>
                             <div className='cursor-pointer'
-                                onClick={() => window.open(`https://www.youtube.com/@MountChurch.Joinville`, '_blank')}
+                                onClick={() => window.open(`https://www.youtube.com/@MountChurchoficial/videos`, '_blank')}
                             >
                                 {/* <!-- Youtube --> */}
                                 <svg
@@ -92,7 +92,7 @@ export function FooterGlobal() {
                                 </svg>
                             </div>
                             {/* <div className='cursor-pointer'
-                        onClick={() => window.open(`https://www.youtube.com/@MountChurch.Joinville`, '_blank')}
+                        onClick={() => window.open(`https://www.youtube.com/@MountChurchoficial/videos`, '_blank')}
                         > */}
                             {/* <!-- TikTok --> */}
                             {/* <svg
