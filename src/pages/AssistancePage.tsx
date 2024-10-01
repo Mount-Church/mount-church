@@ -1,5 +1,11 @@
 import { FooterGlobal, Nav } from 'components';
-import { AssistanceDonateOverView, HowToContribute, HowWeUseYourDonation, ToContributeProvidingABetterWorld } from 'components/AssistanceComponentPage';
+import {
+    AssistanceDonateOverView,
+    HowToContribute,
+    HowWeUseYourDonation,
+    JoinOurMinistry,
+    ToContributeProvidingABetterWorld
+} from 'components/AssistanceComponentPage';
 
 export function AssistancePage() {
 
@@ -10,6 +16,7 @@ export function AssistancePage() {
             <HowToContribute />
             <HowWeUseYourDonation />
             <ToContributeProvidingABetterWorld />
+            <JoinOurMinistry />
             <FooterGlobal />
         </>
     );

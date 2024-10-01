@@ -13,12 +13,14 @@ export function HowWeUseYourDonation() {
                     </div>
                     <div className='divTextStylesHowWeUseYourDonation'>
                         <p className='textStylesHowWeUseYourDonation'>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.  Nunc ut sem vitae risus tristique posuere.
+                            Parte das doações é destinada à preparação de marmitas, que são distribuídas para <strong>moradores de rua</strong>, proporcionando-lhes uma refeição quente e nutritiva. <br></br>
+                            <br></br>
+                            Também apoiamos <strong>projetos sociais</strong>, como o Projeto <strong>Rede de Proteção da Criança</strong> do Morro do Meio e o <strong>Lar Reviver</strong>, que protegem e apoiam crianças em situação de risco.
                         </p>
                     </div>
                     <div className='divTextStylesHowWeUseYourDonation'>
                         <p className='textStylesHowWeUseYourDonation'>
-                            Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet.
+                            Além disso, nossas doações ajudam comunidades vulneráveis, como a comunidade de dependentes químicos <strong>CRAP</strong>, oferecendo recursos para recuperação e reintegração social.
                         </p>
                     </div>
                 </div>

@@ -5,8 +5,8 @@ export interface Ingredient {
 }
 
 export const allIMockOverviewAndImpactTabs = [
-    { icon: "🎯", label: "Visão geral", description: "Descrição 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</br> Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.", },
-    { icon: "🔥", label: "Impacto", description: "Descrição 2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</br> Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.", },
+    { icon: "🎯", label: "Visão geral", description: "Nosso objetivo é ser um canal de bênçãos para a comunidade, mostrando o amor de Jesus através de atos concretos de bondade e ajuda prática. Acreditamos que, ao servir os outros, estamos cumprindo a missão de nossa fé.", },
+    { icon: "🔥", label: "Impacto", description: "Cada doação e cada ato de voluntariado têm um impacto significativo. Com sua ajuda, podemos alcançar mais pessoas, oferecer mais suporte e criar um ambiente de esperança e transformação.", },
 ];
 
 const [overview, impact] = allIMockOverviewAndImpactTabs;

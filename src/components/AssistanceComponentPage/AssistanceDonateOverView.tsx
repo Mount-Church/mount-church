@@ -24,7 +24,8 @@ export function AssistanceDonateOverView() {
                     </div>
                     <div className='containerDivAssistanceDonateOverView'>
                         <p className="globalSectionTextDark">
-                            Ao <strong>doar</strong>, você apoia cuidados eficazes para todos com necessidades especiais
+                            Ao <strong>doar</strong>, você apoia cuidados eficazes para todos com necessidades especiais.
+                            A <strong>Mount Church</strong> vai além de oferecer suporte espiritual, nosso papel na sociedade é também prestar auxílio e apoio às pessoas em <strong>necessidade</strong>. Acreditamos que a igreja deve ser um farol de esperança, <strong>alcançando</strong> aqueles que passam fome, estão desabrigados, e ajudando a restaurar <strong>famílias</strong> e <strong>casamentos.</strong> Este é o papel social que a igreja deve desempenhar!
                         </p>
                     </div>
                     <div className='customButtonCommunityMission'>

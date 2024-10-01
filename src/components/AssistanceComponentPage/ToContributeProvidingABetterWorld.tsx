@@ -1,7 +1,7 @@
 import { useState } from "react";
 import './assets/css/stylesToContributeProvidingABetterWorld.css'
 
-import BannerToContributeProvidingABetterWorldImage from './assets/images/imageDonateFabio.jpg'
+import BannerToContributeProvidingABetterWorldImage from './assets/images/imageBannerToContributeProvidingABetterWorld.jpg'
 
 const ToContributeProvidingABetterWorldMock = [
     {
@@ -17,29 +17,41 @@ export function ToContributeProvidingABetterWorld() {
     const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
     return (
-        <section className="lSectionCardHighlightsAndPreviousSermons" id="sectionCardHighlightsAndPreviousSermons">
-            <div className="sectionCardHighlightsAndPreviousSermons">
-                <div className="CardContainerCardHighlightsAndPreviousSermons">
+        <section className="lSectionCardToContributeProvidingABetterWorld" id="sectionCardlSectionCardToContributeProvidingABetterWorld">
+            <div className="sectionCardToContributeProvidingABetterWorld">
+                <div className="CardContainerCardToContributeProvidingABetterWorld">
                     {ToContributeProvidingABetterWorldMock.map((HighlightsAndPreviousSermons, index) => (
                         <div
                             key={HighlightsAndPreviousSermons.id}
-                            className="cardCardHighlightsAndPreviousSermons"
+                            className="cardCardToContributeProvidingABetterWorld"
                             onMouseEnter={() => setHoveredIndex(index)}
                             onMouseLeave={() => setHoveredIndex(null)}
                         >
-                            <div className="imageWrapperCardHighlightsAndPreviousSermons">
+                            <div className="imageWrapperCardToContributeProvidingABetterWorld">
                                 <div
-                                    className={`imageCardHighlightsAndPreviousSermons ${hoveredIndex === index ? 'imageBlurCardHighlightsAndPreviousSermons' : ''}`}
+                                    className={`imageCardToContributeProvidingABetterWorld ${hoveredIndex === index ? 'imageBlurCardToContributeProvidingABetterWorld' : ''}`}
                                     style={{ backgroundImage: `url(${HighlightsAndPreviousSermons.bannerImage})` }}
                                 />
-                                <div className="carouselOverlayCardHighlightsAndPreviousSermons" style={{ backgroundColor: hoveredIndex === index ? 'rgba(0, 0, 0, 0.7)' : 'rgba(0, 0, 0, 0.5)' }}>
-                                    <h2 className="titleCardHighlightsAndPreviousSermons">{HighlightsAndPreviousSermons.title}</h2>
-                                    <button
-                                        className={`buttonCardHighlightsAndPreviousSermons ${hoveredIndex === index ? 'buttonVisibleCardHighlightsAndPreviousSermons' : ''}`}
-                                    // onClick={() => handleClick(HighlightsAndPreviousSermons)}
-                                    >
-                                        Saber Mais
-                                    </button>
+                                <div className="carouselOverlayCardToContributeProvidingABetterWorld" style={{ backgroundColor: hoveredIndex === index ? 'rgba(0, 0, 0, 0.7)' : 'rgba(0, 0, 0, 0.5)' }}>
+                                    <h2 className="titleCardHighlightsAndPreviousSermons">
+                                        {HighlightsAndPreviousSermons.title}
+                                    </h2>
+                                    <div className="divContainerButtonsToContributeProvidingABetterWorld">
+                                        <button
+                                            className={'buttonCardToContributeProvidingABetterWorld buttonVisibleCardToContributeProvidingABetterWorld'}
+                                        // onClick={() => handleClick(HighlightsAndPreviousSermons)}
+                                        >
+                                            {HighlightsAndPreviousSermons.buttonBeAVolunteerName}
+                                        </button>
+
+                                        <button
+                                            className={'buttonCardToContributeProvidingABetterWorld buttonVisibleCardToContributeProvidingABetterWorld'}
+                                        // onClick={() => handleClick(HighlightsAndPreviousSermons)}
+                                        >
+                                            {HighlightsAndPreviousSermons.buttonDonateName}
+                                        </button>
+
+                                    </div>
                                 </div>
                             </div>
                         </div>
