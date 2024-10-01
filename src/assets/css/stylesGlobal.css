@@ -5,11 +5,13 @@
 /*=== COLORS ===*/
 :root {
   --first-color: #0396a6;
-  --dark-color: #000;
+  --dark-color: #1d2130;
   --white-color: #fefdfc;
   --background-white-color: #fefdfc;
   --background-dark-color: #000000;
+  --background-dark-green-color: #677865;
   --background-green-color: #cdcdc5;
+  --background-gray-color: #eeeeee;
   --text-gay-color: #525560;
   --text-white-color: #ffffff;
   --test-red-color: red;
@@ -19,7 +21,8 @@
 :root {
   --body-font: 'Roboto', sans-serif;
   --biggest-font-size: 4rem;
-  --h2-font-size: 3rem;
+  --h1-font-size: 56px;
+  --h2-font-size: 48px;
   --h3-font-size: 2rem;
   --h4-font-size: 1.25rem;
   --normal-font-size: 1rem;
@@ -28,6 +31,7 @@
 @media screen and (min-width: 768px) {
   :root {
     --biggest-font-size: 4rem;
+    --h1-font-size: 2.5rem;
     --h2-font-size: 2.5rem;
     --h3-font-size: 1.8rem;
     --normal-font-size: 1rem;
@@ -68,12 +72,21 @@ html {
 }
 
 /*===== Global Sections Titles  =====*/
+.globalSectionTitleTextDark56px,
+.globalSectionTitleTextDark48px,
 .globalSectionTitleTextDark,
 .globalSectionTitleTextWhite,
 .globalSectionMediumTextDark {
   margin-bottom: 1rem;
   font-weight: bold;
-  /* max-width: 727px; */
+}
+.globalSectionTitleTextDark56px {
+  color: var(--dark-color);
+  font-size: var(--h2-font-size);
+}
+.globalSectionTitleTextDark48px {
+  color: var(--dark-color);
+  font-size: var(--h2-font-size);
 }
 
 .globalSectionTitleTextDark {
@@ -159,6 +172,12 @@ html {
 
 /*===== MEDIA QUERIES =====*/
 @media screen and (min-width: 760px) {
+  .globalSectionTitleTextDark56px {
+    font-size: var(--h2-font-size);
+  }
+  .globalSectionTitleTextDark48px {
+    font-size: var(--h2-font-size);
+  }
   .globalSectionTitleTextDark {
     font-size: var(--h2-font-size);
   }
@@ -167,5 +186,14 @@ html {
   }
   .lineGlobalStyles {
     width: 72px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .globalSectionTitleTextDark56px {
+    font-size: 56px;
+  }
+  .globalSectionTitleTextDark48px {
+    font-size: 48px;
   }
 }
