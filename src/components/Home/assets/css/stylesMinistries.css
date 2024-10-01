@@ -19,7 +19,7 @@
   --body-font: 'Roboto', sans-serif;
   --biggest-font-size: 4rem;
   --h1-font-size: 56px;
-  --h2-font-size: 3rem;
+  --h2-font-size: 48px;
   --h3-font-size: 2rem;
   --h4-font-size: 1.25rem;
   --normal-font-size: 1rem;
@@ -63,7 +63,7 @@
   padding: 0px;
 }
 .sectionTitleMinistries {
-  font-size: var(--h2-font-size);
+  font-size: var(--h3-font-size);
   color: var(--text-white-color);
   margin-bottom: 1rem;
   font-weight: bold;
@@ -151,7 +151,7 @@
     display: flex;
     justify-content: start;
     align-items: start;
-    font-size: var(--biggest-font-size);
+    font-size: 48px;
   }
   .imageContainerMinistries {
     display: flex;
