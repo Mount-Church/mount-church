@@ -1,6 +1,7 @@
 import { useState } from "react";
-import './assets/css/stylesToContributeProvidingABetterWorld.css'
+import { ModalDonate } from "./ModalDonate";
 
+import './assets/css/stylesToContributeProvidingABetterWorld.css'
 import BannerToContributeProvidingABetterWorldImage from './assets/images/imageBannerToContributeProvidingABetterWorld.jpg'
 
 const ToContributeProvidingABetterWorldMock = [
@@ -15,6 +16,18 @@ const ToContributeProvidingABetterWorldMock = [
 
 export function ToContributeProvidingABetterWorld() {
     const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
+
+    const [modaDownloadApplIsOpen, setModaDownloadApplIsOpen] = useState(false);
+
+    const handleDownloadAppOpenModal = () => {
+        setModaDownloadApplIsOpen(true);
+        console.log(modaDownloadApplIsOpen)
+    };
+
+    const handleDownloadAppCloseModal = () => {
+        setModaDownloadApplIsOpen(false);
+        console.log(modaDownloadApplIsOpen)
+    };
 
     return (
         <section className="lSectionCardToContributeProvidingABetterWorld" id="sectionCardlSectionCardToContributeProvidingABetterWorld">
@@ -46,10 +59,14 @@ export function ToContributeProvidingABetterWorld() {
 
                                         <button
                                             className={'buttonCardToContributeProvidingABetterWorld buttonVisibleCardToContributeProvidingABetterWorld'}
-                                        // onClick={() => handleClick(HighlightsAndPreviousSermons)}
+                                            onClick={handleDownloadAppOpenModal}
                                         >
                                             {HighlightsAndPreviousSermons.buttonDonateName}
                                         </button>
+
+                                        {modaDownloadApplIsOpen && (
+                                            <ModalDonate closeDownloadAppModal={handleDownloadAppCloseModal} />
+                                        )}
 
                                     </div>
                                 </div>

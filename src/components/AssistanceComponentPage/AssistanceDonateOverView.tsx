@@ -1,9 +1,23 @@
 
+import { useState } from 'react';
 import { motion } from 'framer-motion';
+
 import 'assets/css/stylesGlobal.css';
 import './assets/css/stylesAssistanceDonateOverView.css';
+import { ModalDonate } from './ModalDonate';
 
 export function AssistanceDonateOverView() {
+    const [modaDownloadApplIsOpen, setModaDownloadApplIsOpen] = useState(false);
+
+    const handleDownloadAppOpenModal = () => {
+        setModaDownloadApplIsOpen(true);
+        console.log(modaDownloadApplIsOpen)
+    };
+
+    const handleDownloadAppCloseModal = () => {
+        setModaDownloadApplIsOpen(false);
+        console.log(modaDownloadApplIsOpen)
+    };
 
     return (
         <section className="lSectionAssistanceDonateOverView" id="sectionAssistanceDonateOverView">
@@ -31,7 +45,7 @@ export function AssistanceDonateOverView() {
                     <div className='customButtonCommunityMission'>
                         <button
                             className='py-2 px-4 text-sm buttonbackgroundPageWhite'
-                            onClick={() => window.open('https://wa.me/554792722249', '_blank')}
+                            onClick={handleDownloadAppOpenModal}
                         >
                             Doar Agora
                         </button>
@@ -41,6 +55,9 @@ export function AssistanceDonateOverView() {
                 <div className="imageLargeShowAndHideAssistanceDonateOverView sectionAssistanceDonateOverViewImg">
                     <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }} />
                 </div>
+                {modaDownloadApplIsOpen && (
+                    <ModalDonate closeDownloadAppModal={handleDownloadAppCloseModal} />
+                )}
             </div>
         </section>
     );
