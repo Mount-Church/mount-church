@@ -1,6 +1,6 @@
 
 import { useState } from 'react';
-import {  motion } from 'framer-motion';
+import { motion } from 'framer-motion';
 
 import 'assets/css/stylesGlobal.css';
 import './assets/css/stylesAssistanceDonateOverView.css';
@@ -11,12 +11,12 @@ export function AssistanceDonateOverView() {
 
     const handleDownloadAppOpenModal = () => {
         setModaDownloadApplIsOpen(true);
-        console.log(modaDownloadApplIsOpen)
+        console.log('modal informação do banco', modaDownloadApplIsOpen)
     };
 
     const handleDownloadAppCloseModal = () => {
         setModaDownloadApplIsOpen(false);
-        console.log(modaDownloadApplIsOpen)
+        console.log('modal informação do banco', modaDownloadApplIsOpen)
     };
 
     return (
@@ -56,7 +56,7 @@ export function AssistanceDonateOverView() {
                     <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }} />
                 </div>
                 {modaDownloadApplIsOpen && (
-                        <ModalDonate closeModalDonate={handleDownloadAppCloseModal} />
+                    <ModalDonate closeModalDonate={handleDownloadAppCloseModal} />
                 )}
             </div>
         </section>

@@ -18,11 +18,6 @@ export const ModalDonate: React.FC<ModalDonateProps> = ({ closeModalDonate }) =>
         console.log('ABRIR MODAL DE PARABENIZAR', modalPixCopied)
     };
 
-    const handleDownloadAppCloseModal = () => {
-        setModalPixCopied(false);
-        console.log('ABRIR MODAL DE PARABENIZAR', modalPixCopied)
-    };
-
     const overlayVariants = {
         visible: {
             opacity: 1,
@@ -48,15 +43,13 @@ export const ModalDonate: React.FC<ModalDonateProps> = ({ closeModalDonate }) =>
         }
     };
 
-
     const handleCopyPIXDonation = () => {
         const codePixToCopy = 'doacao@mountchurch.com.br';
         navigator.clipboard.writeText(codePixToCopy)
             .then(() => {
                 console.log('PIX copiado com sucesso!');
                 closeModalDonate();
-                setModalPixCopied(true);
-                console.log('ABRIR MODAL DE PARABENIZAR ?', modalPixCopied)
+                handleDownloadAppOpenModal();
             })
             .catch((error) => {
                 console.error('Erro ao copiar o PIX:', error);
@@ -122,14 +115,12 @@ export const ModalDonate: React.FC<ModalDonateProps> = ({ closeModalDonate }) =>
                                 </div>
                             </div>
 
-                            {modalPixCopied && (
-                                <ModalPIXCopied closeModalPIXCopied={handleDownloadAppOpenModal} />
-                            )}
+                            {modalPixCopied && <ModalPIXCopied closeModalPIXCopied={() => setModalPixCopied(false)} />}
+
                         </div>
                     </motion.div>
                 </motion.div>
             </AnimatePresence>
-
 
         </>
     );
