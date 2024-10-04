@@ -1,6 +1,6 @@
 
 import { useState } from 'react';
-import { motion } from 'framer-motion';
+import { AnimatePresence, motion } from 'framer-motion';
 
 import 'assets/css/stylesGlobal.css';
 import './assets/css/stylesAssistanceDonateOverView.css';
@@ -56,7 +56,9 @@ export function AssistanceDonateOverView() {
                     <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }} />
                 </div>
                 {modaDownloadApplIsOpen && (
-                    <ModalDonate closeModalDonate={handleDownloadAppCloseModal} />
+                    <AnimatePresence>
+                        <ModalDonate closeModalDonate={handleDownloadAppCloseModal} />
+                    </AnimatePresence>
                 )}
             </div>
         </section>
