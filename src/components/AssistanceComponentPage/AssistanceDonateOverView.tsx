@@ -56,7 +56,7 @@ export function AssistanceDonateOverView() {
                     <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }} />
                 </div>
                 {modaDownloadApplIsOpen && (
-                    <ModalDonate closeDownloadAppModal={handleDownloadAppCloseModal} />
+                    <ModalDonate closeModalDonate={handleDownloadAppCloseModal} />
                 )}
             </div>
         </section>

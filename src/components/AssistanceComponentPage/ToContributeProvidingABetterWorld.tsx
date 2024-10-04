@@ -65,7 +65,7 @@ export function ToContributeProvidingABetterWorld() {
                                         </button>
 
                                         {modaDownloadApplIsOpen && (
-                                            <ModalDonate closeDownloadAppModal={handleDownloadAppCloseModal} />
+                                            <ModalDonate closeModalDonate={handleDownloadAppCloseModal} />
                                         )}
 
                                     </div>

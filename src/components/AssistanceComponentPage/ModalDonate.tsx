@@ -3,11 +3,13 @@ import { motion, AnimatePresence } from "framer-motion";
 
 import './assets/css/stylesModalDonate.css'
 
+import pixBankDonationInfo from './assets/images/pixDoacao@mountchurch.com.br.png'
+
 interface ModalDonateProps {
-    closeDownloadAppModal: () => void;
+    closeModalDonate: () => void;
 }
 
-export const ModalDonate: React.FC<ModalDonateProps> = ({ closeDownloadAppModal }) => {
+export const ModalDonate: React.FC<ModalDonateProps> = ({ closeModalDonate }) => {
 
     const overlayVariants = {
         visible: {
@@ -30,8 +32,21 @@ export const ModalDonate: React.FC<ModalDonateProps> = ({ closeDownloadAppModal 
 
     const handleOverlayClick = (e: React.MouseEvent<HTMLDivElement>) => {
         if (e.target === e.currentTarget) {
-            closeDownloadAppModal();
+            closeModalDonate();
         }
+    };
+
+
+    const handleCopyPIXDonation = () => {
+        const codePixToCopy = 'doacao@mountchurch.com.br';
+        navigator.clipboard.writeText(codePixToCopy)
+            .then(() => {
+                console.log('PIX copiado com sucesso!');
+                closeModalDonate();
+            })
+            .catch((error) => {
+                console.error('Erro ao copiar o PIX:', error);
+            });
     };
 
     return (
@@ -53,21 +68,40 @@ export const ModalDonate: React.FC<ModalDonateProps> = ({ closeDownloadAppModal 
                 >
                     <div className="darkModalHeader">
                         <h5 className="darkModalTitle">Doe e Espalhe Esperança</h5>
-                        <div className="closeModalDonate" onClick={closeDownloadAppModal} >
+                        <div className="closeModalDonate" onClick={closeModalDonate} >
                             X
                         </div>
                     </div>
                     <div className="darkModalContent">
-                        Infelizmente, ainda não temos o aplicativo para iOS, mas estamos ansiosos para lançá-lo em breve.
+                        <p><strong>2 Coríntios 9:11</strong>: “Vocês serão enriquecidos de todas as formas, para que possam ser generosos em qualquer ocasião e, por nosso intermédio, a sua generosidade resulte em ação de graças a Deus.”
+                        </p>
+                        <div className="modalBankDonationInfo">
+                            <h2 className="infoTitleModalDonate">Informações Bancárias</h2>
+                            <div className="divContainerBankDonationInfo">
+                                <p><strong>Nome do banco</strong>: BRADESCO - 237</p>
+                                <p><strong>Agência</strong>: 5201-9</p>
+                            </div>
+                            <div className="divContainerBankDonationInfo">
+                                <p><strong>Agência</strong>: 5201-9</p>
+                                <p><strong>PIX</strong>: doacao@mountchurch.com.br</p>
+                            </div>
+                            <div className="divContainerQRCodeBankDonationInfo">
+                                <img className="imageConfigQRCodeBankDonationInfo"
+                                    src={pixBankDonationInfo}
+                                    alt="PIX doacao@mountchurch.com.br"
+                                />
+                            </div>
+                            <div className="divContainerButtonCopyQRCodeBankDonationInfo">
+                                <button
+                                    className='py-2 px-4 text-sm buttonbackgroundPageWhite'
+                                    onClick={handleCopyPIXDonation}
+                                >
+                                    Copiar Pix
+                                </button>
+                            </div>
+                        </div>
                     </div>
-                    <div className="darkModalFooter">
-                        <button
-                            className="darkModalButton"
-                            onClick={closeDownloadAppModal}
-                        >
-                            Fechar
-                        </button>
-                    </div>
+
                 </motion.div>
             </motion.div>
         </AnimatePresence>
