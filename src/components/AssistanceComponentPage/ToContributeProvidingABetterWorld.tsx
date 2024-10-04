@@ -3,7 +3,6 @@ import { ModalDonate } from "./ModalDonate";
 
 import './assets/css/stylesToContributeProvidingABetterWorld.css'
 import BannerToContributeProvidingABetterWorldImage from './assets/images/imageBannerToContributeProvidingABetterWorld.jpg'
-import { AnimatePresence } from "framer-motion";
 
 const ToContributeProvidingABetterWorldMock = [
     {
@@ -66,9 +65,7 @@ export function ToContributeProvidingABetterWorld() {
                                         </button>
 
                                         {modaDownloadApplIsOpen && (
-                                            <AnimatePresence>
                                                 <ModalDonate closeModalDonate={handleDownloadAppCloseModal} />
-                                            </AnimatePresence>
                                         )}
 
                                     </div>

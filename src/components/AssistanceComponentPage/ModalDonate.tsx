@@ -56,23 +56,23 @@ export const ModalDonate: React.FC<ModalDonateProps> = ({ closeModalDonate }) =>
                 animate="visible"
                 exit="hidden"
                 variants={overlayVariants}
-                className="darkModalComponentOverlay"
+                className="modalDonateComponentOverlay"
                 onClick={handleOverlayClick}
             >
                 <motion.div
-                    className="darkModal"
+                    className="modalDivDonateMotion"
                     initial={{ y: "100vh" }}
                     animate={{ y: 0 }}
                     exit={{ y: "100vh" }}
                     transition={{ duration: 0.5 }}
                 >
-                    <div className="darkModalHeader">
-                        <h5 className="darkModalTitle">Doe e Espalhe Esperança</h5>
+                    <div className="modalDonateHeader">
+                        <h5 className="modalDonateTitle">Doe e Espalhe Esperança</h5>
                         <div className="closeModalDonate" onClick={closeModalDonate} >
                             X
                         </div>
                     </div>
-                    <div className="darkModalContent">
+                    <div className="modalContentDonate">
                         <p><strong>2 Coríntios 9:11</strong>: “Vocês serão enriquecidos de todas as formas, para que possam ser generosos em qualquer ocasião e, por nosso intermédio, a sua generosidade resulte em ação de graças a Deus.”
                         </p>
                         <div className="modalBankDonationInfo">
@@ -83,8 +83,14 @@ export const ModalDonate: React.FC<ModalDonateProps> = ({ closeModalDonate }) =>
                             </div>
                             <div className="divContainerBankDonationInfo">
                                 <p><strong>Agência</strong>: 5201-9</p>
+                                <p className="textShowUnderTabletModeBankDonationInfo">
+                                    <strong>PIX</strong>: doacao@mountchurch.com.br</p>
+                            </div>
+
+                            <div className="divContainerMobileModeBankDonationInfo">
                                 <p><strong>PIX</strong>: doacao@mountchurch.com.br</p>
                             </div>
+
                             <div className="divContainerQRCodeBankDonationInfo">
                                 <img className="imageConfigQRCodeBankDonationInfo"
                                     src={pixBankDonationInfo}
@@ -101,7 +107,6 @@ export const ModalDonate: React.FC<ModalDonateProps> = ({ closeModalDonate }) =>
                             </div>
                         </div>
                     </div>
-
                 </motion.div>
             </motion.div>
         </AnimatePresence>

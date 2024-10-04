@@ -66,7 +66,7 @@ img {
 
 /*===== MODAL STYLES  =====*/
 
-.darkModalComponentOverlay {
+.modalDonateComponentOverlay {
   position: fixed;
   top: 0;
   left: 0;
@@ -78,20 +78,20 @@ img {
   justify-content: center;
   z-index: 100;
 }
-.darkModal {
+.modalDivDonateMotion {
   max-width: 650px;
   width: 80%;
   background-color: var(--background-white-color);
   border-radius: 5px;
 }
-.darkModalHeader {
+.modalDonateHeader {
   border-bottom: 1px solid var(--dark-color);
   background-color: var(--background-white-color);
   display: flex;
   justify-content: space-between;
   padding: 10px;
 }
-.darkModalTitle {
+.modalDonateTitle {
   margin: 0;
   font-size: 1.25rem;
   font-weight: bold;
@@ -115,12 +115,13 @@ img {
   background-color: var(--background-dark-green-color);
   color: var(--dark-color);
 }
-.darkModalContent {
+.modalContentDonate {
   text-align: left;
   padding: 1rem;
   color: var(--text-dark-color);
 }
 .modalBankDonationInfo {
+  margin-top: 15px;
   background-color: var(--background-green-color);
   border-radius: 5px;
   padding: 10px;
@@ -129,17 +130,23 @@ img {
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-  background-color: red;
 }
 .divContainerBankDonationInfo {
-  background-color: yellow;
   margin-top: 10px;
   display: flex;
   justify-content: space-between;
   padding: 0 25px;
 }
+.textShowUnderTabletModeBankDonationInfo {
+  display: none;
+}
+.divContainerMobileModeBankDonationInfo {
+  margin-top: 10px;
+  display: block;
+  justify-content: space-between;
+  padding: 0 25px;
+}
 .divContainerQRCodeBankDonationInfo {
-  background-color: red;
   display: flex;
   justify-content: center;
   margin-top: 10px;
@@ -148,8 +155,27 @@ img {
   width: 350px;
 }
 .divContainerButtonCopyQRCodeBankDonationInfo {
-  background-color: green;
   margin-top: 10px;
   display: flex;
   justify-content: center;
+}
+
+/*===== MEDIA QUERIES =====*/
+
+@media screen and (min-width: 760px) {
+  .divContainerMobileModeBankDonationInfo {
+    display: none;
+  }
+  .textShowUnderTabletModeBankDonationInfo {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .divContainerMobileModeBankDonationInfo {
+    display: none;
+  }
+  .textShowUnderTabletModeBankDonationInfo {
+    display: block;
+  }
 }
