@@ -93,7 +93,7 @@
   transition: opacity 0.3s;
   z-index: 2;
 }
-.titleCardHighlightsAndPreviousSermons {
+.titleCardToContributeProvidingABetterWorldMock {
   color: var(--text-white-color);
   font-size: var(--h3-font-size);
   font-weight: bold;
@@ -149,7 +149,7 @@
     max-width: 800px;
     height: 300px;
   }
-  .titleCardHighlightsAndPreviousSermons {
+  .titleCardToContributeProvidingABetterWorldMock {
     font-size: var(--h3-font-size);
   }
 }
@@ -178,7 +178,7 @@
     max-width: 1280px;
     height: 390px;
   }
-  .titleCardHighlightsAndPreviousSermons {
+  .titleCardToContributeProvidingABetterWorldMock {
     font-size: var(--h2-font-size);
     width: 805px;
   }
