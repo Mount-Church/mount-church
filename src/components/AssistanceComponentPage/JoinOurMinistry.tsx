@@ -16,7 +16,7 @@ const JoinOurMinistryMock = [
         firstDescriptionjoinTheGroup: 'Você pode se voluntariar para fazer parte do nosso ministério de assistência social e ajudar diretamente aqueles que precisam. Junte-se a nós e faça a diferença!',
         secondDescriptionjoinTheGroup: 'Contribua com doações de alimentos, roupas, móveis ou financeiramente através do nosso PIX. Sua generosidade pode transformar vidas!',
         buttonNameTargeting: 'Saber mais',
-        joinTheGroupLink: 'https://wa.me/554792722229',
+        joinTheGroupLink: 'https://wa.me/554792722249',
         services: [
             {
                 id: 1,

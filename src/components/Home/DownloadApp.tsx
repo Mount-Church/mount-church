@@ -1,24 +1,9 @@
-// import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-
-// import { DarkModalComponent } from 'components/Modal/DarkModal';
 
 import 'assets/css/stylesGlobal.css';
 import './assets/css/stylesDownloadapp.css';
 
 export function DownloadApp() {
-    // const [modaDownloadApplIsOpen, setModaDownloadApplIsOpen] = useState(false);
-
-    // const handleDownloadAppOpenModal = () => {
-    //     setModaDownloadApplIsOpen(true);
-    //     console.log(modaDownloadApplIsOpen)
-    // };
-
-    // const handleDownloadAppCloseModal = () => {
-    //     setModaDownloadApplIsOpen(false);
-    //     console.log(modaDownloadApplIsOpen)
-    // };
-
     return (
         <section className='lSectionDownloadApp' id='sectionDownloadApp'>
             <div className='sectionDownloadApp'>
@@ -52,15 +37,11 @@ export function DownloadApp() {
                         </div>
 
                         <div className='sectionDownloadAppIOSImg'
-                            // onClick={handleDownloadAppOpenModal}
                             onClick={() => window.open('https://apps.apple.com/br/app/mount-church/id6692612010', '_blank')}
                         >
                             <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }} />
                         </div>
                     </div>
-                    {/* {modaDownloadApplIsOpen && (
-                        <DarkModalComponent closeDownloadAppModal={handleDownloadAppCloseModal} />
-                    )} */}
                 </div>
             </div>
         </section>
