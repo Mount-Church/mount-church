@@ -66,6 +66,13 @@
 .sectionTransformationStoriesData {
   margin-bottom: 3rem;
 }
+.sectionTitleTransformationStories {
+  margin-bottom: 1rem;
+  font-weight: bold;
+  color: var(--dark-color);
+  font-size: var(--h3-font-size);
+  width: 100%;
+}
 
 /*===== IMAGE =====*/
 .sectionTransformationStoriesImg {
@@ -103,5 +110,8 @@
     width: 100%;
     max-width: 488px;
     text-align: start;
+  }
+  .sectionTitleTransformationStories {
+    font-size: var(--h2-font-size);
   }
 }

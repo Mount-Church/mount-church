@@ -1,22 +1,22 @@
-import React, { useState } from "react";
+import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 import './assets/css/stylesModalDonate.css'
 
 import pixBankDonationInfo from './assets/images/pixDoacao@mountchurch.com.br.png'
-import { ModalPIXCopied } from "./ModalPIXCopied";
+// import { ModalPIXCopied } from "./ModalPIXCopied";
 
 interface ModalDonateProps {
     closeModalDonate: () => void;
 }
 
 export const ModalDonate: React.FC<ModalDonateProps> = ({ closeModalDonate }) => {
-    const [modalPixCopied, setModalPixCopied] = useState(false);
+    // const [modalPixCopied, setModalPixCopied] = useState(false);
 
-    const handleDownloadAppOpenModal = () => {
-        setModalPixCopied(true);
-        console.log('ABRIR MODAL DE PARABENIZAR', modalPixCopied)
-    };
+    // const handleDownloadAppOpenModal = () => {
+    //     setModalPixCopied(true);
+    //     console.log('ABRIR MODAL DE PARABENIZAR', modalPixCopied)
+    // };
 
     const overlayVariants = {
         visible: {

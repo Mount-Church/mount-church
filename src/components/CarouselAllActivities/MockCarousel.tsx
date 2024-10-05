@@ -72,6 +72,13 @@ import casaisCardLideresImg from './assets/images/casaisCardLideres.jpg';
 import casaisCardAmorImg from './assets/images/casaisCardAmor.jpg';
 import casaisCardRefericaoImg from './assets/images/casaisCardRefericao.jpg';
 
+/*===== MISSIONARIA ELI CAMBOJA =====*/
+import missionariaCambojaCardImg from './assets/images/missionaria.jpg';
+import missionariaCambojaBannerImg from './assets/images/missionariaBanner.jpg';
+import missionariaCambojaCentroDeDesenvolvimentoDoJovemImg from './assets/images/missionariaCentroDeDesenvolvimentoDoJovem.jpg';
+import missionariaCambojaCriancaestudandoImg from './assets/images/missionariaCriancaestudando.jpg';
+import missionariaCambojaCriancasBrincandoImg from './assets/images/missionariaCriancasBrincando.jpg';
+
 const ministriesOrActivitiesMock = [
     {
         id: 1,
@@ -466,6 +473,42 @@ const ministriesOrActivitiesMock = [
                 title: 'Encontros Semanais de Casais',
                 description: 'Nossos <strong>encontros semanais</strong> de casais acontecem todas as <strong>sextas-feiras às 20h</strong>. Estes momentos são dedicados ao fortalecimento dos laços matrimoniais e à edificação espiritual dos casais.',
                 image: casaisCardRefericaoImg,
+            },
+        ],
+    },
+    {
+        id: 10,
+        mockType: 'Apoio',
+        title: 'Missionária no Camboja',
+        description: 'Transformando vidas no <strong>Camboja</strong>, levando amor, esperança e o evangelho',
+        image: missionariaCambojaCardImg,
+        link: '',
+        infoTitle: 'Missionária Eli',
+        infoDescription: 'Meu nome é <strong>Elizandra Hille</strong>, tenho 38 anos e sou natural de Joinville, SC. Há mais de 6 anos, sou missionária de tempo integral no <strong>Camboja</strong>, país do Sudeste Asiático. Sirvo como missionária sob a organização <strong>Iris Phnom Penh</strong>, com a visão principal de levar amor, esperança, dignidade e o evangelho do Senhor a meninas e mulheres vítimas do tráfico sexual, atuando na prevenção e no resgate dessas vítimas. Para saber mais detalhes do que faço, siga meu <strong>Instagram</strong> e o <strong>Instagram</strong> da Iris Phnom Penh. </br></br> <ul><li><strong>@elizandrahille</strong></li><li><strong>@irisphnompenh</strong></li></ul> ',
+        infoImage: missionariaCambojaBannerImg,
+        joinTheGroupTitle: 'Transformando Vidas no Camboja',
+        firstDescriptionjoinTheGroup: 'O projeto <strong>missionário</strong> no <strong>Camboja</strong>, é dedicado a levar <strong>amor</strong>, <strong>esperança</strong> e <strong>dignidade</strong> a meninas e mulheres vítimas do <strong>tráfico sexual</strong>. Através da <strong>Iris Phnom Penh</strong>, Elizandra trabalha na prevenção e resgate dessas vítimas, proporcionando um futuro melhor e mais seguro. “E disse-lhes: Vão pelo mundo todo e preguem o evangelho a todas as pessoas. Quem crer e for batizado será salvo; mas quem não crer será condenado” (Marcos 16:15-16, NVI).',
+        secondDescriptionjoinTheGroup: 'Se você sente o chamado para apoiar este projeto, convidamos você a fazer uma doação via <strong>PIX</strong> para <strong>elizandrah@gmail.com</strong>. Sua contribuição ajudará a transformar vidas e a levar esperança a quem mais precisa. “Jesus respondeu: Digo-lhe a verdade: Ninguém pode entrar no Reino de Deus, se não nascer da água e do Espírito” (João 3:5, NVI). Para mais informações, siga <strong>@elizandrahille</strong> e <strong>@irisphnompenh</strong> no Instagram. Deus abençoe muito vocês.',
+        joinTheGroupLink: 'https://wa.me/554799569911',
+        buttonNameTargeting: 'Mais informações',
+        services: [
+            {
+                id: 1,
+                title: 'Educação e Esperança',
+                description: '<strong>YDC</strong> (Centro de Desenvolvimento do Jovem). Aqui ensinamos mais do que o inglês; levamos esperança, educamos sobre valores morais e respeito ao próximo.',
+                image: missionariaCambojaCentroDeDesenvolvimentoDoJovemImg,
+            },
+            {
+                id: 2,
+                title: 'Ensino com Amor',
+                description: '<strong>Voluntários</strong> dedicam-se a ensinar inglês e a compartilhar o amor de <strong>Deus</strong> com as crianças, proporcionando-lhes um futuro cheio de oportunidades.',
+                image: missionariaCambojaCriancaestudandoImg,
+            },
+            {
+                id: 3,
+                title: 'Suporte Educacional',
+                description: 'Distribuímos <strong>materiais escolares</strong> para garantir que todas as crianças tenham as ferramentas necessárias para aprender e crescer em um ambiente seguro e acolhedor.',
+                image: missionariaCambojaCriancasBrincandoImg,
             },
         ],
     },

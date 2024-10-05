@@ -8,7 +8,7 @@ export function TransformationStories() {
         <section className="lSectionTransformationStories" id="lSectionTransformationStories">
             <div className="sectionTransformationStories">
                 <div className="sectionTransformationStoriesData">
-                    <h2 className="globalSectionTitleTextDark w-max">
+                    <h2 className="sectionTitleTransformationStories">
                         Histórias de Transformação
                     </h2>
                     <img src={BatismHug} alt="Men Pray" className="sectionTransformationStoriesImg" />

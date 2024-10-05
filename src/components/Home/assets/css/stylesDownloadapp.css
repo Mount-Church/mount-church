@@ -55,11 +55,9 @@
   -ms-flex-align: center;
   align-items: center;
   padding: 10px;
-  background-color: red;
 }
 .alignDownloadAppText {
   text-align: center;
-  background-color: yellow;
 }
 .sectionDownloadAppData {
   margin-bottom: 3rem;
@@ -98,7 +96,6 @@
   background-size: cover;
   width: 150px;
   height: 55px;
-  /* cursor: not-allowed; */
   cursor: pointer;
 }
 

@@ -33,7 +33,9 @@ export function CardHighlightsAndPreviousSermons() {
                                     style={{ backgroundImage: `url(${HighlightsAndPreviousSermons.cardImage})` }}
                                 />
                                 <div className="carouselOverlayCardHighlightsAndPreviousSermons" style={{ backgroundColor: hoveredIndex === index ? 'rgba(0, 0, 0, 0.7)' : 'rgba(0, 0, 0, 0.5)' }}>
-                                    <h2 className="titleCardHighlightsAndPreviousSermons">{HighlightsAndPreviousSermons.bannerName}</h2>
+                                    <h2 className="titleCardHighlightsAndPreviousSermons">
+                                        {HighlightsAndPreviousSermons.bannerName}
+                                    </h2>
                                     <button
                                         className={`buttonCardHighlightsAndPreviousSermons ${hoveredIndex === index ? 'buttonVisibleCardHighlightsAndPreviousSermons' : ''}`}
                                         onClick={() => handleClick(HighlightsAndPreviousSermons)}
