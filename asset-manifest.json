@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3315095b.css",
-    "main.js": "/static/js/main.d8b78cb4.js",
+    "main.js": "/static/js/main.afd888ab.js",
     "static/js/453.bfb0a3bc.chunk.js": "/static/js/453.bfb0a3bc.chunk.js",
     "static/media/subMenuVideo.mp4": "/static/media/subMenuVideo.dc26a5e665d86f25c786.mp4",
     "static/media/conexaoPppMountChurch.jpg": "/static/media/conexaoPppMountChurch.f6f769bbbba2f94fd53c.jpg",
@@ -34,9 +34,11 @@
     "static/media/menPray1.jpg": "/static/media/menPray1.2bd689b96b59f14c6c42.jpg",
     "static/media/conexão.jpg": "/static/media/conexão.22d75533176191c71eb0.jpg",
     "static/media/flowingLanche.jpg": "/static/media/flowingLanche.1b050fc1af8a20f3fff6.jpg",
+    "static/media/missionaria.jpg": "/static/media/missionaria.2a1fa8df3b9085c70a6e.jpg",
     "static/media/fullServicesCultodeCeiaAldo15-09-2024.jpg": "/static/media/fullServicesCultodeCeiaAldo15-09-2024.98f8e11214dd45bd8461.jpg",
     "static/media/casais.jpg": "/static/media/casais.336fee606d1f79e252b6.jpg",
     "static/media/espacoKidsdLanche.jpg": "/static/media/espacoKidsdLanche.780811d8e5ecdc7a949e.jpg",
+    "static/media/missionariaCriancaestudando.jpg": "/static/media/missionariaCriancaestudando.07cbe491210c63791ef8.jpg",
     "static/media/bannerComunuty.jpg": "/static/media/bannerComunuty.1ed1887434849e4364e4.jpg",
     "static/media/dancaCard.jpg": "/static/media/dancaCard.6b3364253e2eacdf22cd.jpg",
     "static/media/elasTextoLucas22-27.jpg": "/static/media/elasTextoLucas22-27.68ffa4a920a73fb3319b.jpg",
@@ -45,6 +47,7 @@
     "static/media/espacoKidsBanner.jpg": "/static/media/espacoKidsBanner.f32d12473a244a050a9f.jpg",
     "static/media/dancaBanner.jpg": "/static/media/dancaBanner.666512aa9b805f00ed2c.jpg",
     "static/media/elasMesa.jpg": "/static/media/elasMesa.95f0bf307537af6b6374.jpg",
+    "static/media/missionariaCriancasBrincando.jpg": "/static/media/missionariaCriancasBrincando.b258cda05f77df134914.jpg",
     "static/media/onFireBanner.jpg": "/static/media/onFireBanner.af452f43839a93b06a4b.jpg",
     "static/media/onFiretennsEventos.jpg": "/static/media/onFiretennsEventos.1dfd750a6ef16f137b5b.jpg",
     "static/media/mdlLutasMuayThai.jpg": "/static/media/mdlLutasMuayThai.6bc34dcd46ad4b76ad6f.jpg",
@@ -74,8 +77,10 @@
     "static/media/mdlMuayThai.jpg": "/static/media/mdlMuayThai.74ac99611faa14ecf030.jpg",
     "static/media/pixDoacao@mountchurch.com.br.png": "/static/media/pixDoacao@mountchurch.com.br.3511db77c18f0f06313e.png",
     "static/media/batismoTestemunhosEInspiracao.jpg": "/static/media/batismoTestemunhosEInspiracao.2fe2fc7c0843bf368aa4.jpg",
+    "static/media/missionariaBanner.jpg": "/static/media/missionariaBanner.4b4e761b1a3006ecd99d.jpg",
     "static/media/onFirejovens.jpg": "/static/media/onFirejovens.72ab57539d586bc1f002.jpg",
     "static/media/sermaoCard.jpg": "/static/media/sermaoCard.2a08d551cc6bcc55230b.jpg",
+    "static/media/missionariaCentroDeDesenvolvimentoDoJovem.jpg": "/static/media/missionariaCentroDeDesenvolvimentoDoJovem.de99954899aca2690938.jpg",
     "static/media/logoWhite.png": "/static/media/logoWhite.ded883520058c0ef1d85.png",
     "static/media/assistenciaDonationAssistenciaSocialMT.png": "/static/media/assistenciaDonationAssistenciaSocialMT.b2f7ee7f1d85a7c5823d.png",
     "static/media/mdlCard.jpg": "/static/media/mdlCard.ec40a647c404cf3556bd.jpg",
@@ -85,11 +90,11 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.3315095b.css.map": "/static/css/main.3315095b.css.map",
-    "main.d8b78cb4.js.map": "/static/js/main.d8b78cb4.js.map",
+    "main.afd888ab.js.map": "/static/js/main.afd888ab.js.map",
     "453.bfb0a3bc.chunk.js.map": "/static/js/453.bfb0a3bc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3315095b.css",
-    "static/js/main.d8b78cb4.js"
+    "static/js/main.afd888ab.js"
   ]
 }
