@@ -52,7 +52,7 @@ export function ToContributeProvidingABetterWorld() {
                                     <div className="divContainerButtonsToContributeProvidingABetterWorld">
                                         <button
                                             className={'buttonCardToContributeProvidingABetterWorld buttonVisibleCardToContributeProvidingABetterWorld'}
-                                        // onClick={() => handleClick(HighlightsAndPreviousSermons)}
+                                            onClick={() => window.open(`https://wa.me/554792722249`, '_blank')}
                                         >
                                             {HighlightsAndPreviousSermons.buttonBeAVolunteerName}
                                         </button>
@@ -65,7 +65,7 @@ export function ToContributeProvidingABetterWorld() {
                                         </button>
 
                                         {modaDownloadApplIsOpen && (
-                                                <ModalDonate closeModalDonate={handleDownloadAppCloseModal} />
+                                            <ModalDonate closeModalDonate={handleDownloadAppCloseModal} />
                                         )}
 
                                     </div>

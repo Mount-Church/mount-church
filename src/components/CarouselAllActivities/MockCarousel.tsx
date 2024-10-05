@@ -195,7 +195,7 @@ const ministriesOrActivitiesMock = [
         firstDescriptionjoinTheGroup: 'A oração é uma das maiores dádivas que Deus nos deu, e a oração de uma mulher tem um poder especial. Em nossos cultos de mulheres, você encontrará um ambiente acolhedor e inspirador, onde cada mulher é incentivada a buscar a Deus com todo o seu coração. Estes cultos são momentos de renovação espiritual, onde compartilhamos testemunhos, aprendemos juntas e fortalecemos nossa fé.',
         secondDescriptionjoinTheGroup: 'Venha participar do por elas na mesa e experimente a transformação que a oração pode trazer para sua vida. Junte-se a um grupo de mulheres dedicadas e apaixonadas por Deus, que se apoiam mutuamente e buscam crescer na fé. “Clama a mim, e responder-te-ei, e anunciar-te-ei coisas grandes e firmes que não sabes” (Jeremias 33:3). </br></br> Além disso, temos o prazer de divulgar o curso <strong>Mulher Única (M.U)</strong>, oferecido pela <strong>Universidade da Família</strong>. Este curso <strong>não</strong> é vinculado a nenhuma igreja específica, mas é uma excelente oportunidade para mulheres que desejam aprofundar sua autoestima, valor, feminilidade e responsabilidade. Nosso desejo é que Deus a liberte e dê vida abundante em toda a sua plenitude, causando grande impacto na família e na sociedade, através de sua originalidade, identidade e singularidade.',
         buttonNameTargeting: 'Mais informações',
-        joinTheGroupLink: 'https://wa.me/554792722229',
+        joinTheGroupLink: 'https://wa.me/554792722249',
         services: [
             {
                 id: 1,
@@ -230,7 +230,7 @@ const ministriesOrActivitiesMock = [
         joinTheGroupTitle: 'Significado e Transformação',
         firstDescriptionjoinTheGroup: 'O batismo é muito mais do que um simples ritual; é um mergulho <strong>profundo na fé</strong>, uma experiência de renovação e uma conexão com a história da Igreja. “Quem crer e for batizado <strong>será salvo</strong>, mas quem não crer será condenado” (<strong>Marcos 16:16, NVI</strong>). Que cada batismo seja um lembrete constante da <strong>graça divina</strong> e da transformação que <strong>Deus</strong> opera em nossas vidas. 🌊🙏',
         secondDescriptionjoinTheGroup: 'Se você está <strong>sentindo o chamado</strong> para ser batizado, convidamos você a se <strong>realizar</strong> o seu batismo na <strong>Mount Church</strong>. Estamos aqui para caminhar ao seu lado, oferecendo orientação, apoio e celebração enquanto você dá esse passo transformador em sua jornada de fé. “Então Jesus veio da Galileia ao Jordão para ser <strong>batizado</strong> por João” (<strong>Mateus 3:13, NVI</strong>).',
-        joinTheGroupLink: 'https://wa.me/554792722229',
+        joinTheGroupLink: 'https://wa.me/554792722249',
         buttonNameTargeting: 'Mais informações',
         services: [
             {
@@ -339,7 +339,7 @@ const ministriesOrActivitiesMock = [
         firstDescriptionjoinTheGroup: 'Você pode se voluntariar para fazer parte do nosso ministério de assistência social e ajudar diretamente aqueles que precisam. Junte-se a nós e faça a diferença!',
         secondDescriptionjoinTheGroup: 'Contribua com doações de alimentos, roupas, móveis ou financeiramente através do nosso PIX. Sua generosidade pode transformar vidas!',
         buttonNameTargeting: 'Saber mais',
-        joinTheGroupLink: 'https://wa.me/554792722229',
+        joinTheGroupLink: 'https://wa.me/554792722249',
         services: [
             {
                 id: 1,

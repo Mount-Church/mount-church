@@ -49,7 +49,7 @@ export const ModalDonate: React.FC<ModalDonateProps> = ({ closeModalDonate }) =>
             .then(() => {
                 console.log('PIX copiado com sucesso!');
                 closeModalDonate();
-                handleDownloadAppOpenModal();
+                // handleDownloadAppOpenModal();
             })
             .catch((error) => {
                 console.error('Erro ao copiar o PIX:', error);
@@ -115,7 +115,7 @@ export const ModalDonate: React.FC<ModalDonateProps> = ({ closeModalDonate }) =>
                                 </div>
                             </div>
 
-                            {modalPixCopied && <ModalPIXCopied closeModalPIXCopied={() => setModalPixCopied(false)} />}
+                            {/* {modalPixCopied && <ModalPIXCopied closeModalPIXCopied={() => setModalPixCopied(false)} />} */}
 
                         </div>
                     </motion.div>
