@@ -6,7 +6,7 @@ export function PlanYourVisit() {
         <section className='lSectionPlanYourVisit' id='sectionPlanYourVisit'>
             <div className='containerPlanYourVisit'>
                 <div>
-                    <div className='containerLineGlobalStyles'>
+                    <div className='containerLineGlobalStyles mt-40'>
                         <div className='lineDarkGlobalStyles'></div>
                         <div className='textDarkGlobalStyles'>Localização</div>
                     </div>
