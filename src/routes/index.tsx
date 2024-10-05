@@ -1,6 +1,16 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import { LocationPage, AboutPage, MinistriesPage, HomePage, EventsPage, WatchPage, ErrorPage } from 'pages';
+import {
+  LocationPage,
+  AboutPage,
+  MinistriesPage,
+  HomePage,
+  EventsPage,
+  WatchPage,
+  ErrorPage,
+  AssistancePage
+} from 'pages';
+
 import { WatchHighlightsAndPreviousSermons } from 'components/SubPagesWatch/WatchHighlightsAndPreviousSermons';
 import ScrollToTop from 'components/ScrollFuncion/ScrollToTop';
 
@@ -15,6 +25,7 @@ export function AppRoutes() {
         <Route path="/location" element={<LocationPage />} />
         <Route path="/ministries" element={<MinistriesPage />} />
         <Route path='/events' element={<EventsPage />} />
+        <Route path='/assistance' element={<AssistancePage />} />
         <Route path='/watch' element={<WatchPage />} />
         <Route path="/watchhighlightsandprevioussermons" element={<WatchHighlightsAndPreviousSermons />} />
         <Route path="*" element={<ErrorPage />} />

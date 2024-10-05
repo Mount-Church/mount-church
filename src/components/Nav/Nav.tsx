@@ -28,6 +28,9 @@ export function Nav() {
           {/* <Link to="/events" className='navItemMenu'>
             <ButtonNavMenu>Eventos</ButtonNavMenu>
           </Link> */}
+          <Link to="/assistance" className='navItemMenu'>
+            <ButtonNavMenu>Assistência</ButtonNavMenu>
+          </Link>
           <Link to="/watch" className='navItemMenu'>
             <ButtonNavMenu>Assista</ButtonNavMenu>
           </Link>
@@ -35,9 +38,6 @@ export function Nav() {
             <ButtonNavMenu onClick={() => window.open(`https://www.youtube.com/@MountChurchoficial/videos`, '_blank')}>
               Assista
             </ButtonNavMenu>
-          </Link> */}
-          {/* <Link to="/escrever-agora" className='navItemMenu'>
-            <Button variant="primary">Escrever Agora</Button>
           </Link> */}
         </div>
 
@@ -59,6 +59,7 @@ export function Nav() {
             <NavMobileItem to="/location">Localização</NavMobileItem>
             {/* <NavMobileItem to="/ministries">Ministérios</NavMobileItem> */}
             {/* <NavMobileItem to="/events">Eventos</NavMobileItem> */}
+            <NavMobileItem to="/assistance">Assistência</NavMobileItem>
             <NavMobileItem to="/watch">Assista</NavMobileItem>
             {/* <NavMobileItem to="/escrever-agora" variant="primary">
               Escrever Agora

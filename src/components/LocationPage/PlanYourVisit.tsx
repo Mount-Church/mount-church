@@ -17,9 +17,9 @@ export function PlanYourVisit() {
                             Planeje Sua Visita
                         </h2>
                         <div className='divContainerPlanYourVisit'>
-                        <p className="globalSectionTextDark">
-                            Estamos entusiasmados para recebê-lo na <strong>MountChurch</strong>! Queremos que sua experiência conosco seja <strong>acolhedora</strong> e <strong>significativa</strong> desde o momento em que você chegar.
-                        </p>
+                            <p className="globalSectionTextDark">
+                                Estamos entusiasmados para recebê-lo na <strong>MountChurch</strong>! Queremos que sua experiência conosco seja <strong>acolhedora</strong> e <strong>significativa</strong> desde o momento em que você chegar.
+                            </p>
                         </div>
                     </div>
                     <div className='columInfoPlanYourVisit'>

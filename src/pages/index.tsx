@@ -5,3 +5,4 @@ export * from './MinistriesPage';
 export * from './EventsPage';
 export * from './WatchPage';
 export * from './ErrorPage'
+export * from './AssistancePage'
