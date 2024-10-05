@@ -118,3 +118,4 @@ export function FooterGlobal() {
             </div>
         </section>
     );
+}
