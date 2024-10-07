@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3315095b.css",
-    "main.js": "/static/js/main.afd888ab.js",
+    "main.css": "/static/css/main.4935e4c0.css",
+    "main.js": "/static/js/main.ac5de875.js",
     "static/js/453.bfb0a3bc.chunk.js": "/static/js/453.bfb0a3bc.chunk.js",
     "static/media/subMenuVideo.mp4": "/static/media/subMenuVideo.dc26a5e665d86f25c786.mp4",
     "static/media/conexaoPppMountChurch.jpg": "/static/media/conexaoPppMountChurch.f6f769bbbba2f94fd53c.jpg",
@@ -78,6 +78,7 @@
     "static/media/pixDoacao@mountchurch.com.br.png": "/static/media/pixDoacao@mountchurch.com.br.3511db77c18f0f06313e.png",
     "static/media/batismoTestemunhosEInspiracao.jpg": "/static/media/batismoTestemunhosEInspiracao.2fe2fc7c0843bf368aa4.jpg",
     "static/media/missionariaBanner.jpg": "/static/media/missionariaBanner.4b4e761b1a3006ecd99d.jpg",
+    "static/media/pixDizimosEOfertas.jpg": "/static/media/pixDizimosEOfertas.3c816173383ba72df3d4.jpg",
     "static/media/onFirejovens.jpg": "/static/media/onFirejovens.72ab57539d586bc1f002.jpg",
     "static/media/sermaoCard.jpg": "/static/media/sermaoCard.2a08d551cc6bcc55230b.jpg",
     "static/media/missionariaCentroDeDesenvolvimentoDoJovem.jpg": "/static/media/missionariaCentroDeDesenvolvimentoDoJovem.de99954899aca2690938.jpg",
@@ -89,12 +90,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.3315095b.css.map": "/static/css/main.3315095b.css.map",
-    "main.afd888ab.js.map": "/static/js/main.afd888ab.js.map",
+    "main.4935e4c0.css.map": "/static/css/main.4935e4c0.css.map",
+    "main.ac5de875.js.map": "/static/js/main.ac5de875.js.map",
     "453.bfb0a3bc.chunk.js.map": "/static/js/453.bfb0a3bc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3315095b.css",
-    "static/js/main.afd888ab.js"
+    "static/css/main.4935e4c0.css",
+    "static/js/main.ac5de875.js"
   ]
 }
