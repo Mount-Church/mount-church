@@ -5,7 +5,7 @@ import {
     HowWeUseYourDonation,
     JoinOurMinistry,
     ToContributeProvidingABetterWorld
-} from 'components/AssistanceComponentPage';
+} from 'components/AssistanceComponentsPage';
 
 export function AssistancePage() {
 

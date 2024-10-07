@@ -6,7 +6,7 @@ import {
   OurLeaders,
   TransformationStories,
   BannerBePartOfTheCommunity
-} from 'components/AboutUsPage';
+} from 'components/AboutUsComponentsPage';
 
 export function AboutPage() {
   return (
