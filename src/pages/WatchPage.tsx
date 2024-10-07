@@ -1,5 +1,5 @@
 import { FooterGlobal, Nav } from 'components';
-import { HighlightsAndPreviousSermons, WatchServicesAndEventsOnline } from 'components/WatchConponents';
+import { HighlightsAndPreviousSermons, WatchServicesAndEventsOnline } from 'components/WatchComponentsPage';
 
 export function WatchPage() {
   return (

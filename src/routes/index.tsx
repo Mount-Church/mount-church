@@ -8,10 +8,11 @@ import {
   EventsPage,
   WatchPage,
   ErrorPage,
-  AssistancePage
+  AssistancePage,
+  TithesOfferings
 } from 'pages';
 
-import { WatchHighlightsAndPreviousSermons } from 'components/SubPagesWatch/WatchHighlightsAndPreviousSermons';
+import { WatchHighlightsAndPreviousSermons } from 'components/SubWatchComponentsPage/WatchHighlightsAndPreviousSermons';
 import ScrollToTop from 'components/ScrollFuncion/ScrollToTop';
 
 export function AppRoutes() {
@@ -23,6 +24,7 @@ export function AppRoutes() {
         <Route path="/homepage" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/location" element={<LocationPage />} />
+        <Route path="/tithesandofferings" element={<TithesOfferings />} />
         <Route path="/ministries" element={<MinistriesPage />} />
         <Route path='/events' element={<EventsPage />} />
         <Route path='/assistance' element={<AssistancePage />} />
