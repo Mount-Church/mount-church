@@ -77,10 +77,10 @@ export const ModalTithesAndOfferings: React.FC<ModalDonateProps> = ({ closeModal
                             <h2 className="infoTitleModalTithesAndOfferings">Informações Bancárias</h2>
                             <div className="divContainerBankTithesAndOfferingsInfo">
                                 <p><strong>Nome do banco</strong>: COOP SICRED NORTE SC </p>
-                                <p><strong>Agência</strong>: 5201-9</p>
+                                <p><strong>Agência</strong>: 2602</p>
                             </div>
                             <div className="divContainerBankTithesAndOfferingsInfo">
-                                <p><strong>Agência</strong>: 5201-9</p>
+                                <p><strong>Conta Corrente</strong>: 29619-4</p>
                                 <p className="textShowUnderTabletModeBankTithesAndOfferingsInfo">
                                     <strong>PIX</strong>: 56.108.287/0001-22</p>
                             </div>

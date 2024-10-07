@@ -48,16 +48,6 @@
   flex-direction: column;
   margin-top: 10px;
 }
-.tabs {
-  flex-grow: 1;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-end;
-  flex-wrap: nowrap;
-  width: 100%;
-  background-color: pink;
-}
-
 .ulWindowAnimateVisionMissionAndValues {
   display: flex;
   width: 100%;

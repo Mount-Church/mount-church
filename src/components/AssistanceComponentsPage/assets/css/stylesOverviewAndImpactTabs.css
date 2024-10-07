@@ -58,23 +58,12 @@
   border-bottom: 1px solid #eeeeee;
   height: 44px;
 }
-
-.tabs {
-  flex-grow: 1;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-end;
-  flex-wrap: nowrap;
-  width: 100%;
-}
-
 .mainOverviewAndImpactTabs {
   display: flex;
   justify-content: start;
   flex-grow: 1;
   user-select: none;
 }
-
 .ulOverviewAndImpactTabs,
 .liStylesOverviewAndImpactTabs {
   list-style: none;
@@ -83,12 +72,10 @@
   font-weight: 500;
   font-size: 16px;
 }
-
 .ulOverviewAndImpactTabs {
   display: flex;
   width: 100%;
 }
-
 .liStylesOverviewAndImpactTabs {
   border-radius: 5px;
   border-bottom-left-radius: 0;
@@ -107,7 +94,6 @@
   position: relative;
   user-select: none;
 }
-
 .underlineOverviewAndImpactTabs {
   position: absolute;
   bottom: -1px;
@@ -116,11 +102,9 @@
   height: 1px;
   background: var(--background-green-color);
 }
-
 .liSelectedwindowOverviewAndImpactTabs {
   background: var(--background-green-color);
 }
-
 .liStylesOverviewAndImpactTabs button {
   width: 20px;
   height: 20px;
@@ -135,22 +119,11 @@
   cursor: pointer;
   flex-shrink: 0;
 }
-
-.background {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  width: 300px;
-  background: #fff;
-}
-
 .textOverviewAndImpactTabs {
   font-size: 16px;
   color: var(--text-gay-color);
   padding: 10px;
 }
-
 /*===== MEDIA QUERIES =====*/
 
 @media screen and (min-width: 760px) {

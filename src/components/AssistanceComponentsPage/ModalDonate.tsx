@@ -80,7 +80,7 @@ export const ModalDonate: React.FC<ModalDonateProps> = ({ closeModalDonate }) =>
                                     <p><strong>Agência</strong>: 5201-9</p>
                                 </div>
                                 <div className="divContainerBankDonationInfo">
-                                    <p><strong>Agência</strong>: 5201-9</p>
+                                    <p><strong>Conta Corrente</strong>: 14416-9</p>
                                     <p className="textShowUnderTabletModeBankDonationInfo">
                                         <strong>PIX</strong>: doacao@mountchurch.com.br</p>
                                 </div>

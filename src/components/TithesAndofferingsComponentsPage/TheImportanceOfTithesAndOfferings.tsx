@@ -1,10 +1,10 @@
 
 import { useState } from 'react';
-import { motion } from 'framer-motion';
 
 import 'assets/css/stylesGlobal.css';
 import './assets/css/stylesTheImportanceOfTithesAndOfferings.css';
 import { ModalTithesAndOfferings } from './ModalTithesAndOfferings';
+import OverviewAndImpactTabsHowYouCanContribute from './OverviewAndImpactTabsHowYouCanContribute';
 
 export function TheImportanceOfTithesAndOfferings() {
     const [modaTheImportanceOfTithesAndOfferings, setModaTheImportanceOfTithesAndOfferings] = useState(false);
@@ -32,15 +32,9 @@ export function TheImportanceOfTithesAndOfferings() {
                             A Importância dos Dízimos e Ofertas
                         </h2>
                     </div>
-                    {/* Image that appears when the screen is less than or equal to 1350px */}
-                    <div className='flex justify-center'>
-                        <div className="imageSmallShowAndHideTheImportanceOfTithesAndOfferings sectionTheImportanceOfTithesAndOfferingsImg">
-                            <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }} />
-                        </div>
-                    </div>
-                    <div className='containerDivTheImportanceOfTithesAndOfferings'>
+                    <div className='containerDivTextTheImportanceOfTithesAndOfferings'>
                         <p className="globalSectionTextDark">
-                            A <strong>contribuição</strong> através de <strong>dízimos</strong> e <strong>ofertas</strong> é fundamental para o <strong>mantimento</strong> da igreja, seus ministérios e projetos, incluindo assistência social. Sua <strong>generosidade</strong> permite que continuemos a servir a comunidade e a expandir nossas ações de caridade.
+                            Você pode fazer sua contribuição de forma prática e segura através do <strong>PIX</strong>. Basta utilizar a chave <strong>PIX</strong>: <strong>56.108.287/0001-22</strong>. Cada doação, independentemente do valor, faz uma grande diferença e nos ajuda a continuar a nossa obra.
                         </p>
                     </div>
                     <div className='customButtonCommunityMission'>
@@ -52,9 +46,8 @@ export function TheImportanceOfTithesAndOfferings() {
                         </button>
                     </div>
                 </div>
-                {/* Image that appears when the screen is larger than 1350px */}
-                <div className="imageLargeShowAndHideTheImportanceOfTithesAndOfferings sectionTheImportanceOfTithesAndOfferingsImg">
-                    <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }} />
+                <div className="">
+                    <OverviewAndImpactTabsHowYouCanContribute />
                 </div>
                 {modaTheImportanceOfTithesAndOfferings && (
                     <ModalTithesAndOfferings

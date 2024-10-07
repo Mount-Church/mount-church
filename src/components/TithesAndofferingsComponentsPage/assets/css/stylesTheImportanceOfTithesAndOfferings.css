@@ -61,19 +61,7 @@
 }
 
 /*===== IMAGE =====*/
-.sectionTheImportanceOfTithesAndOfferingsImg div {
-  background-image: url('../../assets/images/theImportanceOfTithesAndOfferings.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 20px;
-  width: 320px;
-  height: 320px;
-}
-/* .centeredImage {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-} */
+
 .containerDivTheImportanceOfTithesAndOfferings {
   margin-top: 10px;
   width: 100%;
@@ -82,13 +70,13 @@
   justify-content: center;
   text-align: center;
 }
-
-/*===== IMAGES =====*/
-.imageSmallShowAndHideTheImportanceOfTithesAndOfferings {
-  display: block;
-}
-.imageLargeShowAndHideTheImportanceOfTithesAndOfferings {
-  display: none;
+.containerDivTextTheImportanceOfTithesAndOfferings {
+  margin-top: 10px;
+  width: 100%;
+  max-width: 727px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 /*===== MEDIA QUERIES =====*/
@@ -99,19 +87,12 @@
     width: 470px;
     height: 470px;
   }
-  .sectionTheImportanceOfTithesAndOfferings {
-    flex-direction: row;
-    justify-content: center;
-    padding: 10px;
-    height: 100vh;
-  }
-  .imageSmallShowAndHideTheImportanceOfTithesAndOfferings {
-    display: block;
-  }
-  .imageLargeShowAndHideTheImportanceOfTithesAndOfferings {
-    display: none;
-  }
   .containerDivTheImportanceOfTithesAndOfferings {
+    max-width: 900px;
+    margin-top: 10px;
+    text-align: start;
+  }
+  .containerDivTextTheImportanceOfTithesAndOfferings {
     max-width: 900px;
     margin-top: 10px;
     text-align: start;
@@ -120,20 +101,19 @@
 
 @media screen and (min-width: 1200px) {
   .sectionTheImportanceOfTithesAndOfferings {
+    flex-direction: row;
     justify-content: space-between;
+    height: 100vh;
     padding: 0px;
-  }
-  /* .TheImportanceOfTithesAndOfferings {
-    justify-content: left;
-  } */
-  .imageSmallShowAndHideTheImportanceOfTithesAndOfferings {
-    display: none;
-  }
-  .imageLargeShowAndHideTheImportanceOfTithesAndOfferings {
-    display: block;
   }
   .containerDivTheImportanceOfTithesAndOfferings {
     max-width: 727px;
+    margin-top: 0px;
+    justify-content: start;
+    text-align: start;
+  }
+  .containerDivTextTheImportanceOfTithesAndOfferings {
+    max-width: 600px;
     margin-top: 0px;
     justify-content: start;
     text-align: start;

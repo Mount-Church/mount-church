@@ -12,7 +12,7 @@ export default function OverviewAndImpactTabs() {
                 <ul className="ulOverviewAndImpactTabs">
                     {tabs.map((item) => (
                         <li
-                            key={item.label}
+                            key={item.description}
                             className={item === selectedTab ? "liStylesOverviewAndImpactTabs liSelectedwindowOverviewAndImpactTabs" : "liStylesOverviewAndImpactTabs"}
                             onClick={() => setSelectedTab(item)}
                         >
