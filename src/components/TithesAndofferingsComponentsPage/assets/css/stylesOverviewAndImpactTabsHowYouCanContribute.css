@@ -1,0 +1,143 @@
+/*===== VARIABLES CSS =====*/
+/*=== COLORS ===*/
+:root {
+  --first-color: #0396a6;
+  --dark-color: #1d2130;
+  --white-color: #fefdfc;
+  --background-white-color: #fefdfc;
+  --background-dark-color: #000000;
+  --background-dark-green-color: #677865;
+  --background-green-color: #cdcdc5;
+  --background-gray-color: #eeeeee;
+  --text-gay-color: #525560;
+  --text-white-color: #ffffff;
+  --test-red-color: red;
+}
+
+/*=== Fuente y tipografia ===*/
+:root {
+  --body-font: 'Roboto', sans-serif;
+  --biggest-font-size: 4rem;
+  --h1-font-size: 56px;
+  --h2-font-size: 3rem;
+  --h3-font-size: 2rem;
+  --h4-font-size: 1.25rem;
+  --normal-font-size: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  :root {
+    --biggest-font-size: 4rem;
+    --h1-font-size: 2.5rem;
+    --h2-font-size: 2.5rem;
+    --h3-font-size: 1.8rem;
+    --normal-font-size: 1rem;
+  }
+}
+
+.windowOverviewAndImpactTabsHowYouCanContributeTabs {
+  width: 350px;
+  height: 480px;
+  border-radius: 10px;
+  background: white;
+  overflow: hidden;
+  box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+    0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
+    0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.navOverviewAndImpactTabsHowYouCanContributeTabs {
+  background: #fdfdfd;
+  padding: 5px 5px 0;
+  border-radius: 10px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: 1px solid #eeeeee;
+  height: 44px;
+}
+.mainOverviewAndImpactTabsHowYouCanContributeTabs {
+  display: flex;
+  justify-content: start;
+  flex-grow: 1;
+  user-select: none;
+}
+.ulOverviewAndImpactTabsHowYouCanContributeTabs,
+.liStylesOverviewAndImpactTabsHowYouCanContributeTabs {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-weight: 500;
+  font-size: 16px;
+}
+.ulOverviewAndImpactTabsHowYouCanContributeTabs {
+  display: flex;
+  width: 100%;
+}
+.liStylesOverviewAndImpactTabsHowYouCanContributeTabs {
+  border-radius: 5px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  width: 100%;
+  padding: 10px 15px;
+  position: relative;
+  background: white;
+  cursor: pointer;
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  min-width: 0;
+  position: relative;
+  user-select: none;
+}
+.underlineOverviewAndImpactTabsHowYouCanContributeTabs {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: var(--background-green-color);
+}
+.liSelectedwindowOverviewAndImpactTabsHowYouCanContributeTabs {
+  background: var(--background-green-color);
+}
+.liStylesOverviewAndImpactTabsHowYouCanContributeTabs button {
+  width: 20px;
+  height: 20px;
+  border: 0;
+  background: #fff;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  stroke: #000;
+  margin-left: 10px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.textOverviewAndImpactTabsHowYouCanContributeTabs {
+  font-size: 16px;
+  color: var(--text-gay-color);
+  padding: 10px;
+}
+
+/*===== MEDIA QUERIES =====*/
+
+@media screen and (min-width: 760px) {
+  .windowOverviewAndImpactTabsHowYouCanContributeTabs {
+    width: 592px;
+    height: 350px;
+    margin-top: 0px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .windowOverviewAndImpactTabsHowYouCanContributeTabs {
+    width: 592px;
+    height: 200px;
+    margin-top: 0px;
+  }
+}

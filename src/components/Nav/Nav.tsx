@@ -22,6 +22,9 @@ export function Nav() {
           <Link to="/location" className='navItemMenu'>
             <ButtonNavMenu>Localização</ButtonNavMenu>
           </Link>
+          <Link to="/tithesandofferings" className='navItemMenu'>
+            <ButtonNavMenu>Ofertas</ButtonNavMenu>
+          </Link>
           {/* <Link to="/ministries" className='navItemMenu'>
             <ButtonNavMenu>Ministérios</ButtonNavMenu>
           </Link> */}

@@ -1,6 +1,7 @@
 export * from './HomePage';
 export * from './LocationPage';
 export * from './AboutPage';
+export * from './TithesOfferingsPage'
 export * from './MinistriesPage';
 export * from './EventsPage';
 export * from './WatchPage';
