@@ -44,6 +44,7 @@
   height: max(100vh, fit-content);
   margin-top: 5%;
   margin-bottom: 5%;
+  padding: 10px;
 }
 
 .imageWrapperBannerBePartOfTheCommunity {
@@ -86,15 +87,17 @@
 @media screen and (min-width: 760px) {
   .lSectionBannerBePartOfTheCommunity {
     display: block flex;
+    padding: 10px;
   }
   .imageWrapperBannerBePartOfTheCommunity {
-    max-width: 750px;
+    max-width: 1024px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .lSectionBannerBePartOfTheCommunity {
     display: block flex;
+    padding: 0px;
   }
   .imageWrapperBannerBePartOfTheCommunity {
     max-width: 1279px;
