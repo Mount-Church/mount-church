@@ -103,7 +103,7 @@
     flex-direction: row;
     justify-content: center;
     padding: 10px;
-    height: 100vh;
+    height: max(100vh, fit-content);
   }
   .imageSmallShowAndHideAssistanceDonateOverView {
     display: block;
@@ -122,6 +122,7 @@
   .sectionAssistanceDonateOverView {
     justify-content: space-between;
     padding: 0px;
+    height: 100vh;
   }
   .AssistanceDonateOverView {
     justify-content: left;
