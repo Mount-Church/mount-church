@@ -37,11 +37,6 @@ export function Nav() {
           <Link to="/watch" className='navItemMenu'>
             <ButtonNavMenu>Assista</ButtonNavMenu>
           </Link>
-          {/* <Link to="" className='navItemMenu'>
-            <ButtonNavMenu onClick={() => window.open(`https://www.youtube.com/@MountChurchoficial/videos`, '_blank')}>
-              Assista
-            </ButtonNavMenu>
-          </Link> */}
         </div>
 
         <div className="flex lg:hidden">
@@ -65,9 +60,6 @@ export function Nav() {
             {/* <NavMobileItem to="/events">Eventos</NavMobileItem> */}
             <NavMobileItem to="/assistance">Assistência</NavMobileItem>
             <NavMobileItem to="/watch">Assista</NavMobileItem>
-            {/* <NavMobileItem to="/escrever-agora" variant="primary">
-              Escrever Agora
-            </NavMobileItem> */}
           </div>
         </div>
       )}
