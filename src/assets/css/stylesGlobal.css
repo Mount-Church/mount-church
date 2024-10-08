@@ -73,7 +73,7 @@ html {
 
 /*===== Global Sections Titles  =====*/
 .globalSectionTitleTextDark56px,
-.globalSectionTitleTextDark48px,
+.globalSectionTitleTextDark45px,
 .globalSectionTitleTextDark,
 .globalSectionTitleTextWhite,
 .globalSectionMediumTextDark {
@@ -84,7 +84,7 @@ html {
   color: var(--dark-color);
   font-size: var(--h2-font-size);
 }
-.globalSectionTitleTextDark48px {
+.globalSectionTitleTextDark45px {
   color: var(--dark-color);
   font-size: var(--h3-font-size);
 }
@@ -176,7 +176,7 @@ html {
   .globalSectionTitleTextDark56px {
     font-size: var(--h2-font-size);
   }
-  .globalSectionTitleTextDark48px {
+  .globalSectionTitleTextDark45px {
     font-size: var(--h2-font-size);
   }
   .globalSectionTitleTextDark {
@@ -197,8 +197,8 @@ html {
   .globalSectionTitleTextDark56px {
     font-size: 56px;
   }
-  .globalSectionTitleTextDark48px {
-    font-size: 48px;
+  .globalSectionTitleTextDark45px {
+    font-size: 45px;
   }
   .globalSectionTextDark {
     margin-top: 0px;

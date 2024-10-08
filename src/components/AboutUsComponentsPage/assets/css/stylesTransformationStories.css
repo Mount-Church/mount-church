@@ -44,7 +44,6 @@
   max-width: 1279px;
   margin-left: 0;
   margin-right: 0;
-  padding: 2rem 0;
   color: var(--white-color);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -59,19 +58,20 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding: 50px;
+  padding: 10px;
   border-radius: 0px;
   background-color: var(--background-green-color);
 }
 .sectionTransformationStoriesData {
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 .sectionTitleTransformationStories {
-  margin-bottom: 1rem;
+  width: 100%;
+  text-align: center;
+  font-size: var(--h3-font-size);
   font-weight: bold;
   color: var(--dark-color);
-  font-size: var(--h3-font-size);
-  width: 100%;
+  margin-bottom: 1rem;
 }
 
 /*===== IMAGE =====*/
@@ -95,6 +95,9 @@
   .TransformationStories {
     width: 470px;
   }
+  .sectionTransformationStoriesData {
+    margin-bottom: 1rem;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -105,13 +108,18 @@
     height: 100%;
     min-height: 642px;
     border-radius: 20px;
+    padding: 50px;
   }
   .SecondColumTransformationStories {
     width: 100%;
     max-width: 488px;
     text-align: start;
   }
+  .sectionTransformationStoriesData {
+    margin-bottom: 3rem;
+  }
   .sectionTitleTransformationStories {
     font-size: var(--h2-font-size);
+    text-align: start;
   }
 }

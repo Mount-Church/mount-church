@@ -19,7 +19,7 @@ export function CommunityMission() {
           </div>
           {/* <div className='divContainerCommunityMission'> */}
           <div className='containerDivCommunityMission'>
-            <h2 className='globalSectionTitleTextDark48px'>
+            <h2 className='globalSectionTitleTextDark45px'>
               Uma comunidade guiada pelo amor de Deus, dedicada a mudar o mundo através da fé e do serviço
             </h2>
             {/* Image that appears when the screen is less than or equal to 1350px */}
