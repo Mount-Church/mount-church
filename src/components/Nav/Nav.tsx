@@ -60,6 +60,7 @@ export function Nav() {
             <NavMobileItem to="/homepage">Home</NavMobileItem>
             <NavMobileItem to="/about">Sobre</NavMobileItem>
             <NavMobileItem to="/location">Localização</NavMobileItem>
+            <NavMobileItem to="/tithesandofferings">Ofertas</NavMobileItem>
             {/* <NavMobileItem to="/ministries">Ministérios</NavMobileItem> */}
             {/* <NavMobileItem to="/events">Eventos</NavMobileItem> */}
             <NavMobileItem to="/assistance">Assistência</NavMobileItem>
