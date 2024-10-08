@@ -39,7 +39,6 @@
 .lSectionAllActivities {
   background-color: var(--white-color);
 }
-
 .sectionAllActivities {
   height: max(100vh, fit-content);
   max-width: 1279px;
@@ -62,11 +61,10 @@
   align-items: center;
   padding: 10px;
 }
-
 .sectionAllActivitiesData {
   margin-bottom: 3rem;
+  width: 100%;
 }
-
 .customDivCarouselAllActivities {
   margin: 30px 0 0;
   display: -webkit-box;
