@@ -6,7 +6,7 @@ export function PlanYourVisit() {
         <section className='lSectionPlanYourVisit' id='sectionPlanYourVisit'>
             <div className='containerPlanYourVisit'>
                 <div>
-                    <div className='containerLineGlobalStyles mt-40'>
+                    <div className='containerLineGlobalStyles'>
                         <div className='lineDarkGlobalStyles'></div>
                         <div className='textDarkGlobalStyles'>Localização</div>
                     </div>
@@ -27,7 +27,7 @@ export function PlanYourVisit() {
                             <h2 className='minTitlePlanYourVisit'>
                                 Fale conosco!
                             </h2>
-                            <div className='flexContentPlanYourVisit'>
+                            <div className='flexContentPlanYourVisit textCustomPlanYourVisit'>
                                 <p className='cursor-pointer'
                                     onClick={() => window.open(`https://wa.me/554792722249`, '_blank')}>
                                     +55 47 9 9272-2249
@@ -38,17 +38,17 @@ export function PlanYourVisit() {
                                 </p>
                             </div>
                         </div>
-                        <div className='text-slate-950 mt-9'>
+                        <div className='text-slate-950'>
                             <h2 className='minTitlePlanYourVisit' >
                                 Sede
                             </h2>
-                            <p className="globalSectionTextDark">R. Botafogo 494 Itaum, Joinville - SC <br />Brasil.</p>
+                            <p className="textCustomPlanYourVisit">R. Botafogo 494 Itaum, Joinville - SC <br />Brasil.</p>
                         </div>
-                        <div className='text-slate-950 mt-9'>
+                        <div className='text-slate-950'>
                             <h2 className='minTitlePlanYourVisit'>
                                 Cultos
                             </h2>
-                            <p className="globalSectionTextDark">Culltos Qui - 20h e Dom 18h </p>
+                            <p className="textCustomPlanYourVisit">Culltos Qui - 20h e Dom 18h </p>
                             <div className='flex space-x-3 mb-8 mt-3'>
                                 <div className='cursor-pointer'
                                     onClick={() => window.open(`https://www.facebook.com/MountChurchJoinville`, '_blank')}

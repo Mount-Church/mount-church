@@ -159,7 +159,7 @@ html {
   cursor: pointer;
 }
 .textBackButtonGlobal {
-  color: var(--text-dark-blue);
+  color: var(--dark-color);
   margin-left: 10px;
   font-weight: light;
 }
