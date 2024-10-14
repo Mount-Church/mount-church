@@ -108,6 +108,7 @@ img {
   border-radius: 5px;
   background-color: var(--background-dark-color);
   color: var(--white-color);
+  cursor: pointer;
 }
 .closeModalDonate:hover {
   cursor: pointer;

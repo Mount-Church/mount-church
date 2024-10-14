@@ -24,12 +24,12 @@ import OnfireCulto from './assets/images/onFireculto.jpg';
 import TennsEventos from './assets/images/onFiretennsEventos.jpg';
 import picnicTennsIMG from './assets/images/onFirePicnic.jpg';
 
-/*===== FLOWING =====*/
-import FlowingImg from './assets/images/flowing.jpg';
-import FlowingBannerImg from './assets/images/flowingbanner.jpg';
-import CultoFlowing from './assets/images/flowngCulto.jpg';
-import ComidaFlowing from './assets/images/flowingLanche.jpg';
-import ConexaoFlowing from './assets/images/flowingConexao.jpg';
+/*===== ONE =====*/
+import OneImg from './assets/images/one.jpg';
+import OneBannerImg from './assets/images/oneBanner.jpg';
+import CultoOne from './assets/images/oneCulto.jpg';
+import ComidaOne from './assets/images/oneLanche.jpg';
+import ConexaoOne from './assets/images/oneConexao.jpg';
 
 /*===== MDL LUTAS =====*/
 import LutaCarImg from './assets/images/mdlCard.jpg';
@@ -119,14 +119,14 @@ const ministriesOrActivitiesMock = [
     {
         id: 2,
         mockType: 'Ministérios',
-        title: 'Flowing',
-        description: 'Overflowing é o grupo dos <b>jovens da igreja</b>. Realizamos diversas atividades e temos um culto separado aos <b>sábados.</b>',
-        image: FlowingImg,
+        title: 'One',
+        description: 'One é o grupo dos <b>jovens da igreja</b>. Realizamos diversas atividades e temos um culto separado aos <b>sábados.</b>',
+        image: OneImg,
         link: 'https://seu-site.com/flowing',
         infoTitle: 'Convite para o Grupo de Jovens',
-        infoDescription: 'Gostaríamos de convidar você para participar do nosso grupo <strong>Flowing</strong>!!🔥</p><p>Aqui é um espaço de amizade, crescimento espiritual e muita alegria. Juntos, buscamos fortalecer nossa fé, compartilhar experiências e caminhar com Deus em cada etapa de nossas vidas.</p><br><p><strong>Nossos encontros são:</strong></p><ul><li>📅 <strong>Sexta-feira</strong></li><li>⏰ <strong>21h00</strong></li></ul><br><p>Venha e traga sua energia e coração aberto para viver momentos de comunhão, diversão e aprendizado. E claro, não deixe de convidar seus amigos também!</p><p>Esperamos por você!<strong> Deus te abençoe!</strong>',
-        infoImage: FlowingBannerImg,
-        joinTheGroupTitle: 'Conexão flowing e Culto de Jovens',
+        infoDescription: 'Gostaríamos de convidar você para participar do nosso grupo <strong>One</strong>!!🔥</p><p>Aqui é um espaço de amizade, crescimento espiritual e muita alegria. Juntos, buscamos fortalecer nossa fé, compartilhar experiências e caminhar com Deus em cada etapa de nossas vidas.</p><br><p><strong>Nossos encontros são:</strong></p><ul><li>📅 <strong>Sexta-feira</strong></li><li>⏰ <strong>21h00</strong></li></ul><br><p>Venha e traga sua energia e coração aberto para viver momentos de comunhão, diversão e aprendizado. E claro, não deixe de convidar seus amigos também!</p><p>Esperamos por você!<strong> Deus te abençoe!</strong>',
+        infoImage: OneBannerImg,
+        joinTheGroupTitle: 'Conexão One e Culto de Jovens',
         firstDescriptionjoinTheGroup: 'A conexão de jovens é um grupo menor dentro da igreja, formado por amigos que se reúnem semanalmente para compartilhar a palavra de Deus, orar juntos e fortalecer laços de <strong>amizade</strong>. É um ambiente onde cada pessoa pode expressar suas dúvidas, testemunhos e desafios, contando com o apoio dos líderes e demais membros . É lugar de crescimento espiritual e pessoal, além de ser uma ótima oportunidade para novos integrantes conhecerem mais sobre a <strong>fé cristã</strong> em um ambiente acolhedor e descontraído.',
         secondDescriptionjoinTheGroup: 'O culto de jovens é um momento <strong>especial</strong> de <strong>celebração</strong> voltado para esse público. Com uma abordagem atual e dinâmica, é uma oportunidade de louvar a Deus, ouvir mensagens inspiradoras e se conectar àqueles que também estão buscando uma vida nos caminhos de Cristo. Durante o culto, há espaço para <strong>música</strong>, momentos de <strong>oração</strong>, <strong>reflexões bíblicas</strong> e, muitas vezes, atividades <strong>interativas</strong>. É um espaço vibrante e acolhedor, onde os jovens podem encontrar direção espiritual e renovar suas forças para o dia a dia.',
         buttonNameTargeting: 'Mais informações',
@@ -136,19 +136,19 @@ const ministriesOrActivitiesMock = [
                 id: 1,
                 title: 'Comunhão e Fé',
                 description: 'Um culto de jovens é um momento vibrante,cheio de alegria… Louvores contagiante e palavras inspiradoras que se unem para tocar <strong>corações</strong>!',
-                image: CultoFlowing,
+                image: CultoOne,
             },
             {
                 id: 2,
                 title: 'Conversas à Mesa',
                 description: 'Nesse ambiente acolhedor, amigos se reúnem entre <strong>refeições</strong> para conversar sobre <strong>Deus</strong>, compartilhar experiências, incluindo alegria, amizade e, é claro, boa comida! 🍽️🗣️🙏',
-                image: ComidaFlowing,
+                image: ComidaOne,
             },
             {
                 id: 3,
                 title: 'Eclesiastes 12:1 NTLH',
                 description: 'Lembre do seu Criador enquanto você ainda é jovem, antes que venham os dias maus e cheguem os anos em que você dirá: “Não tenho mais prazer na vida.”',
-                image: ConexaoFlowing,
+                image: ConexaoOne,
             },
         ],
     },
@@ -486,9 +486,9 @@ const ministriesOrActivitiesMock = [
         infoTitle: 'Missionária Eli',
         infoDescription: 'Meu nome é <strong>Elizandra Hille</strong>, tenho 38 anos e sou natural de Joinville, SC. Há mais de 6 anos, sou missionária de tempo integral no <strong>Camboja</strong>, país do Sudeste Asiático. Sirvo como missionária sob a organização <strong>Iris Phnom Penh</strong>, com a visão principal de levar amor, esperança, dignidade e o evangelho do Senhor a meninas e mulheres vítimas do tráfico sexual, atuando na prevenção e no resgate dessas vítimas. Para saber mais detalhes do que faço, siga meu <strong>Instagram</strong> e o <strong>Instagram</strong> da Iris Phnom Penh. </br></br> <ul><li><strong>@elizandrahille</strong></li><li><strong>@irisphnompenh</strong></li></ul> ',
         infoImage: missionariaCambojaBannerImg,
-        joinTheGroupTitle: 'Transformando Vidas no Camboja',
-        firstDescriptionjoinTheGroup: 'O projeto <strong>missionário</strong> no <strong>Camboja</strong>, é dedicado a levar <strong>amor</strong>, <strong>esperança</strong> e <strong>dignidade</strong> a meninas e mulheres vítimas do <strong>tráfico sexual</strong>. Através da <strong>Iris Phnom Penh</strong>, Elizandra trabalha na prevenção e resgate dessas vítimas, proporcionando um futuro melhor e mais seguro. “E disse-lhes: Vão pelo mundo todo e preguem o evangelho a todas as pessoas. Quem crer e for batizado será salvo; mas quem não crer será condenado” (Marcos 16:15-16, NVI).',
-        secondDescriptionjoinTheGroup: 'Se você sente o chamado para apoiar este projeto, convidamos você a fazer uma doação via <strong>PIX</strong> para <strong>elizandrah@gmail.com</strong>. Sua contribuição ajudará a transformar vidas e a levar esperança a quem mais precisa. “Jesus respondeu: Digo-lhe a verdade: Ninguém pode entrar no Reino de Deus, se não nascer da água e do Espírito” (João 3:5, NVI). Para mais informações, siga <strong>@elizandrahille</strong> e <strong>@irisphnompenh</strong> no Instagram. Deus abençoe muito vocês.',
+        joinTheGroupTitle: 'ALCANCE NOS BARES/BORDÉIS',
+        firstDescriptionjoinTheGroup: 'Temos uma equipe de mulheres que vai semanalmente aos bares/ bordéis do Distrito Vermelho para fazer amizade e ministrar às meninas/mulheres que trabalham lá.</br></br>As meninas são provenientes de vilas rurais, e a partir dos 13 anos são vendidas pelos pais à traficantes e donos de bares aqui na capital do Camboja, onde são constantemente abusadas por estrangeiros que todo ano vêm para o Camboja com o principal objetivo do turismo sexual.</br></br> Nosso principal objetivo é amar as meninas que Deus coloca à nossa frente, oferecendo aulas de Inglês e discipulado que é quando construímos relacionamento com elas. Se elas desejarem sair dos bares, por meio de parcerias com outras organizações, um caminho para a liberdade e uma vida digna será oferecido.',
+        secondDescriptionjoinTheGroup: 'Se você sente o chamado para apoiar este projeto, convidamos você a fazer uma doação via <strong>PIX</strong> para <strong>elizandrah@gmail.com</strong>. Sua contribuição ajudará a transformar vidas e a levar esperança a quem mais precisa. Para mais informações, siga <strong>@elizandrahille</strong> e <strong>@irisphnompenh</strong> no Instagram. Deus abençoe muito vocês.',
         joinTheGroupLink: 'https://wa.me/554799569911',
         buttonNameTargeting: 'Mais informações',
         services: [
