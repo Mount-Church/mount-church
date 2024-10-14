@@ -59,7 +59,7 @@ export function AfterTheService() {
                 </div>
                 <div className='columInfoAfterTheService'>
                     {AfterTheServiceInfoMock.map((services, index) => (
-                        <div className='divComponentInfo'>
+                        <div className='divComponentInfo' key={index}>
                             {/* Image that appears when the screen is larger than 1350px */}
                             <div className='divImageInfoAfterTheService imageShowAndHidelargerThan1350AfterTheService' style={{ backgroundImage: `url(${services.image})` }} />
                             <div className='divInfoAfterTheService'>

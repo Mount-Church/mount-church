@@ -28,7 +28,7 @@ export function TheImportanceOfTithesAndOfferings() {
                         <div className="textDarkGlobalStyles">Dízimos e Ofertas</div>
                     </div>
                     <div className='containerDivTheImportanceOfTithesAndOfferings'>
-                        <h2 className="globalSectionTitleTextDark56px">
+                        <h2 className="globalSectionTitleTextDark45px">
                             A Importância dos Dízimos e Ofertas
                         </h2>
                     </div>

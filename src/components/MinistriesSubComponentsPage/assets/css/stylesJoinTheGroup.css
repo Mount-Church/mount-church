@@ -97,7 +97,7 @@
   justify-content: space-evenly;
 }
 .titleInfoJoinTheGroup {
-  font-size: var(--h3-font-size);
+  font-size: var(--h4-font-size);
   font-weight: bold;
   color: var(--white-color);
   text-align: center;

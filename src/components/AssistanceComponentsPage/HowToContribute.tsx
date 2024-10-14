@@ -12,7 +12,7 @@ export function HowToContribute() {
                             Como você pode contribuir
                         </h2>
                         <div className='divContainerHowToContribute'>
-                            <p className="globalSectionTextDark">
+                            <p className="sectionTextDarkHowToContribute">
                                 <strong>Doação de Roupas e Alimentos</strong>: Aceitamos doações de roupas, alimentos não perecíveis e cestas básicas. Essas doações são essenciais para apoiar famílias e indivíduos em situação de vulnerabilidade. Cada peça de roupa e cada alimento doado ajudam a proporcionar dignidade e esperança para aqueles que enfrentam dificuldades.
                                 <br></br>
                                 <br></br>
