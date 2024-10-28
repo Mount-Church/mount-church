@@ -1,6 +1,5 @@
 {
   "homepage": "https://mountchurch.com.br",
-  "name": "nestjs-mail-schedule-frontend",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
