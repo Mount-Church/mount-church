@@ -29,7 +29,7 @@ export function FullServicesSermonsOrSpecialEvents() {
     }
     return (
         <section className='lSectionFullServicesSermonsOrSpecialEvents' id='FullServicesSermonsOrSpecialEvents'>
-            <div className='containerFullServicesSermonsOrSpecialEvents'>
+            <div className='containerFullServicesSermonsOrSpecialEvents globalContainers'>
                 <Link to="/watch" className='backButtonGlobal'>
                     <RiArrowLeftWideFill />
                     <div className='textBackButtonGlobal'>Voltar</div>

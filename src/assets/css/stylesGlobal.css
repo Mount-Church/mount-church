@@ -71,6 +71,12 @@ html {
   scroll-behavior: smooth;
 }
 
+/*===== GLOBAL CONTAINERS  =====*/
+.globalContainers {
+  margin-top: 25%;
+  /* background-color: red; */
+}
+
 /*===== Global Sections Titles  =====*/
 .globalSectionTitleTextDark56px,
 .globalSectionTitleTextDark45px,
@@ -172,7 +178,29 @@ html {
 }
 
 /*===== MEDIA QUERIES =====*/
+
+@media screen and (min-width: 320px) {
+  .globalContainers {
+    margin-top: 25%;
+    height: 600px;
+    /* background-color: green; */
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .globalContainers {
+    margin-top: 20%;
+    height: 500px;
+    /* background-color: pink; */
+  }
+}
+
 @media screen and (min-width: 760px) {
+  .globalContainers {
+    margin-top: 12%;
+    height: 500px;
+    /* background-color: blue; */
+  }
   .globalSectionTitleTextDark56px {
     font-size: var(--h2-font-size);
   }
@@ -193,7 +221,20 @@ html {
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .globalContainers {
+    margin-top: 10%;
+    height: 500px;
+    /* background-color: gray; */
+  }
+}
+
 @media screen and (min-width: 1200px) {
+  .globalContainers {
+    margin-top: 10%;
+    height: 450px;
+    /* background-color: orange; */
+  }
   .globalSectionTitleTextDark56px {
     font-size: 56px;
   }
@@ -202,5 +243,13 @@ html {
   }
   .globalSectionTextDark {
     margin-top: 0px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .globalContainers {
+    margin-top: 5%;
+    height: 500px;
+    /* background-color: darkgreen; */
   }
 }
