@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.d556f5ce.css",
-    "main.js": "/static/js/main.015ec2e6.js",
-    "static/js/453.bfb0a3bc.chunk.js": "/static/js/453.bfb0a3bc.chunk.js",
+    "main.css": "/static/css/main.336bbf22.css",
+    "main.js": "/static/js/main.ff263079.js",
+    "static/js/453.64be9eb2.chunk.js": "/static/js/453.64be9eb2.chunk.js",
     "static/media/subMenuVideo.mp4": "/static/media/subMenuVideo.dc26a5e665d86f25c786.mp4",
     "static/media/conexaoPppMountChurch.jpg": "/static/media/conexaoPppMountChurch.f6f769bbbba2f94fd53c.jpg",
     "static/media/homensCultosEspecificos.jpg": "/static/media/homensCultosEspecificos.f684bc10403e992d59b8.jpg",
@@ -90,12 +90,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.d556f5ce.css.map": "/static/css/main.d556f5ce.css.map",
-    "main.015ec2e6.js.map": "/static/js/main.015ec2e6.js.map",
-    "453.bfb0a3bc.chunk.js.map": "/static/js/453.bfb0a3bc.chunk.js.map"
+    "main.336bbf22.css.map": "/static/css/main.336bbf22.css.map",
+    "main.ff263079.js.map": "/static/js/main.ff263079.js.map",
+    "453.64be9eb2.chunk.js.map": "/static/js/453.64be9eb2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d556f5ce.css",
-    "static/js/main.015ec2e6.js"
+    "static/css/main.336bbf22.css",
+    "static/js/main.ff263079.js"
   ]
 }
