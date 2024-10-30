@@ -31,6 +31,7 @@
     --h1-font-size: 2.5rem;
     --h2-font-size: 2.5rem;
     --h3-font-size: 1.8rem;
+    --h4-font-size: 1.2rem;
     --normal-font-size: 1rem;
   }
 }
@@ -85,7 +86,7 @@
   height: 100%;
 }
 .divComponentInfo {
-  display: flex;
+  /* display: flex; */
   margin-bottom: 15px;
 }
 .divInfoAfterTheService {
@@ -95,7 +96,6 @@
   justify-content: space-evenly;
 }
 .titleInfoAfterTheService {
-  font-size: var(--h3-font-size);
   font-weight: bold;
   color: var(--text-dark-blue-color);
   text-align: center;
@@ -134,17 +134,54 @@
 
 /*===== MEDIA QUERIES =====*/
 
+@media screen and (min-width: 1200px) {
+}
+
+/*===== MEDIA QUERIES =====*/
+
+@media screen and (min-width: 320px) {
+  .divComponentInfo {
+    display: Center;
+    /* background-color: red; */
+  }
+  .titleInfoAfterTheService {
+    font-size: var(--h4-font-size);
+  }
+  .divInfoAfterTheService {
+    margin-left: 0px;
+  }
+  .textInfoAfterTheService {
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .divComponentInfo {
+    display: Center;
+    /* background-color: yellow; */
+  }
+  .titleInfoAfterTheService {
+    font-size: var(--h3-font-size);
+  }
+}
+
 @media screen and (min-width: 760px) {
   .sectionAfterTheService {
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
   }
-  .divInfoAfterTheService {
-    max-height: 130px;
+  .divComponentInfo {
+    display: flex;
+    /* background-color: blue; */
   }
   .titleInfoAfterTheService {
+    font-size: var(--h3-font-size);
     text-align: start;
+  }
+  .divInfoAfterTheService {
+    margin-left: 12px;
+    max-height: 130px;
   }
   .subTitleInfoAfterTheService {
     text-align: start;
@@ -165,7 +202,26 @@
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .divComponentInfo {
+    display: Center;
+    /* background-color: green; */
+  }
+  .titleInfoAfterTheService {
+    font-size: var(--h3-font-size);
+    text-align: start;
+  }
+}
+
 @media screen and (min-width: 1200px) {
+  .divComponentInfo {
+    display: Center;
+    /* background-color: purple; */
+  }
+  .titleInfoAfterTheService {
+    font-size: var(--h3-font-size);
+    text-align: start;
+  }
   .sectionAfterTheService {
     height: 100vh;
     max-width: 1279px;
@@ -178,7 +234,6 @@
     margin: 30px 0 0;
     justify-content: left;
   }
-
   .divContainerAfterTheService {
     max-width: 580px;
   }
@@ -190,9 +245,6 @@
   }
   .divInfoAfterTheService {
     max-height: 130px;
-  }
-  .titleInfoAfterTheService {
-    text-align: start;
   }
   .subTitleInfoAfterTheService {
     text-align: start;
@@ -209,5 +261,16 @@
   }
   .imageShowAndHidelessThanOrEqualTo1350AfterTheService {
     display: none;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .divComponentInfo {
+    display: Center;
+    /* background-color: pink; */
+  }
+  .titleInfoAfterTheService {
+    font-size: var(--h3-font-size);
+    text-align: start;
   }
 }

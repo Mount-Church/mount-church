@@ -38,21 +38,21 @@
 .windowOverviewAndImpactTabs {
   width: 350px;
   height: 480px;
-  border-radius: 10px;
-  background: white;
+  /* border-radius: 10px; */
+  background: var(--background-white-color);
   overflow: hidden;
-  box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+  /* box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
     0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
-    0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
+    0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075); */
   display: flex;
   flex-direction: column;
   margin-top: 10px;
 }
 
 .navOverviewAndImpactTabs {
-  background: #fdfdfd;
+  background: var(--background-white-color);
   padding: 5px 5px 0;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
   border-bottom: 1px solid #eeeeee;
@@ -83,7 +83,7 @@
   width: 100%;
   padding: 10px 15px;
   position: relative;
-  background: white;
+  background: var(--background-white-color);
   cursor: pointer;
   height: 24px;
   display: flex;
@@ -103,13 +103,13 @@
   background: var(--background-green-color);
 }
 .liSelectedwindowOverviewAndImpactTabs {
-  background: var(--background-green-color);
+  background: var(--background-white-color);
 }
 .liStylesOverviewAndImpactTabs button {
   width: 20px;
   height: 20px;
   border: 0;
-  background: #fff;
+  background: var(--background-white-color);
   border-radius: 3px;
   display: flex;
   justify-content: center;
