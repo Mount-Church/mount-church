@@ -33,8 +33,8 @@ export function SermonPlaylist() {
     return (
         <section className="lSectionSermonPlaylist" id="sectionSermonPlaylist">
             <div className="sectionSermonPlaylist">
-                <div className="sectionSermonPlaylistData">
-                    <div className="containerLineGlobalStyles mt-40">
+                <div className="sectionSermonPlaylistData sectionSermonPlaylistDataMarginsTop">
+                    <div className="containerLineGlobalStyles ">
                         <div className="lineDarkGlobalStyles"></div>
                         <div className="textDarkGlobalStyles">Atividades</div>
                     </div>
