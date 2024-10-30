@@ -121,6 +121,30 @@
 /*===== MEDIA QUERIES =====*/
 
 @media screen and (min-width: 760px) {
+}
+
+@media screen and (min-width: 1200px) {
+}
+
+/*===== MEDIA QUERIES =====*/
+
+@media screen and (min-width: 320px) {
+  .windowOverviewAndImpactTabsHowYouCanContributeTabs {
+    width: 310px;
+    height: 350px;
+    margin-top: 0px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .windowOverviewAndImpactTabsHowYouCanContributeTabs {
+    width: 470px;
+    height: 350px;
+    margin-top: 0px;
+  }
+}
+
+@media screen and (min-width: 760px) {
   .windowOverviewAndImpactTabsHowYouCanContributeTabs {
     width: 592px;
     height: 350px;
@@ -128,7 +152,7 @@
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1024px) {
   .windowOverviewAndImpactTabsHowYouCanContributeTabs {
     width: 592px;
     height: 200px;
