@@ -39,9 +39,8 @@
 .lSectionOurLeaders {
   background-color: var(--background-white-color);
 }
-
 .sectionOurLeaders {
-  height: max(100vh, fit-content);
+  /* height: max(100vh, fit-content); */
   max-width: 1279px;
   margin-left: 0;
   margin-right: 0;
@@ -74,34 +73,6 @@
 
 /*===== MEDIA QUERIES =====*/
 
-@media screen and (min-width: 760px) {
-  .sectionOurLeaders {
-    flex-direction: row;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0px;
-  }
-  .sectionOurLeadersImg div {
-    width: 470px;
-    height: 470px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .sectionOurLeaders {
-    height: 100vh;
-    justify-content: space-between;
-    padding: 0px;
-  }
-  .sectionCommunityMission {
-    height: 100vh;
-  }
-  .bd-grid {
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
 @media screen and (min-width: 1350px) {
   .imageSmallShowAndHideOurLeaders {
     display: none;
@@ -120,3 +91,78 @@
     display: none;
   }
 }
+
+/*===== MEDIA QUERIES =====*/
+
+@media screen and (min-width: 320px) {
+  .sectionOurLeaders {
+    height: 850px;
+  }
+  .sectionOurLeadersImg div {
+    width: 300px;
+    height: 300px;
+  }
+  .sectionOurLeadersData {
+    margin-top: 110px;
+    padding: 0px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .sectionOurLeaders {
+    height: 900px;
+  }
+  .sectionOurLeadersImg div {
+    width: 470px;
+    height: 470px;
+  }
+  .sectionOurLeadersData {
+    margin-top: 100px;
+    padding: 0px;
+  }
+}
+
+@media screen and (min-width: 760px) {
+  .sectionOurLeaders {
+    height: 810px;
+  }
+  .sectionOurLeaders {
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+  }
+  .sectionOurLeadersImg div {
+    width: 470px;
+    height: 470px;
+  }
+  .sectionOurLeadersData {
+    margin-top: 100px;
+    padding: 10px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .sectionOurLeaders {
+    height: 810px;
+  }
+  .sectionOurLeadersData {
+    margin-top: 80px;
+    padding: 0px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .sectionOurLeaders {
+    height: 710px;
+    justify-content: space-between;
+    padding: 0px;
+  }
+  .sectionCommunityMission {
+    height: 100vh;
+  }
+  .bd-grid {
+    margin-left: auto;
+    margin-right: auto;
+  }
+ }

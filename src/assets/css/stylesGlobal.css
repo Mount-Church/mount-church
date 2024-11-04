@@ -93,6 +93,7 @@ html {
 .globalSectionTitleTextDark45px {
   color: var(--dark-color);
   font-size: var(--h3-font-size);
+  background-color: orange;
 }
 
 .globalSectionTitleTextDark {
@@ -185,6 +186,15 @@ html {
     height: 600px;
     /* background-color: green; */
   }
+  .globalSectionTitleTextDark45px {
+    font-size: 18px;
+    background-color: red;
+  }
+  .globalSectionTextDark {
+    margin-top: 10px;
+    background-color: green;
+    max-width: 320px;
+  }
 }
 
 @media screen and (min-width: 480px) {
@@ -192,6 +202,15 @@ html {
     margin-top: 20%;
     height: 500px;
     /* background-color: pink; */
+  }
+  .globalSectionTitleTextDark45px {
+    font-size: var(--h4-font-size);
+    background-color: pink;
+  }
+  .globalSectionTextDark {
+    margin-top: 10px;
+    max-width: 480px;
+    background-color: yellow;
   }
 }
 
@@ -206,6 +225,7 @@ html {
   }
   .globalSectionTitleTextDark45px {
     font-size: var(--h2-font-size);
+    background-color: blue;
   }
   .globalSectionTitleTextDark {
     font-size: var(--h2-font-size);
@@ -218,6 +238,8 @@ html {
   }
   .globalSectionTextDark {
     margin-top: 10px;
+    max-width: 760px;
+    background-color: blue;
   }
 }
 
@@ -226,6 +248,11 @@ html {
     margin-top: 10%;
     height: 500px;
     /* background-color: gray; */
+  }
+  .globalSectionTextDark {
+    margin-top: 10px;
+    max-width: 1024px;
+    background-color: purple;
   }
 }
 
@@ -240,9 +267,12 @@ html {
   }
   .globalSectionTitleTextDark45px {
     font-size: 45px;
+    background-color: green;
   }
   .globalSectionTextDark {
     margin-top: 0px;
+    max-width: 1200px;
+    background-color: pink;
   }
 }
 
@@ -251,5 +281,13 @@ html {
     margin-top: 5%;
     height: 500px;
     /* background-color: darkgreen; */
+  }
+  .globalSectionTitleTextDark45px {
+    font-size: 45px;
+    background-color: darkgreen;
+  }
+  .globalSectionTextDark {
+    margin-top: 10px;
+    background-color: darkgreen;
   }
 }

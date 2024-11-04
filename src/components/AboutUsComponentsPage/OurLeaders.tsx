@@ -8,7 +8,7 @@ export function OurLeaders() {
         <section className="lSectionOurLeaders" id="sectionOurLeaders">
             <div className="sectionOurLeaders">
                 <div className="sectionOurLeadersData">
-                    <div className="containerLineGlobalStyles mt-40">
+                    <div className="containerLineGlobalStyles">
                         <div className="lineDarkGlobalStyles"></div>
                         <div className="textDarkGlobalStyles">Nossos líderes</div>
                     </div>

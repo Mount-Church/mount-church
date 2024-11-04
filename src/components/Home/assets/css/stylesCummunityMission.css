@@ -76,6 +76,7 @@
 }
 .containerDivCommunityMission {
   max-width: 727px;
+  background-color: red;
 }
 
 /*===== IMAGES =====*/
@@ -87,8 +88,35 @@
 }
 
 /*===== MEDIA QUERIES =====*/
+@media screen and (min-width: 320px) {
+  .containerDivCommunityMission {
+    max-width: 320px;
+    background-color: yellow;
+  }
+  .sectionCommunityMissionImg div {
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .containerDivCommunityMission {
+    max-width: 480px;
+    background-color: green;
+  }
+  .sectionCommunityMissionImg div {
+    justify-content: center;
+    width: 450px;
+    height: 450px;
+  }
+}
 
 @media screen and (min-width: 760px) {
+  .containerDivCommunityMission {
+    max-width: 760px;
+    background-color: orange;
+  }
   .sectionCommunityMissionImg div {
     justify-content: center;
     width: 470px;
@@ -107,7 +135,18 @@
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .containerDivCommunityMission {
+    max-width: 1000px;
+    background-color: purple;
+  }
+}
+
 @media screen and (min-width: 1200px) {
+  .containerDivCommunityMission {
+    max-width: 1200px;
+    background-color: pink;
+  }
   .sectionCommunityMission {
     justify-content: space-between;
     padding: 0px;
@@ -123,5 +162,12 @@
   }
   .containerDivCommunityMission {
     margin-top: 0px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .containerDivCommunityMission {
+    max-width: 800px;
+    background-color: blue;
   }
 }
