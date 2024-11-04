@@ -37,6 +37,8 @@
 .lSectionJoinTheGroup {
   background-color: var(--background-dark-color);
   margin-bottom: 70px;
+  display: flex;
+  justify-content: center;
 }
 .sectionJoinTheGroup {
   height: max(100vh, fit-content);
@@ -61,6 +63,8 @@
   padding: 10px;
 }
 .sectionJoinTheGroupData {
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 3rem;
 }
 .sectionTextWhiteJoinTheGroup {
@@ -88,6 +92,7 @@
 }
 .divComponentJoinTheGroup {
   display: flex;
+  justify-content: center;
   margin-bottom: 15px;
 }
 .divInfoJoinTheGroup {
@@ -129,11 +134,43 @@
 
 /*===== MEDIA QUERIES =====*/
 
+@media screen and (min-width: 320px) {
+  .columJoinTheGroup {
+    padding: 0px;
+  }
+  .sectionJoinTheGroupData {
+    width: 100%;
+    max-width: 100%;
+  }
+  .divImageJoinTheGroup {
+    width: 100%;
+    min-height: 160px;
+  }
+  .textJoinTheGroup {
+    max-width: 350px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .columJoinTheGroup {
+    padding: 0px;
+  }
+  .sectionJoinTheGroupData {
+    width: 100%;
+    max-width: 100%;
+  }
+  .divImageJoinTheGroup {
+    width: 350px;
+    max-width: 450px;
+    min-height: 260px;
+  }
+}
+
 @media screen and (min-width: 760px) {
   .sectionJoinTheGroup {
     flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    max-width: 100%;
   }
   .divInfoJoinTheGroup {
     max-height: 130px;
@@ -147,7 +184,8 @@
   /*===== IMAGE =====*/
 
   .divImageJoinTheGroup {
-    max-width: 190px;
+    max-width: 300px;
+    min-height: 200px;
   }
   .imageShowAndHidelargerThan1350JoinTheGroup {
     display: block;
@@ -157,13 +195,26 @@
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .sectionTextWhiteJoinTheGroup {
+    color: var(--white-color);
+    max-width: 100%;
+  }
+  /*===== IMAGE =====*/
+
+  .divImageJoinTheGroup {
+    max-width: 300px;
+    min-height: 180px;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .sectionJoinTheGroup {
-    height: 100vh;
+    height: 650px;
     max-width: 1279px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
   }
   .customButtonJoinTheGroup {
     margin: 30px 0 0;
@@ -184,11 +235,25 @@
   /*===== IMAGE =====*/
   .divImageJoinTheGroup {
     max-width: 190px;
+    min-height: 160px;
   }
   .imageShowAndHidelargerThan1350JoinTheGroup {
     display: block;
   }
   .imageShowAndHidelessThanOrEqualTo1350JoinTheGroup {
     display: none;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .sectionJoinTheGroup {
+    display: flex;
+    justify-content: center;
+    height: 650px;
+  }
+  /*===== IMAGE =====*/
+  .divImageJoinTheGroup {
+    max-width: 190px;
+    min-height: 160px;
   }
 }

@@ -29,7 +29,7 @@ export function CommunityMission() {
               </div>
             </div>
             <p className='globalSectionTextDark'>
-              Acreditamos que cada pessoa foi criada para pertencer a uma <strong>comunidade</strong>,
+              Acreditamos que cada pessoa foi criada para pertencer à uma <strong>comunidade</strong>,
               pois nunca foi o desejo de Deus que vivêssemos esta vida <strong>sozinhos</strong>.
               <br /><br />
               Somos uma congregação de adoradores de Jesus Cristo em Joinville, Santa Catarina, que anseiam

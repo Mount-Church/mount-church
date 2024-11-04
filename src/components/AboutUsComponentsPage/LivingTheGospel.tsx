@@ -21,10 +21,10 @@ export function LivingTheGospel() {
                     </h2>
                     <div>
                         <h2 className="globalSectionMediumTextDark">
-                            Vivendo o Evangelho na MountChurch: Amor, Comunidade e Serviço em Cristo.
+                            Vivendo o Evangelho na Mount Church: Amor, Comunidade e Serviço em Cristo.
                         </h2>
                         <p className="globalSectionTextDark">
-                            Na MountChurch, acreditamos na mensagem transformadora do Evangelho de Jesus Cristo. Nossa <strong>missão</strong> é compartilhar o amor de Deus, construir uma comunidade acolhedora e servir às necessidades espirituais e práticas das pessoas. Ensinamos e vivemos os <strong>princípios bíblicos</strong>, buscando ser um reflexo do <strong>amor de Cristo</strong> em tudo o que fazemos. Acreditamos na importância da oração, do estudo bíblico, e do envolvimento ativo na vida da igreja e na comunidade ao nosso redor.
+                            Na Mount Church, acreditamos na mensagem transformadora do Evangelho de Jesus Cristo. Nossa <strong>missão</strong> é compartilhar o amor de Deus, construir uma comunidade acolhedora e servir às necessidades espirituais e práticas das pessoas. Ensinamos e vivemos os <strong>princípios bíblicos</strong>, buscando ser um reflexo do <strong>amor de Cristo</strong> em tudo o que fazemos. Acreditamos na importância da oração, do estudo bíblico, e do envolvimento ativo na vida da igreja e na comunidade ao nosso redor.
                         </p>
                     </div> */}
                 </div>
