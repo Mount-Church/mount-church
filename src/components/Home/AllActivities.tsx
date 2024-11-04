@@ -13,10 +13,10 @@ export function AllActivities() {
             <div className="textDarkGlobalStyles">Atividades</div>
           </div>
           <h2 className="globalSectionTitleTextDark45px">
-            Conecte-se com a MountChurch
+            Conecte-se com a Mount Church
           </h2>
           <p className="globalSectionTextDark">
-            A <strong>MountChurch</strong> oferece várias maneiras para você se conectar e fazer parte de nossa comunidade. Seja participando dos nossos <strong>cultos</strong>, envolvimento nas nossas <strong>conexões</strong> ou trazendo seus filhos para o <strong>espaço Kids</strong>, temos algo para todos. Venha descobrir como você pode se envolver e crescer espiritualmente conosco.
+            A <strong>Mount Church</strong> oferece várias maneiras para você se conectar e fazer parte de nossa comunidade. Seja participando dos nossos <strong>cultos</strong>, se envolvimento com nas nossas <strong>conexões</strong> ou trazendo seus filhos para o <strong>espaço Kids</strong>: temos algo para todos. Venha descobrir como você pode se envolver e crescer espiritualmente conosco.
           </p>
           <div className='customDivCarouselAllActivities'>
             <Carousel />

@@ -78,7 +78,7 @@
   left: 0;
   right: 0;
   height: 1px;
-  background: var(--background-dark-green-color);
+  background: var(--background-dark-color);
 }
 .liWindowAnimateVisionMissionAndValues .selectedTabAnimated {
   background: var(--background-dark-green-color);

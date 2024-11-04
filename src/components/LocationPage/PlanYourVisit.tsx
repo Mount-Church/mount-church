@@ -18,7 +18,7 @@ export function PlanYourVisit() {
                         </h2>
                         <div className='divContainerPlanYourVisit'>
                             <p className="globalSectionTextDark">
-                                Estamos entusiasmados para recebê-lo na <strong>MountChurch</strong>! Queremos que sua experiência conosco seja <strong>acolhedora</strong> e <strong>significativa</strong> desde o momento em que você chegar.
+                                Estamos entusiasmados para recebê-lo na <strong>Mount Church</strong>! Queremos que sua experiência conosco seja <strong>acolhedora</strong> e <strong>significativa</strong> desde o momento em que você chegar.
                             </p>
                         </div>
                     </div>
