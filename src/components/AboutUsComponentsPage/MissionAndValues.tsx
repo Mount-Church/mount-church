@@ -4,7 +4,7 @@ import './assets/css/stylesMissionAndValues.css';
 export function MissionAndValues() {
     return (
         <section className='lSectionMissionAndValues' id='lSectionMissionAndValues'>
-            <div className='containerLivingTheGospel'>
+            <div className='containerMissionAndValues'>
                 <div className='sectionColumMissionAndValues'>
                     <div>
                         <h2 className="globalSectionMediumTextDark">

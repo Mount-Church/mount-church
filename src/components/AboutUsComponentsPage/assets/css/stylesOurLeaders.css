@@ -124,7 +124,7 @@
 
 @media screen and (min-width: 760px) {
   .sectionOurLeaders {
-    height: 810px;
+    height: 850px;
   }
   .sectionOurLeaders {
     flex-direction: row;
@@ -158,6 +158,12 @@
     justify-content: space-between;
     padding: 0px;
   }
+  .sectionOurLeadersData {
+    margin-top: 80px;
+    padding: 0px;
+    width: 100%;
+    max-width: 780px;
+  }
   .sectionCommunityMission {
     height: 100vh;
   }
@@ -165,4 +171,13 @@
     margin-left: auto;
     margin-right: auto;
   }
- }
+}
+
+@media screen and (min-width: 1920px) {
+  .sectionOurLeadersData {
+    margin-top: 80px;
+    padding: 0px;
+    width: 100%;
+    max-width: 780px;
+  }
+}
