@@ -78,17 +78,12 @@ html {
 }
 
 /*===== Global Sections Titles  =====*/
-.globalSectionTitleTextDark56px,
 .globalSectionTitleTextDark45px,
 .globalSectionTitleTextDark,
 .globalSectionTitleTextWhite,
 .globalSectionMediumTextDark {
   margin-bottom: 1rem;
   font-weight: bold;
-}
-.globalSectionTitleTextDark56px {
-  color: var(--dark-color);
-  font-size: var(--h2-font-size);
 }
 .globalSectionTitleTextDark45px {
   color: var(--dark-color);
@@ -201,7 +196,7 @@ html {
   .globalContainers {
     margin-top: 20%;
     height: 500px;
-    /* background-color: pink; */
+    background-color: pink;
   }
   .globalSectionTitleTextDark45px {
     font-size: var(--h4-font-size);
@@ -218,10 +213,7 @@ html {
   .globalContainers {
     margin-top: 12%;
     height: 500px;
-    /* background-color: blue; */
-  }
-  .globalSectionTitleTextDark56px {
-    font-size: var(--h2-font-size);
+    background-color: blue;
   }
   .globalSectionTitleTextDark45px {
     font-size: var(--h2-font-size);
@@ -247,7 +239,7 @@ html {
   .globalContainers {
     margin-top: 10%;
     height: 500px;
-    /* background-color: gray; */
+    background-color: gray;
   }
   .globalSectionTextDark {
     margin-top: 10px;
@@ -260,10 +252,7 @@ html {
   .globalContainers {
     margin-top: 10%;
     height: 450px;
-    /* background-color: orange; */
-  }
-  .globalSectionTitleTextDark56px {
-    font-size: 56px;
+    background-color: orange;
   }
   .globalSectionTitleTextDark45px {
     font-size: 45px;

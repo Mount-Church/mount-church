@@ -15,7 +15,7 @@ export function WatchServicesAndEventsOnline() {
                         <div className="lineDarkGlobalStyles"></div>
                         <div className="textDarkGlobalStyles">Atividades </div>
                     </div>
-                    <h2 className="globalSectionTitleTextDark">
+                    <h2 className="globalSectionTitleTextDark45px">
                         Assista Cultos e Eventos Online
                     </h2>
                     <p className="sectionTextDarkWatchServicesAndEventsOnline">

@@ -38,7 +38,7 @@ export function AfterTheService() {
                         <div className="lineDarkGlobalStyles"></div>
                         <div className="textDarkGlobalStyles">Após o Culto</div>
                     </div>
-                    <h2 className="globalSectionTitleTextDark">
+                    <h2 className="globalSectionTitleTextDark45px">
                         Oportunidade de Conexão
                     </h2>
                     <div className='divContainerAfterTheService'>

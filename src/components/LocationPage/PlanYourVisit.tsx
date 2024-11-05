@@ -13,7 +13,7 @@ export function PlanYourVisit() {
                 </div>
                 <div className='sectionColumPlanYourVisit'>
                     <div>
-                        <h2 className="globalSectionTitleTextDark">
+                        <h2 className="globalSectionTitleTextDark45px">
                             Planeje Sua Visita
                         </h2>
                         <div className='divContainerPlanYourVisit'>

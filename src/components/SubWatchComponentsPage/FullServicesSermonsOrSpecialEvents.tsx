@@ -41,7 +41,7 @@ export function FullServicesSermonsOrSpecialEvents() {
                     </div>
                 </div>
                 <div className='sectionFullServicesSermonsOrSpecialEvents'>
-                    <h2 className="globalSectionTitleTextDark">
+                    <h2 className="globalSectionTitleTextDark45px">
                         {collectionYoutube.titleName}
                     </h2>
                     <div>

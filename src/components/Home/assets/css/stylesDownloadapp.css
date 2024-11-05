@@ -42,12 +42,10 @@
 }
 
 .sectionDownloadApp {
-  height: max(100vh, fit-content);
   width: 100%;
   max-width: 1279px;
   margin-left: 0;
   margin-right: 0;
-  padding: 2rem 0;
   color: var(--white-color);
   display: flex;
   flex-direction: column;
@@ -106,38 +104,6 @@
 
 /*===== MEDIA QUERIES =====*/
 
-@media screen and (min-width: 760px) {
-  .sectionDownloadApp {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .customButtonDownloadApp {
-    max-width: 760px;
-    justify-content: space-evenly;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .sectionDownloadApp {
-    height: 100vh;
-  }
-  .sectionDownloadAppData {
-    max-width: 600px;
-  }
-  .customButtonDownloadApp {
-    max-width: 360px;
-    justify-content: space-between;
-  }
-  .bd-grid {
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
 @media screen and (min-width: 1350px) {
   .alignDownloadAppText {
     text-align: left;
@@ -162,5 +128,88 @@
   }
   .imageLargeShowAndHideDownloadApp {
     display: none;
+  }
+}
+
+/*===== MEDIA QUERIES =====*/
+
+@media screen and (min-width: 320px) {
+  .sectionDownloadApp {
+    background-color: red;
+  }
+  .customButtonDownloadApp {
+    max-width: 600px;
+    justify-content: space-between;
+    background-color: yellow;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .sectionDownloadApp {
+    background-color: yellow;
+  }
+  .customButtonDownloadApp {
+    max-width: 600px;
+    justify-content: space-between;
+    background-color: red;
+  }
+}
+
+@media screen and (min-width: 760px) {
+  .sectionDownloadApp {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: pink;
+  }
+  .customButtonDownloadApp {
+    max-width: 760px;
+    justify-content: space-evenly;
+    background-color: red;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .sectionDownloadApp {
+    background-color: green;
+  }
+  .customButtonDownloadApp {
+    max-width: 1004px;
+    justify-content: space-evenly;
+    background-color: red;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .sectionDownloadApp {
+    height: 700px;
+    background-color: orange;
+  }
+  .sectionDownloadAppData {
+    max-width: 600px;
+  }
+  .customButtonDownloadApp {
+    max-width: 600px;
+    justify-content: space-between;
+    background-color: green;
+  }
+  .bd-grid {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .sectionDownloadApp {
+    height: 600px;
+    background-color: blue;
+  }
+  .customButtonDownloadApp {
+    max-width: 600px;
+    justify-content: space-between;
+    background-color: red;
   }
 }

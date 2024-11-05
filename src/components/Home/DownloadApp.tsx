@@ -13,7 +13,7 @@ export function DownloadApp() {
                 </div>
                 <div className='sectionDownloadAppData'>
                     <div className='alignDownloadAppText'>
-                        <h2 className='globalSectionTitleTextDark '>
+                        <h2 className='globalSectionTitleTextDark45px '>
                             Baixe o aplicativo
                         </h2>
                     </div>
