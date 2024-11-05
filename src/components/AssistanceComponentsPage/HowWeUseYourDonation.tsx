@@ -19,12 +19,16 @@ export function HowWeUseYourDonation() {
                         <p className='textStylesHowWeUseYourDonation'>
                             Também apoiamos <strong>projetos sociais</strong>, como o Projeto <strong>Rede de Proteção da Criança</strong> do Morro do Meio e o <strong>Lar Reviver</strong>, que protegem e apoiam crianças em situação de risco.
                         </p>
-                    </div>
-                    <div className='divTextStylesHowWeUseYourDonation'>
+
                         <p className='textStylesHowWeUseYourDonation'>
                             Além disso, nossas doações ajudam comunidades vulneráveis, como a comunidade de dependentes químicos <strong>CRAP</strong>, oferecendo recursos para recuperação e reintegração social.
                         </p>
                     </div>
+                    {/* <div className='divTextStylesHowWeUseYourDonation'>
+                        <p className='textStylesHowWeUseYourDonation'>
+                            Além disso, nossas doações ajudam comunidades vulneráveis, como a comunidade de dependentes químicos <strong>CRAP</strong>, oferecendo recursos para recuperação e reintegração social.
+                        </p>
+                    </div> */}
                 </div>
             </div>
         </section>

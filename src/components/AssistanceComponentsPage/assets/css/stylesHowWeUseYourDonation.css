@@ -59,6 +59,8 @@
   width: 100%;
   max-width: 390px;
   background-color: blue;
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 .textStylesHowWeUseYourDonation {
   font-size: 16px;
@@ -103,6 +105,7 @@
   }
   .divTextStylesHowWeUseYourDonation {
     max-width: 780px;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 }
 
@@ -118,6 +121,7 @@
   .divTextStylesHowWeUseYourDonation {
     max-width: 900px;
     background-color: yellow;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 }
 
@@ -128,14 +132,15 @@
     background-color: red;
   }
   .sectionHowWeUseYourDonationData {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     max-width: 1279px;
   }
   .divTitleHowWeUseYourDonation {
     max-width: 374px;
   }
   .divTextStylesHowWeUseYourDonation {
-    max-width: 338px;
+    max-width: 800px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
