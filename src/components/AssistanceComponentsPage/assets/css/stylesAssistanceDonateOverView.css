@@ -94,6 +94,9 @@
 /*===== MEDIA QUERIES =====*/
 
 @media screen and (min-width: 320px) {
+  .sectionAssistanceDonateOverView {
+    background-color: red;
+  }
   .sectionAssistanceDonateOverViewImg div {
     justify-content: center;
     width: 300px;
@@ -102,20 +105,23 @@
 }
 
 @media screen and (min-width: 480px) {
-  
+  .sectionAssistanceDonateOverView {
+    background-color: red;
+  }
 }
 
 @media screen and (min-width: 760px) {
-  .sectionAssistanceDonateOverViewImg div {
-    justify-content: center;
-    width: 470px;
-    height: 470px;
-  }
   .sectionAssistanceDonateOverView {
     flex-direction: row;
     justify-content: center;
     padding: 10px;
-    height: max(100vh, fit-content);
+    /* height: max(100vh, fit-content); */
+    background-color: red;
+  }
+  .sectionAssistanceDonateOverViewImg div {
+    justify-content: center;
+    width: 470px;
+    height: 470px;
   }
   .imageSmallShowAndHideAssistanceDonateOverView {
     display: block;
@@ -131,13 +137,27 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .sectionAssistanceDonateOverView {
+    background-color: red;
+  }
+  .sectionAssistanceDonateOverViewImg div {
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
   .sectionAssistanceDonateOverView {
     justify-content: space-between;
     padding: 0px;
-    height: 100vh;
+    height: 650px;
+    background-color: red;
+  }
+  .sectionAssistanceDonateOverViewImg div {
+    justify-content: center;
+    width: 450px;
+    height: 450px;
   }
   .AssistanceDonateOverView {
     justify-content: left;
@@ -157,4 +177,13 @@
 }
 
 @media screen and (min-width: 1920px) {
+  .sectionAssistanceDonateOverView {
+    background-color: red;
+    height: 710px;
+  }
+  .sectionAssistanceDonateOverViewImg div {
+    justify-content: center;
+    width: 470px;
+    height: 470px;
+  }
 }

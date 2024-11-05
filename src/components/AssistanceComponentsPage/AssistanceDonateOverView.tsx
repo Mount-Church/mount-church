@@ -27,7 +27,7 @@ export function AssistanceDonateOverView() {
                         <div className="lineDarkGlobalStyles"></div>
                         <div className="textDarkGlobalStyles">Assistência</div>
                     </div>
-                    <h2 className="globalSectionTitleTextDark56px">
+                    <h2 className="globalSectionTitleTextDark45px">
                         Fazendo uma doação para nossa assistência.
                     </h2>
                     {/* Image that appears when the screen is less than or equal to 1350px */}
