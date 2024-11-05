@@ -1,4 +1,5 @@
 import 'assets/css/stylesGlobal.css';
+import 'assets/css/stylesGlobalInfoGroup.css';
 import './assets/css/stylesJoinOurMinistry.css';
 
 import donationAssistenciaSocialImg from './assets/images/assistenciadonation.jpg';
@@ -67,16 +68,16 @@ export function JoinOurMinistry() {
                         </button>
                     </div>
                 </div>
-                <div className='columJoinOurMinistry'>
+                <div className='columGlobalTheGroup'>
                     {JoinOurMinistryMock[0]?.services?.map((services, index) => (
-                        <div className='divComponentJoinOurMinistry' key={index}>
+                        <div className='divComponentGlobalGroup' key={index}>
                             {/* Image that appears when the screen is larger than 1350px */}
-                            <div className='divImageJoinOurMinistry imageShowAndHidelargerThan1350JoinOurMinistry' style={{ backgroundImage: `url(${services?.image})` }} />
-                            <div className='divInfoJoinOurMinistry'>
-                                <h3 className='titleInfoJoinTheGroup'>{services?.title}</h3>
+                            <div className='divImageJoinGlobalGroup imageShowAndHidelargerThan1350GlobalGroup' style={{ backgroundImage: `url(${services?.image})` }} />
+                            <div className='divInfoGlobalGroup'>
+                                <h3 className='titleInfoGlobalGroup'>{services?.title}</h3>
                                 {/* Image that appears when the screen is less than or equal to 1350px */}
-                                <div className='divImageJoinOurMinistry imageShowAndHidelessThanOrEqualTo1350JoinOurMinistry' style={{ backgroundImage: `url(${services?.image})` }} />
-                                <p className="textJoinOurMinistry"
+                                <div className='divImageJoinGlobalGroup imageShowAndHidelessThanOrEqualTo1350JoinGlobalGroup' style={{ backgroundImage: `url(${services?.image})` }} />
+                                <p className="textJoinGlobalGroup"
                                     dangerouslySetInnerHTML={{ __html: services?.description }}>
                                 </p>
                             </div>
