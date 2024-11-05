@@ -45,8 +45,8 @@ export function ToContributeProvidingABetterWorld() {
                                     className={`imageCardToContributeProvidingABetterWorld ${hoveredIndex === index ? 'imageBlurCardToContributeProvidingABetterWorld' : ''}`}
                                     style={{ backgroundImage: `url(${HighlightsAndPreviousSermons.bannerImage})` }}
                                 />
-                                <div className="carouselOverlayCardToContributeProvidingABetterWorld" style={{ backgroundColor: hoveredIndex === index ? 'rgba(0, 0, 0, 0.7)' : 'rgba(0, 0, 0, 0.5)' }}>
-                                    <h2 className="titleCardToContributeProvidingABetterWorldMock">
+                                <div className="cardOverlayCardToContributeProvidingABetterWorld" style={{ backgroundColor: hoveredIndex === index ? 'rgba(0, 0, 0, 0.7)' : 'rgba(0, 0, 0, 0.5)' }}>
+                                    <h2 className="globalSectionTitleTextWhite45px">
                                         {HighlightsAndPreviousSermons.title}
                                     </h2>
                                     <div className="divContainerButtonsToContributeProvidingABetterWorld">
