@@ -47,7 +47,7 @@ export function MinistriesInfoPage() {
                 </div>
                 <div className='sectionColumMinistriesInfoPage'>
                     <div>
-                        <h2 className="globalSectionTitleTextDark">
+                        <h2 className="globalSectionTitleTextDark45px">
                             {ministryOrActivities.infoTitle}
                         </h2>
                         <p className="globalSectionTextDark"

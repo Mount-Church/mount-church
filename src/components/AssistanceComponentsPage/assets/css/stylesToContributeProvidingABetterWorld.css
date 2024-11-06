@@ -40,29 +40,21 @@
   background-color: var(--white-color);
 }
 .sectionCardToContributeProvidingABetterWorld {
-  height: max(100vh, fit-content);
   max-width: 1279px;
   margin-left: 0;
   margin-right: 0;
   padding: 2rem 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 .CardContainerCardToContributeProvidingABetterWorld {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  box-sizing: border-box;
 }
 .cardCardToContributeProvidingABetterWorld {
   width: 100%;
-  padding: 10px;
-  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .imageWrapperCardToContributeProvidingABetterWorld {
   position: relative;
@@ -82,7 +74,7 @@
 .imageBlurCardToContributeProvidingABetterWorld {
   filter: blur(4px);
 }
-.carouselOverlayCardToContributeProvidingABetterWorld {
+.cardOverlayCardToContributeProvidingABetterWorld {
   position: absolute;
   inset: 0;
   display: flex;
@@ -92,12 +84,6 @@
   padding: 16px;
   transition: opacity 0.3s;
   z-index: 2;
-}
-.titleCardToContributeProvidingABetterWorldMock {
-  color: var(--text-white-color);
-  font-size: var(--h3-font-size);
-  font-weight: bold;
-  text-align: center;
 }
 .descriptionCardHighlightsAndPreviousSermons {
   color: var(--text-white-color);
@@ -128,29 +114,55 @@
   transition: color 0.3s ease;
 }
 
+/*===== MEDIA QUERIES =====*/
+
+@media screen and (min-width: 320px) {
+  .cardOverlayCardToContributeProvidingABetterWorld {
+    padding: 5px;
+  }
+  .imageWrapperCardToContributeProvidingABetterWorld {
+    max-width: 300px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .imageWrapperCardToContributeProvidingABetterWorld {
+    max-width: 460px;
+  }
+}
+
 @media screen and (min-width: 760px) {
   .sectionCardToContributeProvidingABetterWorld {
     justify-content: center;
     flex-direction: row;
     margin-left: auto;
     margin-right: auto;
-    height: 400px;
+    height: 380px;
   }
   .CardContainerCardToContributeProvidingABetterWorld {
-    max-width: 700px;
-    display: flex;
-    flex-direction: column;
+    max-width: 740px;
   }
   .cardCardToContributeProvidingABetterWorld {
-    width: 700px;
+    width: 740px;
     padding: 0px;
   }
   .imageWrapperCardToContributeProvidingABetterWorld {
-    max-width: 800px;
+    max-width: 740px;
     height: 300px;
   }
-  .titleCardToContributeProvidingABetterWorldMock {
-    font-size: var(--h3-font-size);
+}
+
+@media screen and (min-width: 1024px) {
+  .CardContainerCardToContributeProvidingABetterWorld {
+    max-width: 900px;
+  }
+  .cardCardToContributeProvidingABetterWorld {
+    width: 900px;
+    padding: 0px;
+  }
+  .imageWrapperCardToContributeProvidingABetterWorld {
+    max-width: 900px;
+    height: 300px;
   }
 }
 
@@ -178,8 +190,7 @@
     max-width: 1280px;
     height: 390px;
   }
-  .titleCardToContributeProvidingABetterWorldMock {
-    font-size: var(--h2-font-size);
-    width: 805px;
-  }
 }
+
+/* @media screen and (min-width: 1920px) {
+} */

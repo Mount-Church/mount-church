@@ -11,11 +11,11 @@ export function WatchServicesAndEventsOnline() {
         <section className="lSectionWatchServicesAndEventsOnline" id="sectionWatchServicesAndEventsOnline">
             <div className="sectionWatchServicesAndEventsOnline">
                 <div className="sectionWatchServicesAndEventsOnlineData">
-                    <div className="containerLineGlobalStyles mt-40">
+                    <div className="containerLineGlobalStyles">
                         <div className="lineDarkGlobalStyles"></div>
                         <div className="textDarkGlobalStyles">Atividades </div>
                     </div>
-                    <h2 className="globalSectionTitleTextDark">
+                    <h2 className="globalSectionTitleTextDark45px">
                         Assista Cultos e Eventos Online
                     </h2>
                     <p className="sectionTextDarkWatchServicesAndEventsOnline">

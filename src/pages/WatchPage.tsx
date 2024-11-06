@@ -1,4 +1,4 @@
-import { FooterGlobal, Nav } from 'components';
+import { AllActivities, FooterGlobal, Nav } from 'components';
 import { HighlightsAndPreviousSermons, WatchServicesAndEventsOnline } from 'components/WatchComponentsPage';
 
 export function WatchPage() {
@@ -7,6 +7,7 @@ export function WatchPage() {
       <Nav />
       <WatchServicesAndEventsOnline />
       <HighlightsAndPreviousSermons />
+      <AllActivities />
       <FooterGlobal />
     </>
   );

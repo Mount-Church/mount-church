@@ -41,7 +41,6 @@
   justify-content: center;
 }
 .sectionCommunityMission {
-  height: max(100vh, fit-content);
   width: 100%;
   max-width: 1279px;
   color: var(--white-color);
@@ -76,6 +75,7 @@
 }
 .containerDivCommunityMission {
   max-width: 727px;
+  /* background-color: red; */
 }
 
 /*===== IMAGES =====*/
@@ -87,8 +87,41 @@
 }
 
 /*===== MEDIA QUERIES =====*/
+@media screen and (min-width: 320px) {
+  .sectionCommunityMission {
+    /* background-color: red; */
+  }
+  .containerDivCommunityMission {
+    max-width: 320px;
+    /* background-color: yellow; */
+  }
+  .sectionCommunityMissionImg div {
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .sectionCommunityMission {
+    /* background-color: red; */
+  }
+  .containerDivCommunityMission {
+    max-width: 480px;
+    /* background-color: green; */
+  }
+  .sectionCommunityMissionImg div {
+    justify-content: center;
+    width: 450px;
+    height: 450px;
+  }
+}
 
 @media screen and (min-width: 760px) {
+  .containerDivCommunityMission {
+    max-width: 760px;
+    /* background-color: orange; */
+  }
   .sectionCommunityMissionImg div {
     justify-content: center;
     width: 470px;
@@ -97,7 +130,8 @@
   .sectionCommunityMission {
     flex-direction: row;
     justify-content: center;
-    padding: 0px;
+    padding: 10px;
+    /* background-color: green; */
   }
   .imageSmallShowAndHideCommunityMission {
     display: block;
@@ -107,10 +141,25 @@
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1024px) {
   .sectionCommunityMission {
+    /* background-color: red; */
+  }
+  .containerDivCommunityMission {
+    max-width: 1000px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .containerDivCommunityMission {
+    max-width: 1200px;
+    /* background-color: pink; */
+  }
+  .sectionCommunityMission {
+    height: 550px;
     justify-content: space-between;
     padding: 0px;
+    /* background-color: red; */
   }
   .customButtonCommunityMission {
     justify-content: left;
@@ -123,5 +172,15 @@
   }
   .containerDivCommunityMission {
     margin-top: 0px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .sectionCommunityMission {
+    height: 650px;
+    /* background-color: red; */
+  }
+  .containerDivCommunityMission {
+    max-width: 800px;
   }
 }

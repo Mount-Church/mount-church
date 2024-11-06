@@ -41,7 +41,6 @@
   justify-content: center;
 }
 .sectionJoinTheGroup {
-  height: max(100vh, fit-content);
   max-width: 1279px;
   margin-left: 0;
   margin-right: 0;
@@ -80,89 +79,20 @@
   -ms-flex-pack: center;
   justify-content: center;
 }
-.columJoinTheGroup {
-  background-color: var(--background-dark-color);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 25px;
-  width: 100%;
-  max-width: 590px;
-  height: 100%;
-}
-.divComponentJoinTheGroup {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 15px;
-}
-.divInfoJoinTheGroup {
-  margin-left: 12px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
-.titleInfoJoinTheGroup {
-  font-size: var(--h4-font-size);
-  font-weight: bold;
-  color: var(--white-color);
-  text-align: center;
-}
-.textJoinTheGroup {
-  font-size: var(--normal-font-size);
-  color: var(--white-color);
-  width: 100%;
-  max-width: 290px;
-  text-align: center;
-}
-
-/*===== IMAGE =====*/
-
-.divImageJoinTheGroup {
-  width: 100%;
-  height: 100%;
-  min-height: 160px;
-  border-radius: 20px;
-  background-size: cover;
-  background-position: center;
-}
-.imageShowAndHidelargerThan1350JoinTheGroup {
-  display: none;
-}
-.imageShowAndHidelessThanOrEqualTo1350JoinTheGroup {
-  display: block;
-}
 
 /*===== MEDIA QUERIES =====*/
 
 @media screen and (min-width: 320px) {
-  .columJoinTheGroup {
-    padding: 0px;
-  }
   .sectionJoinTheGroupData {
     width: 100%;
     max-width: 100%;
-  }
-  .divImageJoinTheGroup {
-    width: 100%;
-    min-height: 160px;
-  }
-  .textJoinTheGroup {
-    max-width: 350px;
   }
 }
 
 @media screen and (min-width: 480px) {
-  .columJoinTheGroup {
-    padding: 0px;
-  }
   .sectionJoinTheGroupData {
     width: 100%;
     max-width: 100%;
-  }
-  .divImageJoinTheGroup {
-    width: 350px;
-    max-width: 450px;
-    min-height: 260px;
   }
 }
 
@@ -172,27 +102,6 @@
     width: 100%;
     max-width: 100%;
   }
-  .divInfoJoinTheGroup {
-    max-height: 130px;
-  }
-  .textJoinTheGroup {
-    text-align: start;
-  }
-  .titleInfoJoinTheGroup {
-    text-align: start;
-  }
-  /*===== IMAGE =====*/
-
-  .divImageJoinTheGroup {
-    max-width: 300px;
-    min-height: 200px;
-  }
-  .imageShowAndHidelargerThan1350JoinTheGroup {
-    display: block;
-  }
-  .imageShowAndHidelessThanOrEqualTo1350JoinTheGroup {
-    display: none;
-  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -200,17 +109,11 @@
     color: var(--white-color);
     max-width: 100%;
   }
-  /*===== IMAGE =====*/
-
-  .divImageJoinTheGroup {
-    max-width: 300px;
-    min-height: 180px;
-  }
 }
 
 @media screen and (min-width: 1200px) {
   .sectionJoinTheGroup {
-    height: 650px;
+    height: 520px;
     max-width: 1279px;
     display: flex;
     flex-direction: row;
@@ -220,40 +123,12 @@
     margin: 30px 0 0;
     justify-content: left;
   }
-  .columJoinTheGroup {
-    max-height: 580px;
-  }
-  .divInfoJoinTheGroup {
-    max-height: 130px;
-  }
-  .divComponentJoinTheGroup {
-    margin-bottom: 0px;
-  }
-  .textJoinTheGroup {
-    text-align: start;
-  }
-  /*===== IMAGE =====*/
-  .divImageJoinTheGroup {
-    max-width: 190px;
-    min-height: 160px;
-  }
-  .imageShowAndHidelargerThan1350JoinTheGroup {
-    display: block;
-  }
-  .imageShowAndHidelessThanOrEqualTo1350JoinTheGroup {
-    display: none;
-  }
 }
 
 @media screen and (min-width: 1920px) {
   .sectionJoinTheGroup {
     display: flex;
     justify-content: center;
-    height: 650px;
-  }
-  /*===== IMAGE =====*/
-  .divImageJoinTheGroup {
-    max-width: 190px;
-    min-height: 160px;
+    height: 520px;
   }
 }

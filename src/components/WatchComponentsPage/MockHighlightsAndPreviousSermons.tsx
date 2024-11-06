@@ -1,6 +1,6 @@
 /*===== PREGAÇÃO =====*/
-import sermaoCardImg from './assets/images/sermaoCard.jpg';
-import sermaoBannerImgPage from './assets/images/sermaoBannerImgPage.jpg';
+import pregacaoCardImg from './assets/images/pregacaoCardImg.jpg';
+import pregacaoBannerImgPage from './assets/images/pregacaoBannerImgPage.jpg';
 import RenaneEstefanny from './assets/images/sermaoCultoAldo22-09-2024.jpg'
 
 /*===== EVENTOS ESPECIAIS =====*/
@@ -20,8 +20,8 @@ const HighlightsAndPreviousSermonsMock = [
         titleName: 'Pregações Inspiradoras',
         subTitleName: 'Mensagens Transformadoras para o Seu Crescimento Espiritual',
         subTitleDescription: 'Aprofunde-se na Palavra de Deus com nossas <strong>pregações</strong> inspiradoras. Aqui, você encontrará mensagens edificantes que fortalecerão sua fé e lhe trarão encorajamento para a jornada espiritual.',
-        cardImage: sermaoCardImg,
-        bannerImageHighlightsAndPreviousSermonsMock: sermaoBannerImgPage,
+        cardImage: pregacaoCardImg,
+        bannerImageHighlightsAndPreviousSermonsMock: pregacaoBannerImgPage,
         aboutVideosTitle: 'O que você pode esperar',
         titleAboutVideosTitle: 'Mensagens Transformadoras para o Seu Crescimento Espiritual',
         aboutVideosDescription: 'Aprofunde-se na Palavra de Deus com nossas pregações inspiradoras. Em nossa coleção de pregações, você encontrará uma <strong>variedade de mensagens</strong> edificantes que são cuidadosamente preparadas para fortalecer sua fé e lhe trazer encorajamento na sua jornada espiritual. Cada pregação é baseada em ensinamentos bíblicos sólidos, apresentados de maneira <strong>clara</strong> e <strong>relevante</strong> para o nosso tempo.',

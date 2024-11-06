@@ -38,12 +38,8 @@
 .windowAnimateVisionMissionAndValues {
   width: 100%;
   height: 350px;
-  /* border-radius: 10px; */
   background: var(--background-green-color);
   overflow: hidden;
-  /* box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
-    0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
-    0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075); */
   display: flex;
   flex-direction: column;
   margin-top: 10px;
@@ -112,21 +108,58 @@
 
 /*===== MEDIA QUERIES =====*/
 
+@media screen and (min-width: 320px) {
+  .windowAnimateVisionMissionAndValues {
+    width: 100%;
+    height: 100%;
+    margin-top: 15px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .windowAnimateVisionMissionAndValues {
+    width: 100%;
+    height: 100%;
+    margin-top: 15px;
+  }
+}
+
 @media screen and (min-width: 760px) {
+  .windowAnimateVisionMissionAndValues {
+    width: 100%;
+    height: 100%;
+    margin-top: 15px;
+  }
   .titleTextAnimateVisionMissionAndValues {
     font-size: 25px;
     margin-bottom: 10px;
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .windowAnimateVisionMissionAndValues {
+    width: 100%;
+    height: 100%;
+    margin-top: 15px;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .windowAnimateVisionMissionAndValues {
-    width: 410px;
-    height: 350px;
-    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    margin-top: 15px;
   }
   .titleTextAnimateVisionMissionAndValues {
     font-size: var(--h3-font-size);
     margin-bottom: 1rem;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .windowAnimateVisionMissionAndValues {
+    width: 100%;
+    height: 100%;
+    margin-top: 15px;
   }
 }

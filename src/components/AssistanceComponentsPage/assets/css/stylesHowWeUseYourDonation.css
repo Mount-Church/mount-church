@@ -39,11 +39,11 @@
   justify-content: center;
 }
 .sectionHowWeUseYourDonation {
-  height: max(100vh, fit-content);
+  width: 100%;
   max-width: 1279px;
   display: flex;
+  justify-content: center;
   align-items: center;
-  padding: 10px;
 }
 .sectionHowWeUseYourDonationData {
   width: 100%;
@@ -55,54 +55,99 @@
   width: 100%;
   max-width: 390px;
 }
-.titleStylesHowWeUseYourDonation {
-  font-size: 48px;
-  font-weight: bold;
-  color: var(--dark-color);
-  text-align: center;
-}
 .divTextStylesHowWeUseYourDonation {
   width: 100%;
   max-width: 390px;
+  /* background-color: blue; */
 }
 .textStylesHowWeUseYourDonation {
   font-size: 16px;
   font-weight: regular;
   color: var(--text-gay-color);
   text-align: start;
+  margin-bottom: 16px;
 }
 
 /*===== MEDIA QUERIES =====*/
 
+@media screen and (min-width: 320px) {
+  .sectionHowWeUseYourDonation {
+    /* background-color: red; */
+    padding: 10px;
+  }
+  .sectionHowWeUseYourDonationData {
+    gap: 0px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .sectionHowWeUseYourDonation {
+    /* background-color: red; */
+    padding: 10px;
+  }
+  .sectionHowWeUseYourDonationData {
+    gap: 0px;
+  }
+  .divTitleHowWeUseYourDonation {
+    max-width: 780px;
+  }
+  .divTextStylesHowWeUseYourDonation {
+    max-width: 500px;
+  }
+}
+
 @media screen and (min-width: 760px) {
+  .sectionHowWeUseYourDonation {
+    /* background-color: red; */
+    padding: 10px;
+  }
   .sectionHowWeUseYourDonationData {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
   .divTitleHowWeUseYourDonation {
     max-width: 780px;
   }
-  .titleStylesHowWeUseYourDonation {
-    text-align: center;
-  }
   .divTextStylesHowWeUseYourDonation {
     max-width: 780px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .sectionHowWeUseYourDonation {
+    /* background-color: red; */
+    padding: 0px;
+  }
+  .sectionHowWeUseYourDonationData {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    max-width: 900px;
+  }
+  .divTextStylesHowWeUseYourDonation {
+    max-width: 900px;
+    /* background-color: yellow; */
   }
 }
 
 @media screen and (min-width: 1200px) {
   .sectionHowWeUseYourDonation {
     height: 280px;
+    padding: 0px;
+    /* background-color: red; */
   }
   .sectionHowWeUseYourDonationData {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+    max-width: 1279px;
   }
   .divTitleHowWeUseYourDonation {
     max-width: 374px;
   }
-  .titleStylesHowWeUseYourDonation {
-    text-align: start;
-  }
   .divTextStylesHowWeUseYourDonation {
-    max-width: 338px;
+    max-width: 400px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .sectionHowWeUseYourDonation {
+    padding: 0px;
+    /* background-color: red; */
   }
 }

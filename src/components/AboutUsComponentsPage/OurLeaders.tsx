@@ -8,11 +8,11 @@ export function OurLeaders() {
         <section className="lSectionOurLeaders" id="sectionOurLeaders">
             <div className="sectionOurLeaders">
                 <div className="sectionOurLeadersData">
-                    <div className="containerLineGlobalStyles mt-40">
+                    <div className="containerLineGlobalStyles">
                         <div className="lineDarkGlobalStyles"></div>
                         <div className="textDarkGlobalStyles">Nossos líderes</div>
                     </div>
-                    <h2 className="globalSectionTitleTextDark">
+                    <h2 className="globalSectionTitleTextDark45px">
                         Jornada de Dedicação e Transformação
                     </h2>
                     {/* Image that appears when the screen is less than or equal to 1350px */}
