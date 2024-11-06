@@ -11,15 +11,15 @@ export function WatchServicesAndEventsOnline() {
         <section className="lSectionWatchServicesAndEventsOnline" id="sectionWatchServicesAndEventsOnline">
             <div className="sectionWatchServicesAndEventsOnline">
                 <div className="sectionWatchServicesAndEventsOnlineData">
-                    <div className="containerLineGlobalStyles mt-40">
+                    <div className="containerLineGlobalStyles">
                         <div className="lineDarkGlobalStyles"></div>
                         <div className="textDarkGlobalStyles">Atividades </div>
                     </div>
-                    <h2 className="globalSectionTitleTextDark">
+                    <h2 className="globalSectionTitleTextDark45px">
                         Assista Cultos e Eventos Online
                     </h2>
                     <p className="sectionTextDarkWatchServicesAndEventsOnline">
-                        Não pode estar presente fisicamente? Sem problemas! Na <strong>MountChurch</strong>, oferecemos a <strong>transmissão online</strong> de nossos cultos e eventos para que você possa participar de onde estiver.
+                        Não pode estar presente fisicamente? Sem problemas! Na <strong>Mount Church</strong>, oferecemos a <strong>transmissão online</strong> de nossos cultos e eventos para que você possa participar de onde estiver.
                     </p>
                     <div className='customDivButtonWatchServicesAndEventsOnline'
                         onClick={() => window.open(`https://www.youtube.com/@MountChurchoficial/videos`, '_blank')}

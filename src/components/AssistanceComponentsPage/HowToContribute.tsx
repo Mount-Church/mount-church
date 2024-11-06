@@ -8,7 +8,7 @@ export function HowToContribute() {
             <div className='containerHowToContribute'>
                 <div className='sectionColumHowToContribute'>
                     <div className='sectionAlignTextHowToContribute'>
-                        <h2 className="globalSectionTitleTextDark">
+                        <h2 className="globalSectionTitleTextDark45px">
                             Como você pode contribuir
                         </h2>
                         <div className='divContainerHowToContribute'>

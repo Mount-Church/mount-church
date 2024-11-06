@@ -42,13 +42,7 @@
   height: 100vh;
   padding: 10px;
 }
-.containerMinistriesInfoPage {
-  width: 100%;
-  max-width: 1279px;
-  margin-left: 0;
-  margin-right: 0;
-  display: row;
-}
+
 /*===== IMAGE =====*/
 .columImageMinistriesInfoPage {
   width: 100%;
@@ -59,9 +53,36 @@
   width: 470px;
   border-radius: 20px;
 }
+
 /*===== MEDIA QUERIES =====*/
+@media screen and (min-width: 320px) {
+  .lSectionMinistriesInfoPage {
+    height: 950px;
+  }
+  .containerMinistriesInfoPage {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .lSectionMinistriesInfoPage {
+    height: 950px;
+  }
+  .containerMinistriesInfoPage {
+    width: 100%;
+    max-width: 100%;
+  }
+}
 
 @media screen and (min-width: 760px) {
+  .lSectionMinistriesInfoPage {
+    height: 950px;
+  }
+  .containerMinistriesInfoPage {
+    width: 100%;
+    max-width: 100%;
+  }
   .sectionColumMinistriesInfoPage {
     display: grid;
     grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -72,7 +93,48 @@
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .lSectionMinistriesInfoPage {
+    height: 900px;
+  }
+  .containerMinistriesInfoPage {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
 @media screen and (min-width: 1200px) {
+  .lSectionMinistriesInfoPage {
+    height: 740px;
+  }
+  .containerMinistriesInfoPage {
+    width: 100%;
+    max-width: 1279px;
+  }
+  .sectionColumMinistriesInfoPage {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+  /*===== IMAGE =====*/
+  .columImageMinistriesInfoPage {
+    justify-content: start;
+  }
+  .divImageMinistriesInfoPage {
+    width: 670px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .lSectionMinistriesInfoPage {
+    height: 750px;
+  }
+  .containerMinistriesInfoPage {
+    width: 100%;
+    max-width: 1279px;
+    margin-left: 0;
+    margin-right: 0;
+    display: row;
+  }
   .sectionColumMinistriesInfoPage {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 1rem;

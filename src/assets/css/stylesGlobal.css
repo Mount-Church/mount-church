@@ -78,21 +78,23 @@ html {
 }
 
 /*===== Global Sections Titles  =====*/
-.globalSectionTitleTextDark56px,
 .globalSectionTitleTextDark45px,
+.globalSectionTitleTextWhite45px,
 .globalSectionTitleTextDark,
 .globalSectionTitleTextWhite,
 .globalSectionMediumTextDark {
   margin-bottom: 1rem;
   font-weight: bold;
 }
-.globalSectionTitleTextDark56px {
-  color: var(--dark-color);
-  font-size: var(--h2-font-size);
-}
 .globalSectionTitleTextDark45px {
   color: var(--dark-color);
   font-size: var(--h3-font-size);
+  /* background-color: orange; */
+}
+.globalSectionTitleTextWhite45px {
+  color: var(--white-color);
+  font-size: var(--h3-font-size);
+  /* background-color: orange; */
 }
 
 .globalSectionTitleTextDark {
@@ -185,6 +187,16 @@ html {
     height: 600px;
     /* background-color: green; */
   }
+  .globalSectionTitleTextDark45px,
+  .globalSectionTitleTextWhite45px {
+    font-size: 18px;
+    /* background-color: red; */
+  }
+  .globalSectionTextDark {
+    margin-top: 10px;
+    /* background-color: green; */
+    max-width: 320px;
+  }
 }
 
 @media screen and (min-width: 480px) {
@@ -192,6 +204,16 @@ html {
     margin-top: 20%;
     height: 500px;
     /* background-color: pink; */
+  }
+  .globalSectionTitleTextDark45px,
+  .globalSectionTitleTextWhite45px {
+    font-size: var(--h4-font-size);
+    /* background-color: pink; */
+  }
+  .globalSectionTextDark {
+    margin-top: 10px;
+    max-width: 480px;
+    /* background-color: yellow; */
   }
 }
 
@@ -201,11 +223,10 @@ html {
     height: 500px;
     /* background-color: blue; */
   }
-  .globalSectionTitleTextDark56px {
+  .globalSectionTitleTextDark45px,
+  .globalSectionTitleTextWhite45px {
     font-size: var(--h2-font-size);
-  }
-  .globalSectionTitleTextDark45px {
-    font-size: var(--h2-font-size);
+    /* background-color: blue; */
   }
   .globalSectionTitleTextDark {
     font-size: var(--h2-font-size);
@@ -218,6 +239,8 @@ html {
   }
   .globalSectionTextDark {
     margin-top: 10px;
+    max-width: 760px;
+    /* background-color: blue; */
   }
 }
 
@@ -227,6 +250,11 @@ html {
     height: 500px;
     /* background-color: gray; */
   }
+  .globalSectionTextDark {
+    margin-top: 10px;
+    max-width: 1024px;
+    /* background-color: purple; */
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -235,14 +263,15 @@ html {
     height: 450px;
     /* background-color: orange; */
   }
-  .globalSectionTitleTextDark56px {
-    font-size: 56px;
-  }
-  .globalSectionTitleTextDark45px {
+  .globalSectionTitleTextDark45px,
+  .globalSectionTitleTextWhite45px {
     font-size: 45px;
+    /* background-color: green; */
   }
   .globalSectionTextDark {
     margin-top: 0px;
+    max-width: 1200px;
+    /* background-color: pink; */
   }
 }
 
@@ -250,6 +279,15 @@ html {
   .globalContainers {
     margin-top: 5%;
     height: 500px;
+    /* background-color: darkgreen; */
+  }
+  .globalSectionTitleTextDark45px,
+  .globalSectionTitleTextWhite45px {
+    font-size: 45px;
+    /* background-color: darkgreen; */
+  }
+  .globalSectionTextDark {
+    margin-top: 10px;
     /* background-color: darkgreen; */
   }
 }

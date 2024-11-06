@@ -88,6 +88,22 @@
 
 /*===== MEDIA QUERIES =====*/
 
+@media screen and (min-width: 320px) {
+  .SecondColumTransformationStories {
+    width: 100%;
+    max-width: 488px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .SecondColumTransformationStories {
+    width: 100%;
+    max-width: 470px;
+    text-align: center;
+  }
+}
+
 @media screen and (min-width: 760px) {
   .sectionTransformationStories {
     border-radius: 0px;
@@ -97,6 +113,11 @@
   }
   .sectionTransformationStoriesData {
     margin-bottom: 1rem;
+  }
+  .SecondColumTransformationStories {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
   }
 }
 
@@ -120,6 +141,14 @@
   }
   .sectionTitleTransformationStories {
     font-size: var(--h2-font-size);
+    text-align: start;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .SecondColumTransformationStories {
+    width: 100%;
+    max-width: 550px;
     text-align: start;
   }
 }

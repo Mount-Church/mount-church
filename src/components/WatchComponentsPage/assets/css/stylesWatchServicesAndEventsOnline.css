@@ -40,11 +40,9 @@
 }
 
 .sectionWatchServicesAndEventsOnline {
-  height: max(100vh, fit-content);
   max-width: 1279px;
   margin-left: 0;
   margin-right: 0;
-  padding: 2rem 0;
   color: var(--white-color);
   display: flex;
   flex-direction: column;
@@ -54,6 +52,7 @@
 }
 .sectionWatchServicesAndEventsOnlineData {
   width: 100%;
+  margin-top: 90px;
 }
 .marginTopCustomizedHighlightsAndPreviousSermons {
   margin-top: 200px;
@@ -73,6 +72,26 @@
 
 /*===== MEDIA QUERIES =====*/
 
+@media screen and (min-width: 320px) {
+  .sectionWatchServicesAndEventsOnline {
+    /* background-color: red; */
+  }
+  .sectionWatchServicesAndEventsOnlineData {
+    /* background-color: yellow; */
+    margin-top: 80px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .sectionWatchServicesAndEventsOnline {
+    /* background-color: yellow; */
+  }
+  .sectionWatchServicesAndEventsOnlineData {
+    /* background-color: red; */
+    margin-top: 80px;
+  }
+}
+
 @media screen and (min-width: 760px) {
   .sectionWatchServicesAndEventsOnline {
     -webkit-box-orient: horizontal;
@@ -81,9 +100,24 @@
     flex-direction: row;
     margin-left: auto;
     margin-right: auto;
+    /* background-color: green; */
+  }
+  .sectionWatchServicesAndEventsOnlineData {
+    /* background-color: red; */
+    margin-top: 90px;
   }
   .sectionTextDarkWatchServicesAndEventsOnline {
     padding-right: 4rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .sectionWatchServicesAndEventsOnline {
+    /* background-color: pink; */
+  }
+  .sectionWatchServicesAndEventsOnlineData {
+    /* background-color: red; */
+    margin-top: 90px;
   }
 }
 
@@ -91,9 +125,24 @@
   .sectionWatchServicesAndEventsOnline {
     height: 100%;
     min-height: 200px;
+    /* background-color: green; */
+  }
+  .sectionWatchServicesAndEventsOnlineData {
+    /* background-color: red; */
+    margin-top: 90px;
   }
   .customDivButtonWatchServicesAndEventsOnline {
     margin: 30px 0 0;
     justify-content: left;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .sectionWatchServicesAndEventsOnline {
+    /* background-color: green; */
+  }
+  .sectionWatchServicesAndEventsOnlineData {
+    /* background-color: red; */
+    margin-top: 90px;
   }
 }

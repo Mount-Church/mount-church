@@ -4,7 +4,7 @@ import './assets/css/stylesMissionAndValues.css';
 export function MissionAndValues() {
     return (
         <section className='lSectionMissionAndValues' id='lSectionMissionAndValues'>
-            <div className='containerLivingTheGospel'>
+            <div className='containerMissionAndValues'>
                 <div className='sectionColumMissionAndValues'>
                     <div>
                         <h2 className="globalSectionMediumTextDark">
@@ -14,7 +14,7 @@ export function MissionAndValues() {
                             Compromisso com o Crescimento e Impacto na Comunidade.
                         </h2>
                         <p className="globalSectionTextDark">
-                            Estamos comprometidos com o crescimento contínuo e o impacto positivo em nossa comunidade. Nossos planos incluem expandir nossos programas de <strong>assistência social</strong>, aumentar a participação em <strong>conexões</strong> e desenvolver novas iniciativas que alcancem mais pessoas com a mensagem do Evangelho.
+                            Estamos comprometidos com o crescimento contínuo e o impacto positivo em nossa comunidade. Nossos planos incluem expandir nossos programas de <strong>assistência social</strong>, aumentar a participação em <strong>conexões</strong> e desenvolver novas iniciativas que alcancem mais pessoas com a mensagem do evangelho.
                         </p>
                     </div>
 

@@ -21,7 +21,7 @@ export function TheImportanceOfTithesAndOfferings() {
 
     return (
         <section className="lSectionTheImportanceOfTithesAndOfferings" id="sectionlSectionTheImportanceOfTithesAndOfferings">
-            <div className="sectionTheImportanceOfTithesAndOfferings">
+            <div className="sectionTheImportanceOfTithesAndOfferings ">
                 <div className="sectionTheImportanceOfTithesAndOfferingsData">
                     <div className="containerLineGlobalStyles">
                         <div className="lineDarkGlobalStyles"></div>
