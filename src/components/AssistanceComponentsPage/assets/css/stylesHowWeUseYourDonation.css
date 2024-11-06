@@ -58,7 +58,7 @@
 .divTextStylesHowWeUseYourDonation {
   width: 100%;
   max-width: 390px;
-  background-color: blue;
+  /* background-color: blue; */
 }
 .textStylesHowWeUseYourDonation {
   font-size: 16px;
@@ -72,7 +72,7 @@
 
 @media screen and (min-width: 320px) {
   .sectionHowWeUseYourDonation {
-    background-color: red;
+    /* background-color: red; */
     padding: 10px;
   }
   .sectionHowWeUseYourDonationData {
@@ -82,7 +82,7 @@
 
 @media screen and (min-width: 480px) {
   .sectionHowWeUseYourDonation {
-    background-color: red;
+    /* background-color: red; */
     padding: 10px;
   }
   .sectionHowWeUseYourDonationData {
@@ -98,7 +98,7 @@
 
 @media screen and (min-width: 760px) {
   .sectionHowWeUseYourDonation {
-    background-color: red;
+    /* background-color: red; */
     padding: 10px;
   }
   .sectionHowWeUseYourDonationData {
@@ -114,7 +114,7 @@
 
 @media screen and (min-width: 1024px) {
   .sectionHowWeUseYourDonation {
-    background-color: red;
+    /* background-color: red; */
     padding: 0px;
   }
   .sectionHowWeUseYourDonationData {
@@ -123,7 +123,7 @@
   }
   .divTextStylesHowWeUseYourDonation {
     max-width: 900px;
-    background-color: yellow;
+    /* background-color: yellow; */
   }
 }
 
@@ -131,7 +131,7 @@
   .sectionHowWeUseYourDonation {
     height: 280px;
     padding: 0px;
-    background-color: red;
+    /* background-color: red; */
   }
   .sectionHowWeUseYourDonationData {
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -148,6 +148,6 @@
 @media screen and (min-width: 1920px) {
   .sectionHowWeUseYourDonation {
     padding: 0px;
-    background-color: red;
+    /* background-color: red; */
   }
 }

@@ -96,36 +96,36 @@
 
 @media screen and (min-width: 320px) {
   .lSectionPlanYourVisit {
-    background-color: yellow;
+    /* background-color: yellow; */
   }
   .containerPlanYourVisit {
     margin-top: 90px;
-    background-color: green;
+    /* background-color: green; */
   }
   .divContainerPlanYourVisit {
     width: 100%;
-    background-color: red;
+    /* background-color: red; */
   }
 }
 
 @media screen and (min-width: 480px) {
   .containerPlanYourVisit {
     margin-top: 80px;
-    background-color: green;
+    /* background-color: green; */
   }
   .divContainerPlanYourVisit {
     width: 100%;
-    background-color: pink;
+    /* background-color: pink; */
   }
 }
 
 @media screen and (min-width: 760px) {
   .lSectionPlanYourVisit {
-    background-color: pink;
+    /* background-color: pink; */
   }
   .containerPlanYourVisit {
     margin-top: 80px;
-    background-color: green;
+    /* background-color: green; */
   }
   .sectionColumPlanYourVisit {
     display: grid;
@@ -151,29 +151,29 @@
 
 @media screen and (min-width: 1024px) {
   .lSectionPlanYourVisit {
-    background-color: pink;
+    /* background-color: pink; */
   }
   .containerPlanYourVisit {
     margin-top: 80px;
-    background-color: green;
+    /* background-color: green; */
   }
   .divContainerPlanYourVisit {
     width: 100%;
-    background-color: yellow;
+    /* background-color: yellow; */
   }
 }
 
 @media screen and (min-width: 1200px) {
   .lSectionPlanYourVisit {
-    background-color: pink;
+    /* background-color: pink; */
   }
   .containerPlanYourVisit {
     margin-top: 90px;
-    background-color: green;
+    /* background-color: green; */
   }
   .divContainerPlanYourVisit {
     width: 500px;
-    background-color: purple;
+    /* background-color: purple; */
   }
   .sectionColumPlanYourVisit {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -195,14 +195,14 @@
 
 @media screen and (min-width: 1920px) {
   .lSectionPlanYourVisit {
-    background-color: pink;
+    /* background-color: pink; */
   }
   .containerPlanYourVisit {
     margin-top: 80px;
-    background-color: red;
+    /* background-color: red; */
   }
   .divContainerPlanYourVisit {
     width: 550px;
-    background-color: green;
+    /* background-color: green; */
   }
 }

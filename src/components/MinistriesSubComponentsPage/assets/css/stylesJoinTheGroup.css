@@ -109,9 +109,6 @@
     color: var(--white-color);
     max-width: 100%;
   }
-  .sectionJoinTheGroup {
-    height: 650px;
-  }
 }
 
 @media screen and (min-width: 1200px) {

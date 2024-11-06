@@ -126,7 +126,7 @@
     width: 592px;
     height: 550px;
     margin-top: 0px;
-    background-color: red;
+    /* background-color: red; */
   }
 }
 
@@ -135,7 +135,7 @@
     width: 592px;
     height: 350px;
     margin-top: 0px;
-    background-color: pink;
+    /* background-color: pink; */
   }
 }
 
@@ -144,7 +144,7 @@
     width: 740px;
     height: 300px;
     margin-top: 0px;
-    background-color: orange;
+    /* background-color: orange; */
   }
 }
 
@@ -153,7 +153,7 @@
     width: 900px;
     height: 300px;
     margin-top: 0px;
-    background-color: green;
+    /* background-color: green; */
   }
 }
 
@@ -162,7 +162,7 @@
     width: 592px;
     height: 310px;
     margin-top: 0px;
-    background-color: yellow;
+    /* background-color: yellow; */
   }
 }
 
@@ -171,6 +171,6 @@
     width: 592px;
     height: 310px;
     margin-top: 0px;
-    background-color: red;
+    /* background-color: red; */
   }
 }

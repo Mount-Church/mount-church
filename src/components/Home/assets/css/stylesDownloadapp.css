@@ -135,23 +135,23 @@
 
 @media screen and (min-width: 320px) {
   .sectionDownloadApp {
-    background-color: red;
+    /* background-color: red; */
   }
   .customButtonDownloadApp {
     max-width: 600px;
     justify-content: space-between;
-    background-color: yellow;
+    /* background-color: yellow; */
   }
 }
 
 @media screen and (min-width: 480px) {
   .sectionDownloadApp {
-    background-color: yellow;
+    /* background-color: yellow; */
   }
   .customButtonDownloadApp {
     max-width: 600px;
     justify-content: space-between;
-    background-color: red;
+    /* background-color: red; */
   }
 }
 
@@ -163,30 +163,30 @@
     flex-direction: row;
     margin-left: auto;
     margin-right: auto;
-    background-color: pink;
+    /* background-color: pink; */
   }
   .customButtonDownloadApp {
     max-width: 760px;
     justify-content: space-evenly;
-    background-color: red;
+    /* background-color: red; */
   }
 }
 
 @media screen and (min-width: 1024px) {
   .sectionDownloadApp {
-    background-color: green;
+    /* background-color: green; */
   }
   .customButtonDownloadApp {
     max-width: 1004px;
     justify-content: space-evenly;
-    background-color: red;
+    /* background-color: red; */
   }
 }
 
 @media screen and (min-width: 1200px) {
   .sectionDownloadApp {
     height: 700px;
-    background-color: orange;
+    /* background-color: orange; */
   }
   .sectionDownloadAppData {
     max-width: 600px;
@@ -194,7 +194,7 @@
   .customButtonDownloadApp {
     max-width: 600px;
     justify-content: space-between;
-    background-color: green;
+    /* background-color: green; */
   }
   .bd-grid {
     margin-left: auto;
@@ -205,11 +205,11 @@
 @media screen and (min-width: 1920px) {
   .sectionDownloadApp {
     height: 600px;
-    background-color: blue;
+    /* background-color: blue; */
   }
   .customButtonDownloadApp {
     max-width: 600px;
     justify-content: space-between;
-    background-color: red;
+    /* background-color: red; */
   }
 }

@@ -89,12 +89,12 @@ html {
 .globalSectionTitleTextDark45px {
   color: var(--dark-color);
   font-size: var(--h3-font-size);
-  background-color: orange;
+  /* background-color: orange; */
 }
 .globalSectionTitleTextWhite45px {
   color: var(--white-color);
   font-size: var(--h3-font-size);
-  background-color: orange;
+  /* background-color: orange; */
 }
 
 .globalSectionTitleTextDark {
@@ -190,11 +190,11 @@ html {
   .globalSectionTitleTextDark45px,
   .globalSectionTitleTextWhite45px {
     font-size: 18px;
-    background-color: red;
+    /* background-color: red; */
   }
   .globalSectionTextDark {
     margin-top: 10px;
-    background-color: green;
+    /* background-color: green; */
     max-width: 320px;
   }
 }
@@ -203,17 +203,17 @@ html {
   .globalContainers {
     margin-top: 20%;
     height: 500px;
-    background-color: pink;
+    /* background-color: pink; */
   }
   .globalSectionTitleTextDark45px,
   .globalSectionTitleTextWhite45px {
     font-size: var(--h4-font-size);
-    background-color: pink;
+    /* background-color: pink; */
   }
   .globalSectionTextDark {
     margin-top: 10px;
     max-width: 480px;
-    background-color: yellow;
+    /* background-color: yellow; */
   }
 }
 
@@ -221,12 +221,12 @@ html {
   .globalContainers {
     margin-top: 12%;
     height: 500px;
-    background-color: blue;
+    /* background-color: blue; */
   }
   .globalSectionTitleTextDark45px,
   .globalSectionTitleTextWhite45px {
     font-size: var(--h2-font-size);
-    background-color: blue;
+    /* background-color: blue; */
   }
   .globalSectionTitleTextDark {
     font-size: var(--h2-font-size);
@@ -240,7 +240,7 @@ html {
   .globalSectionTextDark {
     margin-top: 10px;
     max-width: 760px;
-    background-color: blue;
+    /* background-color: blue; */
   }
 }
 
@@ -248,12 +248,12 @@ html {
   .globalContainers {
     margin-top: 10%;
     height: 500px;
-    background-color: gray;
+    /* background-color: gray; */
   }
   .globalSectionTextDark {
     margin-top: 10px;
     max-width: 1024px;
-    background-color: purple;
+    /* background-color: purple; */
   }
 }
 
@@ -261,17 +261,17 @@ html {
   .globalContainers {
     margin-top: 10%;
     height: 450px;
-    background-color: orange;
+    /* background-color: orange; */
   }
   .globalSectionTitleTextDark45px,
   .globalSectionTitleTextWhite45px {
     font-size: 45px;
-    background-color: green;
+    /* background-color: green; */
   }
   .globalSectionTextDark {
     margin-top: 0px;
     max-width: 1200px;
-    background-color: pink;
+    /* background-color: pink; */
   }
 }
 
@@ -284,10 +284,10 @@ html {
   .globalSectionTitleTextDark45px,
   .globalSectionTitleTextWhite45px {
     font-size: 45px;
-    background-color: darkgreen;
+    /* background-color: darkgreen; */
   }
   .globalSectionTextDark {
     margin-top: 10px;
-    background-color: darkgreen;
+    /* background-color: darkgreen; */
   }
 }

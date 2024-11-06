@@ -74,20 +74,20 @@
 
 @media screen and (min-width: 320px) {
   .sectionWatchServicesAndEventsOnline {
-    background-color: red;
+    /* background-color: red; */
   }
   .sectionWatchServicesAndEventsOnlineData {
-    background-color: yellow;
+    /* background-color: yellow; */
     margin-top: 80px;
   }
 }
 
 @media screen and (min-width: 480px) {
   .sectionWatchServicesAndEventsOnline {
-    background-color: yellow;
+    /* background-color: yellow; */
   }
   .sectionWatchServicesAndEventsOnlineData {
-    background-color: red;
+    /* background-color: red; */
     margin-top: 80px;
   }
 }
@@ -100,10 +100,10 @@
     flex-direction: row;
     margin-left: auto;
     margin-right: auto;
-    background-color: green;
+    /* background-color: green; */
   }
   .sectionWatchServicesAndEventsOnlineData {
-    background-color: red;
+    /* background-color: red; */
     margin-top: 90px;
   }
   .sectionTextDarkWatchServicesAndEventsOnline {
@@ -113,10 +113,10 @@
 
 @media screen and (min-width: 1024px) {
   .sectionWatchServicesAndEventsOnline {
-    background-color: pink;
+    /* background-color: pink; */
   }
   .sectionWatchServicesAndEventsOnlineData {
-    background-color: red;
+    /* background-color: red; */
     margin-top: 90px;
   }
 }
@@ -125,10 +125,10 @@
   .sectionWatchServicesAndEventsOnline {
     height: 100%;
     min-height: 200px;
-    background-color: green;
+    /* background-color: green; */
   }
   .sectionWatchServicesAndEventsOnlineData {
-    background-color: red;
+    /* background-color: red; */
     margin-top: 90px;
   }
   .customDivButtonWatchServicesAndEventsOnline {
@@ -139,10 +139,10 @@
 
 @media screen and (min-width: 1920px) {
   .sectionWatchServicesAndEventsOnline {
-    background-color: green;
+    /* background-color: green; */
   }
   .sectionWatchServicesAndEventsOnlineData {
-    background-color: red;
+    /* background-color: red; */
     margin-top: 90px;
   }
 }
