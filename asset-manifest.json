@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3895c001.css",
-    "main.js": "/static/js/main.2b96ee6e.js",
+    "main.css": "/static/css/main.674ef1a9.css",
+    "main.js": "/static/js/main.c6f099ab.js",
     "static/js/453.64be9eb2.chunk.js": "/static/js/453.64be9eb2.chunk.js",
     "static/media/subMenuVideo.mp4": "/static/media/subMenuVideo.dc26a5e665d86f25c786.mp4",
     "static/media/conexaoPppMountChurch.jpg": "/static/media/conexaoPppMountChurch.f6f769bbbba2f94fd53c.jpg",
@@ -27,7 +27,6 @@
     "static/media/espacoKidsbrincando.jpg": "/static/media/espacoKidsbrincando.050b4503923de740e4e5.jpg",
     "static/media/elasOrandoJuntas.jpg": "/static/media/elasOrandoJuntas.5e7413d3d1704d3158a2.jpg",
     "static/media/oneCulto.jpg": "/static/media/oneCulto.a461c49a4f1ba270b370.jpg",
-    "static/media/sermaoBannerImgPage.jpg": "/static/media/sermaoBannerImgPage.ebd23545ed8bacecc807.jpg",
     "static/media/sermaoCultoAldo22-09-2024.jpg": "/static/media/sermaoCultoAldo22-09-2024.f3fe9507f9f197c89ace.jpg",
     "static/media/fullServiceCard.jpg": "/static/media/fullServiceCard.2d9037146bf25cc523fc.jpg",
     "static/media/oneBanner.jpg": "/static/media/oneBanner.d64a45d36dd94dd58a95.jpg",
@@ -45,6 +44,8 @@
     "static/media/fullServicesBannerImgPage.jpg": "/static/media/fullServicesBannerImgPage.10d35833f5e75436ca39.jpg",
     "static/media/assistenciaSocialCardImg.png": "/static/media/assistenciaSocialCardImg.d19382850b0c7aaefb7a.png",
     "static/media/espacoKidsBanner.jpg": "/static/media/espacoKidsBanner.f32d12473a244a050a9f.jpg",
+    "static/media/pregacaoBannerImgPage.jpg": "/static/media/pregacaoBannerImgPage.a4aa473792d8918f440b.jpg",
+    "static/media/pregacaoCardImg.jpg": "/static/media/pregacaoCardImg.a4aa473792d8918f440b.jpg",
     "static/media/dancaBanner.jpg": "/static/media/dancaBanner.666512aa9b805f00ed2c.jpg",
     "static/media/elasMesa.jpg": "/static/media/elasMesa.95f0bf307537af6b6374.jpg",
     "static/media/missionariaCriancasBrincando.jpg": "/static/media/missionariaCriancasBrincando.b258cda05f77df134914.jpg",
@@ -80,7 +81,6 @@
     "static/media/missionariaBanner.jpg": "/static/media/missionariaBanner.4b4e761b1a3006ecd99d.jpg",
     "static/media/pixDizimosEOfertas.jpg": "/static/media/pixDizimosEOfertas.3c816173383ba72df3d4.jpg",
     "static/media/onFirejovens.jpg": "/static/media/onFirejovens.72ab57539d586bc1f002.jpg",
-    "static/media/sermaoCard.jpg": "/static/media/sermaoCard.2a08d551cc6bcc55230b.jpg",
     "static/media/missionariaCentroDeDesenvolvimentoDoJovem.jpg": "/static/media/missionariaCentroDeDesenvolvimentoDoJovem.de99954899aca2690938.jpg",
     "static/media/logoWhite.png": "/static/media/logoWhite.ded883520058c0ef1d85.png",
     "static/media/assistenciaDonationAssistenciaSocialMT.png": "/static/media/assistenciaDonationAssistenciaSocialMT.b2f7ee7f1d85a7c5823d.png",
@@ -90,12 +90,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.3895c001.css.map": "/static/css/main.3895c001.css.map",
-    "main.2b96ee6e.js.map": "/static/js/main.2b96ee6e.js.map",
+    "main.674ef1a9.css.map": "/static/css/main.674ef1a9.css.map",
+    "main.c6f099ab.js.map": "/static/js/main.c6f099ab.js.map",
     "453.64be9eb2.chunk.js.map": "/static/js/453.64be9eb2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3895c001.css",
-    "static/js/main.2b96ee6e.js"
+    "static/css/main.674ef1a9.css",
+    "static/js/main.c6f099ab.js"
   ]
 }
