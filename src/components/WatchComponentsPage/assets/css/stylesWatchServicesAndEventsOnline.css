@@ -43,7 +43,6 @@
   max-width: 1279px;
   margin-left: 0;
   margin-right: 0;
-  padding: 2rem 0;
   color: var(--white-color);
   display: flex;
   flex-direction: column;
@@ -53,6 +52,7 @@
 }
 .sectionWatchServicesAndEventsOnlineData {
   width: 100%;
+  margin-top: 90px;
 }
 .marginTopCustomizedHighlightsAndPreviousSermons {
   margin-top: 200px;
@@ -78,6 +78,7 @@
   }
   .sectionWatchServicesAndEventsOnlineData {
     background-color: yellow;
+    margin-top: 80px;
   }
 }
 
@@ -87,6 +88,7 @@
   }
   .sectionWatchServicesAndEventsOnlineData {
     background-color: red;
+    margin-top: 80px;
   }
 }
 
@@ -102,6 +104,7 @@
   }
   .sectionWatchServicesAndEventsOnlineData {
     background-color: red;
+    margin-top: 90px;
   }
   .sectionTextDarkWatchServicesAndEventsOnline {
     padding-right: 4rem;
@@ -114,6 +117,7 @@
   }
   .sectionWatchServicesAndEventsOnlineData {
     background-color: red;
+    margin-top: 90px;
   }
 }
 
@@ -125,6 +129,7 @@
   }
   .sectionWatchServicesAndEventsOnlineData {
     background-color: red;
+    margin-top: 90px;
   }
   .customDivButtonWatchServicesAndEventsOnline {
     margin: 30px 0 0;
@@ -138,5 +143,6 @@
   }
   .sectionWatchServicesAndEventsOnlineData {
     background-color: red;
+    margin-top: 90px;
   }
 }

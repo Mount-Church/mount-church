@@ -8,7 +8,7 @@ export function HighlightsAndPreviousSermons() {
         <section className="lSectionHighlightsAndPreviousSermons" id="sectionHighlightsAndPreviousSermons">
             <div className="sectionHighlightsAndPreviousSermons">
                 <div>
-                    <h2 className="globalSectionTitleTextDark45px mt-12">
+                    <h2 className="globalSectionTitleTextDark45px">
                         Highlights e Pregações Anteriores
                     </h2>
                     <p className="sectionTextDarkHighlightsAndPreviousSermons">
