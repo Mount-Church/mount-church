@@ -36,28 +36,26 @@
 }
 
 .sliderContainerCarouselEventsAndParties {
-  padding: 1rem;
+  /* padding: 1rem; */
   margin-left: auto;
   margin-right: auto;
   width: 100%;
   max-width: 630px;
 }
-
 .carouselCardCarouselEventsAndParties {
   width: 100%;
-  padding: 16px;
+  padding: 1rem;
   box-sizing: border-box;
-  background-color: red;
+  /* background-color: red; */
 }
-
 .carouselImageWrapperCarouselEventsAndParties {
   position: relative;
   width: 100%;
   max-width: 628px;
-  height: 191px;
+  height: 200px;
   overflow: hidden;
   border-radius: 20px;
-  background-color: yellow;
+  /* background-color: yellow; */
 }
 
 .carouselImageCarouselEventsAndParties {
@@ -66,7 +64,7 @@
   background-size: cover;
   background-position: center;
   transition: all 0.3s;
-  background-color: blue;
+  /* background-color: blue; */
 }
 
 .carouselImageBlurCarouselEventsAndParties {
@@ -84,18 +82,42 @@
   z-index: 2;
   background-color: purple;
 }
-
+.divContainerGridEventsAndParties {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  /* background-color: pink; */
+}
+.divContainerDataAndMonthEventsAndParties {
+  width: 100%;
+  max-width: 80px;
+  /* background-color: red; */
+}
+.titleEventDataEventsAndParties {
+  font-weight: 500;
+  font-size: 48px;
+  height: 60px;
+  /* background-color: orange; */
+}
+.titleEventMonthEventsAndParties {
+  font-weight: 500;
+}
+.divContainerEventNameEventsAndParties {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  /* background-color: green; */
+}
 .carouselTitleCarouselEventsAndParties {
-  color: var(--text-white-color);
+  /* color: var(--dark-color); */
   font-size: var(--h3-font-size);
   font-weight: bold;
-  background-color: green;
 }
 
 .carouselDescriptionCarouselEventsAndParties {
-  color: var(--text-white-color);
+  /* color: var(--dark-color); */
   margin-top: 8px;
-  background-color: yellow;
+  /* background-color: yellow; */
 }
 
 .slick-prev,
@@ -116,40 +138,89 @@
   margin-top: 16px;
   background-color: var(--white-color);
   color: var(--dark-color);
-  padding: 8px 16px;
   border-radius: 4px;
   opacity: 0;
   transition: opacity 0.3s;
 }
-
 .carouselButtonVisibleEventsAndParties {
   opacity: 1;
 }
-
 .carouselButtonVisibleEventsAndParties:hover {
   color: var(--white-color);
   background-color: var(--background-dark-green-color);
   transition: color 0.3s ease;
 }
 
+/*===== MEDIA QUERIES =====*/
+
+@media screen and (min-width: 320px) {
+  .sliderContainerCarouselEventsAndParties {
+    max-width: 270px;
+    padding: 0px;
+    /* background-color: orange; */
+  }
+  .carouselImageWrapperCarouselEventsAndParties {
+    max-width: 628px;
+    height: 330px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .sliderContainerCarouselEventsAndParties {
+    max-width: 430px;
+    padding: 0px;
+    /* background-color: pink; */
+  }
+  .carouselImageWrapperCarouselEventsAndParties {
+    max-width: 628px;
+    height: 230px;
+  }
+}
+
 @media screen and (min-width: 760px) {
   .sliderContainerCarouselEventsAndParties {
-    max-width: 1010px;
+    max-width: 700px;
+    padding: 0px;
+    /* background-color: orange; */
   }
   .carouselCardCarouselEventsAndParties {
-    width: 50%;
+    width: 100%;
+    /* background-color: pink; */
+  }
+  .carouselButtonEventsAndParties {
+    padding: 4px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .sliderContainerCarouselEventsAndParties {
+    max-width: 900px;
+    padding: 0px;
+    /* background-color: blue; */
+  }
+  .carouselButtonEventsAndParties {
+    padding: 8px 16px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .sliderContainerCarouselEventsAndParties {
     max-width: 1280px;
+    padding: 1rem;
+    /* background-color: blue; */
   }
   .carouselImageWrapperCarouselEventsAndParties {
     max-width: 628px;
-    height: 191px;
+    height: 230px;
   }
   .carouselCardCarouselEventsAndParties {
     width: 33.3333%;
+    /* background-color: blue; */
   }
+  .carouselButtonEventsAndParties {
+    padding: 8px 16px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
 }
