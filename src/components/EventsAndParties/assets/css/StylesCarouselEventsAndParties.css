@@ -35,42 +35,45 @@
   }
 }
 
-.sliderContainerAllActivities {
+.sliderContainerCarouselEventsAndParties {
   padding: 1rem;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  max-width: 350px;
+  max-width: 630px;
 }
 
-.carouselCardAllActivities {
+.carouselCardCarouselEventsAndParties {
   width: 100%;
   padding: 16px;
   box-sizing: border-box;
+  background-color: red;
 }
 
-.carouselImageWrapperAllActivities {
+.carouselImageWrapperCarouselEventsAndParties {
   position: relative;
   width: 100%;
-  max-width: 300px;
-  height: 300px;
+  max-width: 628px;
+  height: 191px;
   overflow: hidden;
   border-radius: 20px;
+  background-color: yellow;
 }
 
-.carouselImageAllActivities {
+.carouselImageCarouselEventsAndParties {
   width: 100%;
   height: 100%;
   background-size: cover;
   background-position: center;
   transition: all 0.3s;
+  background-color: blue;
 }
 
-.carouselImageBlurAllActivities {
+.carouselImageBlurCarouselEventsAndParties {
   filter: blur(4px);
 }
 
-.carouselOverlayAllActivities {
+.carouselOverlayCarouselEventsAndParties {
   position: absolute;
   inset: 0;
   display: flex;
@@ -79,17 +82,20 @@
   padding: 16px;
   transition: opacity 0.3s;
   z-index: 2;
+  background-color: purple;
 }
 
-.carouselTitleAllActivities {
+.carouselTitleCarouselEventsAndParties {
   color: var(--text-white-color);
   font-size: var(--h3-font-size);
   font-weight: bold;
+  background-color: green;
 }
 
-.carouselDescriptionAllActivities {
+.carouselDescriptionCarouselEventsAndParties {
   color: var(--text-white-color);
   margin-top: 8px;
+  background-color: yellow;
 }
 
 .slick-prev,
@@ -107,23 +113,23 @@
 }
 
 @media screen and (min-width: 760px) {
-  .sliderContainerAllActivities {
+  .sliderContainerCarouselEventsAndParties {
     max-width: 1010px;
   }
-  .carouselCardAllActivities {
+  .carouselCardCarouselEventsAndParties {
     width: 50%;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .sliderContainerAllActivities {
+  .sliderContainerCarouselEventsAndParties {
     max-width: 1280px;
   }
-  .carouselImageWrapperAllActivities {
-    max-width: 400px;
-    height: 400px;
+  .carouselImageWrapperCarouselEventsAndParties {
+    max-width: 628px;
+    height: 191px;
   }
-  .carouselCardAllActivities {
+  .carouselCardCarouselEventsAndParties {
     width: 33.3333%;
   }
 }

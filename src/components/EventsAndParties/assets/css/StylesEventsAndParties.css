@@ -1,0 +1,144 @@
+/*===== VARIABLES CSS =====*/
+/*=== COLORS ===*/
+:root {
+  --first-color: #0396a6;
+  --dark-color: #1d2130;
+  --white-color: #fefdfc;
+  --background-white-color: #fefdfc;
+  --background-dark-color: #000000;
+  --background-dark-green-color: #677865;
+  --background-green-color: #cdcdc5;
+  --background-gray-color: #eeeeee;
+  --text-gay-color: #525560;
+  --text-white-color: #ffffff;
+  --test-red-color: red;
+}
+
+/*=== Fuente y tipografia ===*/
+:root {
+  --body-font: 'Roboto', sans-serif;
+  --biggest-font-size: 4rem;
+  --h1-font-size: 56px;
+  --h2-font-size: 3rem;
+  --h3-font-size: 2rem;
+  --h4-font-size: 1.25rem;
+  --normal-font-size: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  :root {
+    --biggest-font-size: 4rem;
+    --h1-font-size: 2.5rem;
+    --h2-font-size: 2.5rem;
+    --h3-font-size: 1.8rem;
+    --normal-font-size: 1rem;
+  }
+}
+
+/*===== SECTION ===== */
+.lSectionEventsAndParties {
+  background-color: var(--white-color);
+}
+.sectionEventsAndParties {
+  /* height: max(100vh, fit-content); */
+  max-width: 1279px;
+  margin-left: 0;
+  margin-right: 0;
+  color: var(--white-color);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: space-between;
+  -ms-flex-pack: space-between;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 10px;
+}
+.sectionEventsAndPartiesData {
+  margin-bottom: 3rem;
+  width: 100%;
+}
+.customDivCarouselEventsAndParties {
+  margin: 30px 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+/*===== MEDIA QUERIES =====*/
+
+@media screen and (min-width: 320px) {
+  .sectionEventsAndPartiesData {
+    margin-bottom: 0px;
+    /* background-color: red; */
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .sectionEventsAndPartiesData {
+    margin-bottom: 0px;
+    /* background-color: yellow; */
+  }
+}
+
+@media screen and (min-width: 760px) {
+  .sectionEventsAndParties {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .sectionEventsAndPartiesData {
+    margin-bottom: 0px;
+    /* background-color: blue; */
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .sectionEventsAndPartiesData {
+    margin-bottom: 0px;
+    /* background-color: pink; */
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .sectionEventsAndParties {
+    height: 660px;
+    /* background-color: red; */
+  }
+  .sectionEventsAndPartiesData {
+    margin-bottom: 0px;
+    /* background-color: orange; */
+  }
+  .customDivCarouselEventsAndParties {
+    margin: 30px 0 0;
+    justify-content: left;
+  }
+  .bd-grid {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .sectionEventsAndParties {
+    height: 700px;
+    /* background-color: yellow; */
+  }
+  .sectionEventsAndPartiesData {
+    margin-top: 50px;
+    margin-bottom: 3rem;
+    /* background-color: green; */
+  }
+}

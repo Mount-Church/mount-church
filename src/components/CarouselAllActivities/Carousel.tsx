@@ -11,42 +11,6 @@ import './assets/css/stylesCarousel.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-interface ArrowProps {
-    className?: string;
-    style?: React.CSSProperties;
-    onClick?: () => void;
-}
-
-function SampleNextArrow(props: ArrowProps) {
-    const { className, style, onClick } = props;
-    const [hovered, setHovered] = useState(false);
-
-    return (
-        <div
-            className={className}
-            style={{ ...style, display: 'block', backgroundColor: hovered ? '#677865' : '#bfbfbf', zIndex: 100 }}
-            onClick={onClick}
-            onMouseEnter={() => setHovered(true)}
-            onMouseLeave={() => setHovered(false)}
-        />
-    );
-}
-
-function SamplePrevArrow(props: ArrowProps) {
-    const { className, style, onClick } = props;
-    const [hovered, setHovered] = useState(false);
-
-    return (
-        <div
-            className={`${className} ${hovered ? 'bg-[#677865]' : 'bg-[#000]'} p-2 rounded-full cursor-pointer`}
-            style={{ ...style, display: 'block', backgroundColor: hovered ? '#677865' : '#bfbfbf', zIndex: 100 }}
-            onClick={onClick}
-            onMouseEnter={() => setHovered(true)}
-            onMouseLeave={() => setHovered(false)}
-        />
-    );
-}
-
 const Carousel: React.FC = () => {
     const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
     const settings = {
@@ -58,8 +22,6 @@ const Carousel: React.FC = () => {
         autoplay: true,
         autoplaySpeed: 2000,
         pauseOnHover: true,
-        nextArrow: <SampleNextArrow />,
-        prevArrow: <SamplePrevArrow />,
         responsive: [
             {
                 breakpoint: 830,
@@ -106,7 +68,6 @@ const Carousel: React.FC = () => {
                                 <h2 className="carouselTitleAllActivities">{ministryOrActivities.title}</h2>
                                 <p className="carouselDescriptionAllActivities" dangerouslySetInnerHTML={{ __html: ministryOrActivities.description }} />
                                 <button
-                                    className={`carouselButtonAllActivities ${hoveredIndex === index ? 'carouselButtonVisibleAllActivities' : ''}`}
                                     onClick={() => handleClick(ministryOrActivities)}
                                 >
                                     Saber Mais

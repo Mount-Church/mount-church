@@ -1,5 +1,5 @@
 import React from 'react';
-import { AllActivities, CommunityMission, DownloadApp, FooterGlobal, Ministries, Nav } from 'components';
+import { AllActivities, CommunityMission, DownloadApp, EventsAndParties, FooterGlobal, Ministries, Nav } from 'components';
 import { SubMenuVideo } from 'components/Home/SubMenu';
 
 export function HomePage() {
@@ -11,6 +11,7 @@ export function HomePage() {
       <Ministries />
       <AllActivities />
       <DownloadApp />
+      <EventsAndParties />
       <FooterGlobal />
     </>
   );
