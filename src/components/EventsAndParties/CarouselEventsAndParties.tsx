@@ -6,7 +6,7 @@ import Slider from 'react-slick';
 import mockCarouselEventsAndParties from './MockCarouselEventsAndParties';
 
 import 'assets/css/stylesGlobal.css';
-import './assets/css/stylesCarouselEventsAndParties.css';
+import './assets/css/carouselEventsAndPartiesStyles.css';
 
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
