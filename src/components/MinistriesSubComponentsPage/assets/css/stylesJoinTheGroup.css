@@ -113,7 +113,7 @@
 
 @media screen and (min-width: 1200px) {
   .sectionJoinTheGroup {
-    height: 520px;
+    /* height: 650px; */
     max-width: 1279px;
     display: flex;
     flex-direction: row;
@@ -127,8 +127,8 @@
 
 @media screen and (min-width: 1920px) {
   .sectionJoinTheGroup {
+    /* height: 650px; */
     display: flex;
     justify-content: center;
-    height: 520px;
   }
 }
