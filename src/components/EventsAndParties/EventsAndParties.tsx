@@ -1,4 +1,4 @@
-import './assets/css/StylesEventsAndParties.css';
+import './assets/css/stylesEventsAndParties.css';
 import 'assets/css/stylesGlobal.css';
 
 import CarouselEventsAndParties from './CarouselEventsAndParties';

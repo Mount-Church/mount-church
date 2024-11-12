@@ -1,0 +1,172 @@
+/*===== VARIABLES CSS =====*/
+/*=== COLORS ===*/
+:root {
+  --first-color: #0396a6;
+  --dark-color: #1d2130;
+  --white-color: #fefdfc;
+  --background-white-color: #fefdfc;
+  --background-dark-color: #000000;
+  --background-dark-green-color: #677865;
+  --background-green-color: #cdcdc5;
+  --background-gray-color: #eeeeee;
+  --text-gay-color: #525560;
+  --text-white-color: #ffffff;
+  --test-red-color: red;
+}
+/*=== Fuente y tipografia ===*/
+:root {
+  --body-font: 'Roboto', sans-serif;
+  --biggest-font-size: 4rem;
+  --h1-font-size: 56px;
+  --h2-font-size: 3rem;
+  --h3-font-size: 2rem;
+  --h4-font-size: 1.25rem;
+  --normal-font-size: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  :root {
+    --biggest-font-size: 4rem;
+    --h1-font-size: 2.5rem;
+    --h2-font-size: 2.5rem;
+    --h3-font-size: 1.8rem;
+    --normal-font-size: 1rem;
+  }
+}
+/*===== SECTION ===== */
+.lSectionEventsAndPartiesInformationPage {
+  background-color: var(--background-white-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 10px;
+}
+.customButtonEventsAndPartiesInformationPage {
+  margin: 30px 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+/*===== IMAGE =====*/
+.columImageEventsAndPartiesInformationPage {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.divImageEventsAndPartiesInformationPage {
+  width: 470px;
+  border-radius: 20px;
+}
+
+/*===== MEDIA QUERIES =====*/
+@media screen and (min-width: 320px) {
+  .lSectionEventsAndPartiesInformationPage {
+    height: 750px;
+  }
+  .containerEventsAndPartiesInformationPage {
+    width: 100%;
+    max-width: 100%;
+  }
+  .customButtonEventsAndPartiesInformationPage {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .lSectionEventsAndPartiesInformationPage {
+    height: 750px;
+  }
+  .containerEventsAndPartiesInformationPage {
+    width: 100%;
+    max-width: 100%;
+  }
+  .customButtonEventsAndPartiesInformationPage {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 760px) {
+  .lSectionEventsAndPartiesInformationPage {
+    height: 950px;
+  }
+  .containerEventsAndPartiesInformationPage {
+    width: 100%;
+    max-width: 100%;
+  }
+  .sectionColumEventsAndPartiesInformationPage {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 1rem;
+  }
+  .backButtonMinistriesPageInfo {
+    margin-bottom: 80px;
+  }
+  .customButtonEventsAndPartiesInformationPage {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lSectionEventsAndPartiesInformationPage {
+    height: 900px;
+  }
+  .containerEventsAndPartiesInformationPage {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .lSectionEventsAndPartiesInformationPage {
+    height: 740px;
+  }
+  .containerEventsAndPartiesInformationPage {
+    width: 100%;
+    max-width: 1279px;
+  }
+  .sectionColumEventsAndPartiesInformationPage {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+  .customButtonEventsAndPartiesInformationPage {
+    margin: 30px 0 0;
+    justify-content: left;
+  }
+
+  /*===== IMAGE =====*/
+  .columImageEventsAndPartiesInformationPage {
+    justify-content: start;
+  }
+  .divImageEventsAndPartiesInformationPage {
+    width: 670px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .lSectionEventsAndPartiesInformationPage {
+    height: 750px;
+  }
+  .containerEventsAndPartiesInformationPage {
+    width: 100%;
+    max-width: 1279px;
+    margin-left: 0;
+    margin-right: 0;
+    display: row;
+  }
+  .sectionColumEventsAndPartiesInformationPage {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+  /*===== IMAGE =====*/
+  .columImageEventsAndPartiesInformationPage {
+    justify-content: start;
+  }
+  .divImageEventsAndPartiesInformationPage {
+    width: 670px;
+  }
+}

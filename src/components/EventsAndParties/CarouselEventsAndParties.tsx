@@ -6,7 +6,7 @@ import Slider from 'react-slick';
 import mockCarouselEventsAndParties from './MockCarouselEventsAndParties';
 
 import 'assets/css/stylesGlobal.css';
-import './assets/css/StylesCarouselEventsAndParties.css';
+import './assets/css/stylesCarouselEventsAndParties.css';
 
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -61,7 +61,7 @@ const CarouselEventsAndParties: React.FC = () => {
                         <div className='carouselImageWrapperCarouselEventsAndParties'>
                             <div
                                 className={`carouselImageCarouselEventsAndParties ${hoveredIndex === index ? 'carouselImageBlurCarouselEventsAndParties' : ''}`}
-                                style={{ backgroundImage: `url(${eventsAndParties?.image})` }}
+                                style={{ backgroundImage: `url(${eventsAndParties?.eventimage})` }}
                             />
                             <div className='carouselOverlayCarouselEventsAndParties' style={{ backgroundColor: hoveredIndex === index ? 'rgba(0, 0, 0, 0.7)' : 'rgba(0, 0, 0, 0.5)' }}>
                                 <div className='divContainerGridEventsAndParties'>
@@ -73,7 +73,7 @@ const CarouselEventsAndParties: React.FC = () => {
                                         <h2 className='carouselTitleCarouselEventsAndParties'>{eventsAndParties.eventName}</h2>
                                     </div>
                                 </div>
-                                <p className='carouselDescriptionCarouselEventsAndParties' dangerouslySetInnerHTML={{ __html: eventsAndParties?.eventAbout }} />
+                                <p className='carouselDescriptionCarouselEventsAndParties' dangerouslySetInnerHTML={{ __html: eventsAndParties?.eventDataInformation }} />
                                 <button
                                     className={`carouselButtonEventsAndParties ${hoveredIndex === index ? 'carouselButtonVisibleEventsAndParties' : ''}`}
                                     onClick={() => handleClick(eventsAndParties)}
