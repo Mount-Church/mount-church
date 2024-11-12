@@ -92,6 +92,26 @@
   margin-top: 8px;
 }
 
+.carouselButtonAllActivities {
+  margin-top: 16px;
+  background-color: var(--white-color);
+  color: var(--dark-color);
+  padding: 8px 16px;
+  border-radius: 4px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.carouselButtonVisibleAllActivities {
+  opacity: 1;
+}
+
+.carouselButtonVisibleAllActivities:hover {
+  color: var(--white-color);
+  background-color: var(--background-dark-green-color);
+  transition: color 0.3s ease;
+}
+
 .slick-prev,
 .slick-next {
   background-color: transparent; /* Altere para a cor desejada */

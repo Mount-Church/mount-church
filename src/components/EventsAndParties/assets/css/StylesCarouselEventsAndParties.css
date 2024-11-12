@@ -112,6 +112,26 @@
   color: var(--background-dark-green-color); /* Cor do ícone */
 }
 
+.carouselButtonEventsAndParties {
+  margin-top: 16px;
+  background-color: var(--white-color);
+  color: var(--dark-color);
+  padding: 8px 16px;
+  border-radius: 4px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.carouselButtonVisibleEventsAndParties {
+  opacity: 1;
+}
+
+.carouselButtonVisibleEventsAndParties:hover {
+  color: var(--white-color);
+  background-color: var(--background-dark-green-color);
+  transition: color 0.3s ease;
+}
+
 @media screen and (min-width: 760px) {
   .sliderContainerCarouselEventsAndParties {
     max-width: 1010px;
