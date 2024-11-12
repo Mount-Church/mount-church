@@ -34,7 +34,7 @@ export function TheImportanceOfTithesAndOfferings() {
                     </div>
                     <div className='containerDivTextTheImportanceOfTithesAndOfferings'>
                         <p className="globalSectionTextDark">
-                            Você pode fazer sua contribuição de forma prática e segura através do <strong>PIX</strong>. Basta utilizar a chave <strong>PIX</strong>: <strong>56.108.287/0001-22</strong>. Cada doação, independentemente do valor, faz uma grande diferença e nos ajuda a continuar a nossa obra.
+                            Você pode fazer sua contribuição de forma prática e segura através do <strong>PIX</strong>. Basta utilizar a chave <strong>PIX</strong>: <strong>56.108.287/0001-22</strong>. Cada doação, independente do valor, faz uma grande diferença e nos ajuda a continuar a obra de Deus.
                         </p>
                     </div>
                     <div className='customButtonCommunityMission'>

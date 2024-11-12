@@ -25,7 +25,7 @@ export function WatchServicesAndEventsOnline() {
                         onClick={() => window.open(`https://www.youtube.com/@MountChurchoficial/videos`, '_blank')}
                     >
                         <Link to="">
-                            <ButtonPrimary>Assistir agora</ButtonPrimary>
+                            <ButtonPrimary>Assistir Agora</ButtonPrimary>
                         </Link>
                     </div>
                 </div>
