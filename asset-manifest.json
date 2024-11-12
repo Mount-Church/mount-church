@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.674ef1a9.css",
-    "main.js": "/static/js/main.c6f099ab.js",
+    "main.css": "/static/css/main.8be1c699.css",
+    "main.js": "/static/js/main.5c7fc197.js",
     "static/js/453.64be9eb2.chunk.js": "/static/js/453.64be9eb2.chunk.js",
     "static/media/subMenuVideo.mp4": "/static/media/subMenuVideo.dc26a5e665d86f25c786.mp4",
     "static/media/conexaoPppMountChurch.jpg": "/static/media/conexaoPppMountChurch.f6f769bbbba2f94fd53c.jpg",
@@ -23,6 +23,7 @@
     "static/media/especialEventsCard.jpg": "/static/media/especialEventsCard.c6a7e552d507fc9762c5.jpg",
     "static/media/dancaCardInfantil.jpg": "/static/media/dancaCardInfantil.c7bd7bb03dc7cd46db46.jpg",
     "static/media/especialEventsDanieldiasBannerYoutube25-08-2024.jpg": "/static/media/especialEventsDanieldiasBannerYoutube25-08-2024.e85c7462fe85a5b9d16f.jpg",
+    "static/media/retiroOneTeensImg.jpg": "/static/media/retiroOneTeensImg.7a2cfe6899f64a53bc4a.jpg",
     "static/media/especialEventsBannerImgPage.jpg": "/static/media/especialEventsBannerImgPage.789d52baec31651b0982.jpg",
     "static/media/espacoKidsbrincando.jpg": "/static/media/espacoKidsbrincando.050b4503923de740e4e5.jpg",
     "static/media/elasOrandoJuntas.jpg": "/static/media/elasOrandoJuntas.5e7413d3d1704d3158a2.jpg",
@@ -90,12 +91,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.674ef1a9.css.map": "/static/css/main.674ef1a9.css.map",
-    "main.c6f099ab.js.map": "/static/js/main.c6f099ab.js.map",
+    "main.8be1c699.css.map": "/static/css/main.8be1c699.css.map",
+    "main.5c7fc197.js.map": "/static/js/main.5c7fc197.js.map",
     "453.64be9eb2.chunk.js.map": "/static/js/453.64be9eb2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.674ef1a9.css",
-    "static/js/main.c6f099ab.js"
+    "static/css/main.8be1c699.css",
+    "static/js/main.5c7fc197.js"
   ]
 }
