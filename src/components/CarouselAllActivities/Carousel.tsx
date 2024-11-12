@@ -68,6 +68,7 @@ const Carousel: React.FC = () => {
                                 <h2 className="carouselTitleAllActivities">{ministryOrActivities.title}</h2>
                                 <p className="carouselDescriptionAllActivities" dangerouslySetInnerHTML={{ __html: ministryOrActivities.description }} />
                                 <button
+                                    className={`carouselButtonAllActivities ${hoveredIndex === index ? 'carouselButtonVisibleAllActivities' : ''}`}
                                     onClick={() => handleClick(ministryOrActivities)}
                                 >
                                     Saber Mais
