@@ -4,7 +4,6 @@ import ConexaoBairroImg from './assets/images/conexaoNasCasas.jpg';
 import ConexaoLocaisImg from './assets/images/conexaomapa.png';
 import ConexaoAppInfoImg from './assets/images/conexaoPppMountChurch.jpg';
 
-
 /*===== HOMENS =====*/
 import HomensImg from './assets/images/homens.jpg';
 import HomensCultosEspecificosImg from './assets/images/homensCultosEspecificos.jpg';

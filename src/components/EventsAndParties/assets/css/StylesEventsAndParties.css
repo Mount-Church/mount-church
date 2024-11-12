@@ -13,6 +13,7 @@
   --text-white-color: #ffffff;
   --test-red-color: red;
 }
+
 /*=== Fuente y tipografia ===*/
 :root {
   --body-font: 'Roboto', sans-serif;
@@ -33,19 +34,17 @@
     --normal-font-size: 1rem;
   }
 }
+
 /*===== SECTION ===== */
-.lSectionJoinTheGroup {
-  background-color: var(--background-dark-color);
-  margin-bottom: 70px;
-  display: flex;
-  justify-content: center;
+.lSectionEventsAndParties {
+  background-color: var(--white-color);
 }
-.sectionJoinTheGroup {
+.sectionEventsAndParties {
+  /* height: max(100vh, fit-content); */
   max-width: 1279px;
   margin-left: 0;
   margin-right: 0;
-  padding: 2rem 0;
-  color: var(--dark-color);
+  color: var(--white-color);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -61,16 +60,11 @@
   align-items: center;
   padding: 10px;
 }
-.sectionJoinTheGroupData {
-  margin-left: auto;
-  margin-right: auto;
+.sectionEventsAndPartiesData {
   margin-bottom: 3rem;
+  width: 100%;
 }
-.sectionTextWhiteJoinTheGroup {
-  color: var(--white-color);
-  max-width: 550px;
-}
-.customButtonJoinTheGroup {
+.customDivCarouselEventsAndParties {
   margin: 30px 0 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -83,52 +77,68 @@
 /*===== MEDIA QUERIES =====*/
 
 @media screen and (min-width: 320px) {
-  .sectionJoinTheGroupData {
-    width: 100%;
-    max-width: 100%;
+  .sectionEventsAndPartiesData {
+    margin-bottom: 0px;
+    /* background-color: red; */
   }
 }
 
 @media screen and (min-width: 480px) {
-  .sectionJoinTheGroupData {
-    width: 100%;
-    max-width: 100%;
+  .sectionEventsAndPartiesData {
+    margin-bottom: 0px;
+    /* background-color: yellow; */
   }
 }
 
 @media screen and (min-width: 760px) {
-  .sectionJoinTheGroup {
-    flex-direction: column;
-    width: 100%;
-    max-width: 100%;
+  .sectionEventsAndParties {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .sectionEventsAndPartiesData {
+    margin-bottom: 0px;
+    /* background-color: blue; */
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .sectionTextWhiteJoinTheGroup {
-    color: var(--white-color);
-    max-width: 100%;
+  .sectionEventsAndPartiesData {
+    margin-bottom: 0px;
+    /* background-color: pink; */
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .sectionJoinTheGroup {
-    /* height: 650px; */
-    max-width: 1279px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  .sectionEventsAndParties {
+    height: 660px;
+    /* background-color: red; */
   }
-  .customButtonJoinTheGroup {
+  .sectionEventsAndPartiesData {
+    margin-bottom: 0px;
+    /* background-color: orange; */
+  }
+  .customDivCarouselEventsAndParties {
     margin: 30px 0 0;
     justify-content: left;
+  }
+  .bd-grid {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
 @media screen and (min-width: 1920px) {
-  .sectionJoinTheGroup {
-    /* height: 650px; */
-    display: flex;
-    justify-content: center;
+  .sectionEventsAndParties {
+    height: 700px;
+    /* background-color: yellow; */
+  }
+  .sectionEventsAndPartiesData {
+    margin-top: 50px;
+    margin-bottom: 3rem;
+    /* background-color: green; */
   }
 }
