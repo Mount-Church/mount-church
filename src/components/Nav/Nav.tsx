@@ -25,12 +25,6 @@ export function Nav() {
           <Link to="/tithesandofferings" className='navItemMenu'>
             <ButtonNavMenu>Ofertas</ButtonNavMenu>
           </Link>
-          {/* <Link to="/ministries" className='navItemMenu'>
-            <ButtonNavMenu>Ministérios</ButtonNavMenu>
-          </Link> */}
-          {/* <Link to="/events" className='navItemMenu'>
-            <ButtonNavMenu>Eventos</ButtonNavMenu>
-          </Link> */}
           <Link to="/assistance" className='navItemMenu'>
             <ButtonNavMenu>Assistência</ButtonNavMenu>
           </Link>
@@ -57,7 +51,6 @@ export function Nav() {
             <NavMobileItem to="/location">Localização</NavMobileItem>
             <NavMobileItem to="/tithesandofferings">Ofertas</NavMobileItem>
             {/* <NavMobileItem to="/ministries">Ministérios</NavMobileItem> */}
-            {/* <NavMobileItem to="/events">Eventos</NavMobileItem> */}
             <NavMobileItem to="/assistance">Assistência</NavMobileItem>
             <NavMobileItem to="/watch">Assista</NavMobileItem>
           </div>

@@ -14,7 +14,7 @@ export function EventsAndParties() {
                         <div className="textDarkGlobalStyles">Nossos Eventos</div>
                     </div>
                     <p className="globalSectionTextDark">
-                        Eventos
+                        Participe dos eventos da nossa igreja e encontre um espaço de acolhimento, aprendizado e comunhão. Estamos de portas abertas para você!
                     </p>
                     <div className='customDivCarouselEventsAndParties'>
                         <CarouselEventsAndParties />
