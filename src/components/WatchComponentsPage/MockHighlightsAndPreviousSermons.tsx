@@ -2,6 +2,9 @@
 import pregacaoCardImg from './assets/images/pregacaoCardImg.jpg';
 import pregacaoBannerImgPage from './assets/images/pregacaoBannerImgPage.jpg';
 import RenaneEstefanny from './assets/images/sermaoCultoAldo22-09-2024.jpg'
+import PerdaoAldo01 from './assets/images/perdaoParte01.jpg'
+import PerdaoAldo02 from './assets/images/perdaoParte02.jpg'
+import PerdaoAldo03 from './assets/images/perdaoParte03.jpg'
 
 /*===== EVENTOS ESPECIAIS =====*/
 import especialEventsCardImg from './assets/images/especialEventsCard.jpg';
@@ -36,6 +39,30 @@ const HighlightsAndPreviousSermonsMock = [
                 recordingDay: 'Domingo',
                 recordingDate: '22/09/2024',
                 linkFromYoutubeVideos: 'https://www.youtube.com/watch?v=jXYtp4xgoXM',
+            },
+            {
+                id: 2,
+                youtubeVideosBanner: PerdaoAldo01,
+                youtubeVideosName: 'Perdão - Parte 01',
+                recordingDay: 'Quinta',
+                recordingDate: '24/10/2024',
+                linkFromYoutubeVideos: 'https://www.youtube.com/live/OxmqbXzD0o4',
+            },
+            {
+                id: 3,
+                youtubeVideosBanner: PerdaoAldo02,
+                youtubeVideosName: 'Perdão - Parte 02',
+                recordingDay: 'Domingo',
+                recordingDate: '27/10/2024',
+                linkFromYoutubeVideos: 'https://www.youtube.com/live/CkeItY9d31c',
+            },
+            {
+                id: 4,
+                youtubeVideosBanner: PerdaoAldo03,
+                youtubeVideosName: 'Perdão - Parte 03',
+                recordingDay: 'Domingo',
+                recordingDate: '03/11/2024',
+                linkFromYoutubeVideos: 'https://www.youtube.com/live/aBYFToQyj-M',
             },
         ],
     },
