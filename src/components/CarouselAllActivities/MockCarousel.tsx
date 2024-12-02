@@ -128,8 +128,9 @@ const ministriesOrActivitiesMock = [
         joinTheGroupTitle: 'Conexão One e Culto de Jovens',
         firstDescriptionjoinTheGroup: 'A conexão de jovens é um grupo menor dentro da igreja, formado por amigos que se reúnem semanalmente para compartilhar a palavra de Deus, orar juntos e fortalecer laços de <strong>amizade</strong>. É um ambiente onde cada pessoa pode expressar suas dúvidas, testemunhos e desafios, contando com o apoio dos líderes e demais membros . É lugar de crescimento espiritual e pessoal, além de ser uma ótima oportunidade para novos integrantes conhecerem mais sobre a <strong>fé cristã</strong> em um ambiente acolhedor e descontraído.',
         secondDescriptionjoinTheGroup: 'O culto de jovens é um momento <strong>especial</strong> de <strong>celebração</strong> voltado para esse público. Com uma abordagem atual e dinâmica, é uma oportunidade de louvar a Deus, ouvir mensagens inspiradoras e se conectar àqueles que também estão buscando uma vida nos caminhos de Cristo. Durante o culto, há espaço para <strong>música</strong>, momentos de <strong>oração</strong>, <strong>reflexões bíblicas</strong> e, muitas vezes, atividades <strong>interativas</strong>. É um espaço vibrante e acolhedor, onde os jovens podem encontrar direção espiritual e renovar suas forças para o dia a dia.',
-        buttonNameTargeting: 'Mais informações',
-        joinTheGroupLink: 'https://wa.me/5547992397946',
+        buttonNameTargeting: 'Saber Mais',
+        // joinTheGroupLink: 'https://wa.me/5547992397946',
+        joinTheGroupLink: 'https://wa.me/554792722249',
         services: [
             {
                 id: 1,
@@ -164,8 +165,9 @@ const ministriesOrActivitiesMock = [
         joinTheGroupTitle: 'Eventos para Homens',
         firstDescriptionjoinTheGroup: 'No Ministério dos Homens da <strong>Mount Church</strong>, proporcionamos um ambiente de conexão e crescimento espiritual onde os homens podem compartilhar suas <strong>vidas</strong> e <strong>experiências</strong>, discutindo abertamente sobre o amor de Deus e sua atuação em suas jornadas. Este é um espaço dedicado ao fortalecimento da fé e ao apoio mútuo, ajudando cada homem a seguir firme em sua caminhada cristã.',
         secondDescriptionjoinTheGroup: 'Convidamos você a fazer parte do Ministério dos Homens da <strong>Mount Church</strong>. Junte-se a nós e experimente a transformação que ocorre quando homens se reúnem para buscar a <strong>Deus</strong>, apoiar uns aos outros e compartilhar suas vidas de maneira autêntica e significativa.',
-        joinTheGroupLink: 'https://chat.whatsapp.com/K8vsPk0ouivCX5jboFjmOi',
-        buttonNameTargeting: 'Entrar no grupo',
+        // joinTheGroupLink: 'https://chat.whatsapp.com/K8vsPk0ouivCX5jboFjmOi',
+        joinTheGroupLink: 'https://wa.me/554792722249',
+        buttonNameTargeting: 'Saber Mais',
         services: [
             {
                 id: 1,
@@ -200,7 +202,7 @@ const ministriesOrActivitiesMock = [
         joinTheGroupTitle: 'A Força da Oração Feminina',
         firstDescriptionjoinTheGroup: 'A oração é uma das maiores dádivas que Deus nos deu, e a oração de uma mulher tem um poder especial. Em nossos cultos de mulheres, você encontrará um ambiente acolhedor e inspirador, onde cada mulher é incentivada a buscar à Deus com todo o seu coração. Estes cultos são momentos de renovação espiritual, onde compartilhamos testemunhos, aprendemos juntas e fortalecemos nossa fé.',
         secondDescriptionjoinTheGroup: 'Venha participar do Por Elas Na Mesa e experimente a transformação que a oração pode trazer para sua vida. Junte-se a um grupo de mulheres dedicadas e apaixonadas por Deus, que se apoiam mutuamente e buscam crescer na fé. “Clama a mim, e responder-te-ei, e anunciar-te-ei coisas grandes e firmes que não sabes” (Jeremias 33:3). </br></br> Além disso, temos o prazer de divulgar o curso <strong>Mulher Única (M.U)</strong>, oferecido pela <strong>Universidade da Família</strong>. Este curso <strong>não</strong> é vinculado a nenhuma igreja específica, mas é uma excelente oportunidade para mulheres que desejam aprofundar sua autoestima, valor, feminilidade e responsabilidade. Nosso desejo é que Deus a liberte e dê vida abundante em toda a sua plenitude, causando grande impacto na família e na sociedade, através de sua originalidade, identidade e singularidade.',
-        buttonNameTargeting: 'Mais informações',
+        buttonNameTargeting: 'Saber Mais',
         joinTheGroupLink: 'https://wa.me/554792722249',
         services: [
             {
@@ -237,7 +239,7 @@ const ministriesOrActivitiesMock = [
         firstDescriptionjoinTheGroup: 'O batismo é muito mais do que um simples ritual; é um mergulho <strong>profundo na fé</strong>, uma experiência de renovação e uma conexão com a história da Igreja. “Quem crer e for batizado <strong>será salvo</strong>, mas quem não crer será condenado” (<strong>Marcos 16:16, NVI</strong>). Que cada batismo seja um lembrete constante da <strong>graça divina</strong> e da transformação que <strong>Deus</strong> opera em nossas vidas.',
         secondDescriptionjoinTheGroup: 'Se você está <strong>sentindo o chamado</strong> para ser batizado, te convidamos a <strong>realizar</strong> o seu batismo na <strong>Mount Church</strong>. Estamos aqui para caminhar ao seu lado, oferecendo orientação e apoio enquanto você dá esse passo transformador em sua jornada de fé. “Então Jesus veio da Galileia ao Jordão para ser <strong>batizado</strong> por João” (<strong>Mateus 3:13, NVI</strong>).',
         joinTheGroupLink: 'https://wa.me/554792722249',
-        buttonNameTargeting: 'Mais informações',
+        buttonNameTargeting: 'Saber Mais',
         services: [
             {
                 id: 1,
@@ -271,8 +273,9 @@ const ministriesOrActivitiesMock = [
         infoImage: TeensBanner,
         joinTheGroupTitle: 'Amizade, Propósito e Fé',
         firstDescriptionjoinTheGroup: 'O ministério de <strong>adolescentes</strong> tem um espaço só para você, com cultos e atividades em uma linguagem  descontraida. Além disso, rolam várias programações especiais! É um lugar onde você pode fazer novas amizades e ter bons momentos juntos. Esse trabalho é focado em ajudar a galera a entender o propósito de vida e seguir firme na caminhada cristã. Se você tem entre <strong>12</strong> e <strong>17</strong> anos, vem com a gente para trocar experiências com Deus e com os amigos!',
-        secondDescriptionjoinTheGroup: 'Para mais informações clique em "<strong>Saber mais</strong>"!',
-        joinTheGroupLink: 'https://wa.me/5547992397946',
+        secondDescriptionjoinTheGroup: 'Para  Saber Mais clique em "<strong>Saber mais</strong>"!',
+        // joinTheGroupLink: 'https://wa.me/5547992397946',
+        joinTheGroupLink: 'https://wa.me/554792722249',
         buttonNameTargeting: 'Saber mais',
         services: [
             {
@@ -307,9 +310,10 @@ const ministriesOrActivitiesMock = [
         infoImage: BannerJiuMDL,
         joinTheGroupTitle: 'Esportes para Todas as Idades',
         firstDescriptionjoinTheGroup: 'O esporte cria a oportunidade de compartilhar o amor de Cristo nas mais diversas áreas enquanto cuidamos da mente e do templo do espírito santo, nosso próprio corpo! Oferecemos atividades semanais gratuitas e para todas as idades:',
-        secondDescriptionjoinTheGroup: '<strong>Jiu-Jitsu</strong>: Segundas e Quartas-feiras, kids 9 a 12 anos às 19h, adultos a partir de 13 anos às 20h;<br><strong>Muay Thai</strong>: Quartas-feiras, às 19h30, a partir de 13 anos;<br><strong>Futebol</strong>: Segundas-feiras, das 21h às 22h (<strong>a atividade de futebol não é gratuita; também é necessário verificar o local de encontro clicando em "Mais informações".</strong>).',
-        joinTheGroupLink: 'https://wa.me/554192585013',
-        buttonNameTargeting: 'Mais informações',
+        secondDescriptionjoinTheGroup: '<strong>Jiu-Jitsu</strong>: Segundas e Quartas-feiras, kids 9 a 12 anos às 19h, adultos a partir de 13 anos às 20h;<br><strong>Muay Thai</strong>: Quartas-feiras, às 19h30, a partir de 13 anos;<br><strong>Futebol</strong>: Segundas-feiras, das 21h às 22h (<strong>a atividade de futebol não é gratuita; também é necessário verificar o local de encontro clicando em " Saber Mais".</strong>).',
+        // joinTheGroupLink: 'https://wa.me/554192585013',
+        joinTheGroupLink: 'https://wa.me/554792722249',
+        buttonNameTargeting: 'Saber Mais',
         services: [
             {
                 id: 1,
@@ -379,9 +383,10 @@ const ministriesOrActivitiesMock = [
         infoImage: dancaBannerImg,
         joinTheGroupTitle: 'O Poder da Dança na Adoração',
         firstDescriptionjoinTheGroup: 'A dança é uma forma poderosa de <strong>adoração a Deus</strong>, expressando nossa fé e devoção através de movimentos inspirados pelo <strong>Espírito Santo</strong>. No Ministério de Dança, cada passo é uma oração, cada movimento é um ato de louvor. Convidamos você a se juntar a nós e experimentar<strong> a alegria</strong> de adorar a Deus com todo o seu ser. “Louvem o seu nome com danças; cantem-lhe o seu louvor com tamborim e harpa” (Salmos 149:3).',
-        secondDescriptionjoinTheGroup: 'Clique em "<strong>Mais informações</strong>" para se juntar a nós!',
-        joinTheGroupLink: 'https://wa.me/5515991901689',
-        buttonNameTargeting: 'Mais informações',
+        secondDescriptionjoinTheGroup: 'Clique em "<strong> Saber Mais</strong>" para se juntar a nós!',
+        // joinTheGroupLink: 'https://wa.me/5515991901689',
+        joinTheGroupLink: 'https://wa.me/554792722249',
+        buttonNameTargeting: 'Saber Mais',
         services: [
             {
                 id: 1,
@@ -416,8 +421,9 @@ const ministriesOrActivitiesMock = [
         joinTheGroupTitle: 'A Pureza da Criança',
         firstDescriptionjoinTheGroup: 'As crianças são uma bênção de Deus e trazem alegria e vida para nossas casas. Em nossos cultos infantis, celebramos a pureza e a inocência das crianças, ensinando-as sobre o amor de Deus de maneira lúdica e envolvente. “Deixem vir a mim as crianças, não as impeçam; pois o Reino dos céus pertence aos que se tornam semelhantes a elas” (Mateus 19:14). Venha e traga seus filhos para participar deste ministério, onde cada criança é valorizada e encorajada a crescer em fé.',
         secondDescriptionjoinTheGroup: 'A alegria de uma criança é um reflexo do amor de Deus em nossas vidas. No Ministério Infantil, acreditamos que cada criança é preciosa e merece ser cuidada com amor e dedicação. Convidamos você a trazer seus filhos para nossos cultos infantis, onde eles aprenderão sobre Deus de maneira divertida e significativa. “Os filhos são herança do Senhor, uma recompensa que ele dá” (Salmos 127:3). Venha e permita que seus filhos experimentem a alegria de crescer em um ambiente de fé e amor.',
-        buttonNameTargeting: 'Mais informações',
-        joinTheGroupLink: 'https://wa.me/554788876613',
+        buttonNameTargeting: 'Saber Mais',
+        // joinTheGroupLink: 'https://wa.me/554788876613',
+        joinTheGroupLink: 'https://wa.me/554792722249',
         services: [
             {
                 id: 1,
@@ -452,8 +458,9 @@ const ministriesOrActivitiesMock = [
         joinTheGroupTitle: 'A União Sob o Olhar de Deus',
         firstDescriptionjoinTheGroup: 'A união de um casal é um reflexo do amor de Deus. Em nossos encontros, celebramos a importância do homem como sacerdote do lar e da mulher sábia que edifica a casa. “Maridos, amem suas esposas, assim como Cristo amou a igreja e entregou-se por ela” (Efésios 5:25). Venha fortalecer seu casamento e crescer espiritualmente conosco.',
         secondDescriptionjoinTheGroup: 'A união de um casal é uma bênção divina, e no Ministério de Casais, acreditamos que um casamento forte é construído sobre a fé e o amor. Convidamos você a participar de nossos encontros e cultos, onde compartilhamos ensinamentos bíblicos e experiências que fortalecem a relação conjugal. “A mulher sábia edifica a sua casa, mas com as próprias mãos a insensata derruba a sua” (Provérbios 14:1). Junte-se a nós e descubra como a união sob o olhar de Deus pode transformar sua vida e seu casamento. Venha e faça parte desta comunidade de fé e amor, onde cada casal é valorizado e encorajado a crescer juntos.',
-        joinTheGroupLink: 'https://wa.me/5547984281670',
-        buttonNameTargeting: 'Mais informações',
+        // joinTheGroupLink: 'https://wa.me/5547984281670',
+        joinTheGroupLink: 'https://wa.me/554792722249',
+        buttonNameTargeting: 'Saber Mais',
         services: [
             {
                 id: 1,
@@ -487,9 +494,10 @@ const ministriesOrActivitiesMock = [
         infoImage: missionariaCambojaBannerImg,
         joinTheGroupTitle: 'ALCANCE NOS BARES/BORDÉIS',
         firstDescriptionjoinTheGroup: 'Temos uma equipe de mulheres que vai semanalmente aos bares/ bordéis do Distrito Vermelho para fazer amizade e ministrar às meninas/mulheres que trabalham lá.</br></br>As meninas são provenientes de vilas rurais, e a partir dos 13 anos são vendidas pelos pais à traficantes e donos de bares aqui na capital do Camboja, onde são constantemente abusadas por estrangeiros que todo ano vêm para o Camboja com o principal objetivo do turismo sexual.</br></br> Nosso principal objetivo é amar as meninas que Deus coloca à nossa frente, oferecendo aulas de inglês e discipulado que é quando construímos relacionamento com elas. Se elas desejarem sair dos bares, por meio de parcerias com outras organizações, um caminho para a liberdade e uma vida digna será oferecido.',
-        secondDescriptionjoinTheGroup: 'Se você sente o chamado para apoiar este projeto, convidamos você a fazer uma doação via <strong>PIX</strong> para <strong>elizandrah@gmail.com</strong>. Sua contribuição ajudará a transformar vidas e a levar esperança a quem mais precisa. Para mais informações, siga <strong>@elizandrahille</strong> e <strong>@irisphnompenh</strong> no Instagram. Deus abençoe muito vocês.',
-        joinTheGroupLink: 'https://wa.me/554799569911',
-        buttonNameTargeting: 'Mais informações',
+        secondDescriptionjoinTheGroup: 'Se você sente o chamado para apoiar este projeto, convidamos você a fazer uma doação via <strong>PIX</strong> para <strong>elizandrah@gmail.com</strong>. Sua contribuição ajudará a transformar vidas e a levar esperança a quem mais precisa. Para  Saber Mais, siga <strong>@elizandrahille</strong> e <strong>@irisphnompenh</strong> no Instagram. Deus abençoe muito vocês.',
+        // joinTheGroupLink: 'https://wa.me/554799569911',
+        joinTheGroupLink: 'https://wa.me/554792722249',
+        buttonNameTargeting: 'Saber Mais',
         services: [
             {
                 id: 1,
