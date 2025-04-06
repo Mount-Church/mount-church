@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.8be1c699.css",
-    "main.js": "/static/js/main.2815a271.js",
+    "main.css": "/static/css/main.348ae57e.css",
+    "main.js": "/static/js/main.89f1eae2.js",
     "static/js/453.64be9eb2.chunk.js": "/static/js/453.64be9eb2.chunk.js",
     "static/media/subMenuVideo.mp4": "/static/media/subMenuVideo.dc26a5e665d86f25c786.mp4",
     "static/media/conexaoPppMountChurch.jpg": "/static/media/conexaoPppMountChurch.f6f769bbbba2f94fd53c.jpg",
@@ -23,7 +23,6 @@
     "static/media/especialEventsCard.jpg": "/static/media/especialEventsCard.c6a7e552d507fc9762c5.jpg",
     "static/media/dancaCardInfantil.jpg": "/static/media/dancaCardInfantil.c7bd7bb03dc7cd46db46.jpg",
     "static/media/especialEventsDanieldiasBannerYoutube25-08-2024.jpg": "/static/media/especialEventsDanieldiasBannerYoutube25-08-2024.e85c7462fe85a5b9d16f.jpg",
-    "static/media/retiroOneTeensImg.jpg": "/static/media/retiroOneTeensImg.7a2cfe6899f64a53bc4a.jpg",
     "static/media/especialEventsBannerImgPage.jpg": "/static/media/especialEventsBannerImgPage.789d52baec31651b0982.jpg",
     "static/media/espacoKidsbrincando.jpg": "/static/media/espacoKidsbrincando.050b4503923de740e4e5.jpg",
     "static/media/elasOrandoJuntas.jpg": "/static/media/elasOrandoJuntas.5e7413d3d1704d3158a2.jpg",
@@ -65,12 +64,12 @@
     "static/media/homens.jpg": "/static/media/homens.a71f7f021fd3c9d5b1e0.jpg",
     "static/media/redencaoSimbolo.jpg": "/static/media/redencaoSimbolo.113ddf75413175340432.jpg",
     "static/media/oneConexao.jpg": "/static/media/oneConexao.1cf26bfab1b53febfc77.jpg",
+    "static/media/AldoEFabi.jpg": "/static/media/AldoEFabi.ca2942b7623a27c3ffc9.jpg",
     "static/media/imageDonateFabio.jpg": "/static/media/imageDonateFabio.7b7636a54d3ba2ff054b.jpg",
     "static/media/batismoUmaCelebracaoDeFe.jpg": "/static/media/batismoUmaCelebracaoDeFe.5afe4d3040e421e859e7.jpg",
     "static/media/homensConexaoeCrescimento.jpg": "/static/media/homensConexaoeCrescimento.ae752821be59b08392fe.jpg",
     "static/media/batismoCelebracaoComunitaria.jpg": "/static/media/batismoCelebracaoComunitaria.a97c330e631ddfdb07ca.jpg",
     "static/media/downloadAppTelephone.png": "/static/media/downloadAppTelephone.3868d5524d74d75a8ba6.png",
-    "static/media/AldoEFabi.jpg": "/static/media/AldoEFabi.c6210baeb211cd5ed16d.jpg",
     "static/media/elasLanche.jpg": "/static/media/elasLanche.5a9c5622d4d3aeffb8d7.jpg",
     "static/media/conexaoNasCasas.jpg": "/static/media/conexaoNasCasas.34565ee4e03821734ce3.jpg",
     "static/media/assistenciaSejaUmVoluntario.jpg": "/static/media/assistenciaSejaUmVoluntario.f1a153e933c4840dad05.jpg",
@@ -83,9 +82,6 @@
     "static/media/pixDizimosEOfertas.jpg": "/static/media/pixDizimosEOfertas.3c816173383ba72df3d4.jpg",
     "static/media/onFirejovens.jpg": "/static/media/onFirejovens.72ab57539d586bc1f002.jpg",
     "static/media/missionariaCentroDeDesenvolvimentoDoJovem.jpg": "/static/media/missionariaCentroDeDesenvolvimentoDoJovem.de99954899aca2690938.jpg",
-    "static/media/perdaoParte02.jpg": "/static/media/perdaoParte02.6e73c105f32516f097f2.jpg",
-    "static/media/perdaoParte01.jpg": "/static/media/perdaoParte01.a5e431e436bb2192a827.jpg",
-    "static/media/perdaoParte03.jpg": "/static/media/perdaoParte03.a5e431e436bb2192a827.jpg",
     "static/media/logoWhite.png": "/static/media/logoWhite.ded883520058c0ef1d85.png",
     "static/media/assistenciaDonationAssistenciaSocialMT.png": "/static/media/assistenciaDonationAssistenciaSocialMT.b2f7ee7f1d85a7c5823d.png",
     "static/media/mdlCard.jpg": "/static/media/mdlCard.ec40a647c404cf3556bd.jpg",
@@ -94,12 +90,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.8be1c699.css.map": "/static/css/main.8be1c699.css.map",
-    "main.2815a271.js.map": "/static/js/main.2815a271.js.map",
+    "main.348ae57e.css.map": "/static/css/main.348ae57e.css.map",
+    "main.89f1eae2.js.map": "/static/js/main.89f1eae2.js.map",
     "453.64be9eb2.chunk.js.map": "/static/js/453.64be9eb2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8be1c699.css",
-    "static/js/main.2815a271.js"
+    "static/css/main.348ae57e.css",
+    "static/js/main.89f1eae2.js"
   ]
 }
