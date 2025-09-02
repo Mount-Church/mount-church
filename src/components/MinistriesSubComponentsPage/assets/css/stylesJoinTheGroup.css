@@ -42,33 +42,33 @@
 }
 .sectionJoinTheGroup {
   max-width: 1279px;
-  margin-left: 0;
-  margin-right: 0;
-  padding: 2rem 0;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem 1rem;
   color: var(--dark-color);
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: space-between;
-  -ms-flex-pack: space-between;
   justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  padding: 10px;
+  box-sizing: border-box;
 }
 .sectionJoinTheGroupData {
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 3rem;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto 3rem;
+  padding: 0 1rem;
+  box-sizing: border-box;
 }
 .sectionTextWhiteJoinTheGroup {
   color: var(--white-color);
-  max-width: 550px;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 0 1rem;
+  line-height: 1.6;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  text-align: left;
 }
 .customButtonJoinTheGroup {
   margin: 30px 0 0;
@@ -113,22 +113,42 @@
 
 @media screen and (min-width: 1200px) {
   .sectionJoinTheGroup {
-    height: 520px;
+    height: auto;
+    min-height: 520px;
     max-width: 1279px;
-    display: flex;
     flex-direction: row;
-    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 3rem 2rem;
   }
+  
+  .sectionJoinTheGroupData {
+    flex: 1;
+    max-width: 50%;
+    margin-bottom: 0;
+    padding-right: 2rem;
+  }
+  
+  .columGlobalTheGroup {
+    flex: 1;
+    max-width: 50%;
+    padding: 0;
+  }
+  
   .customButtonJoinTheGroup {
-    margin: 30px 0 0;
-    justify-content: left;
+    justify-content: flex-start;
+    margin: 1.5rem 0 0;
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1600px) {
   .sectionJoinTheGroup {
-    display: flex;
-    justify-content: center;
-    height: 520px;
+    max-width: 1440px;
+    padding: 4rem;
+  }
+  
+  .sectionTextWhiteJoinTheGroup {
+    font-size: 1.1rem;
+    line-height: 1.7;
   }
 }
