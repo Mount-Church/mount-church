@@ -42,13 +42,13 @@ export function PlanYourVisit() {
                             <h2 className='minTitlePlanYourVisit' >
                                 Sede
                             </h2>
-                            <p className="textCustomPlanYourVisit">R. Botafogo 494 Itaum, Joinville - SC <br />Brasil.</p>
+                            <p className="textCustomPlanYourVisit">Rua Marquês de Olinda 2900, Glória, Joinville - SC <br />Brasil.</p>
                         </div>
                         <div className='text-slate-950'>
                             <h2 className='minTitlePlanYourVisit'>
                                 Cultos
                             </h2>
-                            <p className="textCustomPlanYourVisit">Culltos Qui - 20h e Dom 18h </p>
+                            <p className="textCustomPlanYourVisit">Culltos Qui - 20h e Dom 10h e 18h </p>
                             <div className='flex space-x-3 mb-8 mt-3'>
                                 <div className='cursor-pointer'
                                     onClick={() => window.open(`https://www.facebook.com/MountChurchJoinville`, '_blank')}
