@@ -1,6 +1,47 @@
-# mountChurch-front-end
+# Mount Church - Website
 
-In the project directory, you can run:
+[![GitHub license](https://img.shields.io/github/license/Mount-Church/mount-church)](https://github.com/Mount-Church/mount-church/blob/main/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/Mount-Church/mount-church)](https://github.com/Mount-Church/mount-church/issues)
+
+Website oficial da Mount Church, construído com React e TypeScript.
+
+## 🚀 Implantação
+
+Este projeto está configurado para ser implantado no GitHub Pages. Siga os passos abaixo para fazer o deploy:
+
+### Pré-requisitos
+- Node.js (v14 ou superior)
+- npm ou yarn
+- Git
+
+### Passos para Implantação
+
+1. **Instale as dependências**
+   ```bash
+   npm install
+   ```
+
+2. **Crie um build de produção**
+   ```bash
+   npm run build
+   ```
+
+3. **Faça o deploy para o GitHub Pages**
+   ```bash
+   npm run deploy
+   ```
+   Este comando irá:
+   - Criar um build de produção
+   - Fazer push da pasta `build` para o branch `gh-pages`
+   - Publicar o site na URL configurada no campo `homepage` do package.json
+
+### Configuração do Ambiente
+
+Copie o arquivo `.env.example` para `.env` e atualize as variáveis conforme necessário.
+
+## 🛠 Desenvolvimento
+
+No diretório do projeto, você pode executar:
 
 ### `npm start`
 
@@ -40,4 +81,3 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
