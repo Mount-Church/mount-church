@@ -58,7 +58,7 @@ export function SermonPlaylist() {
                                                 className={`buttonCardSermonPlaylist ${hoveredIndex === index ? 'buttonVisibleCardSermonPlaylist' : ''}`}
                                                 onClick={() => window.open(`${videoSermonPlaylist.linkFromYoutubeVideos}`, '_blank')}
                                             >
-                                                Assistir agora
+                                                Assistir Agora
                                             </button>
                                         </div>
                                     </div>

@@ -114,7 +114,7 @@
 
 .slick-prev,
 .slick-next {
-  background-color: yellow; /* Altere para a cor desejada */
+  background-color: transparent; /* Altere para a cor desejada */
   border-radius: 50%; /* Ajuste o formato do botão */
   width: 40px; /* Ajuste o tamanho do botão */
   height: 40px; /* Ajuste o tamanho do botão */
@@ -123,7 +123,7 @@
 .slick-prev::before,
 .slick-next::before {
   font-size: 24px; /* Ajuste o tamanho do ícone */
-  color: pink; /* Cor do ícone */
+  color: var(--background-dark-green-color); /* Cor do ícone */
 }
 
 @media screen and (min-width: 760px) {

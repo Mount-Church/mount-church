@@ -5,11 +5,11 @@ import {
   AboutPage,
   MinistriesPage,
   HomePage,
-  EventsPage,
   WatchPage,
   ErrorPage,
   AssistancePage,
-  TithesOfferings
+  TithesOfferings,
+  EventsAndPartiesPage
 } from 'pages';
 
 import { WatchHighlightsAndPreviousSermons } from 'components/SubWatchComponentsPage/WatchHighlightsAndPreviousSermons';
@@ -26,7 +26,7 @@ export function AppRoutes() {
         <Route path="/location" element={<LocationPage />} />
         <Route path="/tithesandofferings" element={<TithesOfferings />} />
         <Route path="/ministries" element={<MinistriesPage />} />
-        <Route path='/events' element={<EventsPage />} />
+        <Route path='/events' element={<EventsAndPartiesPage />} />
         <Route path='/assistance' element={<AssistancePage />} />
         <Route path='/watch' element={<WatchPage />} />
         <Route path="/watchhighlightsandprevioussermons" element={<WatchHighlightsAndPreviousSermons />} />

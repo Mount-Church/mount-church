@@ -13,7 +13,7 @@ export function HowWeUseYourDonation() {
                     </div>
                     <div className='divTextStylesHowWeUseYourDonation'>
                         <p className='textStylesHowWeUseYourDonation'>
-                            Parte das doações é destinada à preparação de marmitas, que são distribuídas para <strong>moradores de rua</strong>, proporcionando-lhes uma refeição quente e nutritiva.
+                            Parte das doações é destinada à preparação de marmitas, que são distribuídas para <strong>pessoas em situação de rua</strong>, proporcionando-lhes uma refeição quente e nutritiva.
                         </p>
 
                         <p className='textStylesHowWeUseYourDonation'>

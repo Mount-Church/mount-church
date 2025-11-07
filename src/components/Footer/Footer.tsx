@@ -13,16 +13,16 @@ export function FooterGlobal() {
                     </div>
                     <div>
                         <div className='titleFooter'>Localização</div>
-                        <div className='subTileFooter'>Rua: Botafogo 494 - Itaum</div>
-                        <div className='subTileFooter'>Joinville - SC</div>
+                        <div className='subTileFooter'>Rua Marquês de Olinda 2900</div>
+                        <div className='subTileFooter'>Gloria, Joinville - SC</div>
                         <button className='buttonFooter'
-                            onClick={() => window.open(`https://www.google.com.br/maps/place/R.+Botafogo,+494+-+Itaum,+Joinville+-+SC,+89210-000/@-26.3275297,-48.8428199,17z/data=!3m1!4b1!4m6!3m5!1s0x94deb0fd52d2f8cd:0xd188b7b9492221bd!8m2!3d-26.3275345!4d-48.840245!16s%2Fg%2F11tdl8mrw8?entry=ttu`, '_blank')}>
+                            onClick={() => window.open(`https://maps.app.goo.gl/8NYNhFniwqnDL4ie7`, '_blank')}>
                             Ver no mapa
                         </button>
                     </div>
                     <div>
                         <div className='titleFooter'>Cultos</div>
-                        <div className='subTileFooter'>Quinta-feira - 20h e Domingo - 18h</div>
+                        <div className='subTileFooter'>Quinta-feira - 20h e Domingo - 10h e 18h</div>
                         <button className='buttonFooter'
                             onClick={() => window.open(`https://www.youtube.com/@MountChurchoficial/videos`, '_blank')}>
                             Assista online

@@ -13,7 +13,7 @@ export function WatchServicesAndEventsOnline() {
                 <div className="sectionWatchServicesAndEventsOnlineData">
                     <div className="containerLineGlobalStyles">
                         <div className="lineDarkGlobalStyles"></div>
-                        <div className="textDarkGlobalStyles">Atividades </div>
+                        <div className="textDarkGlobalStyles">Assista</div>
                     </div>
                     <h2 className="globalSectionTitleTextDark45px">
                         Assista Cultos e Eventos Online
@@ -25,7 +25,7 @@ export function WatchServicesAndEventsOnline() {
                         onClick={() => window.open(`https://www.youtube.com/@MountChurchoficial/videos`, '_blank')}
                     >
                         <Link to="">
-                            <ButtonPrimary>Assistir agora</ButtonPrimary>
+                            <ButtonPrimary>Assistir Agora</ButtonPrimary>
                         </Link>
                     </div>
                 </div>

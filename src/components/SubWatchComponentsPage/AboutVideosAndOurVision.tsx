@@ -34,7 +34,7 @@ export function AboutVideosAndOurVision() {
                 <div className='sectionColumAboutVideosAndOurVision'>
                     <div>
                         <h2 className="globalSectionMediumTextDark">
-                            Sobre os videos
+                            Sobre os vídeos
                         </h2>
                         <h2 className="SubTitleAboutVideosAndOurVision">
                             {collectionYoutube.subTitleName}
