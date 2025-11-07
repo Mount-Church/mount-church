@@ -13,31 +13,60 @@ Este projeto está configurado para ser implantado no GitHub Pages. Siga os pass
 - Node.js (v14 ou superior)
 - npm ou yarn
 - Git
+- Acesso ao repositório com permissões de escrita
+- Chave SSH configurada no GitHub (para autenticação segura)
 
-### Passos para Implantação
+### Primeira Configuração
 
-1. **Instale as dependências**
+1. **Clone o repositório**
+   ```bash
+   git clone git@github.com:Mount-Church/mount-church.git
+   cd mount-church
+   ```
+
+2. **Instale as dependências**
    ```bash
    npm install
    ```
 
-2. **Crie um build de produção**
+### Deploy para Produção
+
+Para publicar as alterações no GitHub Pages, execute:
+
+```bash
+npm run deploy
+```
+
+Este comando irá:
+1. Criar um build de produção otimizado
+2. Fazer push automático da pasta `build` para o branch `gh-pages`
+3. Publicar o site na URL: https://mount-church.github.io/mount-church/
+
+### Atualizando o Site
+
+Sempre que fizer alterações no código, siga estes passos:
+
+1. Faça commit das suas alterações
    ```bash
-   npm run build
+   git add .
+   git commit -m "Descrição das alterações"
+   git push origin main
    ```
 
-3. **Faça o deploy para o GitHub Pages**
+2. Faça o deploy da nova versão
    ```bash
    npm run deploy
    ```
-   Este comando irá:
-   - Criar um build de produção
-   - Fazer push da pasta `build` para o branch `gh-pages`
-   - Publicar o site na URL configurada no campo `homepage` do package.json
 
 ### Configuração do Ambiente
 
 Copie o arquivo `.env.example` para `.env` e atualize as variáveis conforme necessário.
+
+### Notas Importantes
+
+- O branch `gh-pages` é gerado automaticamente - não faça commits diretamente nele
+- O site pode levar alguns minutos para atualizar após o deploy
+- Verifique o log de deploy em caso de erros
 
 ## 🛠 Desenvolvimento
 
